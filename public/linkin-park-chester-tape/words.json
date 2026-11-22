@@ -1,0 +1,1047 @@
+{
+  "language": "pt-BR",
+  "duration": 77.16,
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "segments": [
+    {
+      "start": 0.096,
+      "end": 22.847,
+      "text": "A voz que mudou uma das maiores bandas do rock chegou… numa fita enviada pelo correio. Na época, eles nem eram Linkin Park. Eram uma banda chamada Xero, tentando encontrar o som e a formação certos. Depois de tentativas e dificuldades para encontrar a formação certa, faltava uma peça importante: uma voz que encaixasse naquele som que misturava rap, guitarras e melodias."
+    },
+    {
+      "start": 23.646,
+      "end": 56.181,
+      "text": "Em 1999, Chester Bennington soube da oportunidade de fazer um teste para a banda. Ele ouviu as demos instrumentais e decidiu criar sua própria interpretação. Em vez de esperar, Chester foi ao estúdio, gravou suas partes vocais e enviou a demo. A gravação chamou a atenção de quem estava procurando o próximo vocalista. Pouco depois, Chester viajou para Los Angeles e conheceu a banda. Sua voz trouxe uma combinação poderosa: melodia, intensidade e uma energia que encaixava com o rap de Mike Shinoda."
+    },
+    {
+      "start": 56.192,
+      "end": 75.66,
+      "text": "Com Chester, a banda entrou em uma nova fase. Xero virou Hybrid Theory… e, mais tarde, o nome que o mundo inteiro aprenderia a cantar: Linkin Park. Às vezes, uma oportunidade chega em uma fita — e muda tudo. Você conhecia essa história? Comenta qual música do Linkin Park marcou a sua vida."
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.096,
+      "end": 4.807,
+      "text": "A voz que mudou uma das maiores bandas do rock chegou… numa fita enviada pelo correio."
+    },
+    {
+      "start": 5.602,
+      "end": 12.616,
+      "text": "Na época, eles nem eram Linkin Park. Eram uma banda chamada Xero, tentando encontrar o som e a formação certos."
+    },
+    {
+      "start": 13.414,
+      "end": 22.847,
+      "text": "Depois de tentativas e dificuldades para encontrar a formação certa, faltava uma peça importante: uma voz que encaixasse naquele som que misturava rap, guitarras e melodias."
+    },
+    {
+      "start": 23.646,
+      "end": 34.387,
+      "text": "Em 1999, Chester Bennington soube da oportunidade de fazer um teste para a banda. Ele ouviu as demos instrumentais e decidiu criar sua própria interpretação."
+    },
+    {
+      "start": 34.398,
+      "end": 44.56,
+      "text": "Em vez de esperar, Chester foi ao estúdio, gravou suas partes vocais e enviou a demo. A gravação chamou a atenção de quem estava procurando o próximo vocalista."
+    },
+    {
+      "start": 44.572,
+      "end": 56.181,
+      "text": "Pouco depois, Chester viajou para Los Angeles e conheceu a banda. Sua voz trouxe uma combinação poderosa: melodia, intensidade e uma energia que encaixava com o rap de Mike Shinoda."
+    },
+    {
+      "start": 56.192,
+      "end": 66.134,
+      "text": "Com Chester, a banda entrou em uma nova fase. Xero virou Hybrid Theory… e, mais tarde, o nome que o mundo inteiro aprenderia a cantar: Linkin Park."
+    },
+    {
+      "start": 66.146,
+      "end": 75.66,
+      "text": "Às vezes, uma oportunidade chega em uma fita — e muda tudo. Você conhecia essa história? Comenta qual música do Linkin Park marcou a sua vida."
+    }
+  ],
+  "words": [
+    {
+      "word": "A",
+      "start": 0.096,
+      "end": 0.247
+    },
+    {
+      "word": "voz",
+      "start": 0.258,
+      "end": 0.582
+    },
+    {
+      "word": "que",
+      "start": 0.594,
+      "end": 0.687
+    },
+    {
+      "word": "mudou",
+      "start": 0.698,
+      "end": 0.976
+    },
+    {
+      "word": "uma",
+      "start": 0.988,
+      "end": 1.138
+    },
+    {
+      "word": "das",
+      "start": 1.15,
+      "end": 1.288
+    },
+    {
+      "word": "maiores",
+      "start": 1.3,
+      "end": 1.728
+    },
+    {
+      "word": "bandas",
+      "start": 1.74,
+      "end": 2.087
+    },
+    {
+      "word": "do",
+      "start": 2.099,
+      "end": 2.203
+    },
+    {
+      "word": "rock",
+      "start": 2.214,
+      "end": 2.492
+    },
+    {
+      "word": "chegou",
+      "start": 2.504,
+      "end": 2.897
+    },
+    {
+      "word": "numa",
+      "start": 3.175,
+      "end": 3.43
+    },
+    {
+      "word": "fita",
+      "start": 3.441,
+      "end": 3.684
+    },
+    {
+      "word": "enviada",
+      "start": 3.696,
+      "end": 4.159
+    },
+    {
+      "word": "pelo",
+      "start": 4.17,
+      "end": 4.356
+    },
+    {
+      "word": "correio",
+      "start": 4.367,
+      "end": 4.807
+    },
+    {
+      "word": "Na",
+      "start": 5.602,
+      "end": 5.787
+    },
+    {
+      "word": "época",
+      "start": 5.799,
+      "end": 6.227
+    },
+    {
+      "word": "eles",
+      "start": 6.389,
+      "end": 6.609
+    },
+    {
+      "word": "nem",
+      "start": 6.62,
+      "end": 6.806
+    },
+    {
+      "word": "eram",
+      "start": 6.817,
+      "end": 7.037
+    },
+    {
+      "word": "Linkin",
+      "start": 7.049,
+      "end": 7.373
+    },
+    {
+      "word": "Park",
+      "start": 7.384,
+      "end": 7.778
+    },
+    {
+      "word": "Eram",
+      "start": 8.576,
+      "end": 8.796
+    },
+    {
+      "word": "uma",
+      "start": 8.808,
+      "end": 8.935
+    },
+    {
+      "word": "banda",
+      "start": 8.947,
+      "end": 9.248
+    },
+    {
+      "word": "chamada",
+      "start": 9.259,
+      "end": 9.618
+    },
+    {
+      "word": "Xero",
+      "start": 9.63,
+      "end": 9.965
+    },
+    {
+      "word": "tentando",
+      "start": 10.15,
+      "end": 10.59
+    },
+    {
+      "word": "encontrar",
+      "start": 10.602,
+      "end": 10.995
+    },
+    {
+      "word": "o",
+      "start": 11.007,
+      "end": 11.053
+    },
+    {
+      "word": "som",
+      "start": 11.065,
+      "end": 11.389
+    },
+    {
+      "word": "e",
+      "start": 11.4,
+      "end": 11.458
+    },
+    {
+      "word": "a",
+      "start": 11.47,
+      "end": 11.539
+    },
+    {
+      "word": "formação",
+      "start": 11.551,
+      "end": 12.037
+    },
+    {
+      "word": "certos",
+      "start": 12.049,
+      "end": 12.616
+    },
+    {
+      "word": "Depois",
+      "start": 13.414,
+      "end": 13.866
+    },
+    {
+      "word": "de",
+      "start": 13.877,
+      "end": 13.958
+    },
+    {
+      "word": "tentativas",
+      "start": 13.97,
+      "end": 14.491
+    },
+    {
+      "word": "e",
+      "start": 14.502,
+      "end": 14.618
+    },
+    {
+      "word": "dificuldades",
+      "start": 14.63,
+      "end": 15.324
+    },
+    {
+      "word": "para",
+      "start": 15.336,
+      "end": 15.463
+    },
+    {
+      "word": "encontrar",
+      "start": 15.475,
+      "end": 15.845
+    },
+    {
+      "word": "a",
+      "start": 15.857,
+      "end": 15.914
+    },
+    {
+      "word": "formação",
+      "start": 15.926,
+      "end": 16.4
+    },
+    {
+      "word": "certa",
+      "start": 16.412,
+      "end": 16.782
+    },
+    {
+      "word": "faltava",
+      "start": 17.014,
+      "end": 17.373
+    },
+    {
+      "word": "uma",
+      "start": 17.384,
+      "end": 17.523
+    },
+    {
+      "word": "peça",
+      "start": 17.535,
+      "end": 17.801
+    },
+    {
+      "word": "importante",
+      "start": 17.812,
+      "end": 18.403
+    },
+    {
+      "word": "uma",
+      "start": 18.692,
+      "end": 18.912
+    },
+    {
+      "word": "voz",
+      "start": 18.924,
+      "end": 19.213
+    },
+    {
+      "word": "que",
+      "start": 19.225,
+      "end": 19.294
+    },
+    {
+      "word": "encaixasse",
+      "start": 19.306,
+      "end": 19.861
+    },
+    {
+      "word": "naquele",
+      "start": 19.873,
+      "end": 20.185
+    },
+    {
+      "word": "som",
+      "start": 20.197,
+      "end": 20.428
+    },
+    {
+      "word": "que",
+      "start": 20.44,
+      "end": 20.521
+    },
+    {
+      "word": "misturava",
+      "start": 20.532,
+      "end": 21.019
+    },
+    {
+      "word": "rap",
+      "start": 21.03,
+      "end": 21.412
+    },
+    {
+      "word": "guitarras",
+      "start": 21.609,
+      "end": 22.06
+    },
+    {
+      "word": "e",
+      "start": 22.072,
+      "end": 22.176
+    },
+    {
+      "word": "melodias",
+      "start": 22.188,
+      "end": 22.847
+    },
+    {
+      "word": "Em 1999",
+      "start": 23.646,
+      "end": 25.208
+    },
+    {
+      "word": "Chester",
+      "start": 25.463,
+      "end": 25.868
+    },
+    {
+      "word": "Bennington",
+      "start": 25.88,
+      "end": 26.331
+    },
+    {
+      "word": "soube",
+      "start": 26.343,
+      "end": 26.655
+    },
+    {
+      "word": "da",
+      "start": 26.667,
+      "end": 26.748
+    },
+    {
+      "word": "oportunidade",
+      "start": 26.759,
+      "end": 27.419
+    },
+    {
+      "word": "de",
+      "start": 27.431,
+      "end": 27.523
+    },
+    {
+      "word": "fazer",
+      "start": 27.535,
+      "end": 27.824
+    },
+    {
+      "word": "um",
+      "start": 27.836,
+      "end": 27.94
+    },
+    {
+      "word": "teste",
+      "start": 27.951,
+      "end": 28.31
+    },
+    {
+      "word": "para",
+      "start": 28.322,
+      "end": 28.461
+    },
+    {
+      "word": "a",
+      "start": 28.472,
+      "end": 28.495
+    },
+    {
+      "word": "banda",
+      "start": 28.507,
+      "end": 28.866
+    },
+    {
+      "word": "Ele",
+      "start": 29.664,
+      "end": 29.826
+    },
+    {
+      "word": "ouviu",
+      "start": 29.838,
+      "end": 30.15
+    },
+    {
+      "word": "as",
+      "start": 30.162,
+      "end": 30.266
+    },
+    {
+      "word": "demos",
+      "start": 30.278,
+      "end": 30.509
+    },
+    {
+      "word": "instrumentais",
+      "start": 30.521,
+      "end": 31.25
+    },
+    {
+      "word": "e",
+      "start": 31.262,
+      "end": 31.308
+    },
+    {
+      "word": "decidiu",
+      "start": 31.319,
+      "end": 31.701
+    },
+    {
+      "word": "criar",
+      "start": 31.713,
+      "end": 32.037
+    },
+    {
+      "word": "sua",
+      "start": 32.049,
+      "end": 32.245
+    },
+    {
+      "word": "própria",
+      "start": 32.257,
+      "end": 32.604
+    },
+    {
+      "word": "interpretação",
+      "start": 32.616,
+      "end": 33.414
+    },
+    {
+      "word": "Em",
+      "start": 34.213,
+      "end": 34.387
+    },
+    {
+      "word": "vez",
+      "start": 34.398,
+      "end": 34.664
+    },
+    {
+      "word": "de",
+      "start": 34.676,
+      "end": 34.745
+    },
+    {
+      "word": "esperar",
+      "start": 34.757,
+      "end": 35.185
+    },
+    {
+      "word": "Chester",
+      "start": 35.37,
+      "end": 35.787
+    },
+    {
+      "word": "foi",
+      "start": 35.799,
+      "end": 35.926
+    },
+    {
+      "word": "ao",
+      "start": 35.938,
+      "end": 36.03
+    },
+    {
+      "word": "estúdio",
+      "start": 36.042,
+      "end": 36.505
+    },
+    {
+      "word": "gravou",
+      "start": 36.736,
+      "end": 37.083
+    },
+    {
+      "word": "suas",
+      "start": 37.095,
+      "end": 37.35
+    },
+    {
+      "word": "partes",
+      "start": 37.361,
+      "end": 37.708
+    },
+    {
+      "word": "vocais",
+      "start": 37.72,
+      "end": 38.125
+    },
+    {
+      "word": "e",
+      "start": 38.137,
+      "end": 38.252
+    },
+    {
+      "word": "enviou",
+      "start": 38.264,
+      "end": 38.623
+    },
+    {
+      "word": "a",
+      "start": 38.634,
+      "end": 38.704
+    },
+    {
+      "word": "demo",
+      "start": 38.715,
+      "end": 39.028
+    },
+    {
+      "word": "A",
+      "start": 39.826,
+      "end": 39.931
+    },
+    {
+      "word": "gravação",
+      "start": 39.942,
+      "end": 40.486
+    },
+    {
+      "word": "chamou",
+      "start": 40.498,
+      "end": 40.856
+    },
+    {
+      "word": "a",
+      "start": 40.868,
+      "end": 40.891
+    },
+    {
+      "word": "atenção",
+      "start": 40.903,
+      "end": 41.343
+    },
+    {
+      "word": "de",
+      "start": 41.354,
+      "end": 41.458
+    },
+    {
+      "word": "quem",
+      "start": 41.47,
+      "end": 41.62
+    },
+    {
+      "word": "estava",
+      "start": 41.632,
+      "end": 41.944
+    },
+    {
+      "word": "procurando",
+      "start": 41.956,
+      "end": 42.373
+    },
+    {
+      "word": "o",
+      "start": 42.384,
+      "end": 42.419
+    },
+    {
+      "word": "próximo",
+      "start": 42.431,
+      "end": 42.824
+    },
+    {
+      "word": "vocalista",
+      "start": 42.836,
+      "end": 43.449
+    },
+    {
+      "word": "Pouco",
+      "start": 44.248,
+      "end": 44.56
+    },
+    {
+      "word": "depois",
+      "start": 44.572,
+      "end": 45.035
+    },
+    {
+      "word": "Chester",
+      "start": 45.243,
+      "end": 45.625
+    },
+    {
+      "word": "viajou",
+      "start": 45.637,
+      "end": 46.019
+    },
+    {
+      "word": "para",
+      "start": 46.03,
+      "end": 46.204
+    },
+    {
+      "word": "Los",
+      "start": 46.215,
+      "end": 46.377
+    },
+    {
+      "word": "Angeles",
+      "start": 46.389,
+      "end": 46.817
+    },
+    {
+      "word": "e",
+      "start": 46.829,
+      "end": 46.921
+    },
+    {
+      "word": "conheceu",
+      "start": 46.933,
+      "end": 47.396
+    },
+    {
+      "word": "a",
+      "start": 47.407,
+      "end": 47.465
+    },
+    {
+      "word": "banda",
+      "start": 47.477,
+      "end": 47.824
+    },
+    {
+      "word": "Sua",
+      "start": 48.623,
+      "end": 48.912
+    },
+    {
+      "word": "voz",
+      "start": 48.924,
+      "end": 49.201
+    },
+    {
+      "word": "trouxe",
+      "start": 49.213,
+      "end": 49.537
+    },
+    {
+      "word": "uma",
+      "start": 49.549,
+      "end": 49.676
+    },
+    {
+      "word": "combinação",
+      "start": 49.688,
+      "end": 50.22
+    },
+    {
+      "word": "poderosa",
+      "start": 50.231,
+      "end": 50.752
+    },
+    {
+      "word": "melodia",
+      "start": 51.007,
+      "end": 51.539
+    },
+    {
+      "word": "intensidade",
+      "start": 51.759,
+      "end": 52.442
+    },
+    {
+      "word": "e",
+      "start": 52.454,
+      "end": 52.465
+    },
+    {
+      "word": "uma",
+      "start": 52.477,
+      "end": 52.581
+    },
+    {
+      "word": "energia",
+      "start": 52.593,
+      "end": 53.102
+    },
+    {
+      "word": "que",
+      "start": 53.113,
+      "end": 53.206
+    },
+    {
+      "word": "encaixava",
+      "start": 53.218,
+      "end": 53.738
+    },
+    {
+      "word": "com",
+      "start": 53.75,
+      "end": 53.935
+    },
+    {
+      "word": "o",
+      "start": 53.947,
+      "end": 53.97
+    },
+    {
+      "word": "rap",
+      "start": 53.981,
+      "end": 54.271
+    },
+    {
+      "word": "de",
+      "start": 54.282,
+      "end": 54.375
+    },
+    {
+      "word": "Mike",
+      "start": 54.387,
+      "end": 54.699
+    },
+    {
+      "word": "Shinoda",
+      "start": 54.711,
+      "end": 55.197
+    },
+    {
+      "word": "Com",
+      "start": 55.995,
+      "end": 56.181
+    },
+    {
+      "word": "Chester",
+      "start": 56.192,
+      "end": 56.632
+    },
+    {
+      "word": "a",
+      "start": 56.875,
+      "end": 56.933
+    },
+    {
+      "word": "banda",
+      "start": 56.944,
+      "end": 57.222
+    },
+    {
+      "word": "entrou",
+      "start": 57.234,
+      "end": 57.5
+    },
+    {
+      "word": "em",
+      "start": 57.512,
+      "end": 57.581
+    },
+    {
+      "word": "uma",
+      "start": 57.593,
+      "end": 57.731
+    },
+    {
+      "word": "nova",
+      "start": 57.743,
+      "end": 58.021
+    },
+    {
+      "word": "fase",
+      "start": 58.032,
+      "end": 58.426
+    },
+    {
+      "word": "Xero",
+      "start": 59.225,
+      "end": 59.537
+    },
+    {
+      "word": "virou",
+      "start": 59.549,
+      "end": 59.78
+    },
+    {
+      "word": "Hybrid",
+      "start": 59.792,
+      "end": 60.243
+    },
+    {
+      "word": "Theory",
+      "start": 60.255,
+      "end": 60.613
+    },
+    {
+      "word": "e",
+      "start": 60.81,
+      "end": 60.961
+    },
+    {
+      "word": "mais",
+      "start": 61.181,
+      "end": 61.458
+    },
+    {
+      "word": "tarde",
+      "start": 61.47,
+      "end": 61.887
+    },
+    {
+      "word": "o",
+      "start": 62.095,
+      "end": 62.164
+    },
+    {
+      "word": "nome",
+      "start": 62.176,
+      "end": 62.488
+    },
+    {
+      "word": "que",
+      "start": 62.5,
+      "end": 62.581
+    },
+    {
+      "word": "o",
+      "start": 62.593,
+      "end": 62.616
+    },
+    {
+      "word": "mundo",
+      "start": 62.627,
+      "end": 62.905
+    },
+    {
+      "word": "inteiro",
+      "start": 62.917,
+      "end": 63.241
+    },
+    {
+      "word": "aprenderia",
+      "start": 63.252,
+      "end": 63.669
+    },
+    {
+      "word": "a",
+      "start": 63.681,
+      "end": 63.715
+    },
+    {
+      "word": "cantar",
+      "start": 63.727,
+      "end": 64.143
+    },
+    {
+      "word": "Linkin",
+      "start": 64.271,
+      "end": 64.653
+    },
+    {
+      "word": "Park",
+      "start": 64.664,
+      "end": 65.104
+    },
+    {
+      "word": "Às",
+      "start": 65.903,
+      "end": 66.134
+    },
+    {
+      "word": "vezes",
+      "start": 66.146,
+      "end": 66.551
+    },
+    {
+      "word": "uma",
+      "start": 66.875,
+      "end": 67.014
+    },
+    {
+      "word": "oportunidade",
+      "start": 67.025,
+      "end": 67.72
+    },
+    {
+      "word": "chega",
+      "start": 67.731,
+      "end": 67.986
+    },
+    {
+      "word": "em",
+      "start": 67.998,
+      "end": 68.056
+    },
+    {
+      "word": "uma",
+      "start": 68.067,
+      "end": 68.252
+    },
+    {
+      "word": "fita",
+      "start": 68.264,
+      "end": 68.623
+    },
+    {
+      "word": "e",
+      "start": 68.808,
+      "end": 68.889
+    },
+    {
+      "word": "muda",
+      "start": 68.9,
+      "end": 69.236
+    },
+    {
+      "word": "tudo",
+      "start": 69.248,
+      "end": 69.583
+    },
+    {
+      "word": "Você",
+      "start": 70.382,
+      "end": 70.694
+    },
+    {
+      "word": "conhecia",
+      "start": 70.706,
+      "end": 71.192
+    },
+    {
+      "word": "essa",
+      "start": 71.204,
+      "end": 71.4
+    },
+    {
+      "word": "história",
+      "start": 71.412,
+      "end": 71.875
+    },
+    {
+      "word": "Comenta",
+      "start": 72.674,
+      "end": 73.183
+    },
+    {
+      "word": "qual",
+      "start": 73.194,
+      "end": 73.38
+    },
+    {
+      "word": "música",
+      "start": 73.391,
+      "end": 73.808
+    },
+    {
+      "word": "do",
+      "start": 73.819,
+      "end": 73.9
+    },
+    {
+      "word": "Linkin",
+      "start": 73.912,
+      "end": 74.248
+    },
+    {
+      "word": "Park",
+      "start": 74.259,
+      "end": 74.595
+    },
+    {
+      "word": "marcou",
+      "start": 74.606,
+      "end": 74.977
+    },
+    {
+      "word": "a",
+      "start": 74.988,
+      "end": 75.035
+    },
+    {
+      "word": "sua",
+      "start": 75.046,
+      "end": 75.312
+    },
+    {
+      "word": "vida",
+      "start": 75.324,
+      "end": 75.66
+    }
+  ]
+}

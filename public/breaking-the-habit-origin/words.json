@@ -1,0 +1,1372 @@
+{
+  "language": "pt-BR",
+  "duration": 86.733,
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+18%",
+  "segments": [
+    {
+      "start": 0.092,
+      "end": 13.888,
+      "text": "Todo mundo achava que essa música era sobre Chester… mas a inspiração inicial veio de outra pessoa. A música é Breaking the Habit, do álbum Meteora, do Linkin Park. E a história começa com Mike Shinoda, que carregava uma ideia na cabeça havia anos."
+    },
+    {
+      "start": 14.619,
+      "end": 38.782,
+      "text": "Ele já tinha tentado escrever aquela letra várias vezes. Mas sempre achava que ficava exagerada, escura demais… ou simplesmente não funcionava. A ideia musical começou como um instrumental. A banda ouviu e incentivou Mike a transformar aquilo em uma música completa. Então, quando ele encontrou o som certo, aconteceu algo inesperado: a letra que ele tentava escrever havia cerca de cinco anos finalmente saiu em aproximadamente duas horas."
+    },
+    {
+      "start": 39.513,
+      "end": 57.987,
+      "text": "A inspiração vinha de uma experiência pessoal de Mike, ligada a um amigo próximo da época da faculdade, com quem ele havia perdido contato. Mas aqui vem a parte que torna essa história ainda mais forte. Mike não escreveu a música como uma biografia literal de Chester. A ideia era mais metafórica — e cada pessoa podia encontrar nela a própria luta."
+    },
+    {
+      "start": 58.718,
+      "end": 79.396,
+      "text": "Só que Chester se conectou profundamente com aquelas palavras. Ele contou que parecia que Mike estava cantando a vida dele… e que foi tão difícil gravar a música que chegou a chorar. A inspiração veio de uma história. Mas a voz de Chester fez milhões de pessoas sentirem que aquela história também era delas. E talvez seja por isso que Breaking the Habit continua tão poderosa até hoje."
+    },
+    {
+      "start": 80.127,
+      "end": 85.233,
+      "text": "Você também sentia que essa música falava diretamente com Chester? Conta nos comentários."
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.092,
+      "end": 4.859,
+      "text": "Todo mundo achava que essa música era sobre Chester… mas a inspiração inicial veio de outra pessoa."
+    },
+    {
+      "start": 5.583,
+      "end": 9.163,
+      "text": "A música é Breaking the Habit, do álbum Meteora, do Linkin Park."
+    },
+    {
+      "start": 9.894,
+      "end": 13.888,
+      "text": "E a história começa com Mike Shinoda, que carregava uma ideia na cabeça havia anos."
+    },
+    {
+      "start": 14.619,
+      "end": 22.458,
+      "text": "Ele já tinha tentado escrever aquela letra várias vezes. Mas sempre achava que ficava exagerada, escura demais… ou simplesmente não funcionava."
+    },
+    {
+      "start": 23.189,
+      "end": 29.587,
+      "text": "A ideia musical começou como um instrumental. A banda ouviu e incentivou Mike a transformar aquilo em uma música completa."
+    },
+    {
+      "start": 30.318,
+      "end": 38.782,
+      "text": "Então, quando ele encontrou o som certo, aconteceu algo inesperado: a letra que ele tentava escrever havia cerca de cinco anos finalmente saiu em aproximadamente duas horas."
+    },
+    {
+      "start": 39.513,
+      "end": 46.229,
+      "text": "A inspiração vinha de uma experiência pessoal de Mike, ligada a um amigo próximo da época da faculdade, com quem ele havia perdido contato."
+    },
+    {
+      "start": 46.96,
+      "end": 49.672,
+      "text": "Mas aqui vem a parte que torna essa história ainda mais forte."
+    },
+    {
+      "start": 50.403,
+      "end": 57.987,
+      "text": "Mike não escreveu a música como uma biografia literal de Chester. A ideia era mais metafórica — e cada pessoa podia encontrar nela a própria luta."
+    },
+    {
+      "start": 58.718,
+      "end": 67.871,
+      "text": "Só que Chester se conectou profundamente com aquelas palavras. Ele contou que parecia que Mike estava cantando a vida dele… e que foi tão difícil gravar a música que chegou a chorar."
+    },
+    {
+      "start": 68.602,
+      "end": 75.148,
+      "text": "A inspiração veio de uma história. Mas a voz de Chester fez milhões de pessoas sentirem que aquela história também era delas."
+    },
+    {
+      "start": 75.879,
+      "end": 79.396,
+      "text": "E talvez seja por isso que Breaking the Habit continua tão poderosa até hoje."
+    },
+    {
+      "start": 80.127,
+      "end": 85.233,
+      "text": "Você também sentia que essa música falava diretamente com Chester? Conta nos comentários."
+    }
+  ],
+  "words": [
+    {
+      "word": "Todo",
+      "start": 0.092,
+      "end": 0.325
+    },
+    {
+      "word": "mundo",
+      "start": 0.336,
+      "end": 0.569
+    },
+    {
+      "word": "achava",
+      "start": 0.58,
+      "end": 0.94
+    },
+    {
+      "word": "que",
+      "start": 0.95,
+      "end": 1.025
+    },
+    {
+      "word": "essa",
+      "start": 1.035,
+      "end": 1.205
+    },
+    {
+      "word": "música",
+      "start": 1.215,
+      "end": 1.586
+    },
+    {
+      "word": "era",
+      "start": 1.597,
+      "end": 1.724
+    },
+    {
+      "word": "sobre",
+      "start": 1.734,
+      "end": 1.978
+    },
+    {
+      "word": "Chester",
+      "start": 1.989,
+      "end": 2.402
+    },
+    {
+      "word": "mas",
+      "start": 2.645,
+      "end": 2.741
+    },
+    {
+      "word": "a",
+      "start": 2.751,
+      "end": 2.836
+    },
+    {
+      "word": "inspiração",
+      "start": 2.847,
+      "end": 3.366
+    },
+    {
+      "word": "inicial",
+      "start": 3.376,
+      "end": 3.8
+    },
+    {
+      "word": "veio",
+      "start": 3.811,
+      "end": 4.033
+    },
+    {
+      "word": "de",
+      "start": 4.044,
+      "end": 4.181
+    },
+    {
+      "word": "outra",
+      "start": 4.192,
+      "end": 4.414
+    },
+    {
+      "word": "pessoa",
+      "start": 4.425,
+      "end": 4.859
+    },
+    {
+      "word": "A",
+      "start": 5.583,
+      "end": 5.667
+    },
+    {
+      "word": "música",
+      "start": 5.678,
+      "end": 6.038
+    },
+    {
+      "word": "é",
+      "start": 6.049,
+      "end": 6.08
+    },
+    {
+      "word": "Breaking",
+      "start": 6.091,
+      "end": 6.472
+    },
+    {
+      "word": "the",
+      "start": 6.483,
+      "end": 6.61
+    },
+    {
+      "word": "Habit",
+      "start": 6.621,
+      "end": 6.907
+    },
+    {
+      "word": "do",
+      "start": 7.108,
+      "end": 7.288
+    },
+    {
+      "word": "álbum",
+      "start": 7.299,
+      "end": 7.585
+    },
+    {
+      "word": "Meteora",
+      "start": 7.595,
+      "end": 8.051
+    },
+    {
+      "word": "do",
+      "start": 8.305,
+      "end": 8.432
+    },
+    {
+      "word": "Linkin",
+      "start": 8.443,
+      "end": 8.771
+    },
+    {
+      "word": "Park",
+      "start": 8.782,
+      "end": 9.163
+    },
+    {
+      "word": "E",
+      "start": 9.894,
+      "end": 9.979
+    },
+    {
+      "word": "a",
+      "start": 9.989,
+      "end": 10.032
+    },
+    {
+      "word": "história",
+      "start": 10.042,
+      "end": 10.371
+    },
+    {
+      "word": "começa",
+      "start": 10.381,
+      "end": 10.773
+    },
+    {
+      "word": "com",
+      "start": 10.784,
+      "end": 10.911
+    },
+    {
+      "word": "Mike",
+      "start": 10.922,
+      "end": 11.176
+    },
+    {
+      "word": "Shinoda",
+      "start": 11.186,
+      "end": 11.6
+    },
+    {
+      "word": "que",
+      "start": 11.79,
+      "end": 11.907
+    },
+    {
+      "word": "carregava",
+      "start": 11.917,
+      "end": 12.352
+    },
+    {
+      "word": "uma",
+      "start": 12.362,
+      "end": 12.436
+    },
+    {
+      "word": "ideia",
+      "start": 12.447,
+      "end": 12.722
+    },
+    {
+      "word": "na",
+      "start": 12.733,
+      "end": 12.828
+    },
+    {
+      "word": "cabeça",
+      "start": 12.839,
+      "end": 13.242
+    },
+    {
+      "word": "havia",
+      "start": 13.252,
+      "end": 13.506
+    },
+    {
+      "word": "anos",
+      "start": 13.517,
+      "end": 13.888
+    },
+    {
+      "word": "Ele",
+      "start": 14.619,
+      "end": 14.799
+    },
+    {
+      "word": "já",
+      "start": 14.809,
+      "end": 14.926
+    },
+    {
+      "word": "tinha",
+      "start": 14.936,
+      "end": 15.138
+    },
+    {
+      "word": "tentado",
+      "start": 15.148,
+      "end": 15.487
+    },
+    {
+      "word": "escrever",
+      "start": 15.498,
+      "end": 15.847
+    },
+    {
+      "word": "aquela",
+      "start": 15.858,
+      "end": 16.102
+    },
+    {
+      "word": "letra",
+      "start": 16.112,
+      "end": 16.377
+    },
+    {
+      "word": "várias",
+      "start": 16.388,
+      "end": 16.716
+    },
+    {
+      "word": "vezes",
+      "start": 16.727,
+      "end": 17.14
+    },
+    {
+      "word": "Mas",
+      "start": 17.871,
+      "end": 18.136
+    },
+    {
+      "word": "sempre",
+      "start": 18.146,
+      "end": 18.432
+    },
+    {
+      "word": "achava",
+      "start": 18.443,
+      "end": 18.771
+    },
+    {
+      "word": "que",
+      "start": 18.782,
+      "end": 18.867
+    },
+    {
+      "word": "ficava",
+      "start": 18.877,
+      "end": 19.121
+    },
+    {
+      "word": "exagerada",
+      "start": 19.131,
+      "end": 19.682
+    },
+    {
+      "word": "escura",
+      "start": 19.905,
+      "end": 20.275
+    },
+    {
+      "word": "demais",
+      "start": 20.286,
+      "end": 20.699
+    },
+    {
+      "word": "ou",
+      "start": 20.911,
+      "end": 21.049
+    },
+    {
+      "word": "simplesmente",
+      "start": 21.059,
+      "end": 21.748
+    },
+    {
+      "word": "não",
+      "start": 21.758,
+      "end": 21.917
+    },
+    {
+      "word": "funcionava",
+      "start": 21.928,
+      "end": 22.458
+    },
+    {
+      "word": "A",
+      "start": 23.189,
+      "end": 23.316
+    },
+    {
+      "word": "ideia",
+      "start": 23.326,
+      "end": 23.591
+    },
+    {
+      "word": "musical",
+      "start": 23.602,
+      "end": 24.057
+    },
+    {
+      "word": "começou",
+      "start": 24.068,
+      "end": 24.481
+    },
+    {
+      "word": "como",
+      "start": 24.492,
+      "end": 24.672
+    },
+    {
+      "word": "um",
+      "start": 24.682,
+      "end": 24.756
+    },
+    {
+      "word": "instrumental",
+      "start": 24.767,
+      "end": 25.413
+    },
+    {
+      "word": "A",
+      "start": 26.144,
+      "end": 26.239
+    },
+    {
+      "word": "banda",
+      "start": 26.25,
+      "end": 26.547
+    },
+    {
+      "word": "ouviu",
+      "start": 26.557,
+      "end": 26.801
+    },
+    {
+      "word": "e",
+      "start": 26.811,
+      "end": 26.833
+    },
+    {
+      "word": "incentivou",
+      "start": 26.843,
+      "end": 27.352
+    },
+    {
+      "word": "Mike",
+      "start": 27.362,
+      "end": 27.659
+    },
+    {
+      "word": "a",
+      "start": 27.669,
+      "end": 27.701
+    },
+    {
+      "word": "transformar",
+      "start": 27.712,
+      "end": 28.136
+    },
+    {
+      "word": "aquilo",
+      "start": 28.146,
+      "end": 28.453
+    },
+    {
+      "word": "em",
+      "start": 28.464,
+      "end": 28.538
+    },
+    {
+      "word": "uma",
+      "start": 28.549,
+      "end": 28.697
+    },
+    {
+      "word": "música",
+      "start": 28.708,
+      "end": 29.089
+    },
+    {
+      "word": "completa",
+      "start": 29.1,
+      "end": 29.587
+    },
+    {
+      "word": "Então",
+      "start": 30.318,
+      "end": 30.752
+    },
+    {
+      "word": "quando",
+      "start": 30.953,
+      "end": 31.176
+    },
+    {
+      "word": "ele",
+      "start": 31.186,
+      "end": 31.292
+    },
+    {
+      "word": "encontrou",
+      "start": 31.303,
+      "end": 31.642
+    },
+    {
+      "word": "o",
+      "start": 31.653,
+      "end": 31.684
+    },
+    {
+      "word": "som",
+      "start": 31.695,
+      "end": 31.886
+    },
+    {
+      "word": "certo",
+      "start": 31.896,
+      "end": 32.288
+    },
+    {
+      "word": "aconteceu",
+      "start": 32.5,
+      "end": 33.03
+    },
+    {
+      "word": "algo",
+      "start": 33.04,
+      "end": 33.231
+    },
+    {
+      "word": "inesperado",
+      "start": 33.242,
+      "end": 33.771
+    },
+    {
+      "word": "a",
+      "start": 33.972,
+      "end": 34.047
+    },
+    {
+      "word": "letra",
+      "start": 34.057,
+      "end": 34.375
+    },
+    {
+      "word": "que",
+      "start": 34.386,
+      "end": 34.481
+    },
+    {
+      "word": "ele",
+      "start": 34.492,
+      "end": 34.608
+    },
+    {
+      "word": "tentava",
+      "start": 34.619,
+      "end": 34.947
+    },
+    {
+      "word": "escrever",
+      "start": 34.958,
+      "end": 35.318
+    },
+    {
+      "word": "havia",
+      "start": 35.328,
+      "end": 35.561
+    },
+    {
+      "word": "cerca",
+      "start": 35.572,
+      "end": 35.869
+    },
+    {
+      "word": "de",
+      "start": 35.879,
+      "end": 35.985
+    },
+    {
+      "word": "cinco",
+      "start": 35.996,
+      "end": 36.324
+    },
+    {
+      "word": "anos",
+      "start": 36.335,
+      "end": 36.547
+    },
+    {
+      "word": "finalmente",
+      "start": 36.557,
+      "end": 37.023
+    },
+    {
+      "word": "saiu",
+      "start": 37.034,
+      "end": 37.32
+    },
+    {
+      "word": "em",
+      "start": 37.331,
+      "end": 37.383
+    },
+    {
+      "word": "aproximadamente",
+      "start": 37.394,
+      "end": 38.104
+    },
+    {
+      "word": "duas",
+      "start": 38.114,
+      "end": 38.358
+    },
+    {
+      "word": "horas",
+      "start": 38.369,
+      "end": 38.782
+    },
+    {
+      "word": "A",
+      "start": 39.513,
+      "end": 39.576
+    },
+    {
+      "word": "inspiração",
+      "start": 39.587,
+      "end": 40.159
+    },
+    {
+      "word": "vinha",
+      "start": 40.169,
+      "end": 40.381
+    },
+    {
+      "word": "de",
+      "start": 40.392,
+      "end": 40.466
+    },
+    {
+      "word": "uma",
+      "start": 40.477,
+      "end": 40.551
+    },
+    {
+      "word": "experiência",
+      "start": 40.561,
+      "end": 41.07
+    },
+    {
+      "word": "pessoal",
+      "start": 41.081,
+      "end": 41.451
+    },
+    {
+      "word": "de",
+      "start": 41.462,
+      "end": 41.547
+    },
+    {
+      "word": "Mike",
+      "start": 41.557,
+      "end": 41.854
+    },
+    {
+      "word": "ligada",
+      "start": 42.097,
+      "end": 42.468
+    },
+    {
+      "word": "a",
+      "start": 42.479,
+      "end": 42.5
+    },
+    {
+      "word": "um",
+      "start": 42.511,
+      "end": 42.648
+    },
+    {
+      "word": "amigo",
+      "start": 42.659,
+      "end": 42.924
+    },
+    {
+      "word": "próximo",
+      "start": 42.934,
+      "end": 43.316
+    },
+    {
+      "word": "da",
+      "start": 43.326,
+      "end": 43.432
+    },
+    {
+      "word": "época",
+      "start": 43.443,
+      "end": 43.761
+    },
+    {
+      "word": "da",
+      "start": 43.771,
+      "end": 43.866
+    },
+    {
+      "word": "faculdade",
+      "start": 43.877,
+      "end": 44.428
+    },
+    {
+      "word": "com",
+      "start": 44.672,
+      "end": 44.82
+    },
+    {
+      "word": "quem",
+      "start": 44.831,
+      "end": 45.053
+    },
+    {
+      "word": "ele",
+      "start": 45.064,
+      "end": 45.138
+    },
+    {
+      "word": "havia",
+      "start": 45.148,
+      "end": 45.381
+    },
+    {
+      "word": "perdido",
+      "start": 45.392,
+      "end": 45.752
+    },
+    {
+      "word": "contato",
+      "start": 45.763,
+      "end": 46.229
+    },
+    {
+      "word": "Mas",
+      "start": 46.96,
+      "end": 47.129
+    },
+    {
+      "word": "aqui",
+      "start": 47.14,
+      "end": 47.405
+    },
+    {
+      "word": "vem",
+      "start": 47.415,
+      "end": 47.574
+    },
+    {
+      "word": "a",
+      "start": 47.585,
+      "end": 47.659
+    },
+    {
+      "word": "parte",
+      "start": 47.669,
+      "end": 47.977
+    },
+    {
+      "word": "que",
+      "start": 47.987,
+      "end": 48.093
+    },
+    {
+      "word": "torna",
+      "start": 48.104,
+      "end": 48.337
+    },
+    {
+      "word": "essa",
+      "start": 48.347,
+      "end": 48.464
+    },
+    {
+      "word": "história",
+      "start": 48.475,
+      "end": 48.782
+    },
+    {
+      "word": "ainda",
+      "start": 48.792,
+      "end": 49.036
+    },
+    {
+      "word": "mais",
+      "start": 49.047,
+      "end": 49.258
+    },
+    {
+      "word": "forte",
+      "start": 49.269,
+      "end": 49.672
+    },
+    {
+      "word": "Mike",
+      "start": 50.403,
+      "end": 50.763
+    },
+    {
+      "word": "não",
+      "start": 50.773,
+      "end": 50.9
+    },
+    {
+      "word": "escreveu",
+      "start": 50.911,
+      "end": 51.314
+    },
+    {
+      "word": "a",
+      "start": 51.324,
+      "end": 51.356
+    },
+    {
+      "word": "música",
+      "start": 51.367,
+      "end": 51.716
+    },
+    {
+      "word": "como",
+      "start": 51.727,
+      "end": 51.917
+    },
+    {
+      "word": "uma",
+      "start": 51.928,
+      "end": 52.044
+    },
+    {
+      "word": "biografia",
+      "start": 52.055,
+      "end": 52.521
+    },
+    {
+      "word": "literal",
+      "start": 52.532,
+      "end": 52.881
+    },
+    {
+      "word": "de",
+      "start": 52.892,
+      "end": 52.966
+    },
+    {
+      "word": "Chester",
+      "start": 52.977,
+      "end": 53.411
+    },
+    {
+      "word": "A",
+      "start": 54.142,
+      "end": 54.258
+    },
+    {
+      "word": "ideia",
+      "start": 54.269,
+      "end": 54.587
+    },
+    {
+      "word": "era",
+      "start": 54.597,
+      "end": 54.725
+    },
+    {
+      "word": "mais",
+      "start": 54.735,
+      "end": 54.894
+    },
+    {
+      "word": "metafórica",
+      "start": 54.905,
+      "end": 55.53
+    },
+    {
+      "word": "e",
+      "start": 55.773,
+      "end": 55.858
+    },
+    {
+      "word": "cada",
+      "start": 55.869,
+      "end": 56.102
+    },
+    {
+      "word": "pessoa",
+      "start": 56.112,
+      "end": 56.451
+    },
+    {
+      "word": "podia",
+      "start": 56.462,
+      "end": 56.684
+    },
+    {
+      "word": "encontrar",
+      "start": 56.695,
+      "end": 57.097
+    },
+    {
+      "word": "nela",
+      "start": 57.108,
+      "end": 57.288
+    },
+    {
+      "word": "a",
+      "start": 57.299,
+      "end": 57.341
+    },
+    {
+      "word": "própria",
+      "start": 57.352,
+      "end": 57.669
+    },
+    {
+      "word": "luta",
+      "start": 57.68,
+      "end": 57.987
+    },
+    {
+      "word": "Só",
+      "start": 58.718,
+      "end": 58.983
+    },
+    {
+      "word": "que",
+      "start": 58.994,
+      "end": 59.089
+    },
+    {
+      "word": "Chester",
+      "start": 59.1,
+      "end": 59.481
+    },
+    {
+      "word": "se",
+      "start": 59.492,
+      "end": 59.587
+    },
+    {
+      "word": "conectou",
+      "start": 59.597,
+      "end": 60.0
+    },
+    {
+      "word": "profundamente",
+      "start": 60.011,
+      "end": 60.667
+    },
+    {
+      "word": "com",
+      "start": 60.678,
+      "end": 60.805
+    },
+    {
+      "word": "aquelas",
+      "start": 60.816,
+      "end": 61.123
+    },
+    {
+      "word": "palavras",
+      "start": 61.133,
+      "end": 61.684
+    },
+    {
+      "word": "Ele",
+      "start": 62.415,
+      "end": 62.595
+    },
+    {
+      "word": "contou",
+      "start": 62.606,
+      "end": 62.955
+    },
+    {
+      "word": "que",
+      "start": 62.966,
+      "end": 63.051
+    },
+    {
+      "word": "parecia",
+      "start": 63.061,
+      "end": 63.485
+    },
+    {
+      "word": "que",
+      "start": 63.496,
+      "end": 63.612
+    },
+    {
+      "word": "Mike",
+      "start": 63.623,
+      "end": 63.919
+    },
+    {
+      "word": "estava",
+      "start": 63.93,
+      "end": 64.184
+    },
+    {
+      "word": "cantando",
+      "start": 64.195,
+      "end": 64.566
+    },
+    {
+      "word": "a",
+      "start": 64.576,
+      "end": 64.64
+    },
+    {
+      "word": "vida",
+      "start": 64.65,
+      "end": 64.873
+    },
+    {
+      "word": "dele",
+      "start": 64.883,
+      "end": 65.159
+    },
+    {
+      "word": "e",
+      "start": 65.413,
+      "end": 65.477
+    },
+    {
+      "word": "que",
+      "start": 65.487,
+      "end": 65.593
+    },
+    {
+      "word": "foi",
+      "start": 65.604,
+      "end": 65.784
+    },
+    {
+      "word": "tão",
+      "start": 65.794,
+      "end": 65.932
+    },
+    {
+      "word": "difícil",
+      "start": 65.943,
+      "end": 66.335
+    },
+    {
+      "word": "gravar",
+      "start": 66.345,
+      "end": 66.642
+    },
+    {
+      "word": "a",
+      "start": 66.653,
+      "end": 66.695
+    },
+    {
+      "word": "música",
+      "start": 66.706,
+      "end": 67.087
+    },
+    {
+      "word": "que",
+      "start": 67.097,
+      "end": 67.182
+    },
+    {
+      "word": "chegou",
+      "start": 67.193,
+      "end": 67.5
+    },
+    {
+      "word": "a",
+      "start": 67.511,
+      "end": 67.542
+    },
+    {
+      "word": "chorar",
+      "start": 67.553,
+      "end": 67.871
+    },
+    {
+      "word": "A",
+      "start": 68.602,
+      "end": 68.676
+    },
+    {
+      "word": "inspiração",
+      "start": 68.686,
+      "end": 69.301
+    },
+    {
+      "word": "veio",
+      "start": 69.311,
+      "end": 69.555
+    },
+    {
+      "word": "de",
+      "start": 69.566,
+      "end": 69.65
+    },
+    {
+      "word": "uma",
+      "start": 69.661,
+      "end": 69.767
+    },
+    {
+      "word": "história",
+      "start": 69.778,
+      "end": 70.169
+    },
+    {
+      "word": "Mas",
+      "start": 70.9,
+      "end": 71.08
+    },
+    {
+      "word": "a",
+      "start": 71.091,
+      "end": 71.229
+    },
+    {
+      "word": "voz",
+      "start": 71.239,
+      "end": 71.462
+    },
+    {
+      "word": "de",
+      "start": 71.472,
+      "end": 71.547
+    },
+    {
+      "word": "Chester",
+      "start": 71.557,
+      "end": 71.96
+    },
+    {
+      "word": "fez",
+      "start": 71.97,
+      "end": 72.182
+    },
+    {
+      "word": "milhões",
+      "start": 72.193,
+      "end": 72.542
+    },
+    {
+      "word": "de",
+      "start": 72.553,
+      "end": 72.616
+    },
+    {
+      "word": "pessoas",
+      "start": 72.627,
+      "end": 73.03
+    },
+    {
+      "word": "sentirem",
+      "start": 73.04,
+      "end": 73.475
+    },
+    {
+      "word": "que",
+      "start": 73.485,
+      "end": 73.559
+    },
+    {
+      "word": "aquela",
+      "start": 73.57,
+      "end": 73.792
+    },
+    {
+      "word": "história",
+      "start": 73.803,
+      "end": 74.163
+    },
+    {
+      "word": "também",
+      "start": 74.174,
+      "end": 74.544
+    },
+    {
+      "word": "era",
+      "start": 74.555,
+      "end": 74.714
+    },
+    {
+      "word": "delas",
+      "start": 74.725,
+      "end": 75.148
+    },
+    {
+      "word": "E",
+      "start": 75.879,
+      "end": 75.975
+    },
+    {
+      "word": "talvez",
+      "start": 75.985,
+      "end": 76.345
+    },
+    {
+      "word": "seja",
+      "start": 76.356,
+      "end": 76.557
+    },
+    {
+      "word": "por",
+      "start": 76.568,
+      "end": 76.705
+    },
+    {
+      "word": "isso",
+      "start": 76.716,
+      "end": 76.949
+    },
+    {
+      "word": "que",
+      "start": 76.96,
+      "end": 77.034
+    },
+    {
+      "word": "Breaking",
+      "start": 77.044,
+      "end": 77.415
+    },
+    {
+      "word": "the",
+      "start": 77.426,
+      "end": 77.532
+    },
+    {
+      "word": "Habit",
+      "start": 77.542,
+      "end": 77.775
+    },
+    {
+      "word": "continua",
+      "start": 77.786,
+      "end": 78.231
+    },
+    {
+      "word": "tão",
+      "start": 78.242,
+      "end": 78.422
+    },
+    {
+      "word": "poderosa",
+      "start": 78.432,
+      "end": 78.867
+    },
+    {
+      "word": "até",
+      "start": 78.877,
+      "end": 79.047
+    },
+    {
+      "word": "hoje",
+      "start": 79.057,
+      "end": 79.396
+    },
+    {
+      "word": "Você",
+      "start": 80.127,
+      "end": 80.392
+    },
+    {
+      "word": "também",
+      "start": 80.403,
+      "end": 80.731
+    },
+    {
+      "word": "sentia",
+      "start": 80.742,
+      "end": 81.165
+    },
+    {
+      "word": "que",
+      "start": 81.176,
+      "end": 81.261
+    },
+    {
+      "word": "essa",
+      "start": 81.271,
+      "end": 81.441
+    },
+    {
+      "word": "música",
+      "start": 81.451,
+      "end": 81.822
+    },
+    {
+      "word": "falava",
+      "start": 81.833,
+      "end": 82.182
+    },
+    {
+      "word": "diretamente",
+      "start": 82.193,
+      "end": 82.744
+    },
+    {
+      "word": "com",
+      "start": 82.754,
+      "end": 82.913
+    },
+    {
+      "word": "Chester",
+      "start": 82.924,
+      "end": 83.316
+    },
+    {
+      "word": "Conta",
+      "start": 84.047,
+      "end": 84.333
+    },
+    {
+      "word": "nos",
+      "start": 84.343,
+      "end": 84.502
+    },
+    {
+      "word": "comentários",
+      "start": 84.513,
+      "end": 85.233
+    }
+  ]
+}

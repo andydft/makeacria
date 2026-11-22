@@ -1,0 +1,692 @@
+{
+  "language": "pt-BR",
+  "duration": 70.0,
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "segments": [
+    {
+      "start": 0.1,
+      "end": 8.773,
+      "text": "O vocal de \"Crawling\", do Linkin Park, foi gravado em uma única tomada. Sem cortes. Sem segunda chance."
+    },
+    {
+      "start": 8.773,
+      "end": 15.856,
+      "text": "Chester Bennington entrou na cabine, colocou os fones, fechou os olhos... e cantou como se fosse a última vez."
+    },
+    {
+      "start": 15.856,
+      "end": 21.041,
+      "text": "Ele canalizou dor real, vulnerabilidade pura, tudo que ele sentia por dentro."
+    },
+    {
+      "start": 21.041,
+      "end": 30.59,
+      "text": "Do outro lado do vidro, a banda ouviu tudo em silêncio. Mike, Brad, Rob, Dave, Joe. Ninguém se mexeu."
+    },
+    {
+      "start": 30.59,
+      "end": 39.062,
+      "text": "Quando ele terminou, abriu os olhos... exausto. E ninguém falou nada. Apenas... respeito absoluto."
+    },
+    {
+      "start": 39.062,
+      "end": 43.113,
+      "text": "Porque eles sabiam que tinham acabado de testemunhar algo verdadeiro."
+    },
+    {
+      "start": 43.113,
+      "end": 51.712,
+      "text": "Essa história te deu arrepios? Comenta \"CRAWLING\" aqui embaixo... e manda esse vídeo para aquele amigo que entende o que o Chester sentia."
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.1,
+      "end": 5.084,
+      "text": "O vocal de \"Crawling\", do Linkin Park, foi gravado em uma única tomada."
+    },
+    {
+      "start": 5.034,
+      "end": 6.712,
+      "text": "Sem cortes."
+    },
+    {
+      "start": 6.712,
+      "end": 8.773,
+      "text": "Sem segunda chance."
+    },
+    {
+      "start": 8.773,
+      "end": 15.856,
+      "text": "Chester Bennington entrou na cabine, colocou os fones, fechou os olhos... e cantou como se fosse a última vez."
+    },
+    {
+      "start": 15.856,
+      "end": 21.041,
+      "text": "Ele canalizou dor real, vulnerabilidade pura, tudo que ele sentia por dentro."
+    },
+    {
+      "start": 21.041,
+      "end": 24.988,
+      "text": "Do outro lado do vidro, a banda ouviu tudo em silêncio."
+    },
+    {
+      "start": 24.988,
+      "end": 28.703,
+      "text": "Mike, Brad, Rob, Dave, Joe."
+    },
+    {
+      "start": 28.703,
+      "end": 30.59,
+      "text": "Ninguém se mexeu."
+    },
+    {
+      "start": 30.59,
+      "end": 34.259,
+      "text": "Quando ele terminou, abriu os olhos... exausto."
+    },
+    {
+      "start": 34.259,
+      "end": 36.261,
+      "text": "E ninguém falou nada."
+    },
+    {
+      "start": 36.261,
+      "end": 39.062,
+      "text": "Apenas... respeito absoluto."
+    },
+    {
+      "start": 39.062,
+      "end": 43.113,
+      "text": "Porque eles sabiam que tinham acabado de testemunhar algo verdadeiro."
+    },
+    {
+      "start": 43.113,
+      "end": 45.532,
+      "text": "Essa história te deu arrepios?"
+    },
+    {
+      "start": 45.532,
+      "end": 51.712,
+      "text": "Comenta \"CRAWLING\" aqui embaixo... e manda esse vídeo para aquele amigo que entende o que o Chester sentia."
+    }
+  ],
+  "words": [
+    {
+      "word": "O",
+      "start": 0.1,
+      "end": 0.184
+    },
+    {
+      "word": "vocal",
+      "start": 0.184,
+      "end": 0.607
+    },
+    {
+      "word": "de",
+      "start": 0.607,
+      "end": 0.776
+    },
+    {
+      "word": "\"Crawling\",",
+      "start": 0.776,
+      "end": 1.705
+    },
+    {
+      "word": "do",
+      "start": 1.705,
+      "end": 1.874
+    },
+    {
+      "word": "Linkin",
+      "start": 1.874,
+      "end": 2.381
+    },
+    {
+      "word": "Park,",
+      "start": 2.381,
+      "end": 2.803
+    },
+    {
+      "word": "foi",
+      "start": 2.803,
+      "end": 3.057
+    },
+    {
+      "word": "gravado",
+      "start": 3.057,
+      "end": 3.648
+    },
+    {
+      "word": "em",
+      "start": 3.648,
+      "end": 3.817
+    },
+    {
+      "word": "uma",
+      "start": 3.817,
+      "end": 4.07
+    },
+    {
+      "word": "única",
+      "start": 4.07,
+      "end": 4.493
+    },
+    {
+      "word": "tomada.",
+      "start": 4.493,
+      "end": 5.084
+    },
+    {
+      "word": "Sem",
+      "start": 5.034,
+      "end": 5.537
+    },
+    {
+      "word": "cortes.",
+      "start": 5.537,
+      "end": 6.712
+    },
+    {
+      "word": "Sem",
+      "start": 6.712,
+      "end": 7.076
+    },
+    {
+      "word": "segunda",
+      "start": 7.076,
+      "end": 7.924
+    },
+    {
+      "word": "chance.",
+      "start": 7.924,
+      "end": 8.773
+    },
+    {
+      "word": "Chester",
+      "start": 8.773,
+      "end": 9.312
+    },
+    {
+      "word": "Bennington",
+      "start": 9.312,
+      "end": 10.082
+    },
+    {
+      "word": "entrou",
+      "start": 10.082,
+      "end": 10.544
+    },
+    {
+      "word": "na",
+      "start": 10.544,
+      "end": 10.698
+    },
+    {
+      "word": "cabine,",
+      "start": 10.698,
+      "end": 11.237
+    },
+    {
+      "word": "colocou",
+      "start": 11.237,
+      "end": 11.776
+    },
+    {
+      "word": "os",
+      "start": 11.776,
+      "end": 11.93
+    },
+    {
+      "word": "fones,",
+      "start": 11.93,
+      "end": 12.391
+    },
+    {
+      "word": "fechou",
+      "start": 12.391,
+      "end": 12.853
+    },
+    {
+      "word": "os",
+      "start": 12.853,
+      "end": 13.007
+    },
+    {
+      "word": "olhos...",
+      "start": 13.007,
+      "end": 13.623
+    },
+    {
+      "word": "e",
+      "start": 13.623,
+      "end": 13.7
+    },
+    {
+      "word": "cantou",
+      "start": 13.7,
+      "end": 14.162
+    },
+    {
+      "word": "como",
+      "start": 14.162,
+      "end": 14.47
+    },
+    {
+      "word": "se",
+      "start": 14.47,
+      "end": 14.624
+    },
+    {
+      "word": "fosse",
+      "start": 14.624,
+      "end": 15.009
+    },
+    {
+      "word": "a",
+      "start": 15.009,
+      "end": 15.086
+    },
+    {
+      "word": "última",
+      "start": 15.086,
+      "end": 15.548
+    },
+    {
+      "word": "vez.",
+      "start": 15.548,
+      "end": 15.856
+    },
+    {
+      "word": "Ele",
+      "start": 15.856,
+      "end": 16.092
+    },
+    {
+      "word": "canalizou",
+      "start": 16.092,
+      "end": 16.799
+    },
+    {
+      "word": "dor",
+      "start": 16.799,
+      "end": 17.034
+    },
+    {
+      "word": "real,",
+      "start": 17.034,
+      "end": 17.427
+    },
+    {
+      "word": "vulnerabilidade",
+      "start": 17.427,
+      "end": 18.606
+    },
+    {
+      "word": "pura,",
+      "start": 18.606,
+      "end": 18.998
+    },
+    {
+      "word": "tudo",
+      "start": 18.998,
+      "end": 19.313
+    },
+    {
+      "word": "que",
+      "start": 19.313,
+      "end": 19.548
+    },
+    {
+      "word": "ele",
+      "start": 19.548,
+      "end": 19.784
+    },
+    {
+      "word": "sentia",
+      "start": 19.784,
+      "end": 20.255
+    },
+    {
+      "word": "por",
+      "start": 20.255,
+      "end": 20.491
+    },
+    {
+      "word": "dentro.",
+      "start": 20.491,
+      "end": 21.041
+    },
+    {
+      "word": "Do",
+      "start": 21.041,
+      "end": 21.216
+    },
+    {
+      "word": "outro",
+      "start": 21.216,
+      "end": 21.655
+    },
+    {
+      "word": "lado",
+      "start": 21.655,
+      "end": 22.006
+    },
+    {
+      "word": "do",
+      "start": 22.006,
+      "end": 22.181
+    },
+    {
+      "word": "vidro,",
+      "start": 22.181,
+      "end": 22.708
+    },
+    {
+      "word": "a",
+      "start": 22.708,
+      "end": 22.795
+    },
+    {
+      "word": "banda",
+      "start": 22.795,
+      "end": 23.234
+    },
+    {
+      "word": "ouviu",
+      "start": 23.234,
+      "end": 23.672
+    },
+    {
+      "word": "tudo",
+      "start": 23.672,
+      "end": 24.023
+    },
+    {
+      "word": "em",
+      "start": 24.023,
+      "end": 24.199
+    },
+    {
+      "word": "silêncio.",
+      "start": 24.199,
+      "end": 24.988
+    },
+    {
+      "word": "Mike,",
+      "start": 24.988,
+      "end": 25.796
+    },
+    {
+      "word": "Brad,",
+      "start": 25.796,
+      "end": 26.603
+    },
+    {
+      "word": "Rob,",
+      "start": 26.603,
+      "end": 27.249
+    },
+    {
+      "word": "Dave,",
+      "start": 27.249,
+      "end": 28.057
+    },
+    {
+      "word": "Joe.",
+      "start": 28.057,
+      "end": 28.703
+    },
+    {
+      "word": "Ninguém",
+      "start": 28.703,
+      "end": 29.584
+    },
+    {
+      "word": "se",
+      "start": 29.584,
+      "end": 29.835
+    },
+    {
+      "word": "mexeu.",
+      "start": 29.835,
+      "end": 30.59
+    },
+    {
+      "word": "Quando",
+      "start": 30.59,
+      "end": 31.127
+    },
+    {
+      "word": "ele",
+      "start": 31.127,
+      "end": 31.395
+    },
+    {
+      "word": "terminou,",
+      "start": 31.395,
+      "end": 32.201
+    },
+    {
+      "word": "abriu",
+      "start": 32.201,
+      "end": 32.648
+    },
+    {
+      "word": "os",
+      "start": 32.648,
+      "end": 32.827
+    },
+    {
+      "word": "olhos...",
+      "start": 32.827,
+      "end": 33.543
+    },
+    {
+      "word": "exausto.",
+      "start": 33.543,
+      "end": 34.259
+    },
+    {
+      "word": "E",
+      "start": 34.259,
+      "end": 34.37
+    },
+    {
+      "word": "ninguém",
+      "start": 34.37,
+      "end": 35.149
+    },
+    {
+      "word": "falou",
+      "start": 35.149,
+      "end": 35.705
+    },
+    {
+      "word": "nada.",
+      "start": 35.705,
+      "end": 36.261
+    },
+    {
+      "word": "Apenas...",
+      "start": 36.261,
+      "end": 37.231
+    },
+    {
+      "word": "respeito",
+      "start": 37.231,
+      "end": 38.092
+    },
+    {
+      "word": "absoluto.",
+      "start": 38.092,
+      "end": 39.062
+    },
+    {
+      "word": "Porque",
+      "start": 39.062,
+      "end": 39.467
+    },
+    {
+      "word": "eles",
+      "start": 39.467,
+      "end": 39.737
+    },
+    {
+      "word": "sabiam",
+      "start": 39.737,
+      "end": 40.142
+    },
+    {
+      "word": "que",
+      "start": 40.142,
+      "end": 40.345
+    },
+    {
+      "word": "tinham",
+      "start": 40.345,
+      "end": 40.75
+    },
+    {
+      "word": "acabado",
+      "start": 40.75,
+      "end": 41.223
+    },
+    {
+      "word": "de",
+      "start": 41.223,
+      "end": 41.358
+    },
+    {
+      "word": "testemunhar",
+      "start": 41.358,
+      "end": 42.1
+    },
+    {
+      "word": "algo",
+      "start": 42.1,
+      "end": 42.37
+    },
+    {
+      "word": "verdadeiro.",
+      "start": 42.37,
+      "end": 43.113
+    },
+    {
+      "word": "Essa",
+      "start": 43.113,
+      "end": 43.485
+    },
+    {
+      "word": "história",
+      "start": 43.485,
+      "end": 44.229
+    },
+    {
+      "word": "te",
+      "start": 44.229,
+      "end": 44.416
+    },
+    {
+      "word": "deu",
+      "start": 44.416,
+      "end": 44.695
+    },
+    {
+      "word": "arrepios?",
+      "start": 44.695,
+      "end": 45.532
+    },
+    {
+      "word": "Comenta",
+      "start": 45.532,
+      "end": 46.013
+    },
+    {
+      "word": "\"CRAWLING\"",
+      "start": 46.013,
+      "end": 46.699
+    },
+    {
+      "word": "aqui",
+      "start": 46.699,
+      "end": 46.974
+    },
+    {
+      "word": "embaixo...",
+      "start": 46.974,
+      "end": 47.661
+    },
+    {
+      "word": "e",
+      "start": 47.661,
+      "end": 47.729
+    },
+    {
+      "word": "manda",
+      "start": 47.729,
+      "end": 48.073
+    },
+    {
+      "word": "esse",
+      "start": 48.073,
+      "end": 48.347
+    },
+    {
+      "word": "vídeo",
+      "start": 48.347,
+      "end": 48.691
+    },
+    {
+      "word": "para",
+      "start": 48.691,
+      "end": 48.965
+    },
+    {
+      "word": "aquele",
+      "start": 48.965,
+      "end": 49.377
+    },
+    {
+      "word": "amigo",
+      "start": 49.377,
+      "end": 49.721
+    },
+    {
+      "word": "que",
+      "start": 49.721,
+      "end": 49.927
+    },
+    {
+      "word": "entende",
+      "start": 49.927,
+      "end": 50.407
+    },
+    {
+      "word": "o",
+      "start": 50.407,
+      "end": 50.476
+    },
+    {
+      "word": "que",
+      "start": 50.476,
+      "end": 50.682
+    },
+    {
+      "word": "o",
+      "start": 50.682,
+      "end": 50.751
+    },
+    {
+      "word": "Chester",
+      "start": 50.751,
+      "end": 51.231
+    },
+    {
+      "word": "sentia.",
+      "start": 51.231,
+      "end": 51.712
+    }
+  ]
+}

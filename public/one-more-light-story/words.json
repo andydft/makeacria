@@ -1,0 +1,1045 @@
+{
+  "language": "pt-BR",
+  "duration": 90.0,
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "cues": [
+    {
+      "start": 0.096,
+      "end": 4.726,
+      "text": "Essa música foi escrita para uma pessoa… mas acabou se tornando uma despedida para três."
+    },
+    {
+      "start": 5.521,
+      "end": 12.315,
+      "text": "Em 2015, o Linkin Park perdeu Amy Zaret, uma amiga que acompanhou a banda desde os primeiros anos."
+    },
+    {
+      "start": 12.326,
+      "end": 16.794,
+      "text": "Mike Shinoda e Eg White começaram a escrever uma música sobre aquela perda."
+    },
+    {
+      "start": 16.806,
+      "end": 23.009,
+      "text": "Uma canção delicada, que fazia uma pergunta dolorosa: quem se importa quando mais uma luz se apaga?"
+    },
+    {
+      "start": 23.021,
+      "end": 29.363,
+      "text": "Em maio de 2017, Chris Cornell, vocalista do Audioslave e Soundgarden, morreu."
+    },
+    {
+      "start": 29.375,
+      "end": 34.028,
+      "text": "Naquela noite, o Linkin Park tinha outra música preparada para o Jimmy Kimmel."
+    },
+    {
+      "start": 34.039,
+      "end": 36.562,
+      "text": "Mas Chester decidiu mudar tudo."
+    },
+    {
+      "start": 36.574,
+      "end": 40.637,
+      "text": "Eles tocaram One More Light… em homenagem ao amigo Chris."
+    },
+    {
+      "start": 40.648,
+      "end": 44.676,
+      "text": "Chester tentou cantar até o fim, mas a emoção foi mais forte."
+    },
+    {
+      "start": 44.688,
+      "end": 49.12,
+      "text": "E apenas dois meses depois, o mundo perdeu Chester também."
+    },
+    {
+      "start": 49.132,
+      "end": 55.359,
+      "text": "Aquela música, que nasceu para lembrar alguém que partiu, passou a carregar a memória de tantas pessoas."
+    },
+    {
+      "start": 56.157,
+      "end": 59.051,
+      "text": "Amy. Chris. Chester."
+    },
+    {
+      "start": 59.062,
+      "end": 62.222,
+      "text": "Três vidas. Três estrelas."
+    },
+    {
+      "start": 62.234,
+      "end": 65.093,
+      "text": "E uma mensagem que continua brilhando:"
+    },
+    {
+      "start": 65.104,
+      "end": 68.762,
+      "text": "Se mais uma luz se apagar no céu… eu me importo."
+    },
+    {
+      "start": 68.773,
+      "end": 73.53,
+      "text": "Se essa história te tocou, segue o perfil pra me ajudar a chegar a mais gente."
+    },
+    {
+      "start": 73.542,
+      "end": 75.764,
+      "text": "Ainda tem muito conteúdo de música vindo por aí."
+    }
+  ],
+  "words": [
+    {
+      "word": "Essa",
+      "start": 0.096,
+      "end": 0.374
+    },
+    {
+      "word": "música",
+      "start": 0.386,
+      "end": 0.802
+    },
+    {
+      "word": "foi",
+      "start": 0.814,
+      "end": 0.941
+    },
+    {
+      "word": "escrita",
+      "start": 0.953,
+      "end": 1.335
+    },
+    {
+      "word": "para",
+      "start": 1.346,
+      "end": 1.497
+    },
+    {
+      "word": "uma",
+      "start": 1.508,
+      "end": 1.612
+    },
+    {
+      "word": "pessoa",
+      "start": 1.624,
+      "end": 2.087
+    },
+    {
+      "word": "mas",
+      "start": 2.388,
+      "end": 2.481
+    },
+    {
+      "word": "acabou",
+      "start": 2.492,
+      "end": 2.909
+    },
+    {
+      "word": "se",
+      "start": 2.92,
+      "end": 3.036
+    },
+    {
+      "word": "tornando",
+      "start": 3.048,
+      "end": 3.43
+    },
+    {
+      "word": "uma",
+      "start": 3.441,
+      "end": 3.569
+    },
+    {
+      "word": "despedida",
+      "start": 3.58,
+      "end": 4.124
+    },
+    {
+      "word": "para",
+      "start": 4.136,
+      "end": 4.309
+    },
+    {
+      "word": "três",
+      "start": 4.321,
+      "end": 4.726
+    },
+    {
+      "word": "Em 2015",
+      "start": 5.521,
+      "end": 6.4
+    },
+    {
+      "word": "o",
+      "start": 6.516,
+      "end": 6.586
+    },
+    {
+      "word": "Linkin",
+      "start": 6.597,
+      "end": 6.944
+    },
+    {
+      "word": "Park",
+      "start": 6.956,
+      "end": 7.315
+    },
+    {
+      "word": "perdeu",
+      "start": 7.326,
+      "end": 7.674
+    },
+    {
+      "word": "Amy",
+      "start": 7.685,
+      "end": 7.824
+    },
+    {
+      "word": "Zaret",
+      "start": 7.836,
+      "end": 8.183
+    },
+    {
+      "word": "uma",
+      "start": 8.461,
+      "end": 8.588
+    },
+    {
+      "word": "amiga",
+      "start": 8.6,
+      "end": 8.9
+    },
+    {
+      "word": "que",
+      "start": 8.912,
+      "end": 8.981
+    },
+    {
+      "word": "acompanhou",
+      "start": 8.993,
+      "end": 9.456
+    },
+    {
+      "word": "a",
+      "start": 9.468,
+      "end": 9.525
+    },
+    {
+      "word": "banda",
+      "start": 9.537,
+      "end": 9.861
+    },
+    {
+      "word": "desde",
+      "start": 9.873,
+      "end": 10.208
+    },
+    {
+      "word": "os",
+      "start": 10.22,
+      "end": 10.289
+    },
+    {
+      "word": "primeiros",
+      "start": 10.301,
+      "end": 10.671
+    },
+    {
+      "word": "anos",
+      "start": 10.683,
+      "end": 11.157
+    },
+    {
+      "word": "Mike",
+      "start": 11.956,
+      "end": 12.315
+    },
+    {
+      "word": "Shinoda",
+      "start": 12.326,
+      "end": 12.766
+    },
+    {
+      "word": "e",
+      "start": 12.778,
+      "end": 12.836
+    },
+    {
+      "word": "Eg",
+      "start": 12.847,
+      "end": 13.021
+    },
+    {
+      "word": "White",
+      "start": 13.032,
+      "end": 13.333
+    },
+    {
+      "word": "começaram",
+      "start": 13.345,
+      "end": 13.831
+    },
+    {
+      "word": "a",
+      "start": 13.843,
+      "end": 13.866
+    },
+    {
+      "word": "escrever",
+      "start": 13.877,
+      "end": 14.282
+    },
+    {
+      "word": "uma",
+      "start": 14.294,
+      "end": 14.421
+    },
+    {
+      "word": "música",
+      "start": 14.433,
+      "end": 14.815
+    },
+    {
+      "word": "sobre",
+      "start": 14.826,
+      "end": 15.058
+    },
+    {
+      "word": "aquela",
+      "start": 15.069,
+      "end": 15.359
+    },
+    {
+      "word": "perda",
+      "start": 15.37,
+      "end": 15.775
+    },
+    {
+      "word": "Uma",
+      "start": 16.574,
+      "end": 16.794
+    },
+    {
+      "word": "canção",
+      "start": 16.806,
+      "end": 17.211
+    },
+    {
+      "word": "delicada",
+      "start": 17.222,
+      "end": 17.755
+    },
+    {
+      "word": "que",
+      "start": 17.928,
+      "end": 18.067
+    },
+    {
+      "word": "fazia",
+      "start": 18.079,
+      "end": 18.437
+    },
+    {
+      "word": "uma",
+      "start": 18.449,
+      "end": 18.565
+    },
+    {
+      "word": "pergunta",
+      "start": 18.576,
+      "end": 19.028
+    },
+    {
+      "word": "dolorosa",
+      "start": 19.039,
+      "end": 19.583
+    },
+    {
+      "word": "quem",
+      "start": 19.78,
+      "end": 19.988
+    },
+    {
+      "word": "se",
+      "start": 20.0,
+      "end": 20.104
+    },
+    {
+      "word": "importa",
+      "start": 20.116,
+      "end": 20.579
+    },
+    {
+      "word": "quando",
+      "start": 20.59,
+      "end": 20.833
+    },
+    {
+      "word": "mais",
+      "start": 20.845,
+      "end": 21.042
+    },
+    {
+      "word": "uma",
+      "start": 21.053,
+      "end": 21.238
+    },
+    {
+      "word": "luz",
+      "start": 21.25,
+      "end": 21.482
+    },
+    {
+      "word": "se",
+      "start": 21.493,
+      "end": 21.586
+    },
+    {
+      "word": "apaga",
+      "start": 21.597,
+      "end": 22.049
+    },
+    {
+      "word": "Em",
+      "start": 22.847,
+      "end": 23.009
+    },
+    {
+      "word": "maio",
+      "start": 23.021,
+      "end": 23.287
+    },
+    {
+      "word": "de",
+      "start": 23.299,
+      "end": 23.38
+    },
+    {
+      "word": "2017",
+      "start": 23.391,
+      "end": 24.363
+    },
+    {
+      "word": "Chris",
+      "start": 24.56,
+      "end": 24.838
+    },
+    {
+      "word": "Cornell",
+      "start": 24.85,
+      "end": 25.243
+    },
+    {
+      "word": "vocalista",
+      "start": 25.556,
+      "end": 26.134
+    },
+    {
+      "word": "do",
+      "start": 26.146,
+      "end": 26.227
+    },
+    {
+      "word": "Audioslave",
+      "start": 26.238,
+      "end": 26.863
+    },
+    {
+      "word": "e",
+      "start": 26.875,
+      "end": 26.91
+    },
+    {
+      "word": "Soundgarden",
+      "start": 26.921,
+      "end": 27.523
+    },
+    {
+      "word": "morreu",
+      "start": 27.766,
+      "end": 28.16
+    },
+    {
+      "word": "Naquela",
+      "start": 28.958,
+      "end": 29.363
+    },
+    {
+      "word": "noite",
+      "start": 29.375,
+      "end": 29.734
+    },
+    {
+      "word": "o",
+      "start": 29.919,
+      "end": 29.988
+    },
+    {
+      "word": "Linkin",
+      "start": 30.0,
+      "end": 30.347
+    },
+    {
+      "word": "Park",
+      "start": 30.359,
+      "end": 30.706
+    },
+    {
+      "word": "tinha",
+      "start": 30.718,
+      "end": 30.961
+    },
+    {
+      "word": "outra",
+      "start": 30.972,
+      "end": 31.215
+    },
+    {
+      "word": "música",
+      "start": 31.227,
+      "end": 31.574
+    },
+    {
+      "word": "preparada",
+      "start": 31.586,
+      "end": 32.118
+    },
+    {
+      "word": "para",
+      "start": 32.13,
+      "end": 32.28
+    },
+    {
+      "word": "o",
+      "start": 32.292,
+      "end": 32.326
+    },
+    {
+      "word": "Jimmy",
+      "start": 32.338,
+      "end": 32.581
+    },
+    {
+      "word": "Kimmel",
+      "start": 32.593,
+      "end": 32.928
+    },
+    {
+      "word": "Mas",
+      "start": 33.727,
+      "end": 34.028
+    },
+    {
+      "word": "Chester",
+      "start": 34.039,
+      "end": 34.444
+    },
+    {
+      "word": "decidiu",
+      "start": 34.456,
+      "end": 34.849
+    },
+    {
+      "word": "mudar",
+      "start": 34.861,
+      "end": 35.197
+    },
+    {
+      "word": "tudo",
+      "start": 35.208,
+      "end": 35.544
+    },
+    {
+      "word": "Eles",
+      "start": 36.343,
+      "end": 36.562
+    },
+    {
+      "word": "tocaram",
+      "start": 36.574,
+      "end": 36.956
+    },
+    {
+      "word": "One",
+      "start": 36.968,
+      "end": 37.037
+    },
+    {
+      "word": "More",
+      "start": 37.049,
+      "end": 37.269
+    },
+    {
+      "word": "Light",
+      "start": 37.28,
+      "end": 37.674
+    },
+    {
+      "word": "em",
+      "start": 37.87,
+      "end": 37.963
+    },
+    {
+      "word": "homenagem",
+      "start": 37.975,
+      "end": 38.519
+    },
+    {
+      "word": "ao",
+      "start": 38.53,
+      "end": 38.646
+    },
+    {
+      "word": "amigo",
+      "start": 38.657,
+      "end": 38.981
+    },
+    {
+      "word": "Chris",
+      "start": 38.993,
+      "end": 39.41
+    },
+    {
+      "word": "Chester",
+      "start": 40.208,
+      "end": 40.637
+    },
+    {
+      "word": "tentou",
+      "start": 40.648,
+      "end": 40.995
+    },
+    {
+      "word": "cantar",
+      "start": 41.007,
+      "end": 41.389
+    },
+    {
+      "word": "até",
+      "start": 41.4,
+      "end": 41.609
+    },
+    {
+      "word": "o",
+      "start": 41.62,
+      "end": 41.678
+    },
+    {
+      "word": "fim",
+      "start": 41.69,
+      "end": 41.933
+    },
+    {
+      "word": "mas",
+      "start": 42.211,
+      "end": 42.338
+    },
+    {
+      "word": "a",
+      "start": 42.35,
+      "end": 42.442
+    },
+    {
+      "word": "emoção",
+      "start": 42.454,
+      "end": 42.905
+    },
+    {
+      "word": "foi",
+      "start": 42.917,
+      "end": 43.044
+    },
+    {
+      "word": "mais",
+      "start": 43.056,
+      "end": 43.299
+    },
+    {
+      "word": "forte",
+      "start": 43.31,
+      "end": 43.762
+    },
+    {
+      "word": "E",
+      "start": 44.56,
+      "end": 44.676
+    },
+    {
+      "word": "apenas",
+      "start": 44.688,
+      "end": 45.081
+    },
+    {
+      "word": "dois",
+      "start": 45.093,
+      "end": 45.278
+    },
+    {
+      "word": "meses",
+      "start": 45.289,
+      "end": 45.625
+    },
+    {
+      "word": "depois",
+      "start": 45.637,
+      "end": 46.088
+    },
+    {
+      "word": "o",
+      "start": 46.331,
+      "end": 46.366
+    },
+    {
+      "word": "mundo",
+      "start": 46.377,
+      "end": 46.69
+    },
+    {
+      "word": "perdeu",
+      "start": 46.701,
+      "end": 47.037
+    },
+    {
+      "word": "Chester",
+      "start": 47.049,
+      "end": 47.523
+    },
+    {
+      "word": "também",
+      "start": 47.535,
+      "end": 47.951
+    },
+    {
+      "word": "Aquela",
+      "start": 48.75,
+      "end": 49.12
+    },
+    {
+      "word": "música",
+      "start": 49.132,
+      "end": 49.572
+    },
+    {
+      "word": "que",
+      "start": 49.769,
+      "end": 49.896
+    },
+    {
+      "word": "nasceu",
+      "start": 49.907,
+      "end": 50.266
+    },
+    {
+      "word": "para",
+      "start": 50.278,
+      "end": 50.44
+    },
+    {
+      "word": "lembrar",
+      "start": 50.451,
+      "end": 50.764
+    },
+    {
+      "word": "alguém",
+      "start": 50.775,
+      "end": 51.053
+    },
+    {
+      "word": "que",
+      "start": 51.065,
+      "end": 51.157
+    },
+    {
+      "word": "partiu",
+      "start": 51.169,
+      "end": 51.597
+    },
+    {
+      "word": "passou",
+      "start": 51.829,
+      "end": 52.164
+    },
+    {
+      "word": "a",
+      "start": 52.176,
+      "end": 52.222
+    },
+    {
+      "word": "carregar",
+      "start": 52.234,
+      "end": 52.593
+    },
+    {
+      "word": "a",
+      "start": 52.604,
+      "end": 52.639
+    },
+    {
+      "word": "memória",
+      "start": 52.65,
+      "end": 53.032
+    },
+    {
+      "word": "de",
+      "start": 53.044,
+      "end": 53.183
+    },
+    {
+      "word": "tantas",
+      "start": 53.194,
+      "end": 53.576
+    },
+    {
+      "word": "pessoas",
+      "start": 53.588,
+      "end": 54.167
+    },
+    {
+      "word": "Amy",
+      "start": 54.965,
+      "end": 55.359
+    },
+    {
+      "word": "Chris",
+      "start": 56.157,
+      "end": 56.597
+    },
+    {
+      "word": "Chester",
+      "start": 57.396,
+      "end": 57.893
+    },
+    {
+      "word": "Três",
+      "start": 58.692,
+      "end": 59.051
+    },
+    {
+      "word": "vidas",
+      "start": 59.062,
+      "end": 59.549
+    },
+    {
+      "word": "Três",
+      "start": 60.347,
+      "end": 60.59
+    },
+    {
+      "word": "estrelas",
+      "start": 60.602,
+      "end": 61.319
+    },
+    {
+      "word": "E",
+      "start": 62.118,
+      "end": 62.222
+    },
+    {
+      "word": "uma",
+      "start": 62.234,
+      "end": 62.373
+    },
+    {
+      "word": "mensagem",
+      "start": 62.384,
+      "end": 62.94
+    },
+    {
+      "word": "que",
+      "start": 62.951,
+      "end": 63.056
+    },
+    {
+      "word": "continua",
+      "start": 63.067,
+      "end": 63.542
+    },
+    {
+      "word": "brilhando",
+      "start": 63.553,
+      "end": 64.086
+    },
+    {
+      "word": "Se",
+      "start": 64.884,
+      "end": 65.093
+    },
+    {
+      "word": "mais",
+      "start": 65.104,
+      "end": 65.336
+    },
+    {
+      "word": "uma",
+      "start": 65.347,
+      "end": 65.544
+    },
+    {
+      "word": "luz",
+      "start": 65.556,
+      "end": 65.81
+    },
+    {
+      "word": "se",
+      "start": 65.822,
+      "end": 65.891
+    },
+    {
+      "word": "apagar",
+      "start": 65.903,
+      "end": 66.285
+    },
+    {
+      "word": "no",
+      "start": 66.296,
+      "end": 66.412
+    },
+    {
+      "word": "céu",
+      "start": 66.424,
+      "end": 66.806
+    },
+    {
+      "word": "eu",
+      "start": 67.037,
+      "end": 67.153
+    },
+    {
+      "word": "me",
+      "start": 67.164,
+      "end": 67.234
+    },
+    {
+      "word": "importo",
+      "start": 67.245,
+      "end": 67.766
+    },
+    {
+      "word": "Se",
+      "start": 68.565,
+      "end": 68.762
+    },
+    {
+      "word": "essa",
+      "start": 68.773,
+      "end": 68.981
+    },
+    {
+      "word": "história",
+      "start": 68.993,
+      "end": 69.34
+    },
+    {
+      "word": "te",
+      "start": 69.352,
+      "end": 69.456
+    },
+    {
+      "word": "tocou",
+      "start": 69.468,
+      "end": 69.815
+    },
+    {
+      "word": "segue",
+      "start": 70.104,
+      "end": 70.336
+    },
+    {
+      "word": "o",
+      "start": 70.347,
+      "end": 70.37
+    },
+    {
+      "word": "perfil",
+      "start": 70.382,
+      "end": 70.752
+    },
+    {
+      "word": "pra",
+      "start": 70.764,
+      "end": 70.891
+    },
+    {
+      "word": "me",
+      "start": 70.903,
+      "end": 70.972
+    },
+    {
+      "word": "ajudar",
+      "start": 70.984,
+      "end": 71.331
+    },
+    {
+      "word": "a",
+      "start": 71.343,
+      "end": 71.377
+    },
+    {
+      "word": "chegar",
+      "start": 71.389,
+      "end": 71.713
+    },
+    {
+      "word": "a",
+      "start": 71.725,
+      "end": 71.771
+    },
+    {
+      "word": "mais",
+      "start": 71.782,
+      "end": 72.014
+    },
+    {
+      "word": "gente",
+      "start": 72.025,
+      "end": 72.396
+    },
+    {
+      "word": "Ainda",
+      "start": 73.194,
+      "end": 73.53
+    },
+    {
+      "word": "tem",
+      "start": 73.542,
+      "end": 73.681
+    },
+    {
+      "word": "muito",
+      "start": 73.692,
+      "end": 74.039
+    },
+    {
+      "word": "conteúdo",
+      "start": 74.051,
+      "end": 74.514
+    },
+    {
+      "word": "de",
+      "start": 74.525,
+      "end": 74.618
+    },
+    {
+      "word": "música",
+      "start": 74.63,
+      "end": 75.069
+    },
+    {
+      "word": "vindo",
+      "start": 75.081,
+      "end": 75.347
+    },
+    {
+      "word": "por",
+      "start": 75.359,
+      "end": 75.498
+    },
+    {
+      "word": "aí",
+      "start": 75.509,
+      "end": 75.764
+    }
+  ]
+}

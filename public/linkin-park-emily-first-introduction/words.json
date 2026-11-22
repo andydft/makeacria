@@ -1,0 +1,1432 @@
+{
+  "language": "pt-BR",
+  "duration": 100.0,
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "segments": [
+    {
+      "start": 0.096,
+      "end": 16.296,
+      "text": "Por sete anos, os fãs do Linkin Park não sabiam se voltariam a ver a banda daquele jeito. Depois da perda de Chester Bennington, o futuro parecia impossível de imaginar. Mas, em setembro de 2024, Mike Shinoda subiu ao palco com uma notícia que mudaria tudo."
+    },
+    {
+      "start": 17.095,
+      "end": 29.34,
+      "text": "O Linkin Park estava de volta… com uma nova voz. Emily Armstrong. No dia 5 de setembro, a banda revelou a nova formação em uma apresentação transmitida para o mundo inteiro."
+    },
+    {
+      "start": 29.352,
+      "end": 42.025,
+      "text": "E Emily não ficou escondida atrás de ninguém. Ela entrou no palco, dividiu os vocais com Mike e mostrou sua força em The Emptiness Machine. Mas a história ficou ainda mais emocionante alguns dias depois."
+    },
+    {
+      "start": 42.037,
+      "end": 60.752,
+      "text": "No Kia Forum, em Los Angeles, Mike olhou para a plateia e perguntou se todos já conheciam a amiga deles… Emily. A reação veio em forma de gritos e aplausos. Aquela era a primeira noite da nova turnê, e Emily estava diante de uma arena cheia, cantando músicas que marcaram gerações."
+    },
+    {
+      "start": 60.764,
+      "end": 72.963,
+      "text": "Quando chegaram os clássicos, milhares de pessoas cantaram junto. Mike ainda pediu que o público demonstrasse carinho por Emily… e a resposta foi enorme. Ela não estava tentando ser Chester."
+    },
+    {
+      "start": 72.975,
+      "end": 88.472,
+      "text": "Estava mostrando quem era, com sua própria voz, sua energia e sua presença. E Mike deixou claro: aquele retorno não era para apagar o passado… era para começar um novo capítulo. Naquela noite, Emily não apenas foi apresentada ao público."
+    },
+    {
+      "start": 88.484,
+      "end": 96.782,
+      "text": "Ela começou a conquistar seu lugar na história do Linkin Park. Você lembra da primeira vez que viu Emily cantando com a banda? Conta nos comentários."
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.096,
+      "end": 4.934,
+      "text": "Por sete anos, os fãs do Linkin Park não sabiam se voltariam a ver a banda daquele jeito."
+    },
+    {
+      "start": 5.729,
+      "end": 10.0,
+      "text": "Depois da perda de Chester Bennington, o futuro parecia impossível de imaginar."
+    },
+    {
+      "start": 10.799,
+      "end": 16.296,
+      "text": "Mas, em setembro de 2024, Mike Shinoda subiu ao palco com uma notícia que mudaria tudo."
+    },
+    {
+      "start": 17.095,
+      "end": 19.965,
+      "text": "O Linkin Park estava de volta… com uma nova voz."
+    },
+    {
+      "start": 20.764,
+      "end": 21.736,
+      "text": "Emily Armstrong."
+    },
+    {
+      "start": 22.546,
+      "end": 29.34,
+      "text": "No dia 5 de setembro, a banda revelou a nova formação em uma apresentação transmitida para o mundo inteiro."
+    },
+    {
+      "start": 29.352,
+      "end": 32.35,
+      "text": "E Emily não ficou escondida atrás de ninguém."
+    },
+    {
+      "start": 32.361,
+      "end": 37.789,
+      "text": "Ela entrou no palco, dividiu os vocais com Mike e mostrou sua força em The Emptiness Machine."
+    },
+    {
+      "start": 37.801,
+      "end": 42.025,
+      "text": "Mas a história ficou ainda mais emocionante alguns dias depois."
+    },
+    {
+      "start": 42.037,
+      "end": 50.0,
+      "text": "No Kia Forum, em Los Angeles, Mike olhou para a plateia e perguntou se todos já conheciam a amiga deles… Emily."
+    },
+    {
+      "start": 50.012,
+      "end": 53.31,
+      "text": "A reação veio em forma de gritos e aplausos."
+    },
+    {
+      "start": 53.322,
+      "end": 60.752,
+      "text": "Aquela era a primeira noite da nova turnê, e Emily estava diante de uma arena cheia, cantando músicas que marcaram gerações."
+    },
+    {
+      "start": 60.764,
+      "end": 64.792,
+      "text": "Quando chegaram os clássicos, milhares de pessoas cantaram junto."
+    },
+    {
+      "start": 64.803,
+      "end": 69.826,
+      "text": "Mike ainda pediu que o público demonstrasse carinho por Emily… e a resposta foi enorme."
+    },
+    {
+      "start": 69.838,
+      "end": 72.963,
+      "text": "Ela não estava tentando ser Chester."
+    },
+    {
+      "start": 72.975,
+      "end": 77.847,
+      "text": "Estava mostrando quem era, com sua própria voz, sua energia e sua presença."
+    },
+    {
+      "start": 77.859,
+      "end": 84.664,
+      "text": "E Mike deixou claro: aquele retorno não era para apagar o passado… era para começar um novo capítulo."
+    },
+    {
+      "start": 84.896,
+      "end": 88.472,
+      "text": "Naquela noite, Emily não apenas foi apresentada ao público."
+    },
+    {
+      "start": 88.484,
+      "end": 92.338,
+      "text": "Ela começou a conquistar seu lugar na história do Linkin Park."
+    },
+    {
+      "start": 92.35,
+      "end": 96.782,
+      "text": "Você lembra da primeira vez que viu Emily cantando com a banda? Conta nos comentários."
+    }
+  ],
+  "words": [
+    {
+      "word": "Por",
+      "start": 0.096,
+      "end": 0.258
+    },
+    {
+      "word": "sete",
+      "start": 0.27,
+      "end": 0.629
+    },
+    {
+      "word": "anos",
+      "start": 0.64,
+      "end": 0.964
+    },
+    {
+      "word": "os",
+      "start": 1.231,
+      "end": 1.358
+    },
+    {
+      "word": "fãs",
+      "start": 1.369,
+      "end": 1.624
+    },
+    {
+      "word": "do",
+      "start": 1.636,
+      "end": 1.705
+    },
+    {
+      "word": "Linkin",
+      "start": 1.717,
+      "end": 2.064
+    },
+    {
+      "word": "Park",
+      "start": 2.075,
+      "end": 2.434
+    },
+    {
+      "word": "não",
+      "start": 2.446,
+      "end": 2.573
+    },
+    {
+      "word": "sabiam",
+      "start": 2.585,
+      "end": 2.978
+    },
+    {
+      "word": "se",
+      "start": 2.99,
+      "end": 3.082
+    },
+    {
+      "word": "voltariam",
+      "start": 3.094,
+      "end": 3.592
+    },
+    {
+      "word": "a",
+      "start": 3.603,
+      "end": 3.65
+    },
+    {
+      "word": "ver",
+      "start": 3.661,
+      "end": 3.835
+    },
+    {
+      "word": "a",
+      "start": 3.846,
+      "end": 3.904
+    },
+    {
+      "word": "banda",
+      "start": 3.916,
+      "end": 4.228
+    },
+    {
+      "word": "daquele",
+      "start": 4.24,
+      "end": 4.564
+    },
+    {
+      "word": "jeito",
+      "start": 4.575,
+      "end": 4.934
+    },
+    {
+      "word": "Depois",
+      "start": 5.729,
+      "end": 6.169
+    },
+    {
+      "word": "da",
+      "start": 6.181,
+      "end": 6.296
+    },
+    {
+      "word": "perda",
+      "start": 6.308,
+      "end": 6.597
+    },
+    {
+      "word": "de",
+      "start": 6.609,
+      "end": 6.701
+    },
+    {
+      "word": "Chester",
+      "start": 6.713,
+      "end": 7.118
+    },
+    {
+      "word": "Bennington",
+      "start": 7.13,
+      "end": 7.604
+    },
+    {
+      "word": "o",
+      "start": 7.882,
+      "end": 7.928
+    },
+    {
+      "word": "futuro",
+      "start": 7.94,
+      "end": 8.356
+    },
+    {
+      "word": "parecia",
+      "start": 8.368,
+      "end": 8.808
+    },
+    {
+      "word": "impossível",
+      "start": 8.819,
+      "end": 9.41
+    },
+    {
+      "word": "de",
+      "start": 9.421,
+      "end": 9.491
+    },
+    {
+      "word": "imaginar",
+      "start": 9.502,
+      "end": 10.0
+    },
+    {
+      "word": "Mas",
+      "start": 10.799,
+      "end": 11.192
+    },
+    {
+      "word": "em",
+      "start": 11.389,
+      "end": 11.458
+    },
+    {
+      "word": "setembro",
+      "start": 11.47,
+      "end": 11.944
+    },
+    {
+      "word": "de",
+      "start": 11.956,
+      "end": 12.025
+    },
+    {
+      "word": "2024",
+      "start": 12.037,
+      "end": 12.951
+    },
+    {
+      "word": "Mike",
+      "start": 13.218,
+      "end": 13.495
+    },
+    {
+      "word": "Shinoda",
+      "start": 13.507,
+      "end": 13.912
+    },
+    {
+      "word": "subiu",
+      "start": 13.924,
+      "end": 14.236
+    },
+    {
+      "word": "ao",
+      "start": 14.248,
+      "end": 14.363
+    },
+    {
+      "word": "palco",
+      "start": 14.375,
+      "end": 14.688
+    },
+    {
+      "word": "com",
+      "start": 14.699,
+      "end": 14.85
+    },
+    {
+      "word": "uma",
+      "start": 14.861,
+      "end": 14.954
+    },
+    {
+      "word": "notícia",
+      "start": 14.965,
+      "end": 15.405
+    },
+    {
+      "word": "que",
+      "start": 15.417,
+      "end": 15.521
+    },
+    {
+      "word": "mudaria",
+      "start": 15.532,
+      "end": 15.961
+    },
+    {
+      "word": "tudo",
+      "start": 15.972,
+      "end": 16.296
+    },
+    {
+      "word": "O",
+      "start": 17.095,
+      "end": 17.187
+    },
+    {
+      "word": "Linkin",
+      "start": 17.199,
+      "end": 17.546
+    },
+    {
+      "word": "Park",
+      "start": 17.558,
+      "end": 17.882
+    },
+    {
+      "word": "estava",
+      "start": 17.893,
+      "end": 18.16
+    },
+    {
+      "word": "de",
+      "start": 18.171,
+      "end": 18.264
+    },
+    {
+      "word": "volta",
+      "start": 18.275,
+      "end": 18.669
+    },
+    {
+      "word": "com",
+      "start": 18.912,
+      "end": 19.074
+    },
+    {
+      "word": "uma",
+      "start": 19.086,
+      "end": 19.225
+    },
+    {
+      "word": "nova",
+      "start": 19.236,
+      "end": 19.549
+    },
+    {
+      "word": "voz",
+      "start": 19.56,
+      "end": 19.965
+    },
+    {
+      "word": "Emily",
+      "start": 20.764,
+      "end": 21.111
+    },
+    {
+      "word": "Armstrong",
+      "start": 21.123,
+      "end": 21.736
+    },
+    {
+      "word": "No",
+      "start": 22.546,
+      "end": 22.697
+    },
+    {
+      "word": "dia",
+      "start": 22.708,
+      "end": 22.893
+    },
+    {
+      "word": "5 de setembro",
+      "start": 22.905,
+      "end": 23.877
+    },
+    {
+      "word": "a",
+      "start": 24.086,
+      "end": 24.167
+    },
+    {
+      "word": "banda",
+      "start": 24.178,
+      "end": 24.479
+    },
+    {
+      "word": "revelou",
+      "start": 24.491,
+      "end": 24.873
+    },
+    {
+      "word": "a",
+      "start": 24.884,
+      "end": 24.919
+    },
+    {
+      "word": "nova",
+      "start": 24.931,
+      "end": 25.185
+    },
+    {
+      "word": "formação",
+      "start": 25.197,
+      "end": 25.752
+    },
+    {
+      "word": "em",
+      "start": 25.764,
+      "end": 25.822
+    },
+    {
+      "word": "uma",
+      "start": 25.833,
+      "end": 25.937
+    },
+    {
+      "word": "apresentação",
+      "start": 25.949,
+      "end": 26.562
+    },
+    {
+      "word": "transmitida",
+      "start": 26.574,
+      "end": 27.187
+    },
+    {
+      "word": "para",
+      "start": 27.199,
+      "end": 27.35
+    },
+    {
+      "word": "o",
+      "start": 27.361,
+      "end": 27.384
+    },
+    {
+      "word": "mundo",
+      "start": 27.396,
+      "end": 27.674
+    },
+    {
+      "word": "inteiro",
+      "start": 27.685,
+      "end": 28.102
+    },
+    {
+      "word": "E",
+      "start": 28.9,
+      "end": 29.028
+    },
+    {
+      "word": "Emily",
+      "start": 29.039,
+      "end": 29.34
+    },
+    {
+      "word": "não",
+      "start": 29.352,
+      "end": 29.468
+    },
+    {
+      "word": "ficou",
+      "start": 29.479,
+      "end": 29.757
+    },
+    {
+      "word": "escondida",
+      "start": 29.768,
+      "end": 30.231
+    },
+    {
+      "word": "atrás",
+      "start": 30.243,
+      "end": 30.579
+    },
+    {
+      "word": "de",
+      "start": 30.59,
+      "end": 30.683
+    },
+    {
+      "word": "ninguém",
+      "start": 30.694,
+      "end": 31.076
+    },
+    {
+      "word": "Ela",
+      "start": 31.875,
+      "end": 32.095
+    },
+    {
+      "word": "entrou",
+      "start": 32.106,
+      "end": 32.35
+    },
+    {
+      "word": "no",
+      "start": 32.361,
+      "end": 32.465
+    },
+    {
+      "word": "palco",
+      "start": 32.477,
+      "end": 32.847
+    },
+    {
+      "word": "dividiu",
+      "start": 33.09,
+      "end": 33.449
+    },
+    {
+      "word": "os",
+      "start": 33.461,
+      "end": 33.542
+    },
+    {
+      "word": "vocais",
+      "start": 33.553,
+      "end": 33.958
+    },
+    {
+      "word": "com",
+      "start": 33.97,
+      "end": 34.144
+    },
+    {
+      "word": "Mike",
+      "start": 34.155,
+      "end": 34.456
+    },
+    {
+      "word": "e",
+      "start": 34.468,
+      "end": 34.491
+    },
+    {
+      "word": "mostrou",
+      "start": 34.502,
+      "end": 34.884
+    },
+    {
+      "word": "sua",
+      "start": 34.896,
+      "end": 35.093
+    },
+    {
+      "word": "força",
+      "start": 35.104,
+      "end": 35.44
+    },
+    {
+      "word": "em",
+      "start": 35.451,
+      "end": 35.532
+    },
+    {
+      "word": "The",
+      "start": 35.544,
+      "end": 35.66
+    },
+    {
+      "word": "Emptiness",
+      "start": 35.671,
+      "end": 36.146
+    },
+    {
+      "word": "Machine",
+      "start": 36.157,
+      "end": 36.701
+    },
+    {
+      "word": "Mas",
+      "start": 37.5,
+      "end": 37.685
+    },
+    {
+      "word": "a",
+      "start": 37.697,
+      "end": 37.789
+    },
+    {
+      "word": "história",
+      "start": 37.801,
+      "end": 38.183
+    },
+    {
+      "word": "ficou",
+      "start": 38.194,
+      "end": 38.484
+    },
+    {
+      "word": "ainda",
+      "start": 38.495,
+      "end": 38.773
+    },
+    {
+      "word": "mais",
+      "start": 38.785,
+      "end": 39.016
+    },
+    {
+      "word": "emocionante",
+      "start": 39.028,
+      "end": 39.63
+    },
+    {
+      "word": "alguns",
+      "start": 39.641,
+      "end": 39.942
+    },
+    {
+      "word": "dias",
+      "start": 39.954,
+      "end": 40.22
+    },
+    {
+      "word": "depois",
+      "start": 40.231,
+      "end": 40.764
+    },
+    {
+      "word": "No",
+      "start": 41.562,
+      "end": 41.736
+    },
+    {
+      "word": "Kia",
+      "start": 41.748,
+      "end": 42.025
+    },
+    {
+      "word": "Forum",
+      "start": 42.037,
+      "end": 42.384
+    },
+    {
+      "word": "em",
+      "start": 42.581,
+      "end": 42.65
+    },
+    {
+      "word": "Los",
+      "start": 42.662,
+      "end": 42.778
+    },
+    {
+      "word": "Angeles",
+      "start": 42.789,
+      "end": 43.356
+    },
+    {
+      "word": "Mike",
+      "start": 43.588,
+      "end": 43.889
+    },
+    {
+      "word": "olhou",
+      "start": 43.9,
+      "end": 44.132
+    },
+    {
+      "word": "para",
+      "start": 44.144,
+      "end": 44.271
+    },
+    {
+      "word": "a",
+      "start": 44.282,
+      "end": 44.306
+    },
+    {
+      "word": "plateia",
+      "start": 44.317,
+      "end": 44.769
+    },
+    {
+      "word": "e",
+      "start": 44.78,
+      "end": 44.815
+    },
+    {
+      "word": "perguntou",
+      "start": 44.826,
+      "end": 45.336
+    },
+    {
+      "word": "se",
+      "start": 45.347,
+      "end": 45.509
+    },
+    {
+      "word": "todos",
+      "start": 45.521,
+      "end": 45.856
+    },
+    {
+      "word": "já",
+      "start": 45.868,
+      "end": 45.972
+    },
+    {
+      "word": "conheciam",
+      "start": 45.984,
+      "end": 46.516
+    },
+    {
+      "word": "a",
+      "start": 46.528,
+      "end": 46.562
+    },
+    {
+      "word": "amiga",
+      "start": 46.574,
+      "end": 46.875
+    },
+    {
+      "word": "deles",
+      "start": 46.887,
+      "end": 47.326
+    },
+    {
+      "word": "Emily",
+      "start": 48.125,
+      "end": 48.588
+    },
+    {
+      "word": "A",
+      "start": 49.387,
+      "end": 49.479
+    },
+    {
+      "word": "reação",
+      "start": 49.491,
+      "end": 50.0
+    },
+    {
+      "word": "veio",
+      "start": 50.012,
+      "end": 50.243
+    },
+    {
+      "word": "em",
+      "start": 50.255,
+      "end": 50.324
+    },
+    {
+      "word": "forma",
+      "start": 50.336,
+      "end": 50.683
+    },
+    {
+      "word": "de",
+      "start": 50.694,
+      "end": 50.799
+    },
+    {
+      "word": "gritos",
+      "start": 50.81,
+      "end": 51.146
+    },
+    {
+      "word": "e",
+      "start": 51.157,
+      "end": 51.262
+    },
+    {
+      "word": "aplausos",
+      "start": 51.273,
+      "end": 51.898
+    },
+    {
+      "word": "Aquela",
+      "start": 52.697,
+      "end": 53.125
+    },
+    {
+      "word": "era",
+      "start": 53.137,
+      "end": 53.31
+    },
+    {
+      "word": "a",
+      "start": 53.322,
+      "end": 53.345
+    },
+    {
+      "word": "primeira",
+      "start": 53.356,
+      "end": 53.669
+    },
+    {
+      "word": "noite",
+      "start": 53.681,
+      "end": 54.005
+    },
+    {
+      "word": "da",
+      "start": 54.016,
+      "end": 54.109
+    },
+    {
+      "word": "nova",
+      "start": 54.12,
+      "end": 54.398
+    },
+    {
+      "word": "turnê",
+      "start": 54.41,
+      "end": 54.768
+    },
+    {
+      "word": "e",
+      "start": 55.093,
+      "end": 55.174
+    },
+    {
+      "word": "Emily",
+      "start": 55.185,
+      "end": 55.428
+    },
+    {
+      "word": "estava",
+      "start": 55.44,
+      "end": 55.729
+    },
+    {
+      "word": "diante",
+      "start": 55.741,
+      "end": 56.123
+    },
+    {
+      "word": "de",
+      "start": 56.134,
+      "end": 56.192
+    },
+    {
+      "word": "uma",
+      "start": 56.204,
+      "end": 56.308
+    },
+    {
+      "word": "arena",
+      "start": 56.319,
+      "end": 56.609
+    },
+    {
+      "word": "cheia",
+      "start": 56.62,
+      "end": 56.956
+    },
+    {
+      "word": "cantando",
+      "start": 57.188,
+      "end": 57.674
+    },
+    {
+      "word": "músicas",
+      "start": 57.685,
+      "end": 58.125
+    },
+    {
+      "word": "que",
+      "start": 58.137,
+      "end": 58.218
+    },
+    {
+      "word": "marcaram",
+      "start": 58.229,
+      "end": 58.657
+    },
+    {
+      "word": "gerações",
+      "start": 58.669,
+      "end": 59.329
+    },
+    {
+      "word": "Quando",
+      "start": 60.127,
+      "end": 60.37
+    },
+    {
+      "word": "chegaram",
+      "start": 60.382,
+      "end": 60.752
+    },
+    {
+      "word": "os",
+      "start": 60.764,
+      "end": 60.856
+    },
+    {
+      "word": "clássicos",
+      "start": 60.868,
+      "end": 61.435
+    },
+    {
+      "word": "milhares",
+      "start": 61.667,
+      "end": 62.06
+    },
+    {
+      "word": "de",
+      "start": 62.072,
+      "end": 62.153
+    },
+    {
+      "word": "pessoas",
+      "start": 62.164,
+      "end": 62.604
+    },
+    {
+      "word": "cantaram",
+      "start": 62.616,
+      "end": 63.032
+    },
+    {
+      "word": "junto",
+      "start": 63.044,
+      "end": 63.391
+    },
+    {
+      "word": "Mike",
+      "start": 64.19,
+      "end": 64.537
+    },
+    {
+      "word": "ainda",
+      "start": 64.549,
+      "end": 64.792
+    },
+    {
+      "word": "pediu",
+      "start": 64.803,
+      "end": 65.069
+    },
+    {
+      "word": "que",
+      "start": 65.081,
+      "end": 65.162
+    },
+    {
+      "word": "o",
+      "start": 65.174,
+      "end": 65.231
+    },
+    {
+      "word": "público",
+      "start": 65.243,
+      "end": 65.613
+    },
+    {
+      "word": "demonstrasse",
+      "start": 65.625,
+      "end": 66.146
+    },
+    {
+      "word": "carinho",
+      "start": 66.157,
+      "end": 66.505
+    },
+    {
+      "word": "por",
+      "start": 66.516,
+      "end": 66.667
+    },
+    {
+      "word": "Emily",
+      "start": 66.678,
+      "end": 67.025
+    },
+    {
+      "word": "e",
+      "start": 67.257,
+      "end": 67.326
+    },
+    {
+      "word": "a",
+      "start": 67.338,
+      "end": 67.396
+    },
+    {
+      "word": "resposta",
+      "start": 67.407,
+      "end": 67.963
+    },
+    {
+      "word": "foi",
+      "start": 67.975,
+      "end": 68.125
+    },
+    {
+      "word": "enorme",
+      "start": 68.137,
+      "end": 68.623
+    },
+    {
+      "word": "Ela",
+      "start": 69.421,
+      "end": 69.63
+    },
+    {
+      "word": "não",
+      "start": 69.641,
+      "end": 69.826
+    },
+    {
+      "word": "estava",
+      "start": 69.838,
+      "end": 70.197
+    },
+    {
+      "word": "tentando",
+      "start": 70.208,
+      "end": 70.648
+    },
+    {
+      "word": "ser",
+      "start": 70.66,
+      "end": 70.856
+    },
+    {
+      "word": "Chester",
+      "start": 70.868,
+      "end": 71.308
+    },
+    {
+      "word": "Estava",
+      "start": 72.106,
+      "end": 72.465
+    },
+    {
+      "word": "mostrando",
+      "start": 72.477,
+      "end": 72.963
+    },
+    {
+      "word": "quem",
+      "start": 72.975,
+      "end": 73.206
+    },
+    {
+      "word": "era",
+      "start": 73.218,
+      "end": 73.437
+    },
+    {
+      "word": "com",
+      "start": 73.715,
+      "end": 73.877
+    },
+    {
+      "word": "sua",
+      "start": 73.889,
+      "end": 74.097
+    },
+    {
+      "word": "própria",
+      "start": 74.109,
+      "end": 74.491
+    },
+    {
+      "word": "voz",
+      "start": 74.502,
+      "end": 74.907
+    },
+    {
+      "word": "sua",
+      "start": 75.15,
+      "end": 75.312
+    },
+    {
+      "word": "energia",
+      "start": 75.324,
+      "end": 75.775
+    },
+    {
+      "word": "e",
+      "start": 75.787,
+      "end": 75.822
+    },
+    {
+      "word": "sua",
+      "start": 75.833,
+      "end": 76.042
+    },
+    {
+      "word": "presença",
+      "start": 76.053,
+      "end": 76.597
+    },
+    {
+      "word": "E",
+      "start": 77.396,
+      "end": 77.488
+    },
+    {
+      "word": "Mike",
+      "start": 77.5,
+      "end": 77.847
+    },
+    {
+      "word": "deixou",
+      "start": 77.859,
+      "end": 78.16
+    },
+    {
+      "word": "claro",
+      "start": 78.171,
+      "end": 78.518
+    },
+    {
+      "word": "aquele",
+      "start": 78.796,
+      "end": 79.062
+    },
+    {
+      "word": "retorno",
+      "start": 79.074,
+      "end": 79.549
+    },
+    {
+      "word": "não",
+      "start": 79.56,
+      "end": 79.757
+    },
+    {
+      "word": "era",
+      "start": 79.769,
+      "end": 79.965
+    },
+    {
+      "word": "para",
+      "start": 79.977,
+      "end": 80.104
+    },
+    {
+      "word": "apagar",
+      "start": 80.116,
+      "end": 80.394
+    },
+    {
+      "word": "o",
+      "start": 80.405,
+      "end": 80.44
+    },
+    {
+      "word": "passado",
+      "start": 80.451,
+      "end": 80.949
+    },
+    {
+      "word": "era",
+      "start": 81.215,
+      "end": 81.435
+    },
+    {
+      "word": "para",
+      "start": 81.447,
+      "end": 81.609
+    },
+    {
+      "word": "começar",
+      "start": 81.62,
+      "end": 82.06
+    },
+    {
+      "word": "um",
+      "start": 82.072,
+      "end": 82.188
+    },
+    {
+      "word": "novo",
+      "start": 82.199,
+      "end": 82.488
+    },
+    {
+      "word": "capítulo",
+      "start": 82.5,
+      "end": 83.044
+    },
+    {
+      "word": "Naquela",
+      "start": 83.843,
+      "end": 84.248
+    },
+    {
+      "word": "noite",
+      "start": 84.259,
+      "end": 84.664
+    },
+    {
+      "word": "Emily",
+      "start": 84.896,
+      "end": 85.197
+    },
+    {
+      "word": "não",
+      "start": 85.208,
+      "end": 85.359
+    },
+    {
+      "word": "apenas",
+      "start": 85.37,
+      "end": 85.741
+    },
+    {
+      "word": "foi",
+      "start": 85.752,
+      "end": 85.891
+    },
+    {
+      "word": "apresentada",
+      "start": 85.903,
+      "end": 86.493
+    },
+    {
+      "word": "ao",
+      "start": 86.505,
+      "end": 86.609
+    },
+    {
+      "word": "público",
+      "start": 86.62,
+      "end": 87.049
+    },
+    {
+      "word": "Ela",
+      "start": 87.847,
+      "end": 88.079
+    },
+    {
+      "word": "começou",
+      "start": 88.09,
+      "end": 88.472
+    },
+    {
+      "word": "a",
+      "start": 88.484,
+      "end": 88.518
+    },
+    {
+      "word": "conquistar",
+      "start": 88.53,
+      "end": 89.005
+    },
+    {
+      "word": "seu",
+      "start": 89.016,
+      "end": 89.155
+    },
+    {
+      "word": "lugar",
+      "start": 89.167,
+      "end": 89.525
+    },
+    {
+      "word": "na",
+      "start": 89.537,
+      "end": 89.63
+    },
+    {
+      "word": "história",
+      "start": 89.641,
+      "end": 90.012
+    },
+    {
+      "word": "do",
+      "start": 90.023,
+      "end": 90.104
+    },
+    {
+      "word": "Linkin",
+      "start": 90.116,
+      "end": 90.475
+    },
+    {
+      "word": "Park",
+      "start": 90.486,
+      "end": 90.926
+    },
+    {
+      "word": "Você",
+      "start": 91.725,
+      "end": 92.014
+    },
+    {
+      "word": "lembra",
+      "start": 92.025,
+      "end": 92.338
+    },
+    {
+      "word": "da",
+      "start": 92.35,
+      "end": 92.442
+    },
+    {
+      "word": "primeira",
+      "start": 92.454,
+      "end": 92.789
+    },
+    {
+      "word": "vez",
+      "start": 92.801,
+      "end": 93.056
+    },
+    {
+      "word": "que",
+      "start": 93.067,
+      "end": 93.171
+    },
+    {
+      "word": "viu",
+      "start": 93.183,
+      "end": 93.391
+    },
+    {
+      "word": "Emily",
+      "start": 93.403,
+      "end": 93.6
+    },
+    {
+      "word": "cantando",
+      "start": 93.611,
+      "end": 94.097
+    },
+    {
+      "word": "com",
+      "start": 94.109,
+      "end": 94.259
+    },
+    {
+      "word": "a",
+      "start": 94.271,
+      "end": 94.306
+    },
+    {
+      "word": "banda",
+      "start": 94.317,
+      "end": 94.688
+    },
+    {
+      "word": "Conta",
+      "start": 95.486,
+      "end": 95.799
+    },
+    {
+      "word": "nos",
+      "start": 95.81,
+      "end": 95.984
+    },
+    {
+      "word": "comentários",
+      "start": 95.995,
+      "end": 96.782
+    }
+  ]
+}

@@ -1,0 +1,1192 @@
+{
+  "language": "pt-BR",
+  "duration": 78.047,
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+12%",
+  "segments": [
+    {
+      "start": 0.095,
+      "end": 17.455,
+      "text": "A música que definiu uma geração inteira foi criada em um quarto bagunçado, com um teclado de cinquenta dólares. Lançado em dois mil, o Hybrid Theory vendeu trinta milhões de cópias e virou o álbum de estreia mais vendido do século. Mas antes do estúdio, antes do Grammy, existia só o quarto do Mike Shinoda."
+    },
+    {
+      "start": 18.225,
+      "end": 31.094,
+      "text": "Ele tinha acabado de sair do colégio. Gravador de quatro faixas, uma guitarra ligada direto num amp minúsculo e um microfone. O próprio Mike contou depois: o setup inteiro valia mais ou menos trezentos dólares."
+    },
+    {
+      "start": 31.864,
+      "end": 40.804,
+      "text": "As primeiras versões das músicas nasceram ali, na casa dos pais. Ele não estava pensando em fazer um álbum. Mal estava pensando em formar uma banda."
+    },
+    {
+      "start": 41.574,
+      "end": 51.953,
+      "text": "A banda ainda se chamava Xero, e nenhuma gravadora queria. Um executivo ouviu as fitas e ligou de volta. Disse: isso não faz sentido, essas músicas soam muito bem."
+    },
+    {
+      "start": 52.723,
+      "end": 62.388,
+      "text": "Foi aí que tudo mudou. Crawling nasceu de um vocal que sobrara de outra música: Blue. Chester escreveu a letra, e Mike construiu a música em volta dela."
+    },
+    {
+      "start": 63.158,
+      "end": 75.547,
+      "text": "Em dois mil e dois, Crawling venceu o Grammy de Melhor Performance de Hard Rock. Um quarto bagunçado, um teclado barato, e uma música que ainda dá voz a milhões. Qual música do Linkin Park marcou a sua vida?"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.095,
+      "end": 5.597,
+      "text": "A música que definiu uma geração inteira foi criada em um quarto bagunçado, com um teclado de cinquenta dólares."
+    },
+    {
+      "start": 6.362,
+      "end": 12.422,
+      "text": "Lançado em dois mil, o Hybrid Theory vendeu trinta milhões de cópias e virou o álbum de estreia mais vendido do século."
+    },
+    {
+      "start": 13.192,
+      "end": 17.455,
+      "text": "Mas antes do estúdio, antes do Grammy, existia só o quarto do Mike Shinoda."
+    },
+    {
+      "start": 18.225,
+      "end": 20.145,
+      "text": "Ele tinha acabado de sair do colégio."
+    },
+    {
+      "start": 20.915,
+      "end": 25.525,
+      "text": "Gravador de quatro faixas, uma guitarra ligada direto num amp minúsculo e um microfone."
+    },
+    {
+      "start": 26.295,
+      "end": 31.094,
+      "text": "O próprio Mike contou depois: o setup inteiro valia mais ou menos trezentos dólares."
+    },
+    {
+      "start": 31.864,
+      "end": 35.324,
+      "text": "As primeiras versões das músicas nasceram ali, na casa dos pais."
+    },
+    {
+      "start": 36.094,
+      "end": 38.103,
+      "text": "Ele não estava pensando em fazer um álbum."
+    },
+    {
+      "start": 38.873,
+      "end": 40.804,
+      "text": "Mal estava pensando em formar uma banda."
+    },
+    {
+      "start": 41.574,
+      "end": 44.676,
+      "text": "A banda ainda se chamava Xero, e nenhuma gravadora queria."
+    },
+    {
+      "start": 45.446,
+      "end": 47.801,
+      "text": "Um executivo ouviu as fitas e ligou de volta."
+    },
+    {
+      "start": 48.571,
+      "end": 51.953,
+      "text": "Disse: isso não faz sentido, essas músicas soam muito bem."
+    },
+    {
+      "start": 52.723,
+      "end": 53.984,
+      "text": "Foi aí que tudo mudou."
+    },
+    {
+      "start": 54.754,
+      "end": 57.868,
+      "text": "Crawling nasceu de um vocal que sobrara de outra música: Blue."
+    },
+    {
+      "start": 58.638,
+      "end": 62.388,
+      "text": "Chester escreveu a letra, e Mike construiu a música em volta dela."
+    },
+    {
+      "start": 63.158,
+      "end": 67.21,
+      "text": "Em dois mil e dois, Crawling venceu o Grammy de Melhor Performance de Hard Rock."
+    },
+    {
+      "start": 67.98,
+      "end": 72.377,
+      "text": "Um quarto bagunçado, um teclado barato, e uma música que ainda dá voz a milhões."
+    },
+    {
+      "start": 73.147,
+      "end": 75.547,
+      "text": "Qual música do Linkin Park marcou a sua vida?"
+    }
+  ],
+  "words": [
+    {
+      "word": "A",
+      "start": 0.095,
+      "end": 0.184
+    },
+    {
+      "word": "música",
+      "start": 0.195,
+      "end": 0.608
+    },
+    {
+      "word": "que",
+      "start": 0.619,
+      "end": 0.686
+    },
+    {
+      "word": "definiu",
+      "start": 0.697,
+      "end": 1.054
+    },
+    {
+      "word": "uma",
+      "start": 1.066,
+      "end": 1.177
+    },
+    {
+      "word": "geração",
+      "start": 1.188,
+      "end": 1.579
+    },
+    {
+      "word": "inteira",
+      "start": 1.59,
+      "end": 1.947
+    },
+    {
+      "word": "foi",
+      "start": 1.958,
+      "end": 2.092
+    },
+    {
+      "word": "criada",
+      "start": 2.104,
+      "end": 2.505
+    },
+    {
+      "word": "em",
+      "start": 2.517,
+      "end": 2.583
+    },
+    {
+      "word": "um",
+      "start": 2.595,
+      "end": 2.695
+    },
+    {
+      "word": "quarto",
+      "start": 2.706,
+      "end": 3.019
+    },
+    {
+      "word": "bagunçado",
+      "start": 3.03,
+      "end": 3.621
+    },
+    {
+      "word": "com",
+      "start": 3.878,
+      "end": 3.979
+    },
+    {
+      "word": "um",
+      "start": 3.99,
+      "end": 4.046
+    },
+    {
+      "word": "teclado",
+      "start": 4.057,
+      "end": 4.47
+    },
+    {
+      "word": "de",
+      "start": 4.481,
+      "end": 4.57
+    },
+    {
+      "word": "cinquenta",
+      "start": 4.581,
+      "end": 5.072
+    },
+    {
+      "word": "dólares",
+      "start": 5.083,
+      "end": 5.597
+    },
+    {
+      "word": "Lançado",
+      "start": 6.362,
+      "end": 6.864
+    },
+    {
+      "word": "em",
+      "start": 6.875,
+      "end": 6.92
+    },
+    {
+      "word": "dois",
+      "start": 6.931,
+      "end": 7.143
+    },
+    {
+      "word": "mil",
+      "start": 7.154,
+      "end": 7.377
+    },
+    {
+      "word": "o",
+      "start": 7.701,
+      "end": 7.801
+    },
+    {
+      "word": "Hybrid",
+      "start": 7.812,
+      "end": 8.248
+    },
+    {
+      "word": "Theory",
+      "start": 8.259,
+      "end": 8.56
+    },
+    {
+      "word": "vendeu",
+      "start": 8.571,
+      "end": 8.917
+    },
+    {
+      "word": "trinta",
+      "start": 8.929,
+      "end": 9.196
+    },
+    {
+      "word": "milhões",
+      "start": 9.208,
+      "end": 9.554
+    },
+    {
+      "word": "de",
+      "start": 9.565,
+      "end": 9.654
+    },
+    {
+      "word": "cópias",
+      "start": 9.665,
+      "end": 10.011
+    },
+    {
+      "word": "e",
+      "start": 10.022,
+      "end": 10.134
+    },
+    {
+      "word": "virou",
+      "start": 10.145,
+      "end": 10.379
+    },
+    {
+      "word": "o",
+      "start": 10.391,
+      "end": 10.446
+    },
+    {
+      "word": "álbum",
+      "start": 10.458,
+      "end": 10.781
+    },
+    {
+      "word": "de",
+      "start": 10.792,
+      "end": 10.859
+    },
+    {
+      "word": "estreia",
+      "start": 10.871,
+      "end": 11.194
+    },
+    {
+      "word": "mais",
+      "start": 11.205,
+      "end": 11.429
+    },
+    {
+      "word": "vendido",
+      "start": 11.44,
+      "end": 11.842
+    },
+    {
+      "word": "do",
+      "start": 11.853,
+      "end": 11.953
+    },
+    {
+      "word": "século",
+      "start": 11.964,
+      "end": 12.422
+    },
+    {
+      "word": "Mas",
+      "start": 13.192,
+      "end": 13.393
+    },
+    {
+      "word": "antes",
+      "start": 13.404,
+      "end": 13.806
+    },
+    {
+      "word": "do",
+      "start": 13.817,
+      "end": 13.884
+    },
+    {
+      "word": "estúdio",
+      "start": 13.895,
+      "end": 14.364
+    },
+    {
+      "word": "antes",
+      "start": 14.565,
+      "end": 14.855
+    },
+    {
+      "word": "do",
+      "start": 14.866,
+      "end": 14.944
+    },
+    {
+      "word": "Grammy",
+      "start": 14.955,
+      "end": 15.301
+    },
+    {
+      "word": "existia",
+      "start": 15.547,
+      "end": 15.971
+    },
+    {
+      "word": "só",
+      "start": 15.982,
+      "end": 16.138
+    },
+    {
+      "word": "o",
+      "start": 16.15,
+      "end": 16.205
+    },
+    {
+      "word": "quarto",
+      "start": 16.216,
+      "end": 16.574
+    },
+    {
+      "word": "do",
+      "start": 16.585,
+      "end": 16.685
+    },
+    {
+      "word": "Mike",
+      "start": 16.696,
+      "end": 16.998
+    },
+    {
+      "word": "Shinoda",
+      "start": 17.009,
+      "end": 17.455
+    },
+    {
+      "word": "Ele",
+      "start": 18.225,
+      "end": 18.415
+    },
+    {
+      "word": "tinha",
+      "start": 18.426,
+      "end": 18.605
+    },
+    {
+      "word": "acabado",
+      "start": 18.616,
+      "end": 19.107
+    },
+    {
+      "word": "de",
+      "start": 19.118,
+      "end": 19.208
+    },
+    {
+      "word": "sair",
+      "start": 19.219,
+      "end": 19.576
+    },
+    {
+      "word": "do",
+      "start": 19.587,
+      "end": 19.676
+    },
+    {
+      "word": "colégio",
+      "start": 19.688,
+      "end": 20.145
+    },
+    {
+      "word": "Gravador",
+      "start": 20.915,
+      "end": 21.44
+    },
+    {
+      "word": "de",
+      "start": 21.451,
+      "end": 21.562
+    },
+    {
+      "word": "quatro",
+      "start": 21.574,
+      "end": 21.897
+    },
+    {
+      "word": "faixas",
+      "start": 21.909,
+      "end": 22.388
+    },
+    {
+      "word": "uma",
+      "start": 22.645,
+      "end": 22.835
+    },
+    {
+      "word": "guitarra",
+      "start": 22.846,
+      "end": 23.17
+    },
+    {
+      "word": "ligada",
+      "start": 23.181,
+      "end": 23.538
+    },
+    {
+      "word": "direto",
+      "start": 23.549,
+      "end": 23.917
+    },
+    {
+      "word": "num",
+      "start": 23.929,
+      "end": 24.074
+    },
+    {
+      "word": "amp",
+      "start": 24.085,
+      "end": 24.163
+    },
+    {
+      "word": "minúsculo",
+      "start": 24.174,
+      "end": 24.721
+    },
+    {
+      "word": "e",
+      "start": 24.732,
+      "end": 24.799
+    },
+    {
+      "word": "um",
+      "start": 24.81,
+      "end": 24.9
+    },
+    {
+      "word": "microfone",
+      "start": 24.911,
+      "end": 25.525
+    },
+    {
+      "word": "O",
+      "start": 26.295,
+      "end": 26.417
+    },
+    {
+      "word": "próprio",
+      "start": 26.429,
+      "end": 26.819
+    },
+    {
+      "word": "Mike",
+      "start": 26.83,
+      "end": 27.132
+    },
+    {
+      "word": "contou",
+      "start": 27.143,
+      "end": 27.489
+    },
+    {
+      "word": "depois",
+      "start": 27.5,
+      "end": 27.946
+    },
+    {
+      "word": "o",
+      "start": 28.203,
+      "end": 28.248
+    },
+    {
+      "word": "setup",
+      "start": 28.259,
+      "end": 28.683
+    },
+    {
+      "word": "inteiro",
+      "start": 28.694,
+      "end": 29.007
+    },
+    {
+      "word": "valia",
+      "start": 29.018,
+      "end": 29.319
+    },
+    {
+      "word": "mais",
+      "start": 29.33,
+      "end": 29.554
+    },
+    {
+      "word": "ou",
+      "start": 29.565,
+      "end": 29.699
+    },
+    {
+      "word": "menos",
+      "start": 29.71,
+      "end": 30.045
+    },
+    {
+      "word": "trezentos",
+      "start": 30.056,
+      "end": 30.591
+    },
+    {
+      "word": "dólares",
+      "start": 30.603,
+      "end": 31.094
+    },
+    {
+      "word": "As",
+      "start": 31.864,
+      "end": 32.042
+    },
+    {
+      "word": "primeiras",
+      "start": 32.054,
+      "end": 32.411
+    },
+    {
+      "word": "versões",
+      "start": 32.422,
+      "end": 32.812
+    },
+    {
+      "word": "das",
+      "start": 32.824,
+      "end": 32.991
+    },
+    {
+      "word": "músicas",
+      "start": 33.002,
+      "end": 33.393
+    },
+    {
+      "word": "nasceram",
+      "start": 33.404,
+      "end": 33.795
+    },
+    {
+      "word": "ali",
+      "start": 33.806,
+      "end": 34.018
+    },
+    {
+      "word": "na",
+      "start": 34.286,
+      "end": 34.453
+    },
+    {
+      "word": "casa",
+      "start": 34.464,
+      "end": 34.732
+    },
+    {
+      "word": "dos",
+      "start": 34.743,
+      "end": 34.9
+    },
+    {
+      "word": "pais",
+      "start": 34.911,
+      "end": 35.324
+    },
+    {
+      "word": "Ele",
+      "start": 36.094,
+      "end": 36.283
+    },
+    {
+      "word": "não",
+      "start": 36.295,
+      "end": 36.429
+    },
+    {
+      "word": "estava",
+      "start": 36.44,
+      "end": 36.708
+    },
+    {
+      "word": "pensando",
+      "start": 36.719,
+      "end": 37.188
+    },
+    {
+      "word": "em",
+      "start": 37.199,
+      "end": 37.254
+    },
+    {
+      "word": "fazer",
+      "start": 37.266,
+      "end": 37.567
+    },
+    {
+      "word": "um",
+      "start": 37.578,
+      "end": 37.734
+    },
+    {
+      "word": "álbum",
+      "start": 37.746,
+      "end": 38.103
+    },
+    {
+      "word": "Mal",
+      "start": 38.873,
+      "end": 39.074
+    },
+    {
+      "word": "estava",
+      "start": 39.085,
+      "end": 39.364
+    },
+    {
+      "word": "pensando",
+      "start": 39.375,
+      "end": 39.844
+    },
+    {
+      "word": "em",
+      "start": 39.855,
+      "end": 39.911
+    },
+    {
+      "word": "formar",
+      "start": 39.922,
+      "end": 40.279
+    },
+    {
+      "word": "uma",
+      "start": 40.29,
+      "end": 40.424
+    },
+    {
+      "word": "banda",
+      "start": 40.435,
+      "end": 40.804
+    },
+    {
+      "word": "A",
+      "start": 41.574,
+      "end": 41.674
+    },
+    {
+      "word": "banda",
+      "start": 41.685,
+      "end": 42.031
+    },
+    {
+      "word": "ainda",
+      "start": 42.042,
+      "end": 42.277
+    },
+    {
+      "word": "se",
+      "start": 42.288,
+      "end": 42.388
+    },
+    {
+      "word": "chamava",
+      "start": 42.4,
+      "end": 42.757
+    },
+    {
+      "word": "Xero",
+      "start": 42.768,
+      "end": 43.136
+    },
+    {
+      "word": "e",
+      "start": 43.371,
+      "end": 43.437
+    },
+    {
+      "word": "nenhuma",
+      "start": 43.449,
+      "end": 43.761
+    },
+    {
+      "word": "gravadora",
+      "start": 43.772,
+      "end": 44.275
+    },
+    {
+      "word": "queria",
+      "start": 44.286,
+      "end": 44.676
+    },
+    {
+      "word": "Um",
+      "start": 45.446,
+      "end": 45.569
+    },
+    {
+      "word": "executivo",
+      "start": 45.58,
+      "end": 46.138
+    },
+    {
+      "word": "ouviu",
+      "start": 46.15,
+      "end": 46.462
+    },
+    {
+      "word": "as",
+      "start": 46.473,
+      "end": 46.618
+    },
+    {
+      "word": "fitas",
+      "start": 46.629,
+      "end": 46.886
+    },
+    {
+      "word": "e",
+      "start": 46.897,
+      "end": 46.987
+    },
+    {
+      "word": "ligou",
+      "start": 46.998,
+      "end": 47.31
+    },
+    {
+      "word": "de",
+      "start": 47.321,
+      "end": 47.422
+    },
+    {
+      "word": "volta",
+      "start": 47.433,
+      "end": 47.801
+    },
+    {
+      "word": "Disse",
+      "start": 48.571,
+      "end": 49.018
+    },
+    {
+      "word": "isso",
+      "start": 49.263,
+      "end": 49.475
+    },
+    {
+      "word": "não",
+      "start": 49.487,
+      "end": 49.621
+    },
+    {
+      "word": "faz",
+      "start": 49.632,
+      "end": 49.821
+    },
+    {
+      "word": "sentido",
+      "start": 49.833,
+      "end": 50.301
+    },
+    {
+      "word": "essas",
+      "start": 50.469,
+      "end": 50.737
+    },
+    {
+      "word": "músicas",
+      "start": 50.748,
+      "end": 51.172
+    },
+    {
+      "word": "soam",
+      "start": 51.183,
+      "end": 51.373
+    },
+    {
+      "word": "muito",
+      "start": 51.384,
+      "end": 51.708
+    },
+    {
+      "word": "bem",
+      "start": 51.719,
+      "end": 51.953
+    },
+    {
+      "word": "Foi",
+      "start": 52.723,
+      "end": 52.969
+    },
+    {
+      "word": "aí",
+      "start": 52.98,
+      "end": 53.203
+    },
+    {
+      "word": "que",
+      "start": 53.214,
+      "end": 53.348
+    },
+    {
+      "word": "tudo",
+      "start": 53.359,
+      "end": 53.594
+    },
+    {
+      "word": "mudou",
+      "start": 53.605,
+      "end": 53.984
+    },
+    {
+      "word": "Crawling",
+      "start": 54.754,
+      "end": 55.112
+    },
+    {
+      "word": "nasceu",
+      "start": 55.123,
+      "end": 55.469
+    },
+    {
+      "word": "de",
+      "start": 55.48,
+      "end": 55.536
+    },
+    {
+      "word": "um",
+      "start": 55.547,
+      "end": 55.614
+    },
+    {
+      "word": "vocal",
+      "start": 55.625,
+      "end": 55.993
+    },
+    {
+      "word": "que",
+      "start": 56.004,
+      "end": 56.094
+    },
+    {
+      "word": "sobrara",
+      "start": 56.105,
+      "end": 56.507
+    },
+    {
+      "word": "de",
+      "start": 56.518,
+      "end": 56.63
+    },
+    {
+      "word": "outra",
+      "start": 56.641,
+      "end": 56.897
+    },
+    {
+      "word": "música",
+      "start": 56.908,
+      "end": 57.333
+    },
+    {
+      "word": "Blue",
+      "start": 57.567,
+      "end": 57.868
+    },
+    {
+      "word": "Chester",
+      "start": 58.638,
+      "end": 59.051
+    },
+    {
+      "word": "escreveu",
+      "start": 59.062,
+      "end": 59.487
+    },
+    {
+      "word": "a",
+      "start": 59.498,
+      "end": 59.542
+    },
+    {
+      "word": "letra",
+      "start": 59.554,
+      "end": 59.922
+    },
+    {
+      "word": "e",
+      "start": 60.234,
+      "end": 60.312
+    },
+    {
+      "word": "Mike",
+      "start": 60.324,
+      "end": 60.692
+    },
+    {
+      "word": "construiu",
+      "start": 60.703,
+      "end": 61.217
+    },
+    {
+      "word": "a",
+      "start": 61.228,
+      "end": 61.283
+    },
+    {
+      "word": "música",
+      "start": 61.295,
+      "end": 61.663
+    },
+    {
+      "word": "em",
+      "start": 61.674,
+      "end": 61.752
+    },
+    {
+      "word": "volta",
+      "start": 61.763,
+      "end": 62.076
+    },
+    {
+      "word": "dela",
+      "start": 62.087,
+      "end": 62.388
+    },
+    {
+      "word": "Em",
+      "start": 63.158,
+      "end": 63.27
+    },
+    {
+      "word": "dois",
+      "start": 63.281,
+      "end": 63.471
+    },
+    {
+      "word": "mil",
+      "start": 63.482,
+      "end": 63.571
+    },
+    {
+      "word": "e",
+      "start": 63.583,
+      "end": 63.638
+    },
+    {
+      "word": "dois",
+      "start": 63.65,
+      "end": 63.94
+    },
+    {
+      "word": "Crawling",
+      "start": 64.152,
+      "end": 64.52
+    },
+    {
+      "word": "venceu",
+      "start": 64.531,
+      "end": 64.911
+    },
+    {
+      "word": "o",
+      "start": 64.922,
+      "end": 64.955
+    },
+    {
+      "word": "Grammy",
+      "start": 64.966,
+      "end": 65.29
+    },
+    {
+      "word": "de",
+      "start": 65.301,
+      "end": 65.391
+    },
+    {
+      "word": "Melhor",
+      "start": 65.402,
+      "end": 65.67
+    },
+    {
+      "word": "Performance",
+      "start": 65.681,
+      "end": 66.362
+    },
+    {
+      "word": "de",
+      "start": 66.373,
+      "end": 66.473
+    },
+    {
+      "word": "Hard",
+      "start": 66.484,
+      "end": 66.808
+    },
+    {
+      "word": "Rock",
+      "start": 66.819,
+      "end": 67.21
+    },
+    {
+      "word": "Um",
+      "start": 67.98,
+      "end": 68.147
+    },
+    {
+      "word": "quarto",
+      "start": 68.159,
+      "end": 68.471
+    },
+    {
+      "word": "bagunçado",
+      "start": 68.482,
+      "end": 69.051
+    },
+    {
+      "word": "um",
+      "start": 69.152,
+      "end": 69.241
+    },
+    {
+      "word": "teclado",
+      "start": 69.252,
+      "end": 69.609
+    },
+    {
+      "word": "barato",
+      "start": 69.621,
+      "end": 70.067
+    },
+    {
+      "word": "e",
+      "start": 70.301,
+      "end": 70.391
+    },
+    {
+      "word": "uma",
+      "start": 70.402,
+      "end": 70.547
+    },
+    {
+      "word": "música",
+      "start": 70.558,
+      "end": 70.971
+    },
+    {
+      "word": "que",
+      "start": 70.982,
+      "end": 71.083
+    },
+    {
+      "word": "ainda",
+      "start": 71.094,
+      "end": 71.384
+    },
+    {
+      "word": "dá",
+      "start": 71.395,
+      "end": 71.507
+    },
+    {
+      "word": "voz",
+      "start": 71.518,
+      "end": 71.685
+    },
+    {
+      "word": "a",
+      "start": 71.696,
+      "end": 71.797
+    },
+    {
+      "word": "milhões",
+      "start": 71.808,
+      "end": 72.377
+    },
+    {
+      "word": "Qual",
+      "start": 73.147,
+      "end": 73.348
+    },
+    {
+      "word": "música",
+      "start": 73.359,
+      "end": 73.784
+    },
+    {
+      "word": "do",
+      "start": 73.795,
+      "end": 73.873
+    },
+    {
+      "word": "Linkin",
+      "start": 73.884,
+      "end": 74.196
+    },
+    {
+      "word": "Park",
+      "start": 74.208,
+      "end": 74.52
+    },
+    {
+      "word": "marcou",
+      "start": 74.531,
+      "end": 74.888
+    },
+    {
+      "word": "a",
+      "start": 74.9,
+      "end": 74.944
+    },
+    {
+      "word": "sua",
+      "start": 74.955,
+      "end": 75.234
+    },
+    {
+      "word": "vida",
+      "start": 75.246,
+      "end": 75.547
+    }
+  ]
+}

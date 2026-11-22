@@ -1,0 +1,1297 @@
+{
+  "language": "pt-BR",
+  "duration": 87.533,
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+15%",
+  "segments": [
+    {
+      "start": 0.093,
+      "end": 17.033,
+      "text": "Emily Armstrong não fez uma audição tradicional para entrar no Linkin Park… e um comentário de Joe Hahn ajudou a mudar tudo. A história começou anos antes do anúncio. Em 2019, Emily, vocalista do Dead Sara, começou a trabalhar com Mike Shinoda em algumas sessões de composição."
+    },
+    {
+      "start": 17.043,
+      "end": 33.087,
+      "text": "Naquela época, eles não estavam procurando uma nova cantora para o Linkin Park. Estavam apenas fazendo música. Anos depois, Mike voltou a trabalhar com Emily e outros músicos, enquanto a banda tentava descobrir como seguir em frente. E foi aí que algo começou a mudar."
+    },
+    {
+      "start": 33.098,
+      "end": 52.011,
+      "text": "Mike percebeu que, quando Emily cantava nas novas músicas, pela primeira vez aquela voz fazia sua cabeça aceitar: isso soa como Linkin Park. Mas a grande virada aconteceu durante uma conversa no estúdio. Joe Hahn perguntou se Emily poderia cantar músicas inteiras, como vocal principal, para que eles ouvissem como ficariam."
+    },
+    {
+      "start": 52.022,
+      "end": 69.587,
+      "text": "Mike ficou surpreso. Ele já acreditava nela… mas agora Joe também tinha chegado àquela conclusão sozinho. As sessões deixaram de ser apenas encontros para escrever música. Emily começou a se tornar parte do futuro da banda. E quando finalmente recebeu o convite, ela mal conseguia acreditar."
+    },
+    {
+      "start": 69.598,
+      "end": 86.033,
+      "text": "A garota que começou apenas compondo com Mike Shinoda acabou se tornando uma das vozes do novo Linkin Park. Não foi uma audição comum. Foi uma conexão musical que cresceu até se tornar uma nova história. Você acha que Emily combina com o novo Linkin Park? Conta nos comentários."
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.093,
+      "end": 5.8,
+      "text": "Emily Armstrong não fez uma audição tradicional para entrar no Linkin Park… e um comentário de Joe Hahn ajudou a mudar tudo."
+    },
+    {
+      "start": 6.543,
+      "end": 8.587,
+      "text": "A história começou anos antes do anúncio."
+    },
+    {
+      "start": 9.337,
+      "end": 17.033,
+      "text": "Em 2019, Emily, vocalista do Dead Sara, começou a trabalhar com Mike Shinoda em algumas sessões de composição."
+    },
+    {
+      "start": 17.043,
+      "end": 23.696,
+      "text": "Naquela época, eles não estavam procurando uma nova cantora para o Linkin Park. Estavam apenas fazendo música."
+    },
+    {
+      "start": 23.707,
+      "end": 30.348,
+      "text": "Anos depois, Mike voltou a trabalhar com Emily e outros músicos, enquanto a banda tentava descobrir como seguir em frente."
+    },
+    {
+      "start": 30.359,
+      "end": 33.087,
+      "text": "E foi aí que algo começou a mudar."
+    },
+    {
+      "start": 33.098,
+      "end": 41.261,
+      "text": "Mike percebeu que, quando Emily cantava nas novas músicas, pela primeira vez aquela voz fazia sua cabeça aceitar: isso soa como Linkin Park."
+    },
+    {
+      "start": 41.272,
+      "end": 44.891,
+      "text": "Mas a grande virada aconteceu durante uma conversa no estúdio."
+    },
+    {
+      "start": 44.902,
+      "end": 52.011,
+      "text": "Joe Hahn perguntou se Emily poderia cantar músicas inteiras, como vocal principal, para que eles ouvissem como ficariam."
+    },
+    {
+      "start": 52.022,
+      "end": 58.696,
+      "text": "Mike ficou surpreso. Ele já acreditava nela… mas agora Joe também tinha chegado àquela conclusão sozinho."
+    },
+    {
+      "start": 58.707,
+      "end": 65.598,
+      "text": "As sessões deixaram de ser apenas encontros para escrever música. Emily começou a se tornar parte do futuro da banda."
+    },
+    {
+      "start": 65.609,
+      "end": 69.587,
+      "text": "E quando finalmente recebeu o convite, ela mal conseguia acreditar."
+    },
+    {
+      "start": 69.598,
+      "end": 75.826,
+      "text": "A garota que começou apenas compondo com Mike Shinoda acabou se tornando uma das vozes do novo Linkin Park."
+    },
+    {
+      "start": 75.837,
+      "end": 81.859,
+      "text": "Não foi uma audição comum. Foi uma conexão musical que cresceu até se tornar uma nova história."
+    },
+    {
+      "start": 81.87,
+      "end": 86.033,
+      "text": "Você acha que Emily combina com o novo Linkin Park? Conta nos comentários."
+    }
+  ],
+  "words": [
+    {
+      "word": "Emily",
+      "start": 0.093,
+      "end": 0.365
+    },
+    {
+      "word": "Armstrong",
+      "start": 0.376,
+      "end": 0.789
+    },
+    {
+      "word": "não",
+      "start": 0.8,
+      "end": 0.952
+    },
+    {
+      "word": "fez",
+      "start": 0.963,
+      "end": 1.093
+    },
+    {
+      "word": "uma",
+      "start": 1.104,
+      "end": 1.246
+    },
+    {
+      "word": "audição",
+      "start": 1.257,
+      "end": 1.637
+    },
+    {
+      "word": "tradicional",
+      "start": 1.648,
+      "end": 2.159
+    },
+    {
+      "word": "para",
+      "start": 2.17,
+      "end": 2.3
+    },
+    {
+      "word": "entrar",
+      "start": 2.311,
+      "end": 2.594
+    },
+    {
+      "word": "no",
+      "start": 2.604,
+      "end": 2.702
+    },
+    {
+      "word": "Linkin",
+      "start": 2.713,
+      "end": 3.028
+    },
+    {
+      "word": "Park",
+      "start": 3.039,
+      "end": 3.376
+    },
+    {
+      "word": "e",
+      "start": 3.659,
+      "end": 3.724
+    },
+    {
+      "word": "um",
+      "start": 3.735,
+      "end": 3.822
+    },
+    {
+      "word": "comentário",
+      "start": 3.833,
+      "end": 4.365
+    },
+    {
+      "word": "de",
+      "start": 4.376,
+      "end": 4.452
+    },
+    {
+      "word": "Joe",
+      "start": 4.463,
+      "end": 4.615
+    },
+    {
+      "word": "Hahn",
+      "start": 4.626,
+      "end": 4.822
+    },
+    {
+      "word": "ajudou",
+      "start": 4.833,
+      "end": 5.137
+    },
+    {
+      "word": "a",
+      "start": 5.148,
+      "end": 5.18
+    },
+    {
+      "word": "mudar",
+      "start": 5.191,
+      "end": 5.474
+    },
+    {
+      "word": "tudo",
+      "start": 5.485,
+      "end": 5.8
+    },
+    {
+      "word": "A",
+      "start": 6.543,
+      "end": 6.641
+    },
+    {
+      "word": "história",
+      "start": 6.652,
+      "end": 7.033
+    },
+    {
+      "word": "começou",
+      "start": 7.043,
+      "end": 7.467
+    },
+    {
+      "word": "anos",
+      "start": 7.478,
+      "end": 7.685
+    },
+    {
+      "word": "antes",
+      "start": 7.696,
+      "end": 8.043
+    },
+    {
+      "word": "do",
+      "start": 8.054,
+      "end": 8.163
+    },
+    {
+      "word": "anúncio",
+      "start": 8.174,
+      "end": 8.587
+    },
+    {
+      "word": "Em 2019",
+      "start": 9.337,
+      "end": 10.315
+    },
+    {
+      "word": "Emily",
+      "start": 10.511,
+      "end": 10.815
+    },
+    {
+      "word": "vocalista",
+      "start": 11.13,
+      "end": 11.663
+    },
+    {
+      "word": "do",
+      "start": 11.674,
+      "end": 11.761
+    },
+    {
+      "word": "Dead",
+      "start": 11.772,
+      "end": 12.0
+    },
+    {
+      "word": "Sara",
+      "start": 12.011,
+      "end": 12.337
+    },
+    {
+      "word": "começou",
+      "start": 12.533,
+      "end": 12.967
+    },
+    {
+      "word": "a",
+      "start": 12.978,
+      "end": 13.022
+    },
+    {
+      "word": "trabalhar",
+      "start": 13.033,
+      "end": 13.457
+    },
+    {
+      "word": "com",
+      "start": 13.467,
+      "end": 13.63
+    },
+    {
+      "word": "Mike",
+      "start": 13.641,
+      "end": 13.902
+    },
+    {
+      "word": "Shinoda",
+      "start": 13.913,
+      "end": 14.293
+    },
+    {
+      "word": "em",
+      "start": 14.304,
+      "end": 14.359
+    },
+    {
+      "word": "algumas",
+      "start": 14.37,
+      "end": 14.728
+    },
+    {
+      "word": "sessões",
+      "start": 14.739,
+      "end": 15.13
+    },
+    {
+      "word": "de",
+      "start": 15.141,
+      "end": 15.206
+    },
+    {
+      "word": "composição",
+      "start": 15.217,
+      "end": 15.87
+    },
+    {
+      "word": "Naquela",
+      "start": 16.62,
+      "end": 17.033
+    },
+    {
+      "word": "época",
+      "start": 17.043,
+      "end": 17.391
+    },
+    {
+      "word": "eles",
+      "start": 17.576,
+      "end": 17.728
+    },
+    {
+      "word": "não",
+      "start": 17.739,
+      "end": 17.859
+    },
+    {
+      "word": "estavam",
+      "start": 17.87,
+      "end": 18.185
+    },
+    {
+      "word": "procurando",
+      "start": 18.196,
+      "end": 18.609
+    },
+    {
+      "word": "uma",
+      "start": 18.62,
+      "end": 18.728
+    },
+    {
+      "word": "nova",
+      "start": 18.739,
+      "end": 18.978
+    },
+    {
+      "word": "cantora",
+      "start": 18.989,
+      "end": 19.456
+    },
+    {
+      "word": "para",
+      "start": 19.467,
+      "end": 19.62
+    },
+    {
+      "word": "o",
+      "start": 19.63,
+      "end": 19.641
+    },
+    {
+      "word": "Linkin",
+      "start": 19.652,
+      "end": 19.967
+    },
+    {
+      "word": "Park",
+      "start": 19.978,
+      "end": 20.38
+    },
+    {
+      "word": "Estavam",
+      "start": 21.13,
+      "end": 21.565
+    },
+    {
+      "word": "apenas",
+      "start": 21.576,
+      "end": 21.935
+    },
+    {
+      "word": "fazendo",
+      "start": 21.946,
+      "end": 22.293
+    },
+    {
+      "word": "música",
+      "start": 22.304,
+      "end": 22.696
+    },
+    {
+      "word": "Anos",
+      "start": 23.446,
+      "end": 23.696
+    },
+    {
+      "word": "depois",
+      "start": 23.707,
+      "end": 24.13
+    },
+    {
+      "word": "Mike",
+      "start": 24.315,
+      "end": 24.641
+    },
+    {
+      "word": "voltou",
+      "start": 24.652,
+      "end": 24.956
+    },
+    {
+      "word": "a",
+      "start": 24.967,
+      "end": 25.0
+    },
+    {
+      "word": "trabalhar",
+      "start": 25.011,
+      "end": 25.402
+    },
+    {
+      "word": "com",
+      "start": 25.413,
+      "end": 25.598
+    },
+    {
+      "word": "Emily",
+      "start": 25.609,
+      "end": 25.859
+    },
+    {
+      "word": "e",
+      "start": 25.87,
+      "end": 25.924
+    },
+    {
+      "word": "outros",
+      "start": 25.935,
+      "end": 26.207
+    },
+    {
+      "word": "músicos",
+      "start": 26.217,
+      "end": 26.674
+    },
+    {
+      "word": "enquanto",
+      "start": 26.946,
+      "end": 27.261
+    },
+    {
+      "word": "a",
+      "start": 27.272,
+      "end": 27.315
+    },
+    {
+      "word": "banda",
+      "start": 27.326,
+      "end": 27.576
+    },
+    {
+      "word": "tentava",
+      "start": 27.587,
+      "end": 27.957
+    },
+    {
+      "word": "descobrir",
+      "start": 27.967,
+      "end": 28.424
+    },
+    {
+      "word": "como",
+      "start": 28.435,
+      "end": 28.663
+    },
+    {
+      "word": "seguir",
+      "start": 28.674,
+      "end": 28.946
+    },
+    {
+      "word": "em",
+      "start": 28.957,
+      "end": 29.043
+    },
+    {
+      "word": "frente",
+      "start": 29.054,
+      "end": 29.478
+    },
+    {
+      "word": "E",
+      "start": 30.228,
+      "end": 30.348
+    },
+    {
+      "word": "foi",
+      "start": 30.359,
+      "end": 30.565
+    },
+    {
+      "word": "aí",
+      "start": 30.576,
+      "end": 30.804
+    },
+    {
+      "word": "que",
+      "start": 30.815,
+      "end": 30.924
+    },
+    {
+      "word": "algo",
+      "start": 30.935,
+      "end": 31.163
+    },
+    {
+      "word": "começou",
+      "start": 31.174,
+      "end": 31.598
+    },
+    {
+      "word": "a",
+      "start": 31.609,
+      "end": 31.63
+    },
+    {
+      "word": "mudar",
+      "start": 31.641,
+      "end": 31.978
+    },
+    {
+      "word": "Mike",
+      "start": 32.728,
+      "end": 33.087
+    },
+    {
+      "word": "percebeu",
+      "start": 33.098,
+      "end": 33.554
+    },
+    {
+      "word": "que",
+      "start": 33.565,
+      "end": 33.761
+    },
+    {
+      "word": "quando",
+      "start": 34.0,
+      "end": 34.217
+    },
+    {
+      "word": "Emily",
+      "start": 34.228,
+      "end": 34.478
+    },
+    {
+      "word": "cantava",
+      "start": 34.489,
+      "end": 34.88
+    },
+    {
+      "word": "nas",
+      "start": 34.891,
+      "end": 35.033
+    },
+    {
+      "word": "novas",
+      "start": 35.043,
+      "end": 35.326
+    },
+    {
+      "word": "músicas",
+      "start": 35.337,
+      "end": 35.815
+    },
+    {
+      "word": "pela",
+      "start": 36.022,
+      "end": 36.207
+    },
+    {
+      "word": "primeira",
+      "start": 36.217,
+      "end": 36.522
+    },
+    {
+      "word": "vez",
+      "start": 36.533,
+      "end": 36.717
+    },
+    {
+      "word": "aquela",
+      "start": 36.728,
+      "end": 37.043
+    },
+    {
+      "word": "voz",
+      "start": 37.054,
+      "end": 37.261
+    },
+    {
+      "word": "fazia",
+      "start": 37.272,
+      "end": 37.641
+    },
+    {
+      "word": "sua",
+      "start": 37.652,
+      "end": 37.826
+    },
+    {
+      "word": "cabeça",
+      "start": 37.837,
+      "end": 38.239
+    },
+    {
+      "word": "aceitar",
+      "start": 38.25,
+      "end": 38.63
+    },
+    {
+      "word": "isso",
+      "start": 38.924,
+      "end": 39.141
+    },
+    {
+      "word": "soa",
+      "start": 39.152,
+      "end": 39.391
+    },
+    {
+      "word": "como",
+      "start": 39.402,
+      "end": 39.62
+    },
+    {
+      "word": "Linkin",
+      "start": 39.63,
+      "end": 39.956
+    },
+    {
+      "word": "Park",
+      "start": 39.967,
+      "end": 40.337
+    },
+    {
+      "word": "Mas",
+      "start": 41.087,
+      "end": 41.261
+    },
+    {
+      "word": "a",
+      "start": 41.272,
+      "end": 41.413
+    },
+    {
+      "word": "grande",
+      "start": 41.424,
+      "end": 41.707
+    },
+    {
+      "word": "virada",
+      "start": 41.717,
+      "end": 42.022
+    },
+    {
+      "word": "aconteceu",
+      "start": 42.033,
+      "end": 42.446
+    },
+    {
+      "word": "durante",
+      "start": 42.457,
+      "end": 42.728
+    },
+    {
+      "word": "uma",
+      "start": 42.739,
+      "end": 42.859
+    },
+    {
+      "word": "conversa",
+      "start": 42.87,
+      "end": 43.38
+    },
+    {
+      "word": "no",
+      "start": 43.391,
+      "end": 43.467
+    },
+    {
+      "word": "estúdio",
+      "start": 43.478,
+      "end": 43.913
+    },
+    {
+      "word": "Joe",
+      "start": 44.663,
+      "end": 44.891
+    },
+    {
+      "word": "Hahn",
+      "start": 44.902,
+      "end": 45.087
+    },
+    {
+      "word": "perguntou",
+      "start": 45.098,
+      "end": 45.63
+    },
+    {
+      "word": "se",
+      "start": 45.641,
+      "end": 45.783
+    },
+    {
+      "word": "Emily",
+      "start": 45.794,
+      "end": 46.044
+    },
+    {
+      "word": "poderia",
+      "start": 46.054,
+      "end": 46.391
+    },
+    {
+      "word": "cantar",
+      "start": 46.402,
+      "end": 46.75
+    },
+    {
+      "word": "músicas",
+      "start": 46.761,
+      "end": 47.12
+    },
+    {
+      "word": "inteiras",
+      "start": 47.13,
+      "end": 47.696
+    },
+    {
+      "word": "como",
+      "start": 47.924,
+      "end": 48.13
+    },
+    {
+      "word": "vocal",
+      "start": 48.141,
+      "end": 48.456
+    },
+    {
+      "word": "principal",
+      "start": 48.467,
+      "end": 48.978
+    },
+    {
+      "word": "para",
+      "start": 49.228,
+      "end": 49.402
+    },
+    {
+      "word": "que",
+      "start": 49.413,
+      "end": 49.543
+    },
+    {
+      "word": "eles",
+      "start": 49.554,
+      "end": 49.685
+    },
+    {
+      "word": "ouvissem",
+      "start": 49.696,
+      "end": 50.141
+    },
+    {
+      "word": "como",
+      "start": 50.152,
+      "end": 50.37
+    },
+    {
+      "word": "ficariam",
+      "start": 50.38,
+      "end": 50.891
+    },
+    {
+      "word": "Mike",
+      "start": 51.641,
+      "end": 52.011
+    },
+    {
+      "word": "ficou",
+      "start": 52.022,
+      "end": 52.283
+    },
+    {
+      "word": "surpreso",
+      "start": 52.294,
+      "end": 52.848
+    },
+    {
+      "word": "Ele",
+      "start": 53.598,
+      "end": 53.793
+    },
+    {
+      "word": "já",
+      "start": 53.804,
+      "end": 53.935
+    },
+    {
+      "word": "acreditava",
+      "start": 53.946,
+      "end": 54.435
+    },
+    {
+      "word": "nela",
+      "start": 54.446,
+      "end": 54.739
+    },
+    {
+      "word": "mas",
+      "start": 55.011,
+      "end": 55.087
+    },
+    {
+      "word": "agora",
+      "start": 55.098,
+      "end": 55.478
+    },
+    {
+      "word": "Joe",
+      "start": 55.489,
+      "end": 55.63
+    },
+    {
+      "word": "também",
+      "start": 55.641,
+      "end": 55.989
+    },
+    {
+      "word": "tinha",
+      "start": 56.0,
+      "end": 56.163
+    },
+    {
+      "word": "chegado",
+      "start": 56.174,
+      "end": 56.511
+    },
+    {
+      "word": "àquela",
+      "start": 56.522,
+      "end": 56.75
+    },
+    {
+      "word": "conclusão",
+      "start": 56.761,
+      "end": 57.239
+    },
+    {
+      "word": "sozinho",
+      "start": 57.25,
+      "end": 57.783
+    },
+    {
+      "word": "As",
+      "start": 58.533,
+      "end": 58.696
+    },
+    {
+      "word": "sessões",
+      "start": 58.707,
+      "end": 59.13
+    },
+    {
+      "word": "deixaram",
+      "start": 59.141,
+      "end": 59.489
+    },
+    {
+      "word": "de",
+      "start": 59.5,
+      "end": 59.587
+    },
+    {
+      "word": "ser",
+      "start": 59.598,
+      "end": 59.739
+    },
+    {
+      "word": "apenas",
+      "start": 59.75,
+      "end": 60.033
+    },
+    {
+      "word": "encontros",
+      "start": 60.044,
+      "end": 60.609
+    },
+    {
+      "word": "para",
+      "start": 60.62,
+      "end": 60.75
+    },
+    {
+      "word": "escrever",
+      "start": 60.761,
+      "end": 61.185
+    },
+    {
+      "word": "música",
+      "start": 61.196,
+      "end": 61.609
+    },
+    {
+      "word": "Emily",
+      "start": 62.359,
+      "end": 62.641
+    },
+    {
+      "word": "começou",
+      "start": 62.652,
+      "end": 63.043
+    },
+    {
+      "word": "a",
+      "start": 63.054,
+      "end": 63.087
+    },
+    {
+      "word": "se",
+      "start": 63.098,
+      "end": 63.207
+    },
+    {
+      "word": "tornar",
+      "start": 63.217,
+      "end": 63.533
+    },
+    {
+      "word": "parte",
+      "start": 63.544,
+      "end": 63.848
+    },
+    {
+      "word": "do",
+      "start": 63.859,
+      "end": 63.957
+    },
+    {
+      "word": "futuro",
+      "start": 63.967,
+      "end": 64.315
+    },
+    {
+      "word": "da",
+      "start": 64.326,
+      "end": 64.413
+    },
+    {
+      "word": "banda",
+      "start": 64.424,
+      "end": 64.761
+    },
+    {
+      "word": "E",
+      "start": 65.511,
+      "end": 65.598
+    },
+    {
+      "word": "quando",
+      "start": 65.609,
+      "end": 65.859
+    },
+    {
+      "word": "finalmente",
+      "start": 65.87,
+      "end": 66.391
+    },
+    {
+      "word": "recebeu",
+      "start": 66.402,
+      "end": 66.739
+    },
+    {
+      "word": "o",
+      "start": 66.75,
+      "end": 66.783
+    },
+    {
+      "word": "convite",
+      "start": 66.793,
+      "end": 67.261
+    },
+    {
+      "word": "ela",
+      "start": 67.413,
+      "end": 67.587
+    },
+    {
+      "word": "mal",
+      "start": 67.598,
+      "end": 67.772
+    },
+    {
+      "word": "conseguia",
+      "start": 67.783,
+      "end": 68.207
+    },
+    {
+      "word": "acreditar",
+      "start": 68.217,
+      "end": 68.728
+    },
+    {
+      "word": "A",
+      "start": 69.478,
+      "end": 69.587
+    },
+    {
+      "word": "garota",
+      "start": 69.598,
+      "end": 69.989
+    },
+    {
+      "word": "que",
+      "start": 70.0,
+      "end": 70.098
+    },
+    {
+      "word": "começou",
+      "start": 70.109,
+      "end": 70.5
+    },
+    {
+      "word": "apenas",
+      "start": 70.511,
+      "end": 70.88
+    },
+    {
+      "word": "compondo",
+      "start": 70.891,
+      "end": 71.359
+    },
+    {
+      "word": "com",
+      "start": 71.37,
+      "end": 71.511
+    },
+    {
+      "word": "Mike",
+      "start": 71.522,
+      "end": 71.804
+    },
+    {
+      "word": "Shinoda",
+      "start": 71.815,
+      "end": 72.206
+    },
+    {
+      "word": "acabou",
+      "start": 72.217,
+      "end": 72.543
+    },
+    {
+      "word": "se",
+      "start": 72.554,
+      "end": 72.674
+    },
+    {
+      "word": "tornando",
+      "start": 72.685,
+      "end": 73.076
+    },
+    {
+      "word": "uma",
+      "start": 73.087,
+      "end": 73.217
+    },
+    {
+      "word": "das",
+      "start": 73.228,
+      "end": 73.391
+    },
+    {
+      "word": "vozes",
+      "start": 73.402,
+      "end": 73.717
+    },
+    {
+      "word": "do",
+      "start": 73.728,
+      "end": 73.837
+    },
+    {
+      "word": "novo",
+      "start": 73.848,
+      "end": 74.109
+    },
+    {
+      "word": "Linkin",
+      "start": 74.12,
+      "end": 74.446
+    },
+    {
+      "word": "Park",
+      "start": 74.457,
+      "end": 74.837
+    },
+    {
+      "word": "Não",
+      "start": 75.587,
+      "end": 75.826
+    },
+    {
+      "word": "foi",
+      "start": 75.837,
+      "end": 76.022
+    },
+    {
+      "word": "uma",
+      "start": 76.033,
+      "end": 76.13
+    },
+    {
+      "word": "audição",
+      "start": 76.141,
+      "end": 76.576
+    },
+    {
+      "word": "comum",
+      "start": 76.587,
+      "end": 76.924
+    },
+    {
+      "word": "Foi",
+      "start": 77.674,
+      "end": 77.859
+    },
+    {
+      "word": "uma",
+      "start": 77.87,
+      "end": 77.989
+    },
+    {
+      "word": "conexão",
+      "start": 78.0,
+      "end": 78.435
+    },
+    {
+      "word": "musical",
+      "start": 78.446,
+      "end": 78.859
+    },
+    {
+      "word": "que",
+      "start": 78.87,
+      "end": 78.957
+    },
+    {
+      "word": "cresceu",
+      "start": 78.967,
+      "end": 79.304
+    },
+    {
+      "word": "até",
+      "start": 79.315,
+      "end": 79.478
+    },
+    {
+      "word": "se",
+      "start": 79.489,
+      "end": 79.609
+    },
+    {
+      "word": "tornar",
+      "start": 79.62,
+      "end": 79.957
+    },
+    {
+      "word": "uma",
+      "start": 79.967,
+      "end": 80.098
+    },
+    {
+      "word": "nova",
+      "start": 80.109,
+      "end": 80.37
+    },
+    {
+      "word": "história",
+      "start": 80.38,
+      "end": 80.783
+    },
+    {
+      "word": "Você",
+      "start": 81.533,
+      "end": 81.859
+    },
+    {
+      "word": "acha",
+      "start": 81.87,
+      "end": 82.13
+    },
+    {
+      "word": "que",
+      "start": 82.141,
+      "end": 82.261
+    },
+    {
+      "word": "Emily",
+      "start": 82.272,
+      "end": 82.511
+    },
+    {
+      "word": "combina",
+      "start": 82.522,
+      "end": 82.946
+    },
+    {
+      "word": "com",
+      "start": 82.957,
+      "end": 83.109
+    },
+    {
+      "word": "o",
+      "start": 83.12,
+      "end": 83.141
+    },
+    {
+      "word": "novo",
+      "start": 83.152,
+      "end": 83.391
+    },
+    {
+      "word": "Linkin",
+      "start": 83.402,
+      "end": 83.685
+    },
+    {
+      "word": "Park",
+      "start": 83.696,
+      "end": 84.065
+    },
+    {
+      "word": "Conta",
+      "start": 84.815,
+      "end": 85.109
+    },
+    {
+      "word": "nos",
+      "start": 85.12,
+      "end": 85.283
+    },
+    {
+      "word": "comentários",
+      "start": 85.293,
+      "end": 86.033
+    }
+  ]
+}

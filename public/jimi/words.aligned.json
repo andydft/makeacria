@@ -1,0 +1,1259 @@
+{
+  "language": "pt",
+  "duration": 131.893,
+  "note": "Approximate word timings generated from script text distributed over voice.wav duration (proportional by word length and punctuation pauses). Not ASR-aligned; manual adjustment recommended for tight sync.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.726,
+      "text": "Antes de fazer uma guitarra gritar, Jimi Hendrix ensaiava com uma vassoura."
+    },
+    {
+      "start": 7.976,
+      "end": 19.622,
+      "text": "Na Seattle dos anos 1950, ele era um garoto sem dinheiro, sem professor e com a cabeça cheia do blues que ouvia no rádio."
+    },
+    {
+      "start": 19.872,
+      "end": 31.849,
+      "text": "Sem ter um instrumento, dedilhava o cabo da vassoura como se ele tivesse cordas, copiando no ar as músicas que imaginava."
+    },
+    {
+      "start": 32.099,
+      "end": 42.792,
+      "text": "Ouvia discos de Elvis Presley e de mestres do blues, e tentava repetir cada nota, uma por uma, só de ouvido."
+    },
+    {
+      "start": 43.042,
+      "end": 57.1,
+      "text": "Em 1958, aos quinze anos, conseguiu enfim um violão acústico usado, comprado por cinco dólares, e passou a praticar por horas todos os dias."
+    },
+    {
+      "start": 57.35,
+      "end": 66.604,
+      "text": "Ele não sabia ler partituras. Então errava, ouvia, ajustava as mãos e tentava de novo."
+    },
+    {
+      "start": 66.854,
+      "end": 76.396,
+      "text": "Até que, um dia, o som que saía dos dedos dele finalmente era igual ao som que ele tinha na cabeça."
+    },
+    {
+      "start": 76.646,
+      "end": 82.601,
+      "text": "Felizmente, ninguém ensinou a ele o jeito certo de tocar."
+    },
+    {
+      "start": 82.851,
+      "end": 89.028,
+      "text": "Infelizmente, ninguém ensinou a ele o jeito certo de tocar."
+    },
+    {
+      "start": 89.278,
+      "end": 103.137,
+      "text": "Aprender de ouvido é como jogar uma bola na parede no escuro: você arremessa, escuta onde ela bate e muda o movimento até o som voltar certinho."
+    },
+    {
+      "start": 103.387,
+      "end": 110.671,
+      "text": "Cada nota errada era só um quique, mostrando para onde as mãos deviam ir."
+    },
+    {
+      "start": 110.921,
+      "end": 119.422,
+      "text": "O garoto da vassoura não aprendeu apenas a tocar músicas. Ele aprendeu a escutar."
+    },
+    {
+      "start": 119.672,
+      "end": 131.893,
+      "text": "E foi assim que um menino com um violão de cinco dólares acabou transformando seis cordas em algo que o mundo nunca tinha ouvido."
+    }
+  ],
+  "words": [
+    {
+      "word": "Antes",
+      "start": 0.0,
+      "end": 0.553
+    },
+    {
+      "word": "de",
+      "start": 0.553,
+      "end": 0.775
+    },
+    {
+      "word": "fazer",
+      "start": 0.775,
+      "end": 1.328
+    },
+    {
+      "word": "uma",
+      "start": 1.328,
+      "end": 1.66
+    },
+    {
+      "word": "guitarra",
+      "start": 1.66,
+      "end": 2.546
+    },
+    {
+      "word": "gritar,",
+      "start": 2.546,
+      "end": 3.476
+    },
+    {
+      "word": "Jimi",
+      "start": 3.476,
+      "end": 3.919
+    },
+    {
+      "word": "Hendrix",
+      "start": 3.919,
+      "end": 4.693
+    },
+    {
+      "word": "ensaiava",
+      "start": 4.693,
+      "end": 5.579
+    },
+    {
+      "word": "com",
+      "start": 5.579,
+      "end": 5.911
+    },
+    {
+      "word": "uma",
+      "start": 5.911,
+      "end": 6.243
+    },
+    {
+      "word": "vassoura.",
+      "start": 6.243,
+      "end": 7.726
+    },
+    {
+      "word": "Na",
+      "start": 7.976,
+      "end": 8.198
+    },
+    {
+      "word": "Seattle",
+      "start": 8.198,
+      "end": 8.973
+    },
+    {
+      "word": "dos",
+      "start": 8.973,
+      "end": 9.305
+    },
+    {
+      "word": "anos",
+      "start": 9.305,
+      "end": 9.748
+    },
+    {
+      "word": "1950,",
+      "start": 9.748,
+      "end": 10.456
+    },
+    {
+      "word": "ele",
+      "start": 10.456,
+      "end": 10.788
+    },
+    {
+      "word": "era",
+      "start": 10.788,
+      "end": 11.12
+    },
+    {
+      "word": "um",
+      "start": 11.12,
+      "end": 11.342
+    },
+    {
+      "word": "garoto",
+      "start": 11.342,
+      "end": 12.006
+    },
+    {
+      "word": "sem",
+      "start": 12.006,
+      "end": 12.338
+    },
+    {
+      "word": "dinheiro,",
+      "start": 12.338,
+      "end": 13.489
+    },
+    {
+      "word": "sem",
+      "start": 13.489,
+      "end": 13.821
+    },
+    {
+      "word": "professor",
+      "start": 13.821,
+      "end": 14.817
+    },
+    {
+      "word": "e",
+      "start": 14.817,
+      "end": 14.928
+    },
+    {
+      "word": "com",
+      "start": 14.928,
+      "end": 15.26
+    },
+    {
+      "word": "a",
+      "start": 15.26,
+      "end": 15.371
+    },
+    {
+      "word": "cabeça",
+      "start": 15.371,
+      "end": 16.035
+    },
+    {
+      "word": "cheia",
+      "start": 16.035,
+      "end": 16.589
+    },
+    {
+      "word": "do",
+      "start": 16.589,
+      "end": 16.81
+    },
+    {
+      "word": "blues",
+      "start": 16.81,
+      "end": 17.363
+    },
+    {
+      "word": "que",
+      "start": 17.363,
+      "end": 17.695
+    },
+    {
+      "word": "ouvia",
+      "start": 17.695,
+      "end": 18.249
+    },
+    {
+      "word": "no",
+      "start": 18.249,
+      "end": 18.47
+    },
+    {
+      "word": "rádio.",
+      "start": 18.47,
+      "end": 19.622
+    },
+    {
+      "word": "Sem",
+      "start": 19.872,
+      "end": 20.204
+    },
+    {
+      "word": "ter",
+      "start": 20.204,
+      "end": 20.536
+    },
+    {
+      "word": "um",
+      "start": 20.536,
+      "end": 20.757
+    },
+    {
+      "word": "instrumento,",
+      "start": 20.757,
+      "end": 22.24
+    },
+    {
+      "word": "dedilhava",
+      "start": 22.24,
+      "end": 23.237
+    },
+    {
+      "word": "o",
+      "start": 23.237,
+      "end": 23.347
+    },
+    {
+      "word": "cabo",
+      "start": 23.347,
+      "end": 23.79
+    },
+    {
+      "word": "da",
+      "start": 23.79,
+      "end": 24.012
+    },
+    {
+      "word": "vassoura",
+      "start": 24.012,
+      "end": 24.897
+    },
+    {
+      "word": "como",
+      "start": 24.897,
+      "end": 25.34
+    },
+    {
+      "word": "se",
+      "start": 25.34,
+      "end": 25.561
+    },
+    {
+      "word": "ele",
+      "start": 25.561,
+      "end": 25.893
+    },
+    {
+      "word": "tivesse",
+      "start": 25.893,
+      "end": 26.668
+    },
+    {
+      "word": "cordas,",
+      "start": 26.668,
+      "end": 27.598
+    },
+    {
+      "word": "copiando",
+      "start": 27.598,
+      "end": 28.484
+    },
+    {
+      "word": "no",
+      "start": 28.484,
+      "end": 28.705
+    },
+    {
+      "word": "ar",
+      "start": 28.705,
+      "end": 28.926
+    },
+    {
+      "word": "as",
+      "start": 28.926,
+      "end": 29.148
+    },
+    {
+      "word": "músicas",
+      "start": 29.148,
+      "end": 29.923
+    },
+    {
+      "word": "que",
+      "start": 29.923,
+      "end": 30.255
+    },
+    {
+      "word": "imaginava.",
+      "start": 30.255,
+      "end": 31.849
+    },
+    {
+      "word": "Ouvia",
+      "start": 32.099,
+      "end": 32.652
+    },
+    {
+      "word": "discos",
+      "start": 32.652,
+      "end": 33.316
+    },
+    {
+      "word": "de",
+      "start": 33.316,
+      "end": 33.538
+    },
+    {
+      "word": "Elvis",
+      "start": 33.538,
+      "end": 34.091
+    },
+    {
+      "word": "Presley",
+      "start": 34.091,
+      "end": 34.866
+    },
+    {
+      "word": "e",
+      "start": 34.866,
+      "end": 34.977
+    },
+    {
+      "word": "de",
+      "start": 34.977,
+      "end": 35.198
+    },
+    {
+      "word": "mestres",
+      "start": 35.198,
+      "end": 35.973
+    },
+    {
+      "word": "do",
+      "start": 35.973,
+      "end": 36.194
+    },
+    {
+      "word": "blues,",
+      "start": 36.194,
+      "end": 37.014
+    },
+    {
+      "word": "e",
+      "start": 37.014,
+      "end": 37.124
+    },
+    {
+      "word": "tentava",
+      "start": 37.124,
+      "end": 37.899
+    },
+    {
+      "word": "repetir",
+      "start": 37.899,
+      "end": 38.674
+    },
+    {
+      "word": "cada",
+      "start": 38.674,
+      "end": 39.117
+    },
+    {
+      "word": "nota,",
+      "start": 39.117,
+      "end": 39.825
+    },
+    {
+      "word": "uma",
+      "start": 39.825,
+      "end": 40.157
+    },
+    {
+      "word": "por",
+      "start": 40.157,
+      "end": 40.489
+    },
+    {
+      "word": "uma,",
+      "start": 40.489,
+      "end": 41.087
+    },
+    {
+      "word": "só",
+      "start": 41.087,
+      "end": 41.309
+    },
+    {
+      "word": "de",
+      "start": 41.309,
+      "end": 41.53
+    },
+    {
+      "word": "ouvido.",
+      "start": 41.53,
+      "end": 42.792
+    },
+    {
+      "word": "Em",
+      "start": 43.042,
+      "end": 43.263
+    },
+    {
+      "word": "1958,",
+      "start": 43.263,
+      "end": 43.972
+    },
+    {
+      "word": "aos",
+      "start": 43.972,
+      "end": 44.304
+    },
+    {
+      "word": "quinze",
+      "start": 44.304,
+      "end": 44.968
+    },
+    {
+      "word": "anos,",
+      "start": 44.968,
+      "end": 45.676
+    },
+    {
+      "word": "conseguiu",
+      "start": 45.676,
+      "end": 46.673
+    },
+    {
+      "word": "enfim",
+      "start": 46.673,
+      "end": 47.226
+    },
+    {
+      "word": "um",
+      "start": 47.226,
+      "end": 47.447
+    },
+    {
+      "word": "violão",
+      "start": 47.447,
+      "end": 48.112
+    },
+    {
+      "word": "acústico",
+      "start": 48.112,
+      "end": 48.997
+    },
+    {
+      "word": "usado,",
+      "start": 48.997,
+      "end": 49.816
+    },
+    {
+      "word": "comprado",
+      "start": 49.816,
+      "end": 50.702
+    },
+    {
+      "word": "por",
+      "start": 50.702,
+      "end": 51.034
+    },
+    {
+      "word": "cinco",
+      "start": 51.034,
+      "end": 51.587
+    },
+    {
+      "word": "dólares,",
+      "start": 51.587,
+      "end": 52.628
+    },
+    {
+      "word": "e",
+      "start": 52.628,
+      "end": 52.739
+    },
+    {
+      "word": "passou",
+      "start": 52.739,
+      "end": 53.403
+    },
+    {
+      "word": "a",
+      "start": 53.403,
+      "end": 53.514
+    },
+    {
+      "word": "praticar",
+      "start": 53.514,
+      "end": 54.399
+    },
+    {
+      "word": "por",
+      "start": 54.399,
+      "end": 54.731
+    },
+    {
+      "word": "horas",
+      "start": 54.731,
+      "end": 55.285
+    },
+    {
+      "word": "todos",
+      "start": 55.285,
+      "end": 55.838
+    },
+    {
+      "word": "os",
+      "start": 55.838,
+      "end": 56.06
+    },
+    {
+      "word": "dias.",
+      "start": 56.06,
+      "end": 57.1
+    },
+    {
+      "word": "Ele",
+      "start": 57.35,
+      "end": 57.682
+    },
+    {
+      "word": "não",
+      "start": 57.682,
+      "end": 58.014
+    },
+    {
+      "word": "sabia",
+      "start": 58.014,
+      "end": 58.568
+    },
+    {
+      "word": "ler",
+      "start": 58.568,
+      "end": 58.9
+    },
+    {
+      "word": "partituras.",
+      "start": 58.9,
+      "end": 60.604
+    },
+    {
+      "word": "Então",
+      "start": 60.604,
+      "end": 61.158
+    },
+    {
+      "word": "errava,",
+      "start": 61.158,
+      "end": 62.088
+    },
+    {
+      "word": "ouvia,",
+      "start": 62.088,
+      "end": 62.907
+    },
+    {
+      "word": "ajustava",
+      "start": 62.907,
+      "end": 63.792
+    },
+    {
+      "word": "as",
+      "start": 63.792,
+      "end": 64.014
+    },
+    {
+      "word": "mãos",
+      "start": 64.014,
+      "end": 64.457
+    },
+    {
+      "word": "e",
+      "start": 64.457,
+      "end": 64.567
+    },
+    {
+      "word": "tentava",
+      "start": 64.567,
+      "end": 65.342
+    },
+    {
+      "word": "de",
+      "start": 65.342,
+      "end": 65.564
+    },
+    {
+      "word": "novo.",
+      "start": 65.564,
+      "end": 66.604
+    },
+    {
+      "word": "Até",
+      "start": 66.854,
+      "end": 67.186
+    },
+    {
+      "word": "que,",
+      "start": 67.186,
+      "end": 67.784
+    },
+    {
+      "word": "um",
+      "start": 67.784,
+      "end": 68.005
+    },
+    {
+      "word": "dia,",
+      "start": 68.005,
+      "end": 68.603
+    },
+    {
+      "word": "o",
+      "start": 68.603,
+      "end": 68.714
+    },
+    {
+      "word": "som",
+      "start": 68.714,
+      "end": 69.046
+    },
+    {
+      "word": "que",
+      "start": 69.046,
+      "end": 69.378
+    },
+    {
+      "word": "saía",
+      "start": 69.378,
+      "end": 69.821
+    },
+    {
+      "word": "dos",
+      "start": 69.821,
+      "end": 70.153
+    },
+    {
+      "word": "dedos",
+      "start": 70.153,
+      "end": 70.706
+    },
+    {
+      "word": "dele",
+      "start": 70.706,
+      "end": 71.149
+    },
+    {
+      "word": "finalmente",
+      "start": 71.149,
+      "end": 72.256
+    },
+    {
+      "word": "era",
+      "start": 72.256,
+      "end": 72.588
+    },
+    {
+      "word": "igual",
+      "start": 72.588,
+      "end": 73.142
+    },
+    {
+      "word": "ao",
+      "start": 73.142,
+      "end": 73.363
+    },
+    {
+      "word": "som",
+      "start": 73.363,
+      "end": 73.695
+    },
+    {
+      "word": "que",
+      "start": 73.695,
+      "end": 74.027
+    },
+    {
+      "word": "ele",
+      "start": 74.027,
+      "end": 74.359
+    },
+    {
+      "word": "tinha",
+      "start": 74.359,
+      "end": 74.913
+    },
+    {
+      "word": "na",
+      "start": 74.913,
+      "end": 75.134
+    },
+    {
+      "word": "cabeça.",
+      "start": 75.134,
+      "end": 76.396
+    },
+    {
+      "word": "Felizmente,",
+      "start": 76.646,
+      "end": 78.019
+    },
+    {
+      "word": "ninguém",
+      "start": 78.019,
+      "end": 78.793
+    },
+    {
+      "word": "ensinou",
+      "start": 78.793,
+      "end": 79.568
+    },
+    {
+      "word": "a",
+      "start": 79.568,
+      "end": 79.679
+    },
+    {
+      "word": "ele",
+      "start": 79.679,
+      "end": 80.011
+    },
+    {
+      "word": "o",
+      "start": 80.011,
+      "end": 80.122
+    },
+    {
+      "word": "jeito",
+      "start": 80.122,
+      "end": 80.675
+    },
+    {
+      "word": "certo",
+      "start": 80.675,
+      "end": 81.229
+    },
+    {
+      "word": "de",
+      "start": 81.229,
+      "end": 81.45
+    },
+    {
+      "word": "tocar.",
+      "start": 81.45,
+      "end": 82.601
+    },
+    {
+      "word": "Infelizmente,",
+      "start": 82.851,
+      "end": 84.445
+    },
+    {
+      "word": "ninguém",
+      "start": 84.445,
+      "end": 85.22
+    },
+    {
+      "word": "ensinou",
+      "start": 85.22,
+      "end": 85.995
+    },
+    {
+      "word": "a",
+      "start": 85.995,
+      "end": 86.106
+    },
+    {
+      "word": "ele",
+      "start": 86.106,
+      "end": 86.438
+    },
+    {
+      "word": "o",
+      "start": 86.438,
+      "end": 86.549
+    },
+    {
+      "word": "jeito",
+      "start": 86.549,
+      "end": 87.102
+    },
+    {
+      "word": "certo",
+      "start": 87.102,
+      "end": 87.656
+    },
+    {
+      "word": "de",
+      "start": 87.656,
+      "end": 87.877
+    },
+    {
+      "word": "tocar.",
+      "start": 87.877,
+      "end": 89.028
+    },
+    {
+      "word": "Aprender",
+      "start": 89.278,
+      "end": 90.164
+    },
+    {
+      "word": "de",
+      "start": 90.164,
+      "end": 90.385
+    },
+    {
+      "word": "ouvido",
+      "start": 90.385,
+      "end": 91.049
+    },
+    {
+      "word": "é",
+      "start": 91.049,
+      "end": 91.16
+    },
+    {
+      "word": "como",
+      "start": 91.16,
+      "end": 91.603
+    },
+    {
+      "word": "jogar",
+      "start": 91.603,
+      "end": 92.156
+    },
+    {
+      "word": "uma",
+      "start": 92.156,
+      "end": 92.488
+    },
+    {
+      "word": "bola",
+      "start": 92.488,
+      "end": 92.931
+    },
+    {
+      "word": "na",
+      "start": 92.931,
+      "end": 93.152
+    },
+    {
+      "word": "parede",
+      "start": 93.152,
+      "end": 93.817
+    },
+    {
+      "word": "no",
+      "start": 93.817,
+      "end": 94.038
+    },
+    {
+      "word": "escuro:",
+      "start": 94.038,
+      "end": 94.968
+    },
+    {
+      "word": "você",
+      "start": 94.968,
+      "end": 95.411
+    },
+    {
+      "word": "arremessa,",
+      "start": 95.411,
+      "end": 96.673
+    },
+    {
+      "word": "escuta",
+      "start": 96.673,
+      "end": 97.337
+    },
+    {
+      "word": "onde",
+      "start": 97.337,
+      "end": 97.779
+    },
+    {
+      "word": "ela",
+      "start": 97.779,
+      "end": 98.112
+    },
+    {
+      "word": "bate",
+      "start": 98.112,
+      "end": 98.554
+    },
+    {
+      "word": "e",
+      "start": 98.554,
+      "end": 98.665
+    },
+    {
+      "word": "muda",
+      "start": 98.665,
+      "end": 99.108
+    },
+    {
+      "word": "o",
+      "start": 99.108,
+      "end": 99.219
+    },
+    {
+      "word": "movimento",
+      "start": 99.219,
+      "end": 100.215
+    },
+    {
+      "word": "até",
+      "start": 100.215,
+      "end": 100.547
+    },
+    {
+      "word": "o",
+      "start": 100.547,
+      "end": 100.658
+    },
+    {
+      "word": "som",
+      "start": 100.658,
+      "end": 100.99
+    },
+    {
+      "word": "voltar",
+      "start": 100.99,
+      "end": 101.654
+    },
+    {
+      "word": "certinho.",
+      "start": 101.654,
+      "end": 103.137
+    },
+    {
+      "word": "Cada",
+      "start": 103.387,
+      "end": 103.83
+    },
+    {
+      "word": "nota",
+      "start": 103.83,
+      "end": 104.273
+    },
+    {
+      "word": "errada",
+      "start": 104.273,
+      "end": 104.937
+    },
+    {
+      "word": "era",
+      "start": 104.937,
+      "end": 105.269
+    },
+    {
+      "word": "só",
+      "start": 105.269,
+      "end": 105.49
+    },
+    {
+      "word": "um",
+      "start": 105.49,
+      "end": 105.712
+    },
+    {
+      "word": "quique,",
+      "start": 105.712,
+      "end": 106.642
+    },
+    {
+      "word": "mostrando",
+      "start": 106.642,
+      "end": 107.638
+    },
+    {
+      "word": "para",
+      "start": 107.638,
+      "end": 108.081
+    },
+    {
+      "word": "onde",
+      "start": 108.081,
+      "end": 108.523
+    },
+    {
+      "word": "as",
+      "start": 108.523,
+      "end": 108.745
+    },
+    {
+      "word": "mãos",
+      "start": 108.745,
+      "end": 109.187
+    },
+    {
+      "word": "deviam",
+      "start": 109.187,
+      "end": 109.852
+    },
+    {
+      "word": "ir.",
+      "start": 109.852,
+      "end": 110.671
+    },
+    {
+      "word": "O",
+      "start": 110.921,
+      "end": 111.031
+    },
+    {
+      "word": "garoto",
+      "start": 111.031,
+      "end": 111.696
+    },
+    {
+      "word": "da",
+      "start": 111.696,
+      "end": 111.917
+    },
+    {
+      "word": "vassoura",
+      "start": 111.917,
+      "end": 112.803
+    },
+    {
+      "word": "não",
+      "start": 112.803,
+      "end": 113.135
+    },
+    {
+      "word": "aprendeu",
+      "start": 113.135,
+      "end": 114.02
+    },
+    {
+      "word": "apenas",
+      "start": 114.02,
+      "end": 114.684
+    },
+    {
+      "word": "a",
+      "start": 114.684,
+      "end": 114.795
+    },
+    {
+      "word": "tocar",
+      "start": 114.795,
+      "end": 115.349
+    },
+    {
+      "word": "músicas.",
+      "start": 115.349,
+      "end": 116.721
+    },
+    {
+      "word": "Ele",
+      "start": 116.721,
+      "end": 117.053
+    },
+    {
+      "word": "aprendeu",
+      "start": 117.053,
+      "end": 117.939
+    },
+    {
+      "word": "a",
+      "start": 117.939,
+      "end": 118.05
+    },
+    {
+      "word": "escutar.",
+      "start": 118.05,
+      "end": 119.422
+    },
+    {
+      "word": "E",
+      "start": 119.672,
+      "end": 119.783
+    },
+    {
+      "word": "foi",
+      "start": 119.783,
+      "end": 120.115
+    },
+    {
+      "word": "assim",
+      "start": 120.115,
+      "end": 120.668
+    },
+    {
+      "word": "que",
+      "start": 120.668,
+      "end": 121.0
+    },
+    {
+      "word": "um",
+      "start": 121.0,
+      "end": 121.222
+    },
+    {
+      "word": "menino",
+      "start": 121.222,
+      "end": 121.886
+    },
+    {
+      "word": "com",
+      "start": 121.886,
+      "end": 122.218
+    },
+    {
+      "word": "um",
+      "start": 122.218,
+      "end": 122.44
+    },
+    {
+      "word": "violão",
+      "start": 122.44,
+      "end": 123.104
+    },
+    {
+      "word": "de",
+      "start": 123.104,
+      "end": 123.325
+    },
+    {
+      "word": "cinco",
+      "start": 123.325,
+      "end": 123.879
+    },
+    {
+      "word": "dólares",
+      "start": 123.879,
+      "end": 124.653
+    },
+    {
+      "word": "acabou",
+      "start": 124.653,
+      "end": 125.318
+    },
+    {
+      "word": "transformando",
+      "start": 125.318,
+      "end": 126.757
+    },
+    {
+      "word": "seis",
+      "start": 126.757,
+      "end": 127.199
+    },
+    {
+      "word": "cordas",
+      "start": 127.199,
+      "end": 127.864
+    },
+    {
+      "word": "em",
+      "start": 127.864,
+      "end": 128.085
+    },
+    {
+      "word": "algo",
+      "start": 128.085,
+      "end": 128.528
+    },
+    {
+      "word": "que",
+      "start": 128.528,
+      "end": 128.86
+    },
+    {
+      "word": "o",
+      "start": 128.86,
+      "end": 128.97
+    },
+    {
+      "word": "mundo",
+      "start": 128.97,
+      "end": 129.524
+    },
+    {
+      "word": "nunca",
+      "start": 129.524,
+      "end": 130.077
+    },
+    {
+      "word": "tinha",
+      "start": 130.077,
+      "end": 130.631
+    },
+    {
+      "word": "ouvido.",
+      "start": 130.631,
+      "end": 131.893
+    }
+  ]
+}

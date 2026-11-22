@@ -1,0 +1,997 @@
+{
+  "language": "pt-BR",
+  "duration": 70.0,
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "segments": [
+    {
+      "start": 0.1,
+      "end": 6.473,
+      "text": "A música mais icônica do Linkin Park, In the End, quase foi jogada no lixo pela própria gravadora."
+    },
+    {
+      "start": 6.423,
+      "end": 25.023,
+      "text": "No final dos anos noventa, durante as gravações do álbum Hybrid Theory, a Warner Bros ouviu a mistura de rap pesado, rock e um piano melancólico... e achou que aquilo era simplesmente um erro comercial. Eles não entenderam a visão. E disseram, sem hesitar, para cortar a faixa do álbum."
+    },
+    {
+      "start": 25.023,
+      "end": 44.479,
+      "text": "Mas Chester Bennington e Mike Shinoda se recusaram a aceitar. Eles sabiam, no fundo, que aquela música era diferente. Eles sentiram que ela precisava existir, do jeito que era. Então eles lutaram contra os executivos, bateram o pé, mantiveram a faixa intacta... e a lançaram como single para o mundo."
+    },
+    {
+      "start": 44.479,
+      "end": 53.159,
+      "text": "O resultado? A música explodiu, definiu uma geração inteira, atravessou fronteiras... e se tornou um hino mundial que nunca envelhece."
+    },
+    {
+      "start": 53.159,
+      "end": 60.509,
+      "text": "Às vezes, a verdadeira arte não pede permissão. Ela precisa ter coragem para ignorar os especialistas."
+    },
+    {
+      "start": 60.509,
+      "end": 69.421,
+      "text": "Essa história te arrepia? Comenta \"LP\" aqui embaixo... e manda esse vídeo agora para aquele amigo que nunca cansa de ouvir Linkin Park."
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.1,
+      "end": 6.473,
+      "text": "A música mais icônica do Linkin Park, In the End, quase foi jogada no lixo pela própria gravadora."
+    },
+    {
+      "start": 6.423,
+      "end": 18.645,
+      "text": "No final dos anos noventa, durante as gravações do álbum Hybrid Theory, a Warner Bros ouviu a mistura de rap pesado, rock e um piano melancólico... e achou que aquilo era simplesmente um erro comercial."
+    },
+    {
+      "start": 18.645,
+      "end": 20.879,
+      "text": "Eles não entenderam a visão."
+    },
+    {
+      "start": 20.879,
+      "end": 25.023,
+      "text": "E disseram, sem hesitar, para cortar a faixa do álbum."
+    },
+    {
+      "start": 25.023,
+      "end": 29.108,
+      "text": "Mas Chester Bennington e Mike Shinoda se recusaram a aceitar."
+    },
+    {
+      "start": 29.108,
+      "end": 33.113,
+      "text": "Eles sabiam, no fundo, que aquela música era diferente."
+    },
+    {
+      "start": 33.113,
+      "end": 37.094,
+      "text": "Eles sentiram que ela precisava existir, do jeito que era."
+    },
+    {
+      "start": 37.094,
+      "end": 44.479,
+      "text": "Então eles lutaram contra os executivos, bateram o pé, mantiveram a faixa intacta... e a lançaram como single para o mundo."
+    },
+    {
+      "start": 44.479,
+      "end": 45.983,
+      "text": "O resultado?"
+    },
+    {
+      "start": 45.983,
+      "end": 53.159,
+      "text": "A música explodiu, definiu uma geração inteira, atravessou fronteiras... e se tornou um hino mundial que nunca envelhece."
+    },
+    {
+      "start": 53.159,
+      "end": 56.805,
+      "text": "Às vezes, a verdadeira arte não pede permissão."
+    },
+    {
+      "start": 56.805,
+      "end": 60.509,
+      "text": "Ela precisa ter coragem para ignorar os especialistas."
+    },
+    {
+      "start": 60.509,
+      "end": 62.592,
+      "text": "Essa história te arrepia?"
+    },
+    {
+      "start": 62.592,
+      "end": 69.421,
+      "text": "Comenta \"LP\" aqui embaixo... e manda esse vídeo agora para aquele amigo que nunca cansa de ouvir Linkin Park."
+    }
+  ],
+  "words": [
+    {
+      "word": "A",
+      "start": 0.1,
+      "end": 0.179
+    },
+    {
+      "word": "música",
+      "start": 0.179,
+      "end": 0.651
+    },
+    {
+      "word": "mais",
+      "start": 0.651,
+      "end": 0.965
+    },
+    {
+      "word": "icônica",
+      "start": 0.965,
+      "end": 1.516
+    },
+    {
+      "word": "do",
+      "start": 1.516,
+      "end": 1.674
+    },
+    {
+      "word": "Linkin",
+      "start": 1.674,
+      "end": 2.146
+    },
+    {
+      "word": "Park,",
+      "start": 2.146,
+      "end": 2.539
+    },
+    {
+      "word": "In",
+      "start": 2.539,
+      "end": 2.696
+    },
+    {
+      "word": "the",
+      "start": 2.696,
+      "end": 2.932
+    },
+    {
+      "word": "End,",
+      "start": 2.932,
+      "end": 3.247
+    },
+    {
+      "word": "quase",
+      "start": 3.247,
+      "end": 3.641
+    },
+    {
+      "word": "foi",
+      "start": 3.641,
+      "end": 3.877
+    },
+    {
+      "word": "jogada",
+      "start": 3.877,
+      "end": 4.349
+    },
+    {
+      "word": "no",
+      "start": 4.349,
+      "end": 4.506
+    },
+    {
+      "word": "lixo",
+      "start": 4.506,
+      "end": 4.821
+    },
+    {
+      "word": "pela",
+      "start": 4.821,
+      "end": 5.135
+    },
+    {
+      "word": "própria",
+      "start": 5.135,
+      "end": 5.686
+    },
+    {
+      "word": "gravadora.",
+      "start": 5.686,
+      "end": 6.473
+    },
+    {
+      "word": "No",
+      "start": 6.423,
+      "end": 6.569
+    },
+    {
+      "word": "final",
+      "start": 6.569,
+      "end": 6.932
+    },
+    {
+      "word": "dos",
+      "start": 6.932,
+      "end": 7.151
+    },
+    {
+      "word": "anos",
+      "start": 7.151,
+      "end": 7.442
+    },
+    {
+      "word": "noventa,",
+      "start": 7.442,
+      "end": 8.024
+    },
+    {
+      "word": "durante",
+      "start": 8.024,
+      "end": 8.533
+    },
+    {
+      "word": "as",
+      "start": 8.533,
+      "end": 8.678
+    },
+    {
+      "word": "gravações",
+      "start": 8.678,
+      "end": 9.333
+    },
+    {
+      "word": "do",
+      "start": 9.333,
+      "end": 9.479
+    },
+    {
+      "word": "álbum",
+      "start": 9.479,
+      "end": 9.842
+    },
+    {
+      "word": "Hybrid",
+      "start": 9.842,
+      "end": 10.279
+    },
+    {
+      "word": "Theory,",
+      "start": 10.279,
+      "end": 10.788
+    },
+    {
+      "word": "a",
+      "start": 10.788,
+      "end": 10.861
+    },
+    {
+      "word": "Warner",
+      "start": 10.861,
+      "end": 11.297
+    },
+    {
+      "word": "Bros",
+      "start": 11.297,
+      "end": 11.588
+    },
+    {
+      "word": "ouviu",
+      "start": 11.588,
+      "end": 11.952
+    },
+    {
+      "word": "a",
+      "start": 11.952,
+      "end": 12.025
+    },
+    {
+      "word": "mistura",
+      "start": 12.025,
+      "end": 12.534
+    },
+    {
+      "word": "de",
+      "start": 12.534,
+      "end": 12.679
+    },
+    {
+      "word": "rap",
+      "start": 12.679,
+      "end": 12.898
+    },
+    {
+      "word": "pesado,",
+      "start": 12.898,
+      "end": 13.407
+    },
+    {
+      "word": "rock",
+      "start": 13.407,
+      "end": 13.698
+    },
+    {
+      "word": "e",
+      "start": 13.698,
+      "end": 13.771
+    },
+    {
+      "word": "um",
+      "start": 13.771,
+      "end": 13.916
+    },
+    {
+      "word": "piano",
+      "start": 13.916,
+      "end": 14.28
+    },
+    {
+      "word": "melancólico...",
+      "start": 14.28,
+      "end": 15.298
+    },
+    {
+      "word": "e",
+      "start": 15.298,
+      "end": 15.371
+    },
+    {
+      "word": "achou",
+      "start": 15.371,
+      "end": 15.735
+    },
+    {
+      "word": "que",
+      "start": 15.735,
+      "end": 15.953
+    },
+    {
+      "word": "aquilo",
+      "start": 15.953,
+      "end": 16.39
+    },
+    {
+      "word": "era",
+      "start": 16.39,
+      "end": 16.608
+    },
+    {
+      "word": "simplesmente",
+      "start": 16.608,
+      "end": 17.481
+    },
+    {
+      "word": "um",
+      "start": 17.481,
+      "end": 17.626
+    },
+    {
+      "word": "erro",
+      "start": 17.626,
+      "end": 17.917
+    },
+    {
+      "word": "comercial.",
+      "start": 17.917,
+      "end": 18.645
+    },
+    {
+      "word": "Eles",
+      "start": 18.645,
+      "end": 19.017
+    },
+    {
+      "word": "não",
+      "start": 19.017,
+      "end": 19.297
+    },
+    {
+      "word": "entenderam",
+      "start": 19.297,
+      "end": 20.227
+    },
+    {
+      "word": "a",
+      "start": 20.227,
+      "end": 20.321
+    },
+    {
+      "word": "visão.",
+      "start": 20.321,
+      "end": 20.879
+    },
+    {
+      "word": "E",
+      "start": 20.879,
+      "end": 20.971
+    },
+    {
+      "word": "disseram,",
+      "start": 20.971,
+      "end": 21.8
+    },
+    {
+      "word": "sem",
+      "start": 21.8,
+      "end": 22.076
+    },
+    {
+      "word": "hesitar,",
+      "start": 22.076,
+      "end": 22.813
+    },
+    {
+      "word": "para",
+      "start": 22.813,
+      "end": 23.181
+    },
+    {
+      "word": "cortar",
+      "start": 23.181,
+      "end": 23.734
+    },
+    {
+      "word": "a",
+      "start": 23.734,
+      "end": 23.826
+    },
+    {
+      "word": "faixa",
+      "start": 23.826,
+      "end": 24.286
+    },
+    {
+      "word": "do",
+      "start": 24.286,
+      "end": 24.47
+    },
+    {
+      "word": "álbum.",
+      "start": 24.47,
+      "end": 25.023
+    },
+    {
+      "word": "Mas",
+      "start": 25.023,
+      "end": 25.259
+    },
+    {
+      "word": "Chester",
+      "start": 25.259,
+      "end": 25.809
+    },
+    {
+      "word": "Bennington",
+      "start": 25.809,
+      "end": 26.594
+    },
+    {
+      "word": "e",
+      "start": 26.594,
+      "end": 26.673
+    },
+    {
+      "word": "Mike",
+      "start": 26.673,
+      "end": 26.987
+    },
+    {
+      "word": "Shinoda",
+      "start": 26.987,
+      "end": 27.537
+    },
+    {
+      "word": "se",
+      "start": 27.537,
+      "end": 27.694
+    },
+    {
+      "word": "recusaram",
+      "start": 27.694,
+      "end": 28.401
+    },
+    {
+      "word": "a",
+      "start": 28.401,
+      "end": 28.48
+    },
+    {
+      "word": "aceitar.",
+      "start": 28.48,
+      "end": 29.108
+    },
+    {
+      "word": "Eles",
+      "start": 29.108,
+      "end": 29.449
+    },
+    {
+      "word": "sabiam,",
+      "start": 29.449,
+      "end": 30.045
+    },
+    {
+      "word": "no",
+      "start": 30.045,
+      "end": 30.216
+    },
+    {
+      "word": "fundo,",
+      "start": 30.216,
+      "end": 30.727
+    },
+    {
+      "word": "que",
+      "start": 30.727,
+      "end": 30.983
+    },
+    {
+      "word": "aquela",
+      "start": 30.983,
+      "end": 31.494
+    },
+    {
+      "word": "música",
+      "start": 31.494,
+      "end": 32.005
+    },
+    {
+      "word": "era",
+      "start": 32.005,
+      "end": 32.261
+    },
+    {
+      "word": "diferente.",
+      "start": 32.261,
+      "end": 33.113
+    },
+    {
+      "word": "Eles",
+      "start": 33.113,
+      "end": 33.438
+    },
+    {
+      "word": "sentiram",
+      "start": 33.438,
+      "end": 34.088
+    },
+    {
+      "word": "que",
+      "start": 34.088,
+      "end": 34.332
+    },
+    {
+      "word": "ela",
+      "start": 34.332,
+      "end": 34.575
+    },
+    {
+      "word": "precisava",
+      "start": 34.575,
+      "end": 35.307
+    },
+    {
+      "word": "existir,",
+      "start": 35.307,
+      "end": 35.957
+    },
+    {
+      "word": "do",
+      "start": 35.957,
+      "end": 36.119
+    },
+    {
+      "word": "jeito",
+      "start": 36.119,
+      "end": 36.525
+    },
+    {
+      "word": "que",
+      "start": 36.525,
+      "end": 36.769
+    },
+    {
+      "word": "era.",
+      "start": 36.769,
+      "end": 37.094
+    },
+    {
+      "word": "Então",
+      "start": 37.094,
+      "end": 37.452
+    },
+    {
+      "word": "eles",
+      "start": 37.452,
+      "end": 37.739
+    },
+    {
+      "word": "lutaram",
+      "start": 37.739,
+      "end": 38.241
+    },
+    {
+      "word": "contra",
+      "start": 38.241,
+      "end": 38.671
+    },
+    {
+      "word": "os",
+      "start": 38.671,
+      "end": 38.815
+    },
+    {
+      "word": "executivos,",
+      "start": 38.815,
+      "end": 39.603
+    },
+    {
+      "word": "bateram",
+      "start": 39.603,
+      "end": 40.105
+    },
+    {
+      "word": "o",
+      "start": 40.105,
+      "end": 40.177
+    },
+    {
+      "word": "pé,",
+      "start": 40.177,
+      "end": 40.392
+    },
+    {
+      "word": "mantiveram",
+      "start": 40.392,
+      "end": 41.109
+    },
+    {
+      "word": "a",
+      "start": 41.109,
+      "end": 41.181
+    },
+    {
+      "word": "faixa",
+      "start": 41.181,
+      "end": 41.539
+    },
+    {
+      "word": "intacta...",
+      "start": 41.539,
+      "end": 42.256
+    },
+    {
+      "word": "e",
+      "start": 42.256,
+      "end": 42.328
+    },
+    {
+      "word": "a",
+      "start": 42.328,
+      "end": 42.4
+    },
+    {
+      "word": "lançaram",
+      "start": 42.4,
+      "end": 42.973
+    },
+    {
+      "word": "como",
+      "start": 42.973,
+      "end": 43.26
+    },
+    {
+      "word": "single",
+      "start": 43.26,
+      "end": 43.69
+    },
+    {
+      "word": "para",
+      "start": 43.69,
+      "end": 43.977
+    },
+    {
+      "word": "o",
+      "start": 43.977,
+      "end": 44.049
+    },
+    {
+      "word": "mundo.",
+      "start": 44.049,
+      "end": 44.479
+    },
+    {
+      "word": "O",
+      "start": 44.479,
+      "end": 44.616
+    },
+    {
+      "word": "resultado?",
+      "start": 44.616,
+      "end": 45.983
+    },
+    {
+      "word": "A",
+      "start": 45.983,
+      "end": 46.052
+    },
+    {
+      "word": "música",
+      "start": 46.052,
+      "end": 46.466
+    },
+    {
+      "word": "explodiu,",
+      "start": 46.466,
+      "end": 47.087
+    },
+    {
+      "word": "definiu",
+      "start": 47.087,
+      "end": 47.57
+    },
+    {
+      "word": "uma",
+      "start": 47.57,
+      "end": 47.777
+    },
+    {
+      "word": "geração",
+      "start": 47.777,
+      "end": 48.26
+    },
+    {
+      "word": "inteira,",
+      "start": 48.26,
+      "end": 48.812
+    },
+    {
+      "word": "atravessou",
+      "start": 48.812,
+      "end": 49.502
+    },
+    {
+      "word": "fronteiras...",
+      "start": 49.502,
+      "end": 50.399
+    },
+    {
+      "word": "e",
+      "start": 50.399,
+      "end": 50.468
+    },
+    {
+      "word": "se",
+      "start": 50.468,
+      "end": 50.606
+    },
+    {
+      "word": "tornou",
+      "start": 50.606,
+      "end": 51.02
+    },
+    {
+      "word": "um",
+      "start": 51.02,
+      "end": 51.158
+    },
+    {
+      "word": "hino",
+      "start": 51.158,
+      "end": 51.434
+    },
+    {
+      "word": "mundial",
+      "start": 51.434,
+      "end": 51.917
+    },
+    {
+      "word": "que",
+      "start": 51.917,
+      "end": 52.124
+    },
+    {
+      "word": "nunca",
+      "start": 52.124,
+      "end": 52.469
+    },
+    {
+      "word": "envelhece.",
+      "start": 52.469,
+      "end": 53.159
+    },
+    {
+      "word": "Às",
+      "start": 53.159,
+      "end": 53.341
+    },
+    {
+      "word": "vezes,",
+      "start": 53.341,
+      "end": 53.888
+    },
+    {
+      "word": "a",
+      "start": 53.888,
+      "end": 53.979
+    },
+    {
+      "word": "verdadeira",
+      "start": 53.979,
+      "end": 54.891
+    },
+    {
+      "word": "arte",
+      "start": 54.891,
+      "end": 55.255
+    },
+    {
+      "word": "não",
+      "start": 55.255,
+      "end": 55.529
+    },
+    {
+      "word": "pede",
+      "start": 55.529,
+      "end": 55.894
+    },
+    {
+      "word": "permissão.",
+      "start": 55.894,
+      "end": 56.805
+    },
+    {
+      "word": "Ela",
+      "start": 56.805,
+      "end": 57.041
+    },
+    {
+      "word": "precisa",
+      "start": 57.041,
+      "end": 57.593
+    },
+    {
+      "word": "ter",
+      "start": 57.593,
+      "end": 57.83
+    },
+    {
+      "word": "coragem",
+      "start": 57.83,
+      "end": 58.381
+    },
+    {
+      "word": "para",
+      "start": 58.381,
+      "end": 58.696
+    },
+    {
+      "word": "ignorar",
+      "start": 58.696,
+      "end": 59.248
+    },
+    {
+      "word": "os",
+      "start": 59.248,
+      "end": 59.406
+    },
+    {
+      "word": "especialistas.",
+      "start": 59.406,
+      "end": 60.509
+    },
+    {
+      "word": "Essa",
+      "start": 60.509,
+      "end": 60.888
+    },
+    {
+      "word": "história",
+      "start": 60.888,
+      "end": 61.645
+    },
+    {
+      "word": "te",
+      "start": 61.645,
+      "end": 61.835
+    },
+    {
+      "word": "arrepia?",
+      "start": 61.835,
+      "end": 62.592
+    },
+    {
+      "word": "Comenta",
+      "start": 62.592,
+      "end": 63.117
+    },
+    {
+      "word": "\"LP\"",
+      "start": 63.117,
+      "end": 63.417
+    },
+    {
+      "word": "aqui",
+      "start": 63.417,
+      "end": 63.718
+    },
+    {
+      "word": "embaixo...",
+      "start": 63.718,
+      "end": 64.468
+    },
+    {
+      "word": "e",
+      "start": 64.468,
+      "end": 64.543
+    },
+    {
+      "word": "manda",
+      "start": 64.543,
+      "end": 64.918
+    },
+    {
+      "word": "esse",
+      "start": 64.918,
+      "end": 65.219
+    },
+    {
+      "word": "vídeo",
+      "start": 65.219,
+      "end": 65.594
+    },
+    {
+      "word": "agora",
+      "start": 65.594,
+      "end": 65.969
+    },
+    {
+      "word": "para",
+      "start": 65.969,
+      "end": 66.269
+    },
+    {
+      "word": "aquele",
+      "start": 66.269,
+      "end": 66.719
+    },
+    {
+      "word": "amigo",
+      "start": 66.719,
+      "end": 67.095
+    },
+    {
+      "word": "que",
+      "start": 67.095,
+      "end": 67.32
+    },
+    {
+      "word": "nunca",
+      "start": 67.32,
+      "end": 67.695
+    },
+    {
+      "word": "cansa",
+      "start": 67.695,
+      "end": 68.07
+    },
+    {
+      "word": "de",
+      "start": 68.07,
+      "end": 68.22
+    },
+    {
+      "word": "ouvir",
+      "start": 68.22,
+      "end": 68.596
+    },
+    {
+      "word": "Linkin",
+      "start": 68.596,
+      "end": 69.046
+    },
+    {
+      "word": "Park.",
+      "start": 69.046,
+      "end": 69.421
+    }
+  ]
+}

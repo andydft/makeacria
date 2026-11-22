@@ -1,0 +1,1147 @@
+{
+  "language": "pt-BR",
+  "duration": 80.736,
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "segments": [
+    {
+      "start": 0.1,
+      "end": 10.324,
+      "text": "O ritmo mais icônico do rock, We Will Rock You, da banda Queen, não foi criado para ser apenas legal. Ele nasceu de uma emergência genial do Freddie Mercury."
+    },
+    {
+      "start": 10.324,
+      "end": 18.472,
+      "text": "Era 1977. A banda tocava em um estádio gigantesco, lotado com mais de oitenta mil pessoas."
+    },
+    {
+      "start": 18.472,
+      "end": 29.733,
+      "text": "De repente, no meio da apresentação, o sistema de som falhou completamente. O som simplesmente desapareceu. O silêncio tenso poderia ter arruinado o show inteiro."
+    },
+    {
+      "start": 29.733,
+      "end": 43.495,
+      "text": "Mas, naquele momento, Freddie Mercury teve um estalo. Ele percebeu que a única forma de fazer aquela multidão colossal participar, sem precisar de microfones ou caixas de som, era usar o próprio corpo humano como instrumento."
+    },
+    {
+      "start": 43.495,
+      "end": 51.03,
+      "text": "Então ele pediu para todos baterem os pés no chão, duas vezes. E depois, dar uma palma bem forte."
+    },
+    {
+      "start": 51.03,
+      "end": 63.159,
+      "text": "Pisada, pisada, palma. Simples. Poderoso. E funcionou perfeitamente, criando a vibração mais intensa que aquele estádio já tinha visto em toda a sua história."
+    },
+    {
+      "start": 63.159,
+      "end": 73.067,
+      "text": "Agora você sabe: esse hino não é só música. É a prova de que a verdadeira conexão não precisa de tecnologia, só de ritmo, de união e de energia."
+    },
+    {
+      "start": 73.067,
+      "end": 80.694,
+      "text": "Agora você nunca mais vai ouvir essa música do mesmo jeito. Manda esse vídeo agora para aquele seu amigo que ama Queen!"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.1,
+      "end": 6.843,
+      "text": "O ritmo mais icônico do rock, We Will Rock You, da banda Queen, não foi criado para ser apenas legal."
+    },
+    {
+      "start": 6.793,
+      "end": 10.324,
+      "text": "Ele nasceu de uma emergência genial do Freddie Mercury."
+    },
+    {
+      "start": 10.324,
+      "end": 13.113,
+      "text": "Era 1977."
+    },
+    {
+      "start": 13.113,
+      "end": 18.472,
+      "text": "A banda tocava em um estádio gigantesco, lotado com mais de oitenta mil pessoas."
+    },
+    {
+      "start": 18.472,
+      "end": 23.472,
+      "text": "De repente, no meio da apresentação, o sistema de som falhou completamente."
+    },
+    {
+      "start": 23.472,
+      "end": 26.168,
+      "text": "O som simplesmente desapareceu."
+    },
+    {
+      "start": 26.168,
+      "end": 29.733,
+      "text": "O silêncio tenso poderia ter arruinado o show inteiro."
+    },
+    {
+      "start": 29.733,
+      "end": 33.819,
+      "text": "Mas, naquele momento, Freddie Mercury teve um estalo."
+    },
+    {
+      "start": 33.819,
+      "end": 43.495,
+      "text": "Ele percebeu que a única forma de fazer aquela multidão colossal participar, sem precisar de microfones ou caixas de som, era usar o próprio corpo humano como instrumento."
+    },
+    {
+      "start": 43.495,
+      "end": 47.997,
+      "text": "Então ele pediu para todos baterem os pés no chão, duas vezes."
+    },
+    {
+      "start": 47.997,
+      "end": 51.03,
+      "text": "E depois, dar uma palma bem forte."
+    },
+    {
+      "start": 51.03,
+      "end": 53.877,
+      "text": "Pisada, pisada, palma."
+    },
+    {
+      "start": 53.877,
+      "end": 55.335,
+      "text": "Simples."
+    },
+    {
+      "start": 55.335,
+      "end": 56.77,
+      "text": "Poderoso."
+    },
+    {
+      "start": 56.77,
+      "end": 63.159,
+      "text": "E funcionou perfeitamente, criando a vibração mais intensa que aquele estádio já tinha visto em toda a sua história."
+    },
+    {
+      "start": 63.159,
+      "end": 66.574,
+      "text": "Agora você sabe: esse hino não é só música."
+    },
+    {
+      "start": 66.574,
+      "end": 73.067,
+      "text": "É a prova de que a verdadeira conexão não precisa de tecnologia, só de ritmo, de união e de energia."
+    },
+    {
+      "start": 73.067,
+      "end": 76.99,
+      "text": "Agora você nunca mais vai ouvir essa música do mesmo jeito."
+    },
+    {
+      "start": 76.99,
+      "end": 80.694,
+      "text": "Manda esse vídeo agora para aquele seu amigo que ama Queen!"
+    }
+  ],
+  "words": [
+    {
+      "word": "O",
+      "start": 0.1,
+      "end": 0.182
+    },
+    {
+      "word": "ritmo",
+      "start": 0.182,
+      "end": 0.593
+    },
+    {
+      "word": "mais",
+      "start": 0.593,
+      "end": 0.922
+    },
+    {
+      "word": "icônico",
+      "start": 0.922,
+      "end": 1.498
+    },
+    {
+      "word": "do",
+      "start": 1.498,
+      "end": 1.662
+    },
+    {
+      "word": "rock,",
+      "start": 1.662,
+      "end": 2.074
+    },
+    {
+      "word": "We",
+      "start": 2.074,
+      "end": 2.238
+    },
+    {
+      "word": "Will",
+      "start": 2.238,
+      "end": 2.567
+    },
+    {
+      "word": "Rock",
+      "start": 2.567,
+      "end": 2.896
+    },
+    {
+      "word": "You,",
+      "start": 2.896,
+      "end": 3.225
+    },
+    {
+      "word": "da",
+      "start": 3.225,
+      "end": 3.389
+    },
+    {
+      "word": "banda",
+      "start": 3.389,
+      "end": 3.8
+    },
+    {
+      "word": "Queen,",
+      "start": 3.8,
+      "end": 4.294
+    },
+    {
+      "word": "não",
+      "start": 4.294,
+      "end": 4.541
+    },
+    {
+      "word": "foi",
+      "start": 4.541,
+      "end": 4.787
+    },
+    {
+      "word": "criado",
+      "start": 4.787,
+      "end": 5.281
+    },
+    {
+      "word": "para",
+      "start": 5.281,
+      "end": 5.61
+    },
+    {
+      "word": "ser",
+      "start": 5.61,
+      "end": 5.856
+    },
+    {
+      "word": "apenas",
+      "start": 5.856,
+      "end": 6.35
+    },
+    {
+      "word": "legal.",
+      "start": 6.35,
+      "end": 6.843
+    },
+    {
+      "word": "Ele",
+      "start": 6.793,
+      "end": 7.018
+    },
+    {
+      "word": "nasceu",
+      "start": 7.018,
+      "end": 7.469
+    },
+    {
+      "word": "de",
+      "start": 7.469,
+      "end": 7.619
+    },
+    {
+      "word": "uma",
+      "start": 7.619,
+      "end": 7.845
+    },
+    {
+      "word": "emergência",
+      "start": 7.845,
+      "end": 8.596
+    },
+    {
+      "word": "genial",
+      "start": 8.596,
+      "end": 9.047
+    },
+    {
+      "word": "do",
+      "start": 9.047,
+      "end": 9.197
+    },
+    {
+      "word": "Freddie",
+      "start": 9.197,
+      "end": 9.723
+    },
+    {
+      "word": "Mercury.",
+      "start": 9.723,
+      "end": 10.324
+    },
+    {
+      "word": "Era",
+      "start": 10.324,
+      "end": 11.37
+    },
+    {
+      "word": "1977.",
+      "start": 11.37,
+      "end": 13.113
+    },
+    {
+      "word": "A",
+      "start": 13.113,
+      "end": 13.193
+    },
+    {
+      "word": "banda",
+      "start": 13.193,
+      "end": 13.593
+    },
+    {
+      "word": "tocava",
+      "start": 13.593,
+      "end": 14.073
+    },
+    {
+      "word": "em",
+      "start": 14.073,
+      "end": 14.233
+    },
+    {
+      "word": "um",
+      "start": 14.233,
+      "end": 14.393
+    },
+    {
+      "word": "estádio",
+      "start": 14.393,
+      "end": 14.953
+    },
+    {
+      "word": "gigantesco,",
+      "start": 14.953,
+      "end": 15.832
+    },
+    {
+      "word": "lotado",
+      "start": 15.832,
+      "end": 16.312
+    },
+    {
+      "word": "com",
+      "start": 16.312,
+      "end": 16.552
+    },
+    {
+      "word": "mais",
+      "start": 16.552,
+      "end": 16.872
+    },
+    {
+      "word": "de",
+      "start": 16.872,
+      "end": 17.032
+    },
+    {
+      "word": "oitenta",
+      "start": 17.032,
+      "end": 17.592
+    },
+    {
+      "word": "mil",
+      "start": 17.592,
+      "end": 17.832
+    },
+    {
+      "word": "pessoas.",
+      "start": 17.832,
+      "end": 18.472
+    },
+    {
+      "word": "De",
+      "start": 18.472,
+      "end": 18.628
+    },
+    {
+      "word": "repente,",
+      "start": 18.628,
+      "end": 19.253
+    },
+    {
+      "word": "no",
+      "start": 19.253,
+      "end": 19.41
+    },
+    {
+      "word": "meio",
+      "start": 19.41,
+      "end": 19.722
+    },
+    {
+      "word": "da",
+      "start": 19.722,
+      "end": 19.878
+    },
+    {
+      "word": "apresentação,",
+      "start": 19.878,
+      "end": 20.894
+    },
+    {
+      "word": "o",
+      "start": 20.894,
+      "end": 20.972
+    },
+    {
+      "word": "sistema",
+      "start": 20.972,
+      "end": 21.519
+    },
+    {
+      "word": "de",
+      "start": 21.519,
+      "end": 21.675
+    },
+    {
+      "word": "som",
+      "start": 21.675,
+      "end": 21.91
+    },
+    {
+      "word": "falhou",
+      "start": 21.91,
+      "end": 22.378
+    },
+    {
+      "word": "completamente.",
+      "start": 22.378,
+      "end": 23.472
+    },
+    {
+      "word": "O",
+      "start": 23.472,
+      "end": 23.568
+    },
+    {
+      "word": "som",
+      "start": 23.568,
+      "end": 23.857
+    },
+    {
+      "word": "simplesmente",
+      "start": 23.857,
+      "end": 25.013
+    },
+    {
+      "word": "desapareceu.",
+      "start": 25.013,
+      "end": 26.168
+    },
+    {
+      "word": "O",
+      "start": 26.168,
+      "end": 26.245
+    },
+    {
+      "word": "silêncio",
+      "start": 26.245,
+      "end": 26.866
+    },
+    {
+      "word": "tenso",
+      "start": 26.866,
+      "end": 27.253
+    },
+    {
+      "word": "poderia",
+      "start": 27.253,
+      "end": 27.796
+    },
+    {
+      "word": "ter",
+      "start": 27.796,
+      "end": 28.028
+    },
+    {
+      "word": "arruinado",
+      "start": 28.028,
+      "end": 28.726
+    },
+    {
+      "word": "o",
+      "start": 28.726,
+      "end": 28.803
+    },
+    {
+      "word": "show",
+      "start": 28.803,
+      "end": 29.113
+    },
+    {
+      "word": "inteiro.",
+      "start": 29.113,
+      "end": 29.733
+    },
+    {
+      "word": "Mas,",
+      "start": 29.733,
+      "end": 30.088
+    },
+    {
+      "word": "naquele",
+      "start": 30.088,
+      "end": 30.71
+    },
+    {
+      "word": "momento,",
+      "start": 30.71,
+      "end": 31.421
+    },
+    {
+      "word": "Freddie",
+      "start": 31.421,
+      "end": 32.042
+    },
+    {
+      "word": "Mercury",
+      "start": 32.042,
+      "end": 32.664
+    },
+    {
+      "word": "teve",
+      "start": 32.664,
+      "end": 33.02
+    },
+    {
+      "word": "um",
+      "start": 33.02,
+      "end": 33.197
+    },
+    {
+      "word": "estalo.",
+      "start": 33.197,
+      "end": 33.819
+    },
+    {
+      "word": "Ele",
+      "start": 33.819,
+      "end": 34.021
+    },
+    {
+      "word": "percebeu",
+      "start": 34.021,
+      "end": 34.558
+    },
+    {
+      "word": "que",
+      "start": 34.558,
+      "end": 34.76
+    },
+    {
+      "word": "a",
+      "start": 34.76,
+      "end": 34.827
+    },
+    {
+      "word": "única",
+      "start": 34.827,
+      "end": 35.163
+    },
+    {
+      "word": "forma",
+      "start": 35.163,
+      "end": 35.499
+    },
+    {
+      "word": "de",
+      "start": 35.499,
+      "end": 35.633
+    },
+    {
+      "word": "fazer",
+      "start": 35.633,
+      "end": 35.969
+    },
+    {
+      "word": "aquela",
+      "start": 35.969,
+      "end": 36.372
+    },
+    {
+      "word": "multidão",
+      "start": 36.372,
+      "end": 36.91
+    },
+    {
+      "word": "colossal",
+      "start": 36.91,
+      "end": 37.448
+    },
+    {
+      "word": "participar,",
+      "start": 37.448,
+      "end": 38.187
+    },
+    {
+      "word": "sem",
+      "start": 38.187,
+      "end": 38.388
+    },
+    {
+      "word": "precisar",
+      "start": 38.388,
+      "end": 38.926
+    },
+    {
+      "word": "de",
+      "start": 38.926,
+      "end": 39.06
+    },
+    {
+      "word": "microfones",
+      "start": 39.06,
+      "end": 39.732
+    },
+    {
+      "word": "ou",
+      "start": 39.732,
+      "end": 39.866
+    },
+    {
+      "word": "caixas",
+      "start": 39.866,
+      "end": 40.27
+    },
+    {
+      "word": "de",
+      "start": 40.27,
+      "end": 40.404
+    },
+    {
+      "word": "som,",
+      "start": 40.404,
+      "end": 40.673
+    },
+    {
+      "word": "era",
+      "start": 40.673,
+      "end": 40.874
+    },
+    {
+      "word": "usar",
+      "start": 40.874,
+      "end": 41.143
+    },
+    {
+      "word": "o",
+      "start": 41.143,
+      "end": 41.21
+    },
+    {
+      "word": "próprio",
+      "start": 41.21,
+      "end": 41.681
+    },
+    {
+      "word": "corpo",
+      "start": 41.681,
+      "end": 42.017
+    },
+    {
+      "word": "humano",
+      "start": 42.017,
+      "end": 42.42
+    },
+    {
+      "word": "como",
+      "start": 42.42,
+      "end": 42.689
+    },
+    {
+      "word": "instrumento.",
+      "start": 42.689,
+      "end": 43.495
+    },
+    {
+      "word": "Então",
+      "start": 43.495,
+      "end": 43.936
+    },
+    {
+      "word": "ele",
+      "start": 43.936,
+      "end": 44.201
+    },
+    {
+      "word": "pediu",
+      "start": 44.201,
+      "end": 44.643
+    },
+    {
+      "word": "para",
+      "start": 44.643,
+      "end": 44.996
+    },
+    {
+      "word": "todos",
+      "start": 44.996,
+      "end": 45.437
+    },
+    {
+      "word": "baterem",
+      "start": 45.437,
+      "end": 46.055
+    },
+    {
+      "word": "os",
+      "start": 46.055,
+      "end": 46.232
+    },
+    {
+      "word": "pés",
+      "start": 46.232,
+      "end": 46.496
+    },
+    {
+      "word": "no",
+      "start": 46.496,
+      "end": 46.673
+    },
+    {
+      "word": "chão,",
+      "start": 46.673,
+      "end": 47.114
+    },
+    {
+      "word": "duas",
+      "start": 47.114,
+      "end": 47.467
+    },
+    {
+      "word": "vezes.",
+      "start": 47.467,
+      "end": 47.997
+    },
+    {
+      "word": "E",
+      "start": 47.997,
+      "end": 48.105
+    },
+    {
+      "word": "depois,",
+      "start": 48.105,
+      "end": 48.864
+    },
+    {
+      "word": "dar",
+      "start": 48.864,
+      "end": 49.189
+    },
+    {
+      "word": "uma",
+      "start": 49.189,
+      "end": 49.514
+    },
+    {
+      "word": "palma",
+      "start": 49.514,
+      "end": 50.055
+    },
+    {
+      "word": "bem",
+      "start": 50.055,
+      "end": 50.38
+    },
+    {
+      "word": "forte.",
+      "start": 50.38,
+      "end": 51.03
+    },
+    {
+      "word": "Pisada,",
+      "start": 51.03,
+      "end": 52.026
+    },
+    {
+      "word": "pisada,",
+      "start": 52.026,
+      "end": 53.023
+    },
+    {
+      "word": "palma.",
+      "start": 53.023,
+      "end": 53.877
+    },
+    {
+      "word": "Simples.",
+      "start": 53.877,
+      "end": 55.335
+    },
+    {
+      "word": "Poderoso.",
+      "start": 55.335,
+      "end": 56.77
+    },
+    {
+      "word": "E",
+      "start": 56.77,
+      "end": 56.835
+    },
+    {
+      "word": "funcionou",
+      "start": 56.835,
+      "end": 57.422
+    },
+    {
+      "word": "perfeitamente,",
+      "start": 57.422,
+      "end": 58.335
+    },
+    {
+      "word": "criando",
+      "start": 58.335,
+      "end": 58.791
+    },
+    {
+      "word": "a",
+      "start": 58.791,
+      "end": 58.856
+    },
+    {
+      "word": "vibração",
+      "start": 58.856,
+      "end": 59.378
+    },
+    {
+      "word": "mais",
+      "start": 59.378,
+      "end": 59.639
+    },
+    {
+      "word": "intensa",
+      "start": 59.639,
+      "end": 60.095
+    },
+    {
+      "word": "que",
+      "start": 60.095,
+      "end": 60.29
+    },
+    {
+      "word": "aquele",
+      "start": 60.29,
+      "end": 60.682
+    },
+    {
+      "word": "estádio",
+      "start": 60.682,
+      "end": 61.138
+    },
+    {
+      "word": "já",
+      "start": 61.138,
+      "end": 61.268
+    },
+    {
+      "word": "tinha",
+      "start": 61.268,
+      "end": 61.594
+    },
+    {
+      "word": "visto",
+      "start": 61.594,
+      "end": 61.92
+    },
+    {
+      "word": "em",
+      "start": 61.92,
+      "end": 62.051
+    },
+    {
+      "word": "toda",
+      "start": 62.051,
+      "end": 62.311
+    },
+    {
+      "word": "a",
+      "start": 62.311,
+      "end": 62.377
+    },
+    {
+      "word": "sua",
+      "start": 62.377,
+      "end": 62.572
+    },
+    {
+      "word": "história.",
+      "start": 62.572,
+      "end": 63.159
+    },
+    {
+      "word": "Agora",
+      "start": 63.159,
+      "end": 63.647
+    },
+    {
+      "word": "você",
+      "start": 63.647,
+      "end": 64.037
+    },
+    {
+      "word": "sabe:",
+      "start": 64.037,
+      "end": 64.525
+    },
+    {
+      "word": "esse",
+      "start": 64.525,
+      "end": 64.915
+    },
+    {
+      "word": "hino",
+      "start": 64.915,
+      "end": 65.306
+    },
+    {
+      "word": "não",
+      "start": 65.306,
+      "end": 65.598
+    },
+    {
+      "word": "é",
+      "start": 65.598,
+      "end": 65.696
+    },
+    {
+      "word": "só",
+      "start": 65.696,
+      "end": 65.891
+    },
+    {
+      "word": "música.",
+      "start": 65.891,
+      "end": 66.574
+    },
+    {
+      "word": "É",
+      "start": 66.574,
+      "end": 66.654
+    },
+    {
+      "word": "a",
+      "start": 66.654,
+      "end": 66.734
+    },
+    {
+      "word": "prova",
+      "start": 66.734,
+      "end": 67.135
+    },
+    {
+      "word": "de",
+      "start": 67.135,
+      "end": 67.295
+    },
+    {
+      "word": "que",
+      "start": 67.295,
+      "end": 67.536
+    },
+    {
+      "word": "a",
+      "start": 67.536,
+      "end": 67.616
+    },
+    {
+      "word": "verdadeira",
+      "start": 67.616,
+      "end": 68.418
+    },
+    {
+      "word": "conexão",
+      "start": 68.418,
+      "end": 68.979
+    },
+    {
+      "word": "não",
+      "start": 68.979,
+      "end": 69.219
+    },
+    {
+      "word": "precisa",
+      "start": 69.219,
+      "end": 69.78
+    },
+    {
+      "word": "de",
+      "start": 69.78,
+      "end": 69.941
+    },
+    {
+      "word": "tecnologia,",
+      "start": 69.941,
+      "end": 70.823
+    },
+    {
+      "word": "só",
+      "start": 70.823,
+      "end": 70.983
+    },
+    {
+      "word": "de",
+      "start": 70.983,
+      "end": 71.143
+    },
+    {
+      "word": "ritmo,",
+      "start": 71.143,
+      "end": 71.624
+    },
+    {
+      "word": "de",
+      "start": 71.624,
+      "end": 71.784
+    },
+    {
+      "word": "união",
+      "start": 71.784,
+      "end": 72.185
+    },
+    {
+      "word": "e",
+      "start": 72.185,
+      "end": 72.265
+    },
+    {
+      "word": "de",
+      "start": 72.265,
+      "end": 72.426
+    },
+    {
+      "word": "energia.",
+      "start": 72.426,
+      "end": 73.067
+    },
+    {
+      "word": "Agora",
+      "start": 73.067,
+      "end": 73.467
+    },
+    {
+      "word": "você",
+      "start": 73.467,
+      "end": 73.788
+    },
+    {
+      "word": "nunca",
+      "start": 73.788,
+      "end": 74.188
+    },
+    {
+      "word": "mais",
+      "start": 74.188,
+      "end": 74.508
+    },
+    {
+      "word": "vai",
+      "start": 74.508,
+      "end": 74.748
+    },
+    {
+      "word": "ouvir",
+      "start": 74.748,
+      "end": 75.149
+    },
+    {
+      "word": "essa",
+      "start": 75.149,
+      "end": 75.469
+    },
+    {
+      "word": "música",
+      "start": 75.469,
+      "end": 75.949
+    },
+    {
+      "word": "do",
+      "start": 75.949,
+      "end": 76.109
+    },
+    {
+      "word": "mesmo",
+      "start": 76.109,
+      "end": 76.51
+    },
+    {
+      "word": "jeito.",
+      "start": 76.51,
+      "end": 76.99
+    },
+    {
+      "word": "Manda",
+      "start": 76.99,
+      "end": 77.368
+    },
+    {
+      "word": "esse",
+      "start": 77.368,
+      "end": 77.67
+    },
+    {
+      "word": "vídeo",
+      "start": 77.67,
+      "end": 78.048
+    },
+    {
+      "word": "agora",
+      "start": 78.048,
+      "end": 78.426
+    },
+    {
+      "word": "para",
+      "start": 78.426,
+      "end": 78.729
+    },
+    {
+      "word": "aquele",
+      "start": 78.729,
+      "end": 79.182
+    },
+    {
+      "word": "seu",
+      "start": 79.182,
+      "end": 79.409
+    },
+    {
+      "word": "amigo",
+      "start": 79.409,
+      "end": 79.787
+    },
+    {
+      "word": "que",
+      "start": 79.787,
+      "end": 80.014
+    },
+    {
+      "word": "ama",
+      "start": 80.014,
+      "end": 80.24
+    },
+    {
+      "word": "Queen!",
+      "start": 80.24,
+      "end": 80.694
+    }
+  ]
+}
