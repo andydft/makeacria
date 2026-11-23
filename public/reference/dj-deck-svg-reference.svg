@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560">
+  <defs>
+    <linearGradient id="deckBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B4252"/>
+      <stop offset="100%" stop-color="#1F2937"/>
+    </linearGradient>
+    <linearGradient id="platter" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6B7280"/>
+      <stop offset="100%" stop-color="#374151"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(0,130)">
+    <rect x="20" y="70" width="360" height="220" rx="22" fill="url(#deckBody)" stroke="#111827" stroke-width="7"/>
+    <rect x="36" y="86" width="328" height="188" rx="16" fill="#111827" opacity="0.22"/>
+    <!-- left platter -->
+    <circle cx="110" cy="180" r="66" fill="#0F172A" stroke="#9CA3AF" stroke-width="5"/>
+    <circle cx="110" cy="180" r="52" fill="url(#platter)" stroke="#D1D5DB" stroke-width="4"/>
+    <circle cx="110" cy="180" r="13" fill="#111827" stroke="#E5E7EB" stroke-width="3"/>
+    <circle cx="110" cy="180" r="4" fill="#F9FAFB"/>
+    <!-- right platter -->
+    <circle cx="290" cy="180" r="66" fill="#0F172A" stroke="#9CA3AF" stroke-width="5"/>
+    <circle cx="290" cy="180" r="52" fill="url(#platter)" stroke="#D1D5DB" stroke-width="4"/>
+    <circle cx="290" cy="180" r="13" fill="#111827" stroke="#E5E7EB" stroke-width="3"/>
+    <circle cx="290" cy="180" r="4" fill="#F9FAFB"/>
+    <!-- mixer -->
+    <rect x="165" y="105" width="70" height="150" rx="10" fill="#1F2937" stroke="#9CA3AF" stroke-width="4"/>
+    <rect x="182" y="128" width="8" height="82" rx="4" fill="#374151"/>
+    <rect x="196" y="128" width="8" height="82" rx="4" fill="#374151"/>
+    <rect x="210" y="128" width="8" height="82" rx="4" fill="#374151"/>
+    <rect x="178" y="162" width="16" height="8" rx="3" fill="#60A5FA"/>
+    <rect x="192" y="148" width="16" height="8" rx="3" fill="#F472B6"/>
+    <rect x="206" y="175" width="16" height="8" rx="3" fill="#34D399"/>
+    <circle cx="184" cy="228" r="6" fill="#F59E0B"/>
+    <circle cx="200" cy="228" r="6" fill="#EF4444"/>
+    <circle cx="216" cy="228" r="6" fill="#22C55E"/>
+  </g>
+</svg>

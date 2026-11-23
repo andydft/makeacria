@@ -155,7 +155,7 @@ const Scene: React.FC = () => {
         <PropCard file="reference/bass-svg-reference.svg" pos={[3.4, 1.55, 0.35]} scale={0.48} rot={[0, -0.12, 0]} />
         <PropCard file="reference/microphone-svg-reference.svg" pos={[-0.6, 1.55, 1.05]} scale={0.38} />
         <PropCard file="reference/keyboard-svg-reference.svg" pos={[-1.8, 1.2, -0.35]} scale={0.44} />
-        <PropCard file="reference/dj-svg-reference.svg" pos={[2.6, 1.25, -0.35]} scale={0.45} />
+        <PropCard file="reference/dj-deck-svg-reference.svg" pos={[2.6, 1.25, -0.35]} scale={0.45} />
         <PropCard file="reference/amp-svg-reference.svg" pos={[-4.8, 1.0, -1.8]} scale={0.36} />
         <PropCard file="reference/amp-svg-reference.svg" pos={[4.8, 1.0, -1.8]} scale={0.36} />
         <PropCard file="reference/amp-svg-reference.svg" pos={[-2.6, 0.95, -2.2]} scale={0.30} />
