@@ -32,6 +32,8 @@ import { BandCrawlingChorusShowV2, BCCS2_FRAMES, BCCS2_FPS } from "./videos/band
 import { BandEmptinessMachineEmily, BEME_FRAMES, BEME_FPS } from "./videos/bandEmptinessMachineEmily/BandEmptinessMachineEmily";
 import { BtsCuriosity1Debut, BCD1_FRAMES, BCD1_FPS } from "./videos/btsCuriosity1Debut/BtsCuriosity1Debut";
 import { BtsCuriosity2ArmyKindness, BCD2_FRAMES, BCD2_FPS } from "./videos/btsCuriosity2ArmyKindness/BtsCuriosity2ArmyKindness";
+import { FresnoShowDesdeQuando, FSDQ_FRAMES, FSDQ_FPS } from "./videos/fresnoShowDesdeQuando/FresnoShowDesdeQuando";
+import { FresnoShowAlguemQueTeFazSorrir, FSAQ_FRAMES, FSAQ_FPS } from "./videos/fresnoShowAlguemQueTeFazSorrir/FresnoShowAlguemQueTeFazSorrir";
 import { LinkinParkFormationV2Short, LPF2_FRAMES, LPF2_FPS } from "./videos/linkinParkFormationV2/LinkinParkFormationV2";
 import { OneMoreLightTributeV2Short, OML2_FRAMES, OML2_FPS } from "./videos/oneMoreLightTributeV2/OneMoreLightTributeV2";
 import { ChesterAccidentProneV2Short, CAP2_FRAMES, CAP2_FPS } from "./videos/chesterAccidentProneV2/ChesterAccidentProneV2";
@@ -193,6 +195,22 @@ export const RemotionRoot: React.FC = () => {
         component={BtsCuriosity2ArmyKindness}
         fps={BCD2_FPS}
         durationInFrames={BCD2_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="FresnoShowDesdeQuando"
+        component={FresnoShowDesdeQuando}
+        fps={FSDQ_FPS}
+        durationInFrames={FSDQ_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="FresnoShowAlguemQueTeFazSorrir"
+        component={FresnoShowAlguemQueTeFazSorrir}
+        fps={FSAQ_FPS}
+        durationInFrames={FSAQ_FRAMES}
         width={1080}
         height={1920}
       />

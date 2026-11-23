@@ -1,7 +1,7 @@
 import React from "react";
 
 export type MouthShape = "neutral" | "smile" | "open" | "sad";
-export type HairVariant = "default" | "spiky" | "spiky-top" | "bald" | "short" | "feminine-long" | "curly";
+export type HairVariant = "default" | "spiky" | "spiky-top" | "bald" | "short" | "feminine-long" | "curly" | "emo";
 export type HeadAccessory = "none" | "cap" | "cap-high" | "headphones";
 
 export type MaleBaseCharacterProps = {
@@ -203,6 +203,10 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
           ) : hairVariant === "curly" ? (
             <g>
               <path d="M112 156 C108 118, 138 86, 200 84 C262 86, 292 118, 288 156 C286 170, 280 182, 272 190 L128 190 C120 182, 114 170, 112 156 Z" fill={hairDark} />
+            </g>
+          ) : hairVariant === "emo" ? (
+            <g>
+              <path d="M112 154 C110 116, 140 86, 200 84 C260 86, 290 116, 288 154 L292 250 C292 270, 280 282, 266 280 L134 280 C120 282, 108 270, 108 250 Z" fill={hairDark} />
             </g>
           ) : (
             <path
@@ -424,6 +428,17 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
                 <circle cx="246" cy="136" r="7" />
                 <circle cx="264" cy="154" r="7" />
               </g>
+            </g>
+          ) : hairVariant === "emo" ? (
+            <g>
+              {/* side pieces - longer on fringe side */}
+              <path d="M116 162 C112 190, 114 230, 120 258 C122 268, 130 272, 136 268 C140 235, 142 200, 146 168 Z" fill={hair} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
+              <path d="M284 162 C286 185, 284 210, 280 232 C278 242, 272 246, 266 242 C264 218, 262 192, 258 170 Z" fill={hair} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
+              {/* top */}
+              <path d="M114 158 C114 114, 144 86, 200 84 C256 86, 286 114, 286 158 C286 166, 283 173, 278 178 C266 164, 250 158, 236 158 C224 162, 214 166, 204 168 C192 170, 178 168, 164 162 C148 158, 132 164, 122 176 C117 172, 114 166, 114 158 Z" fill={hair} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
+              {/* one-sided fringe sweeping to the right, covering left eye */}
+              <path d="M120 174 C128 148, 150 136, 178 138 C200 140, 218 148, 232 160 C216 166, 196 170, 176 174 C156 178, 140 184, 128 194 C122 188, 120 180, 120 174 Z" fill={hair} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
+              <path d="M136 180 C148 162, 168 152, 192 154 C208 156, 220 162, 228 168" fill="none" stroke={hairDark} strokeWidth="3" strokeLinecap="round" opacity="0.35" />
             </g>
           ) : (
             <g>
