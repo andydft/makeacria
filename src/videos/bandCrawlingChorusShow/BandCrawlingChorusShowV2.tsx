@@ -77,20 +77,23 @@ const Stage: React.FC = () => (
 const CameraRig: React.FC<{ frame: number }> = ({ frame }) => {
   const { camera } = useThree();
   const bar = frame / BCCS2_BAR_FRAMES;
-  // Cuts: 0-4 Chester+Mike, 4-8 Drummer+Bassist close, 8-12 Guitarist+DJ/keyboard, 12-17 wide full band
-  let cam = { x: 0, y: 2.8, z: 8.5, lx: 0, ly: 2.2, lz: 0, fov: 40 };
-  if (bar < 4) {
-    const p = smooth((bar) / 4);
-    cam = { x: -0.6 + p * 0.4, y: 2.7, z: 7.2 - p * 0.4, lx: -0.4, ly: 2.35, lz: 0.4, fov: 38 };
-  } else if (bar < 8) {
-    const p = smooth((bar - 4) / 4);
-    cam = { x: 1.8 - p * 0.8, y: 2.5, z: 7.0, lx: 1.8, ly: 2.1, lz: -0.4, fov: 36 };
-  } else if (bar < 12) {
-    const p = smooth((bar - 8) / 4);
-    cam = { x: -2.2 + p * 0.6, y: 2.7, z: 7.8, lx: -2.2, ly: 2.15, lz: -0.2, fov: 38 };
+  // Cuts: Chester+Mike, Guitarist, Drummer+Bassist, DJ, Wide all
+  let cam = { x: 0, y: 2.9, z: 8.8, lx: 0, ly: 2.2, lz: 0, fov: 40 };
+  if (bar < 3.5) {
+    const p = smooth(bar / 3.5);
+    cam = { x: -0.8 + p * 0.3, y: 2.7, z: 7.4, lx: -1.0, ly: 2.35, lz: 0.3, fov: 40 };
+  } else if (bar < 7) {
+    const p = smooth((bar - 3.5) / 3.5);
+    cam = { x: -3.0 + p * 0.4, y: 2.7, z: 7.6, lx: -3.2, ly: 2.2, lz: 0.0, fov: 40 };
+  } else if (bar < 10.5) {
+    const p = smooth((bar - 7) / 3.5);
+    cam = { x: 2.2 - p * 0.2, y: 2.6, z: 8.2, lx: 2.4, ly: 2.15, lz: -0.4, fov: 44 };
+  } else if (bar < 14) {
+    const p = smooth((bar - 10.5) / 3.5);
+    cam = { x: 2.2 - p * 0.3, y: 2.7, z: 7.6, lx: 2.6, ly: 2.15, lz: -0.4, fov: 40 };
   } else {
-    const p = smooth((bar - 12) / 5);
-    cam = { x: 0 + p * 0.5, y: 3.2 + p * 0.3, z: 10.5 - p * 0.8, lx: 0, ly: 2.15, lz: -0.3, fov: 44 };
+    const p = smooth((bar - 14) / 3);
+    cam = { x: 0, y: 3.3 + p * 0.3, z: 11.5 - p * 0.5, lx: 0, ly: 2.15, lz: -0.3, fov: 46 };
   }
   camera.position.set(cam.x, cam.y, cam.z);
   camera.lookAt(cam.lx, cam.ly, cam.lz);
@@ -147,23 +150,23 @@ const Scene: React.FC = () => {
         <PropCard file="reference/stage-svg-reference.svg" pos={[0, 2.3, -2.9]} scale={[3.2, 2.2, 1]} opacity={0.55} />
 
         {/* Instruments / amps - all visible, instruments in front of players */}
-        <PropCard file="reference/drums-svg-reference.svg" pos={[1.8, 1.55, -0.7]} scale={0.62} />
-        <PropCard file="reference/guitar-svg-reference.svg" pos={[-4.0, 1.55, 0.35]} scale={0.46} rot={[0, 0.15, 0]} />
-        <PropCard file="reference/bass-svg-reference.svg" pos={[4.2, 1.55, 0.35]} scale={0.46} rot={[0, -0.15, 0]} />
-        <PropCard file="reference/microphone-svg-reference.svg" pos={[-0.8, 1.55, 1.05]} scale={0.38} />
-        <PropCard file="reference/keyboard-svg-reference.svg" pos={[-2.2, 1.2, -0.35]} scale={0.42} />
-        <PropCard file="reference/dj-svg-reference.svg" pos={[3.0, 1.25, -0.35]} scale={0.45} />
-        <PropCard file="reference/amp-svg-reference.svg" pos={[-5.4, 1.0, -1.8]} scale={0.36} />
-        <PropCard file="reference/amp-svg-reference.svg" pos={[5.4, 1.0, -1.8]} scale={0.36} />
-        <PropCard file="reference/amp-svg-reference.svg" pos={[-2.8, 0.95, -2.2]} scale={0.30} />
+        <PropCard file="reference/drums-svg-reference.svg" pos={[1.4, 1.55, -0.7]} scale={0.62} />
+        <PropCard file="reference/guitar-svg-reference.svg" pos={[-3.2, 1.55, 0.35]} scale={0.48} rot={[0, 0.12, 0]} />
+        <PropCard file="reference/bass-svg-reference.svg" pos={[3.4, 1.55, 0.35]} scale={0.48} rot={[0, -0.12, 0]} />
+        <PropCard file="reference/microphone-svg-reference.svg" pos={[-0.6, 1.55, 1.05]} scale={0.38} />
+        <PropCard file="reference/keyboard-svg-reference.svg" pos={[-1.8, 1.2, -0.35]} scale={0.44} />
+        <PropCard file="reference/dj-svg-reference.svg" pos={[2.6, 1.25, -0.35]} scale={0.45} />
+        <PropCard file="reference/amp-svg-reference.svg" pos={[-4.8, 1.0, -1.8]} scale={0.36} />
+        <PropCard file="reference/amp-svg-reference.svg" pos={[4.8, 1.0, -1.8]} scale={0.36} />
+        <PropCard file="reference/amp-svg-reference.svg" pos={[-2.6, 0.95, -2.2]} scale={0.30} />
 
         {/* Band - no Emily; players behind their instruments */}
-        <CharacterCard kind="drummer" pos={[1.8, 2.15, -1.3]} scale={0.92} frame={frame} energy={energy} />
-        <CharacterCard kind="chester" pos={[-0.8, 2.10, 0.75]} scale={1.08} frame={frame} energy={1} sing={chesterSing} />
-        <CharacterCard kind="mike" pos={[-2.2, 2.03, -0.85]} scale={0.98} frame={frame} energy={energy} face="right" />
-        <CharacterCard kind="guitarist" pos={[-4.0, 2.05, -0.05]} scale={0.98} frame={frame} energy={energy} face="right" />
-        <CharacterCard kind="bassist" pos={[4.2, 2.05, -0.05]} scale={0.98} frame={frame} energy={energy} face="left" />
-        <CharacterCard kind="dj" pos={[3.0, 2.02, -0.85]} scale={0.94} frame={frame} energy={energy * 0.8} face="left" />
+        <CharacterCard kind="drummer" pos={[1.4, 2.15, -1.3]} scale={0.92} frame={frame} energy={energy} />
+        <CharacterCard kind="chester" pos={[-0.6, 2.10, 0.75]} scale={1.08} frame={frame} energy={1} sing={chesterSing} />
+        <CharacterCard kind="mike" pos={[-1.8, 2.03, -0.85]} scale={0.98} frame={frame} energy={energy} face="right" />
+        <CharacterCard kind="guitarist" pos={[-3.2, 2.05, -0.05]} scale={1.0} frame={frame} energy={energy} face="right" />
+        <CharacterCard kind="bassist" pos={[3.4, 2.05, -0.05]} scale={1.0} frame={frame} energy={energy} face="left" />
+        <CharacterCard kind="dj" pos={[2.6, 2.02, -0.85]} scale={0.94} frame={frame} energy={energy * 0.8} face="left" />
 
         <Effects />
       </ThreeCanvas>
