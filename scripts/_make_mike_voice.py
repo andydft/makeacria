@@ -1,32 +1,30 @@
-"""Gera voice.wav + words.json do short do Mike Shinoda via edge-tts.
-Roda com: C:/Users/Pichau/ai-shorts-generator/.venv/Scripts/python.exe scripts/_make_mike_voice.py
-"""
-import asyncio, json, os, re, subprocess, tempfile
+"""Gera voice.wav + words.json do short do Mike Shinoda via edge-tts."""
+import asyncio, json, os, subprocess, tempfile
 import edge_tts
 
 BASE = r"C:\Users\Pichau\cartoon-short\jimi-broom-short\public\mike-shinoda"
 VOICE = "pt-BR-AntonioNeural"
-RATE = "+12%"
-DURATION = 74.0
+RATE = "+8%"
+DURATION = 76.0
 
 SENTENCES = [
-    "A música que definiu uma geração inteira foi criada em um quarto bagunçado, com um teclado de cinquenta dólares.",
-    "Lançado em dois mil, o Hybrid Theory vendeu trinta milhões de cópias e virou o álbum de estreia mais vendido do século.",
+    "A música que marcou uma geração inteira nasceu num quarto bagunçado, com um teclado de cinquenta dólares.",
+    "Em dois mil, o Hybrid Theory vendeu trinta milhões de cópias e virou o maior álbum de estreia do século.",
     "Mas antes do estúdio, antes do Grammy, existia só o quarto do Mike Shinoda.",
     "Ele tinha acabado de sair do colégio.",
-    "Gravador de quatro faixas, uma guitarra ligada direto num amp minúsculo e um microfone.",
+    "Um gravador de quatro faixas, uma guitarra ligada num amp minúsculo e um microfone.",
     "O próprio Mike contou depois: o setup inteiro valia mais ou menos trezentos dólares.",
-    "As primeiras versões das músicas nasceram ali, na casa dos pais.",
-    "Ele não estava pensando em fazer um álbum.",
-    "Mal estava pensando em formar uma banda.",
-    "A banda ainda se chamava Xero, e nenhuma gravadora queria.",
-    "Um executivo ouviu as fitas e ligou de volta.",
-    "Disse: isso não faz sentido, essas músicas soam muito bem.",
-    "Foi aí que tudo mudou.",
-    "Crawling nasceu de um vocal que sobrara de outra música: Blue.",
-    "Chester escreveu a letra, e Mike construiu a música em volta dela.",
-    "Em dois mil e dois, Crawling venceu o Grammy de Melhor Performance de Hard Rock.",
-    "Um quarto bagunçado, um teclado barato, e uma música que ainda dá voz a milhões.",
+    "As primeiras versões das músicas surgiram ali, na casa dos pais dele.",
+    "Ele não estava tentando fazer um álbum.",
+    "Mal estava pensando em montar uma banda.",
+    "A banda ainda se chamava Xero, e as gravadoras não se interessavam.",
+    "Até que um executivo ouviu as fitas e ligou de volta.",
+    "Ele disse: não faz sentido nenhum, essas músicas soam muito bem.",
+    "E ali, tudo começou a mudar.",
+    "Crawling nasceu de um vocal que sobrou de outra música, chamada Blue.",
+    "Chester escreveu a letra, e o Mike construiu a música em volta dela.",
+    "Em dois mil e dois, Crawling levou o Grammy de Melhor Performance de Hard Rock.",
+    "De um quarto bagunçado e um teclado barato, saiu uma voz que ainda fala por milhões.",
     "Qual música do Linkin Park marcou a sua vida?",
 ]
 
@@ -60,11 +58,7 @@ async def main():
             })
 
     print("WORD BOUNDARIES", len(wb), "EXPECTED", sum(len(toks(s)) for s in SENTENCES), flush=True)
-    if len(wb) != sum(len(toks(s)) for s in SENTENCES):
-        # alinhamento por contagem pode falhar com números/abreviações: distribui proporcionalmente
-        print("AVISO: contagem divergente - usando distribuição proporcional por sentença", flush=True)
 
-    # mp3 -> wav
     with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as f:
         mp3 = f.name
         f.write(audio)
@@ -74,7 +68,6 @@ async def main():
     ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     os.unlink(mp3)
 
-    # distribui as palavras pelas sentenças na ordem
     words = []
     cues = []
     idx = 0
@@ -82,7 +75,12 @@ async def main():
     for si, sent in enumerate(SENTENCES):
         want = expected_counts[si]
         chunk = wb[idx:idx + want]
-        idx += want
+        if len(chunk) < want and idx < len(wb):
+            # fallback: consume remaining if mismatch
+            chunk = wb[idx:]
+            idx = len(wb)
+        else:
+            idx += want
         if not chunk:
             continue
         s, e = chunk[0]["start"], chunk[-1]["end"]
@@ -90,9 +88,9 @@ async def main():
         words.extend(chunk)
     if idx < len(wb):
         words.extend(wb[idx:])
+        cues[-1]["end"] = wb[-1]["end"]
 
     duration = max(DURATION, (words[-1]["end"] + 2.5) if words else DURATION)
-
     segments = [
         {"start": cues[i]["start"], "end": cues[min(i + 2, len(cues) - 1)]["end"],
          "text": " ".join(cues[j]["text"] for j in range(i, min(i + 3, len(cues))))}

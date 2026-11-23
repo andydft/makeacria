@@ -28,9 +28,12 @@ export type MaleBaseCharacterProps = {
     goatee?: string;
     cap?: string;
     capDetail?: string;
+    tattoo?: string;
   };
   /** Show small goatee. */
   goatee?: boolean;
+  /** Optional arm tattoos (stylized). */
+  tattoos?: boolean;
   /** Optional id prefix to avoid collisions when rendering multiple characters. */
   idPrefix?: string;
   /** Hair style variant. */
@@ -70,6 +73,7 @@ const DEFAULT_COLORS = {
   goatee: "#2B2118",
   cap: "#2D3748",
   capDetail: "#1A202C",
+  tattoo: "#2F5F3A",
 };
 
 type C = typeof DEFAULT_COLORS;
@@ -88,6 +92,7 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
   style,
   colors: colorOverrides,
   goatee = true,
+  tattoos = false,
   idPrefix = "mbc",
   hairVariant = "default",
   headAccessory = "none",
@@ -111,6 +116,7 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
     ["--char-goatee" as any]: c.goatee,
     ["--char-cap" as any]: c.cap,
     ["--char-cap-detail" as any]: c.capDetail,
+    ["--char-tattoo" as any]: c.tattoo,
     ...style,
   };
 
@@ -130,6 +136,7 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
   const goateeColor = v("goatee", "goatee");
   const capColor = v("cap", "cap");
   const capDetail = v("capDetail", "cap-detail");
+  const tattoo = v("tattoo", "tattoo");
 
   const gid = (id: string) => `${idPrefix}-${id}`;
 
@@ -227,10 +234,26 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
         <g id={gid("arms")} transform={`translate(0 ${bodyY})`}>
           <g id={gid("arm-left")} transform={`rotate(${armLeftRotate} 150 305)`}>
             <path d="M144 304 C124 308, 114 324, 118 344 L126 382 C129 394, 140 400, 151 396 C162 392, 168 380, 165 368 L157 336 L160 320" fill={skin} stroke={outline} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+            {tattoos && (
+              <g id={gid("tattoo-left")} opacity="0.55" fill="none" stroke={tattoo} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M131 344 C136 338, 142 338, 147 344 C142 350, 136 350, 131 344 Z" strokeWidth="2.2" />
+                <path d="M128 356 C136 352, 146 352, 154 358" strokeWidth="2.4" />
+                <path d="M130 364 C138 360, 146 361, 152 368" strokeWidth="2.2" />
+                <path d="M136 372 C140 368, 145 369, 148 374 C145 379, 140 379, 136 374 Z" strokeWidth="2" />
+              </g>
+            )}
             <path d="M142 300 C126 304, 116 317, 118 332 L124 350 L154 342 L152 316 C151 306, 148 301, 142 300 Z" fill={shirt} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
           </g>
           <g id={gid("arm-right")} transform={`rotate(${armRightRotate} 250 305)`}>
             <path d="M256 304 C276 308, 286 324, 282 344 L274 382 C271 394, 260 400, 249 396 C238 392, 232 380, 235 368 L243 336 L240 320" fill={skin} stroke={outline} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+            {tattoos && (
+              <g id={gid("tattoo-right")} opacity="0.55" fill="none" stroke={tattoo} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M253 344 C258 338, 264 338, 269 344 C264 350, 258 350, 253 344 Z" strokeWidth="2.2" />
+                <path d="M246 358 C254 352, 264 352, 272 356" strokeWidth="2.4" />
+                <path d="M248 368 C254 361, 262 360, 270 364" strokeWidth="2.2" />
+                <path d="M252 374 C255 369, 260 368, 264 372 C260 379, 255 379, 252 374 Z" strokeWidth="2" />
+              </g>
+            )}
             <path d="M258 300 C274 304, 284 317, 282 332 L276 350 L246 342 L248 316 C249 306, 252 301, 258 300 Z" fill={shirt} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
           </g>
         </g>

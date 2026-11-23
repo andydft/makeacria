@@ -20,6 +20,7 @@ import { LinkinParkEmilyFirstIntroductionShort, LPEI_FRAMES, LPEI_FPS } from "./
 import { MendigagemDigitalSegueAiShort, MDSA_FRAMES, MDSA_FPS } from "./videos/mendigagemDigitalSegueAi/MendigagemDigitalSegueAi";
 import { OneMoreLightStoryShort, OMLS_FRAMES, OMLS_FPS } from "./videos/oneMoreLightStory/OneMoreLightStory";
 import { ChesterStagePoc, CHESTER_STAGE_POC_DURATION, CHESTER_STAGE_POC_FPS } from "./characters/poc/ChesterStagePoc";
+import { OneStepCloserNaruto, OSCN_FRAMES, OSCN_FPS } from "./videos/oneStepCloserNaruto/OneStepCloserNaruto";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -37,6 +38,14 @@ export const RemotionRoot: React.FC = () => {
         component={OneMoreLightStoryShort}
         fps={OMLS_FPS}
         durationInFrames={OMLS_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="OneStepCloserNarutoShort"
+        component={OneStepCloserNaruto}
+        fps={OSCN_FPS}
+        durationInFrames={OSCN_FRAMES}
         width={1080}
         height={1920}
       />

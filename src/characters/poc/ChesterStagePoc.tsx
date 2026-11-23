@@ -68,6 +68,7 @@ export const ChesterStagePoc: React.FC = () => {
           height={693}
           hairVariant="spiky"
           goatee
+          tattoos
           colors={{
             skin: "#F0C29A",
             hair: "#FFD400",

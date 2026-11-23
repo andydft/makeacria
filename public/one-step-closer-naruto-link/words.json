@@ -1,0 +1,865 @@
+{
+  "language": "pt-BR",
+  "duration": 59.537,
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "cues": [
+    {
+      "start": 0.096,
+      "end": 2.492,
+      "text": "Você já sentiu que estava a um passo de explodir?"
+    },
+    {
+      "start": 3.287,
+      "end": 9.375,
+      "text": "Em 2000, durante as gravações do Hybrid Theory, o Chester Bennington chegou nesse limite."
+    },
+    {
+      "start": 9.387,
+      "end": 14.016,
+      "text": "O produtor Don Gilmore pedia pra ele reescrever as letras várias vezes."
+    },
+    {
+      "start": 14.028,
+      "end": 18.322,
+      "text": "A pressão foi aumentando, até que a frustração virou música."
+    },
+    {
+      "start": 18.333,
+      "end": 24.132,
+      "text": "Daquela raiva saiu One Step Closer, com um grito que todo mundo conhece: Shut up!"
+    },
+    {
+      "start": 24.143,
+      "end": 29.653,
+      "text": "Não era só revolta. Era alguém dizendo que precisava de espaço antes de quebrar."
+    },
+    {
+      "start": 29.664,
+      "end": 36.007,
+      "text": "E é por isso que tanta gente lembra de Naruto, que foi febre nos anos 2000 e marcou uma geração inteira."
+    },
+    {
+      "start": 36.019,
+      "end": 42.604,
+      "text": "A luta do Rock Lee contra o Gaara virou símbolo disso: ser empurrado ao limite e ainda assim não desistir."
+    },
+    {
+      "start": 42.789,
+      "end": 49.803,
+      "text": "Até hoje, é uma das batalhas mais lembradas pelos fãs, e One Step Closer combina com esse momento antes do estouro."
+    },
+    {
+      "start": 49.988,
+      "end": 53.9,
+      "text": "Às vezes, dar esse passo atrás é o que impede tudo de desabar."
+    },
+    {
+      "start": 53.912,
+      "end": 57.037,
+      "text": "Se curtiu essa conexão, segue o perfil pra mais histórias da música."
+    }
+  ],
+  "words": [
+    {
+      "word": "Você",
+      "start": 0.096,
+      "end": 0.374
+    },
+    {
+      "word": "já",
+      "start": 0.386,
+      "end": 0.501
+    },
+    {
+      "word": "sentiu",
+      "start": 0.513,
+      "end": 0.941
+    },
+    {
+      "word": "que",
+      "start": 0.953,
+      "end": 1.034
+    },
+    {
+      "word": "estava",
+      "start": 1.045,
+      "end": 1.404
+    },
+    {
+      "word": "a",
+      "start": 1.416,
+      "end": 1.427
+    },
+    {
+      "word": "um",
+      "start": 1.439,
+      "end": 1.578
+    },
+    {
+      "word": "passo",
+      "start": 1.589,
+      "end": 1.913
+    },
+    {
+      "word": "de",
+      "start": 1.925,
+      "end": 1.994
+    },
+    {
+      "word": "explodir",
+      "start": 2.006,
+      "end": 2.492
+    },
+    {
+      "word": "Em 2000",
+      "start": 3.287,
+      "end": 3.877
+    },
+    {
+      "word": "durante",
+      "start": 4.132,
+      "end": 4.502
+    },
+    {
+      "word": "as",
+      "start": 4.514,
+      "end": 4.595
+    },
+    {
+      "word": "gravações",
+      "start": 4.606,
+      "end": 5.174
+    },
+    {
+      "word": "do",
+      "start": 5.185,
+      "end": 5.301
+    },
+    {
+      "word": "Hybrid",
+      "start": 5.312,
+      "end": 5.729
+    },
+    {
+      "word": "Theory",
+      "start": 5.741,
+      "end": 6.1
+    },
+    {
+      "word": "o",
+      "start": 6.377,
+      "end": 6.458
+    },
+    {
+      "word": "Chester",
+      "start": 6.47,
+      "end": 6.921
+    },
+    {
+      "word": "Bennington",
+      "start": 6.933,
+      "end": 7.419
+    },
+    {
+      "word": "chegou",
+      "start": 7.431,
+      "end": 7.778
+    },
+    {
+      "word": "nesse",
+      "start": 7.789,
+      "end": 8.044
+    },
+    {
+      "word": "limite",
+      "start": 8.056,
+      "end": 8.472
+    },
+    {
+      "word": "O",
+      "start": 9.271,
+      "end": 9.375
+    },
+    {
+      "word": "produtor",
+      "start": 9.387,
+      "end": 9.907
+    },
+    {
+      "word": "Don",
+      "start": 9.919,
+      "end": 10.093
+    },
+    {
+      "word": "Gilmore",
+      "start": 10.104,
+      "end": 10.475
+    },
+    {
+      "word": "pedia",
+      "start": 10.486,
+      "end": 10.822
+    },
+    {
+      "word": "pra",
+      "start": 10.833,
+      "end": 11.007
+    },
+    {
+      "word": "ele",
+      "start": 11.018,
+      "end": 11.134
+    },
+    {
+      "word": "reescrever",
+      "start": 11.146,
+      "end": 11.748
+    },
+    {
+      "word": "as",
+      "start": 11.759,
+      "end": 11.875
+    },
+    {
+      "word": "letras",
+      "start": 11.887,
+      "end": 12.28
+    },
+    {
+      "word": "várias",
+      "start": 12.292,
+      "end": 12.65
+    },
+    {
+      "word": "vezes",
+      "start": 12.662,
+      "end": 13.102
+    },
+    {
+      "word": "A",
+      "start": 13.9,
+      "end": 14.016
+    },
+    {
+      "word": "pressão",
+      "start": 14.028,
+      "end": 14.433
+    },
+    {
+      "word": "foi",
+      "start": 14.444,
+      "end": 14.56
+    },
+    {
+      "word": "aumentando",
+      "start": 14.572,
+      "end": 15.127
+    },
+    {
+      "word": "até",
+      "start": 15.324,
+      "end": 15.59
+    },
+    {
+      "word": "que",
+      "start": 15.602,
+      "end": 15.66
+    },
+    {
+      "word": "a",
+      "start": 15.671,
+      "end": 15.729
+    },
+    {
+      "word": "frustração",
+      "start": 15.741,
+      "end": 16.343
+    },
+    {
+      "word": "virou",
+      "start": 16.354,
+      "end": 16.597
+    },
+    {
+      "word": "música",
+      "start": 16.609,
+      "end": 17.049
+    },
+    {
+      "word": "Daquela",
+      "start": 17.847,
+      "end": 18.322
+    },
+    {
+      "word": "raiva",
+      "start": 18.333,
+      "end": 18.657
+    },
+    {
+      "word": "saiu",
+      "start": 18.669,
+      "end": 18.958
+    },
+    {
+      "word": "One",
+      "start": 18.97,
+      "end": 19.132
+    },
+    {
+      "word": "Step",
+      "start": 19.143,
+      "end": 19.525
+    },
+    {
+      "word": "Closer",
+      "start": 19.537,
+      "end": 19.954
+    },
+    {
+      "word": "com",
+      "start": 20.255,
+      "end": 20.382
+    },
+    {
+      "word": "um",
+      "start": 20.393,
+      "end": 20.463
+    },
+    {
+      "word": "grito",
+      "start": 20.475,
+      "end": 20.787
+    },
+    {
+      "word": "que",
+      "start": 20.799,
+      "end": 20.949
+    },
+    {
+      "word": "todo",
+      "start": 20.961,
+      "end": 21.25
+    },
+    {
+      "word": "mundo",
+      "start": 21.262,
+      "end": 21.586
+    },
+    {
+      "word": "conhece",
+      "start": 21.597,
+      "end": 22.118
+    },
+    {
+      "word": "Shut",
+      "start": 22.384,
+      "end": 22.708
+    },
+    {
+      "word": "up",
+      "start": 22.72,
+      "end": 23.044
+    },
+    {
+      "word": "Não",
+      "start": 23.843,
+      "end": 24.132
+    },
+    {
+      "word": "era",
+      "start": 24.143,
+      "end": 24.329
+    },
+    {
+      "word": "só",
+      "start": 24.34,
+      "end": 24.514
+    },
+    {
+      "word": "revolta",
+      "start": 24.525,
+      "end": 25.069
+    },
+    {
+      "word": "Era",
+      "start": 25.868,
+      "end": 26.042
+    },
+    {
+      "word": "alguém",
+      "start": 26.053,
+      "end": 26.296
+    },
+    {
+      "word": "dizendo",
+      "start": 26.308,
+      "end": 26.759
+    },
+    {
+      "word": "que",
+      "start": 26.771,
+      "end": 26.852
+    },
+    {
+      "word": "precisava",
+      "start": 26.863,
+      "end": 27.396
+    },
+    {
+      "word": "de",
+      "start": 27.407,
+      "end": 27.477
+    },
+    {
+      "word": "espaço",
+      "start": 27.488,
+      "end": 27.975
+    },
+    {
+      "word": "antes",
+      "start": 27.986,
+      "end": 28.264
+    },
+    {
+      "word": "de",
+      "start": 28.275,
+      "end": 28.356
+    },
+    {
+      "word": "quebrar",
+      "start": 28.368,
+      "end": 28.75
+    },
+    {
+      "word": "E",
+      "start": 29.549,
+      "end": 29.653
+    },
+    {
+      "word": "é",
+      "start": 29.664,
+      "end": 29.745
+    },
+    {
+      "word": "por",
+      "start": 29.757,
+      "end": 29.942
+    },
+    {
+      "word": "isso",
+      "start": 29.954,
+      "end": 30.22
+    },
+    {
+      "word": "que",
+      "start": 30.232,
+      "end": 30.359
+    },
+    {
+      "word": "tanta",
+      "start": 30.37,
+      "end": 30.648
+    },
+    {
+      "word": "gente",
+      "start": 30.66,
+      "end": 30.926
+    },
+    {
+      "word": "lembra",
+      "start": 30.938,
+      "end": 31.227
+    },
+    {
+      "word": "de",
+      "start": 31.238,
+      "end": 31.319
+    },
+    {
+      "word": "Naruto",
+      "start": 31.331,
+      "end": 31.736
+    },
+    {
+      "word": "que",
+      "start": 31.979,
+      "end": 32.106
+    },
+    {
+      "word": "foi",
+      "start": 32.118,
+      "end": 32.257
+    },
+    {
+      "word": "febre",
+      "start": 32.269,
+      "end": 32.569
+    },
+    {
+      "word": "nos",
+      "start": 32.581,
+      "end": 32.674
+    },
+    {
+      "word": "anos",
+      "start": 32.685,
+      "end": 33.009
+    },
+    {
+      "word": "2000 e",
+      "start": 33.021,
+      "end": 33.403
+    },
+    {
+      "word": "marcou",
+      "start": 33.414,
+      "end": 33.738
+    },
+    {
+      "word": "uma",
+      "start": 33.75,
+      "end": 33.889
+    },
+    {
+      "word": "geração",
+      "start": 33.9,
+      "end": 34.34
+    },
+    {
+      "word": "inteira",
+      "start": 34.352,
+      "end": 34.78
+    },
+    {
+      "word": "A",
+      "start": 35.579,
+      "end": 35.683
+    },
+    {
+      "word": "luta",
+      "start": 35.694,
+      "end": 36.007
+    },
+    {
+      "word": "do",
+      "start": 36.019,
+      "end": 36.111
+    },
+    {
+      "word": "Rock",
+      "start": 36.123,
+      "end": 36.424
+    },
+    {
+      "word": "Lee",
+      "start": 36.435,
+      "end": 36.539
+    },
+    {
+      "word": "contra",
+      "start": 36.551,
+      "end": 36.806
+    },
+    {
+      "word": "o",
+      "start": 36.817,
+      "end": 36.84
+    },
+    {
+      "word": "Gaara",
+      "start": 36.852,
+      "end": 37.141
+    },
+    {
+      "word": "virou",
+      "start": 37.153,
+      "end": 37.384
+    },
+    {
+      "word": "símbolo",
+      "start": 37.396,
+      "end": 37.836
+    },
+    {
+      "word": "disso",
+      "start": 37.847,
+      "end": 38.183
+    },
+    {
+      "word": "ser",
+      "start": 38.519,
+      "end": 38.669
+    },
+    {
+      "word": "empurrado",
+      "start": 38.681,
+      "end": 39.178
+    },
+    {
+      "word": "ao",
+      "start": 39.19,
+      "end": 39.248
+    },
+    {
+      "word": "limite",
+      "start": 39.259,
+      "end": 39.676
+    },
+    {
+      "word": "e",
+      "start": 39.688,
+      "end": 39.711
+    },
+    {
+      "word": "ainda",
+      "start": 39.722,
+      "end": 40.023
+    },
+    {
+      "word": "assim",
+      "start": 40.035,
+      "end": 40.324
+    },
+    {
+      "word": "não",
+      "start": 40.336,
+      "end": 40.579
+    },
+    {
+      "word": "desistir",
+      "start": 40.59,
+      "end": 41.111
+    },
+    {
+      "word": "Até",
+      "start": 41.91,
+      "end": 42.211
+    },
+    {
+      "word": "hoje",
+      "start": 42.222,
+      "end": 42.604
+    },
+    {
+      "word": "é",
+      "start": 42.789,
+      "end": 42.87
+    },
+    {
+      "word": "uma",
+      "start": 42.882,
+      "end": 43.032
+    },
+    {
+      "word": "das",
+      "start": 43.044,
+      "end": 43.171
+    },
+    {
+      "word": "batalhas",
+      "start": 43.183,
+      "end": 43.646
+    },
+    {
+      "word": "mais",
+      "start": 43.657,
+      "end": 43.854
+    },
+    {
+      "word": "lembradas",
+      "start": 43.866,
+      "end": 44.352
+    },
+    {
+      "word": "pelos",
+      "start": 44.363,
+      "end": 44.583
+    },
+    {
+      "word": "fãs",
+      "start": 44.595,
+      "end": 44.954
+    },
+    {
+      "word": "e",
+      "start": 45.197,
+      "end": 45.301
+    },
+    {
+      "word": "One",
+      "start": 45.312,
+      "end": 45.463
+    },
+    {
+      "word": "Step",
+      "start": 45.475,
+      "end": 45.833
+    },
+    {
+      "word": "Closer",
+      "start": 45.845,
+      "end": 46.169
+    },
+    {
+      "word": "combina",
+      "start": 46.181,
+      "end": 46.632
+    },
+    {
+      "word": "com",
+      "start": 46.644,
+      "end": 46.829
+    },
+    {
+      "word": "esse",
+      "start": 46.84,
+      "end": 47.037
+    },
+    {
+      "word": "momento",
+      "start": 47.049,
+      "end": 47.523
+    },
+    {
+      "word": "antes",
+      "start": 47.535,
+      "end": 47.801
+    },
+    {
+      "word": "do",
+      "start": 47.812,
+      "end": 47.917
+    },
+    {
+      "word": "estouro",
+      "start": 47.928,
+      "end": 48.345
+    },
+    {
+      "word": "Às",
+      "start": 49.144,
+      "end": 49.398
+    },
+    {
+      "word": "vezes",
+      "start": 49.41,
+      "end": 49.803
+    },
+    {
+      "word": "dar",
+      "start": 49.988,
+      "end": 50.162
+    },
+    {
+      "word": "esse",
+      "start": 50.174,
+      "end": 50.336
+    },
+    {
+      "word": "passo",
+      "start": 50.347,
+      "end": 50.579
+    },
+    {
+      "word": "atrás",
+      "start": 50.59,
+      "end": 50.856
+    },
+    {
+      "word": "é",
+      "start": 50.868,
+      "end": 51.007
+    },
+    {
+      "word": "o",
+      "start": 51.019,
+      "end": 51.065
+    },
+    {
+      "word": "que",
+      "start": 51.076,
+      "end": 51.169
+    },
+    {
+      "word": "impede",
+      "start": 51.181,
+      "end": 51.609
+    },
+    {
+      "word": "tudo",
+      "start": 51.62,
+      "end": 51.921
+    },
+    {
+      "word": "de",
+      "start": 51.933,
+      "end": 52.037
+    },
+    {
+      "word": "desabar",
+      "start": 52.049,
+      "end": 52.465
+    },
+    {
+      "word": "Se",
+      "start": 53.264,
+      "end": 53.484
+    },
+    {
+      "word": "curtiu",
+      "start": 53.495,
+      "end": 53.9
+    },
+    {
+      "word": "essa",
+      "start": 53.912,
+      "end": 54.086
+    },
+    {
+      "word": "conexão",
+      "start": 54.097,
+      "end": 54.676
+    },
+    {
+      "word": "segue",
+      "start": 54.977,
+      "end": 55.22
+    },
+    {
+      "word": "o",
+      "start": 55.231,
+      "end": 55.266
+    },
+    {
+      "word": "perfil",
+      "start": 55.278,
+      "end": 55.637
+    },
+    {
+      "word": "pra",
+      "start": 55.648,
+      "end": 55.799
+    },
+    {
+      "word": "mais",
+      "start": 55.81,
+      "end": 56.018
+    },
+    {
+      "word": "histórias",
+      "start": 56.03,
+      "end": 56.493
+    },
+    {
+      "word": "da",
+      "start": 56.505,
+      "end": 56.597
+    },
+    {
+      "word": "música",
+      "start": 56.609,
+      "end": 57.037
+    }
+  ]
+}
