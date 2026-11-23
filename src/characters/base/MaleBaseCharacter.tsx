@@ -1,8 +1,8 @@
 import React from "react";
 
 export type MouthShape = "neutral" | "smile" | "open" | "sad";
-export type HairVariant = "default" | "spiky" | "spiky-top" | "bald" | "short" | "feminine-long";
-export type HeadAccessory = "none" | "cap";
+export type HairVariant = "default" | "spiky" | "spiky-top" | "bald" | "short" | "feminine-long" | "curly";
+export type HeadAccessory = "none" | "cap" | "cap-high" | "headphones";
 
 export type MaleBaseCharacterProps = {
   /** Width of the SVG element. Height scales by viewBox aspect ratio. */
@@ -40,6 +40,8 @@ export type MaleBaseCharacterProps = {
   hairVariant?: HairVariant;
   /** Optional head accessory. */
   headAccessory?: HeadAccessory;
+  /** Eye shape style. */
+  eyeStyle?: "default" | "almond";
   /** Animation/pose props (degrees / px / 0-1). */
   pose?: {
     headX?: number;
@@ -96,6 +98,7 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
   idPrefix = "mbc",
   hairVariant = "default",
   headAccessory = "none",
+  eyeStyle = "default",
   pose = {},
 }) => {
   const c: C = { ...DEFAULT_COLORS, ...colorOverrides };
@@ -197,6 +200,10 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
               <path d="M128 180 C124 240, 126 320, 138 390" fill="none" stroke={hairDark} strokeOpacity="0.25" strokeWidth="5" strokeLinecap="round" />
               <path d="M272 180 C276 240, 274 320, 262 390" fill="none" stroke={hairDark} strokeOpacity="0.25" strokeWidth="5" strokeLinecap="round" />
             </g>
+          ) : hairVariant === "curly" ? (
+            <g>
+              <path d="M112 156 C108 118, 138 86, 200 84 C262 86, 292 118, 288 156 C286 170, 280 182, 272 190 L128 190 C120 182, 114 170, 112 156 Z" fill={hairDark} />
+            </g>
           ) : (
             <path
               d="M118 152 C118 108, 145 82, 200 80 C255 82, 282 108, 282 152 C282 170, 276 184, 268 194 L132 194 C124 184, 118 170, 118 152 Z"
@@ -283,12 +290,25 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
           </g>
 
           <g id={gid("eyes")}>
-            <g id={gid("eye-left")}>
-              <rect id={gid("eye-left-white")} x="143" y={eyeY} width="38" height={Math.max(2, eyeH)} rx={eyeRx} fill={eyeWhite} stroke={outline} strokeWidth="4" />
-            </g>
-            <g id={gid("eye-right")}>
-              <rect id={gid("eye-right-white")} x="219" y={eyeY} width="38" height={Math.max(2, eyeH)} rx={eyeRx} fill={eyeWhite} stroke={outline} strokeWidth="4" />
-            </g>
+            {eyeStyle === "almond" ? (
+              <>
+                <g id={gid("eye-left")}>
+                  <rect id={gid("eye-left-white")} x="150" y={eyeY + 4} width="26" height={Math.max(2, eyeH * 0.72)} rx={Math.min(6, Math.max(1, (eyeH * 0.72) / 2))} fill={eyeWhite} stroke={outline} strokeWidth="4" transform={`rotate(-6 163 ${eyeY + 4 + Math.max(2, eyeH * 0.72) / 2})`} />
+                </g>
+                <g id={gid("eye-right")}>
+                  <rect id={gid("eye-right-white")} x="224" y={eyeY + 4} width="26" height={Math.max(2, eyeH * 0.72)} rx={Math.min(6, Math.max(1, (eyeH * 0.72) / 2))} fill={eyeWhite} stroke={outline} strokeWidth="4" transform={`rotate(6 237 ${eyeY + 4 + Math.max(2, eyeH * 0.72) / 2})`} />
+                </g>
+              </>
+            ) : (
+              <>
+                <g id={gid("eye-left")}>
+                  <rect id={gid("eye-left-white")} x="143" y={eyeY} width="38" height={Math.max(2, eyeH)} rx={eyeRx} fill={eyeWhite} stroke={outline} strokeWidth="4" />
+                </g>
+                <g id={gid("eye-right")}>
+                  <rect id={gid("eye-right-white")} x="219" y={eyeY} width="38" height={Math.max(2, eyeH)} rx={eyeRx} fill={eyeWhite} stroke={outline} strokeWidth="4" />
+                </g>
+              </>
+            )}
           </g>
 
           <path d="M196 190 C192 198, 192 206, 200 210 C208 206, 208 198, 204 190" fill="none" stroke={outline} strokeOpacity="0.45" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
@@ -368,11 +388,33 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
             </g>
           ) : hairVariant === "feminine-long" ? (
             <g>
+              <path d="M118 160 C114 185, 112 220, 116 252 C118 264, 126 270, 134 266 C138 238, 142 200, 148 170 Z" fill={hair} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
+              <path d="M282 160 C286 185, 288 220, 284 252 C282 264, 274 270, 266 266 C262 238, 258 200, 252 170 Z" fill={hair} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
               <path d="M114 156 C114 114, 144 88, 200 86 C256 88, 286 114, 286 156 C286 166, 282 174, 276 180 C264 166, 246 158, 228 156 C218 164, 210 170, 200 170 C190 170, 182 164, 172 156 C154 158, 136 166, 124 180 C118 174, 114 166, 114 156 Z" fill={hair} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
-              <path d="M124 168 C116 190, 114 220, 118 250 C120 262, 128 268, 136 264 C140 240, 142 210, 146 182 Z" fill={hair} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
-              <path d="M276 168 C284 190, 286 220, 282 250 C280 262, 272 268, 264 264 C260 240, 258 210, 254 182 Z" fill={hair} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
               <path d="M150 160 C162 148, 178 144, 196 150 C188 156, 180 162, 172 166" fill="none" stroke={hairDark} strokeWidth="3.5" strokeLinecap="round" opacity="0.35" />
               <path d="M250 160 C238 148, 222 144, 204 150 C212 156, 220 162, 228 166" fill="none" stroke={hairDark} strokeWidth="3.5" strokeLinecap="round" opacity="0.35" />
+            </g>
+          ) : hairVariant === "curly" ? (
+            <g>
+              <path d="M116 158 C116 114, 146 88, 200 86 C254 88, 284 114, 284 158 C284 168, 280 176, 274 182 C262 168, 244 160, 226 158 C216 166, 208 170, 200 170 C192 170, 184 166, 174 158 C156 160, 138 168, 126 182 C120 176, 116 168, 116 158 Z" fill={hair} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
+              <g fill={hair} stroke={outline} strokeWidth="3.5" strokeLinejoin="round">
+                <circle cx="132" cy="150" r="14" />
+                <circle cx="150" cy="132" r="14" />
+                <circle cx="172" cy="120" r="15" />
+                <circle cx="200" cy="114" r="16" />
+                <circle cx="228" cy="120" r="15" />
+                <circle cx="250" cy="132" r="14" />
+                <circle cx="268" cy="150" r="14" />
+              </g>
+              <g fill={hairDark} opacity="0.18">
+                <circle cx="136" cy="154" r="7" />
+                <circle cx="154" cy="136" r="7" />
+                <circle cx="176" cy="124" r="8" />
+                <circle cx="200" cy="118" r="8" />
+                <circle cx="224" cy="124" r="8" />
+                <circle cx="246" cy="136" r="7" />
+                <circle cx="264" cy="154" r="7" />
+              </g>
             </g>
           ) : (
             <g>
@@ -391,6 +433,23 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
             <path d="M112 158 C112 114, 144 90, 200 88 C256 90, 288 114, 288 158 C288 168, 284 175, 278 180 L122 180 C116 175, 112 168, 112 158 Z" fill={capColor} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
             <path d="M122 174 L278 174 L292 196 C296 202, 292 208, 284 208 L116 208 C108 208, 104 202, 108 196 Z" fill={capDetail} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
             <path d="M200 88 L200 178" fill="none" stroke={outline} strokeOpacity="0.12" strokeWidth="3" />
+          </g>
+        )}
+        {headAccessory === "cap-high" && (
+          <g id={gid("accessory-cap-high")} transform={`translate(${headX} ${headY + bodyY}) rotate(${headRotate} 200 180)`}>
+            <path d="M112 136 C112 96, 144 76, 200 74 C256 76, 288 96, 288 136 C288 146, 284 153, 278 158 L122 158 C116 153, 112 146, 112 136 Z" fill={capColor} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
+            <path d="M122 152 L278 152 L288 168 C292 174, 288 180, 280 180 L120 180 C112 180, 108 174, 112 168 Z" fill={capDetail} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
+            <path d="M200 74 L200 156" fill="none" stroke={outline} strokeOpacity="0.12" strokeWidth="3" />
+          </g>
+        )}
+        {headAccessory === "headphones" && (
+          <g id={gid("accessory-headphones")} transform={`translate(${headX} ${headY + bodyY}) rotate(${headRotate} 200 180)`}>
+            <path d="M108 190 C108 126, 140 92, 200 92 C260 92, 292 126, 292 190" fill="none" stroke="#2D3748" strokeWidth="10" strokeLinecap="round" />
+            <path d="M108 190 C108 126, 140 92, 200 92 C260 92, 292 126, 292 190" fill="none" stroke="#4A5568" strokeWidth="5" strokeLinecap="round" />
+            <rect x="92" y="168" width="28" height="44" rx="10" fill="#2D3748" stroke={outline} strokeWidth="4" />
+            <rect x="280" y="168" width="28" height="44" rx="10" fill="#2D3748" stroke={outline} strokeWidth="4" />
+            <rect x="96" y="174" width="20" height="32" rx="8" fill="#4A5568" />
+            <rect x="284" y="174" width="20" height="32" rx="8" fill="#4A5568" />
           </g>
         )}
       </g>
