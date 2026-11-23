@@ -64,10 +64,10 @@ const CameraRig: React.FC<{ frame: number }> = ({ frame }) => {
   const { camera } = useThree();
   const bar = frame / FSDQ_BAR_FRAMES;
   let cam = { x: 0, y: 2.9, z: 9.5, lx: 0, ly: 2.2, lz: 0, fov: 42 };
-  if (bar < 6) { const p = smooth(bar / 6); cam = { x: -0.8 + p * 0.4, y: 2.8, z: 8.8, lx: -0.6, ly: 2.25, lz: 0.2, fov: 42 }; }
-  else if (bar < 12) { const p = smooth((bar - 6) / 6); cam = { x: 1.8 - p * 0.4, y: 2.8, z: 9.2, lx: 1.6, ly: 2.15, lz: -0.2, fov: 43 }; }
-  else if (bar < 18) { const p = smooth((bar - 12) / 6); cam = { x: -1.6 + p * 0.3, y: 2.9, z: 9.0, lx: -1.2, ly: 2.2, lz: 0.1, fov: 42 }; }
-  else { const p = smooth((bar - 18) / 6); cam = { x: 0, y: 3.3, z: 11.0 - p * 0.5, lx: 0, ly: 2.15, lz: -0.2, fov: 46 }; }
+  if (bar < 6) { const p = smooth(bar / 6); cam = { x: -1.2 + p * 0.4, y: 2.9, z: 9.2, lx: -0.8, ly: 2.2, lz: 0.1, fov: 44 }; }
+  else if (bar < 12) { const p = smooth((bar - 6) / 6); cam = { x: 1.2 - p * 0.4, y: 2.9, z: 9.2, lx: 0.8, ly: 2.2, lz: 0.1, fov: 44 }; }
+  else if (bar < 18) { const p = smooth((bar - 12) / 6); cam = { x: 0, y: 3.0, z: 9.8, lx: 0, ly: 2.2, lz: -0.2, fov: 45 }; }
+  else { const p = smooth((bar - 18) / 6); cam = { x: 0, y: 3.4, z: 11.5 - p * 0.5, lx: 0, ly: 2.15, lz: -0.2, fov: 48 }; }
   camera.position.set(cam.x, cam.y, cam.z);
   camera.lookAt(cam.lx, cam.ly, cam.lz);
   if ("fov" in camera) { (camera as THREE.PerspectiveCamera).fov = cam.fov; camera.updateProjectionMatrix(); }
@@ -121,17 +121,17 @@ const Scene: React.FC = () => {
         <PropCard file="reference/fresno-stage-svg-reference.svg" pos={[0, 2.5, -2.7]} scale={[3.0, 3.2, 1]} opacity={0.95} />
 
         {/* Instruments / amps */}
-        <PropCard file="reference/drums-svg-reference.svg" pos={[2.0, 1.55, -0.7]} scale={0.62} />
-        <PropCard file="reference/guitar-svg-reference.svg" pos={[-2.2, 1.35, 0.25]} scale={0.48} rot={[0, 0.15, -1.57]} />
-        <PropCard file="reference/bass-svg-reference.svg" pos={[0.2, 1.35, 0.25]} scale={0.48} rot={[0, -0.1, 1.57]} />
-        <PropCard file="reference/microphone-svg-reference.svg" pos={[-2.0, 1.55, 1.0]} scale={0.38} />
+        <PropCard file="reference/drums-svg-reference.svg" pos={[0, 1.55, -0.8]} scale={0.62} />
+        <PropCard file="reference/guitar-svg-reference.svg" pos={[-2.4, 1.35, 0.55]} scale={0.48} rot={[0, 0.15, -1.57]} />
+        <PropCard file="reference/bass-svg-reference.svg" pos={[2.4, 1.35, 0.55]} scale={0.48} rot={[0, -0.15, 1.57]} />
+        <PropCard file="reference/microphone-svg-reference.svg" pos={[-2.2, 1.55, 0.95]} scale={0.38} />
         <PropCard file="reference/amp-svg-reference.svg" pos={[-4.6, 1.0, -1.8]} scale={0.36} />
         <PropCard file="reference/amp-svg-reference.svg" pos={[4.6, 1.0, -1.8]} scale={0.36} />
 
         {/* Band */}
-        <CharacterCard kind="drummer" pos={[2.0, 2.15, -1.3]} scale={0.92} frame={frame} energy={energy} />
-        <CharacterCard kind="lucas" pos={[-2.0, 2.10, 0.75]} scale={1.05} frame={frame} energy={1} sing />
-        <CharacterCard kind="tavares" pos={[0.2, 2.05, -0.05]} scale={1.0} frame={frame} energy={energy} />
+        <CharacterCard kind="drummer" pos={[0, 2.15, -1.4]} scale={0.92} frame={frame} energy={energy} />
+        <CharacterCard kind="lucas" pos={[-2.4, 2.10, 0.2]} scale={1.05} frame={frame} energy={1} sing />
+        <CharacterCard kind="tavares" pos={[2.4, 2.05, 0.2]} scale={1.0} frame={frame} energy={energy} />
 
         <Effects />
       </ThreeCanvas>
