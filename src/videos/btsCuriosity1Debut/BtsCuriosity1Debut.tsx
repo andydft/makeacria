@@ -20,7 +20,7 @@ import { JUNGKOOK_BTS_V1 } from "../../characters/presets/jungkookBtsV1";
 import wordsData from "../../../public/bts-curiosity-1-debut/words.json";
 
 export const BCD1_FPS = 30;
-export const BCD1_FRAMES = 1100; // ~36.7s, voice ~33.9s + tail
+export const BCD1_FRAMES = 1220; // ~40.7s, voice ~38.6s + tail
 
 const smooth = (t: number) => { const u = Math.max(0, Math.min(1, t)); return u * u * (3 - 2 * u); };
 const makeBloom = () => new BloomEffect({ blendFunction: BlendFunction.ADD, intensity: 0.35, luminanceThreshold: 0.88, luminanceSmoothing: 0.25, mipmapBlur: true, levels: 4, radius: 0.6 });
@@ -148,9 +148,23 @@ const Subtitle: React.FC = () => {
   );
 };
 
+const HookOverlay: React.FC = () => {
+  const frame = useCurrentFrame();
+  const opacity = interpolate(frame, [0, 10, 75, 95], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const scale = interpolate(frame, [0, 15], [0.95, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <div style={{ position: "absolute", top: 120, left: 50, right: 50, textAlign: "center", opacity, transform: `scale(${scale})` }}>
+      <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 46, color: "#111827", textShadow: "0 3px 12px rgba(255,255,255,0.9)", background: "rgba(255,255,255,0.82)", borderRadius: 24, padding: "22px 20px", border: "3px solid #A78BFA" }}>
+        7 desconhecidos viraram o BTS...
+        <div style={{ fontSize: 30, marginTop: 10, color: "#374151", fontFamily: "Arial, sans-serif" }}>Curte, comenta e compartilha pra ver como!</div>
+      </div>
+    </div>
+  );
+};
+
 const TitleCard: React.FC = () => {
   const frame = useCurrentFrame();
-  const opacity = interpolate(frame, [0, 20, 90, 120], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const opacity = interpolate(frame, [80, 100, 170, 200], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
     <div style={{ position: "absolute", top: 80, left: 0, right: 0, textAlign: "center", opacity }}>
       <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 54, color: "#1F2937", textShadow: "0 2px 10px rgba(255,255,255,0.8)" }}>COMO O BTS COMEÇOU?</div>
@@ -192,6 +206,7 @@ const Scene: React.FC = () => {
         {MEMBERS.map(m => <CharacterCard key={m.id} m={m} frame={frame} />)}
         <Effects />
       </ThreeCanvas>
+      <HookOverlay />
       <TitleCard />
       <NameLabels />
       <Subtitle />

@@ -11,5 +11,5 @@ Você sabia como o BTS começou? Em 2013, sete garotos estrearam pela pequena Bi
 
 ## Observações
 - Vídeo sem áudio de música (narração TTS pt-BR-AntonioNeural +8%).
-- Duração: ~36.7s (1100 frames @ 30fps).
+- Duração: ~40.7s (1220 frames @ 30fps). Hook CTA nos primeiros 3s.
 - Arquivo: out/bts-curiosity-1-debut.mp4

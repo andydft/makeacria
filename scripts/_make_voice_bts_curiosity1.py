@@ -6,7 +6,7 @@ VOICE = "pt-BR-AntonioNeural"
 RATE = "+8%"
 OUT = os.path.join("public", "bts-curiosity-1-debut")
 TEXT = (
-    "Você sabia como o BTS começou? "
+    "Espera! Antes de descobrir como sete desconhecidos viraram o BTS, já curte, comenta e compartilha. "
     "Em dois mil e treze, sete garotos estrearam pela pequena empresa Big Hit Entertainment. "
     "O nome BTS vem de Bangtan Sonyeondan, que significa Escoteiros à Prova de Balas. "
     "Os membros são RM, Jin, SUGA, j-hope, Jimin, V e Jungkook. "
