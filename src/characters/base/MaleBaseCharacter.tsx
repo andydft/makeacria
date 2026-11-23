@@ -73,7 +73,7 @@ const DEFAULT_COLORS = {
   goatee: "#2B2118",
   cap: "#2D3748",
   capDetail: "#1A202C",
-  tattoo: "#2F5F3A",
+  tattoo: "#C0392B",
 };
 
 type C = typeof DEFAULT_COLORS;
@@ -235,11 +235,13 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
           <g id={gid("arm-left")} transform={`rotate(${armLeftRotate} 150 305)`}>
             <path d="M144 304 C124 308, 114 324, 118 344 L126 382 C129 394, 140 400, 151 396 C162 392, 168 380, 165 368 L157 336 L160 320" fill={skin} stroke={outline} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
             {tattoos && (
-              <g id={gid("tattoo-left")} opacity="0.72" fill="none" stroke={tattoo} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M134 372 C130 364, 132 356, 138 350 C141 356, 145 360, 144 368 C142 374, 138 378, 134 372 Z" fill={tattoo} strokeWidth="1.8" />
-                <path d="M141 362 C138 356, 140 350, 145 344 C148 350, 151 354, 150 360 C148 366, 144 368, 141 362 Z" fill={tattoo} strokeWidth="1.8" />
-                <path d="M132 382 C129 376, 131 370, 136 366" strokeWidth="2.2" />
-                <path d="M148 380 C150 374, 149 369, 145 364" strokeWidth="2" />
+              <g id={gid("tattoo-left")} opacity="0.9" stroke={tattoo} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M126 390 C132 390, 140 390, 150 388" fill="none" strokeWidth="2.4" />
+                <path d="M127 386 C125 380, 128 374, 132 370 C134 376, 136 380, 134 386 Z" fill={tattoo} strokeWidth="1.2" />
+                <path d="M134 386 C132 379, 135 372, 140 368 C142 374, 144 379, 142 386 Z" fill={tattoo} strokeWidth="1.2" />
+                <path d="M141 385 C139 378, 142 371, 147 367 C149 373, 151 378, 149 385 Z" fill={tattoo} strokeWidth="1.2" />
+                <path d="M130 372 C131 368, 134 365, 137 366" fill="none" strokeWidth="1.8" />
+                <path d="M137 370 C138 366, 141 363, 144 364" fill="none" strokeWidth="1.8" />
               </g>
             )}
             <path d="M142 300 C126 304, 116 317, 118 332 L124 350 L154 342 L152 316 C151 306, 148 301, 142 300 Z" fill={shirt} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
@@ -247,11 +249,13 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
           <g id={gid("arm-right")} transform={`rotate(${armRightRotate} 250 305)`}>
             <path d="M256 304 C276 308, 286 324, 282 344 L274 382 C271 394, 260 400, 249 396 C238 392, 232 380, 235 368 L243 336 L240 320" fill={skin} stroke={outline} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
             {tattoos && (
-              <g id={gid("tattoo-right")} opacity="0.72" fill="none" stroke={tattoo} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M266 372 C270 364, 268 356, 262 350 C259 356, 255 360, 256 368 C258 374, 262 378, 266 372 Z" fill={tattoo} strokeWidth="1.8" />
-                <path d="M259 362 C262 356, 260 350, 255 344 C252 350, 249 354, 250 360 C252 366, 256 368, 259 362 Z" fill={tattoo} strokeWidth="1.8" />
-                <path d="M268 382 C271 376, 269 370, 264 366" strokeWidth="2.2" />
-                <path d="M252 380 C250 374, 251 369, 255 364" strokeWidth="2" />
+              <g id={gid("tattoo-right")} opacity="0.9" stroke={tattoo} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M274 390 C268 390, 260 390, 250 388" fill="none" strokeWidth="2.4" />
+                <path d="M273 386 C275 380, 272 374, 268 370 C266 376, 264 380, 266 386 Z" fill={tattoo} strokeWidth="1.2" />
+                <path d="M266 386 C268 379, 265 372, 260 368 C258 374, 256 379, 258 386 Z" fill={tattoo} strokeWidth="1.2" />
+                <path d="M259 385 C261 378, 258 371, 253 367 C251 373, 249 378, 251 385 Z" fill={tattoo} strokeWidth="1.2" />
+                <path d="M270 372 C269 368, 266 365, 263 366" fill="none" strokeWidth="1.8" />
+                <path d="M263 370 C262 366, 259 363, 256 364" fill="none" strokeWidth="1.8" />
               </g>
             )}
             <path d="M258 300 C274 304, 284 317, 282 332 L276 350 L246 342 L248 316 C249 306, 252 301, 258 300 Z" fill={shirt} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
@@ -384,9 +388,9 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
         {/* HEAD ACCESSORY */}
         {headAccessory === "cap" && (
           <g id={gid("accessory-cap")} transform={`translate(${headX} ${headY + bodyY}) rotate(${headRotate} 200 180)`}>
-            <path d="M116 156 C116 114, 146 90, 200 88 C254 90, 284 114, 284 156 C284 164, 281 170, 276 176 L124 176 C119 170, 116 164, 116 156 Z" fill={capColor} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
-            <path d="M124 170 L276 170 L286 182 C290 188, 286 194, 278 194 L122 194 C114 194, 110 188, 114 182 Z" fill={capDetail} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
-            <path d="M200 88 L200 174" fill="none" stroke={outline} strokeOpacity="0.12" strokeWidth="3" />
+            <path d="M112 158 C112 114, 144 90, 200 88 C256 90, 288 114, 288 158 C288 168, 284 175, 278 180 L122 180 C116 175, 112 168, 112 158 Z" fill={capColor} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
+            <path d="M122 174 L278 174 L292 196 C296 202, 292 208, 284 208 L116 208 C108 208, 104 202, 108 196 Z" fill={capDetail} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
+            <path d="M200 88 L200 178" fill="none" stroke={outline} strokeOpacity="0.12" strokeWidth="3" />
           </g>
         )}
       </g>
