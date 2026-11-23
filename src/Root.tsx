@@ -29,12 +29,15 @@ import { MikeMoreThanRapperV2Short, MMR2_FRAMES, MMR2_FPS } from "./videos/mikeM
 import { BandRehearsalReunionV2Short, BRR2_FRAMES, BRR2_FPS } from "./videos/bandRehearsalReunionV2/BandRehearsalReunionV2";
 import { BandCrawlingChorusShow, BCCS_FRAMES, BCCS_FPS } from "./videos/bandCrawlingChorusShow/BandCrawlingChorusShow";
 import { BandCrawlingChorusShowV2, BCCS2_FRAMES, BCCS2_FPS } from "./videos/bandCrawlingChorusShow/BandCrawlingChorusShowV2";
+import { BandEmptinessMachineEmily, BEME_FRAMES, BEME_FPS } from "./videos/bandEmptinessMachineEmily/BandEmptinessMachineEmily";
 import { LinkinParkFormationV2Short, LPF2_FRAMES, LPF2_FPS } from "./videos/linkinParkFormationV2/LinkinParkFormationV2";
 import { OneMoreLightTributeV2Short, OML2_FRAMES, OML2_FPS } from "./videos/oneMoreLightTributeV2/OneMoreLightTributeV2";
 import { ChesterAccidentProneV2Short, CAP2_FRAMES, CAP2_FPS } from "./videos/chesterAccidentProneV2/ChesterAccidentProneV2";
 import { ChesterTattoosIdentity, CTI_FRAMES, CTI_FPS } from "./videos/chesterTattoosIdentity/ChesterTattoosIdentity";
 import { LpDjJoeHahnOrigin, LPDJ_FRAMES, LPDJ_FPS } from "./videos/lpDjJoeHahnOrigin/LpDjJoeHahnOrigin";
 import { LpNewDivideBillion, LP_NEW_DIVIDE_FRAMES, LP_NEW_DIVIDE_FPS } from "./videos/lpNewDivideBillion/LpNewDivideBillion";
+import { LpInTheEndRefrain, LP_ITE_FRAMES, LP_ITE_FPS } from "./videos/lpInTheEndRefrain/LpInTheEndRefrain";
+import { GameplayFarmStory, GFS_FRAMES, GFS_FPS } from "./videos/gameplayFarmStory/GameplayFarmStory";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -112,6 +115,22 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
       />
       <Composition
+        id="LpInTheEndRefrainShort"
+        component={LpInTheEndRefrain}
+        fps={LP_ITE_FPS}
+        durationInFrames={LP_ITE_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="GameplayFarmStoryShort"
+        component={GameplayFarmStory}
+        fps={GFS_FPS}
+        durationInFrames={GFS_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
         id="EmilySingerStoryV2Short"
         component={EmilySingerStoryV2Short}
         fps={ESS2_FPS}
@@ -148,6 +167,14 @@ export const RemotionRoot: React.FC = () => {
         component={BandCrawlingChorusShowV2}
         fps={BCCS2_FPS}
         durationInFrames={BCCS2_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="BandEmptinessMachineEmily"
+        component={BandEmptinessMachineEmily}
+        fps={BEME_FPS}
+        durationInFrames={BEME_FRAMES}
         width={1080}
         height={1920}
       />
