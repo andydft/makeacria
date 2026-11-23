@@ -28,6 +28,7 @@ import { EmilySingerStoryV2Short, ESS2_FRAMES, ESS2_FPS } from "./videos/emilySi
 import { MikeMoreThanRapperV2Short, MMR2_FRAMES, MMR2_FPS } from "./videos/mikeMoreThanRapperV2/MikeMoreThanRapperV2";
 import { BandRehearsalReunionV2Short, BRR2_FRAMES, BRR2_FPS } from "./videos/bandRehearsalReunionV2/BandRehearsalReunionV2";
 import { BandCrawlingChorusShow, BCCS_FRAMES, BCCS_FPS } from "./videos/bandCrawlingChorusShow/BandCrawlingChorusShow";
+import { BandCrawlingChorusShowV2, BCCS2_FRAMES, BCCS2_FPS } from "./videos/bandCrawlingChorusShow/BandCrawlingChorusShowV2";
 import { LinkinParkFormationV2Short, LPF2_FRAMES, LPF2_FPS } from "./videos/linkinParkFormationV2/LinkinParkFormationV2";
 import { OneMoreLightTributeV2Short, OML2_FRAMES, OML2_FPS } from "./videos/oneMoreLightTributeV2/OneMoreLightTributeV2";
 import { ChesterAccidentProneV2Short, CAP2_FRAMES, CAP2_FPS } from "./videos/chesterAccidentProneV2/ChesterAccidentProneV2";
@@ -139,6 +140,14 @@ export const RemotionRoot: React.FC = () => {
         component={BandCrawlingChorusShow}
         fps={BCCS_FPS}
         durationInFrames={BCCS_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="BandCrawlingChorusShowV2"
+        component={BandCrawlingChorusShowV2}
+        fps={BCCS2_FPS}
+        durationInFrames={BCCS2_FRAMES}
         width={1080}
         height={1920}
       />
