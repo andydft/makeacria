@@ -21,6 +21,19 @@ import { MendigagemDigitalSegueAiShort, MDSA_FRAMES, MDSA_FPS } from "./videos/m
 import { OneMoreLightStoryShort, OMLS_FRAMES, OMLS_FPS } from "./videos/oneMoreLightStory/OneMoreLightStory";
 import { ChesterStagePoc, CHESTER_STAGE_POC_DURATION, CHESTER_STAGE_POC_FPS } from "./characters/poc/ChesterStagePoc";
 import { OneStepCloserNaruto, OSCN_FRAMES, OSCN_FPS } from "./videos/oneStepCloserNaruto/OneStepCloserNaruto";
+import { EmilyArmstrongLinkinParkOriginV2Short, EML2_FRAMES, EML2_FPS } from "./videos/emilyArmstrongLinkinParkOriginV2/EmilyArmstrongLinkinParkOriginV2";
+import { LinkinParkChesterTapeV2Short, CPT2_FRAMES, CPT2_FPS } from "./videos/linkinParkChesterTapeV2/LinkinParkChesterTapeV2";
+import { ChesterShutUpTest, SUT_FRAMES, SUT_FPS } from "./videos/chesterShutUpTest/ChesterShutUpTest";
+import { EmilySingerStoryV2Short, ESS2_FRAMES, ESS2_FPS } from "./videos/emilySingerStoryV2/EmilySingerStoryV2";
+import { MikeMoreThanRapperV2Short, MMR2_FRAMES, MMR2_FPS } from "./videos/mikeMoreThanRapperV2/MikeMoreThanRapperV2";
+import { BandRehearsalReunionV2Short, BRR2_FRAMES, BRR2_FPS } from "./videos/bandRehearsalReunionV2/BandRehearsalReunionV2";
+import { BandCrawlingChorusShow, BCCS_FRAMES, BCCS_FPS } from "./videos/bandCrawlingChorusShow/BandCrawlingChorusShow";
+import { LinkinParkFormationV2Short, LPF2_FRAMES, LPF2_FPS } from "./videos/linkinParkFormationV2/LinkinParkFormationV2";
+import { OneMoreLightTributeV2Short, OML2_FRAMES, OML2_FPS } from "./videos/oneMoreLightTributeV2/OneMoreLightTributeV2";
+import { ChesterAccidentProneV2Short, CAP2_FRAMES, CAP2_FPS } from "./videos/chesterAccidentProneV2/ChesterAccidentProneV2";
+import { ChesterTattoosIdentity, CTI_FRAMES, CTI_FPS } from "./videos/chesterTattoosIdentity/ChesterTattoosIdentity";
+import { LpDjJoeHahnOrigin, LPDJ_FRAMES, LPDJ_FPS } from "./videos/lpDjJoeHahnOrigin/LpDjJoeHahnOrigin";
+import { LpNewDivideBillion, LP_NEW_DIVIDE_FRAMES, LP_NEW_DIVIDE_FPS } from "./videos/lpNewDivideBillion/LpNewDivideBillion";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -46,6 +59,110 @@ export const RemotionRoot: React.FC = () => {
         component={OneStepCloserNaruto}
         fps={OSCN_FPS}
         durationInFrames={OSCN_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="EmilyArmstrongLinkinParkOriginV2Short"
+        component={EmilyArmstrongLinkinParkOriginV2Short}
+        fps={EML2_FPS}
+        durationInFrames={EML2_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="LinkinParkChesterTapeV2Short"
+        component={LinkinParkChesterTapeV2Short}
+        fps={CPT2_FPS}
+        durationInFrames={CPT2_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ChesterShutUpTest"
+        component={ChesterShutUpTest}
+        fps={SUT_FPS}
+        durationInFrames={SUT_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ChesterTattoosIdentityShort"
+        component={ChesterTattoosIdentity}
+        fps={CTI_FPS}
+        durationInFrames={CTI_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="LpDjJoeHahnOriginShort"
+        component={LpDjJoeHahnOrigin}
+        fps={LPDJ_FPS}
+        durationInFrames={LPDJ_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="LpNewDivideBillionShort"
+        component={LpNewDivideBillion}
+        fps={LP_NEW_DIVIDE_FPS}
+        durationInFrames={LP_NEW_DIVIDE_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="EmilySingerStoryV2Short"
+        component={EmilySingerStoryV2Short}
+        fps={ESS2_FPS}
+        durationInFrames={ESS2_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="MikeMoreThanRapperV2Short"
+        component={MikeMoreThanRapperV2Short}
+        fps={MMR2_FPS}
+        durationInFrames={MMR2_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="BandRehearsalReunionV2Short"
+        component={BandRehearsalReunionV2Short}
+        fps={BRR2_FPS}
+        durationInFrames={BRR2_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="BandCrawlingChorusShow"
+        component={BandCrawlingChorusShow}
+        fps={BCCS_FPS}
+        durationInFrames={BCCS_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="LinkinParkFormationV2Short"
+        component={LinkinParkFormationV2Short}
+        fps={LPF2_FPS}
+        durationInFrames={LPF2_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="OneMoreLightTributeV2Short"
+        component={OneMoreLightTributeV2Short}
+        fps={OML2_FPS}
+        durationInFrames={OML2_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ChesterAccidentProneV2Short"
+        component={ChesterAccidentProneV2Short}
+        fps={CAP2_FPS}
+        durationInFrames={CAP2_FRAMES}
         width={1080}
         height={1920}
       />
