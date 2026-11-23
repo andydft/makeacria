@@ -151,8 +151,8 @@ const Scene: React.FC = () => {
 
         {/* Instruments / amps - all visible, instruments in front of players */}
         <PropCard file="reference/drums-svg-reference.svg" pos={[1.4, 1.55, -0.7]} scale={0.62} />
-        <PropCard file="reference/guitar-svg-reference.svg" pos={[-3.2, 1.55, 0.35]} scale={0.48} rot={[0, 0.12, 0]} />
-        <PropCard file="reference/bass-svg-reference.svg" pos={[3.4, 1.55, 0.35]} scale={0.48} rot={[0, -0.12, 0]} />
+        <PropCard file="reference/guitar-svg-reference.svg" pos={[-3.45, 1.55, 0.25]} scale={0.46} rot={[0, 0.25, -0.18]} />
+        <PropCard file="reference/bass-svg-reference.svg" pos={[3.65, 1.55, 0.25]} scale={0.46} rot={[0, -0.25, 0.18]} />
         <PropCard file="reference/microphone-svg-reference.svg" pos={[-0.6, 1.55, 1.05]} scale={0.38} />
         <PropCard file="reference/keyboard-svg-reference.svg" pos={[-1.8, 1.2, -0.35]} scale={0.44} />
         <PropCard file="reference/dj-deck-svg-reference.svg" pos={[2.6, 1.25, -0.35]} scale={0.45} />
@@ -162,6 +162,9 @@ const Scene: React.FC = () => {
 
         {/* Band - no Emily; players behind their instruments */}
         <CharacterCard kind="drummer" pos={[1.4, 2.15, -1.3]} scale={0.92} frame={frame} energy={energy} />
+        {/* Drumsticks */}
+        <mesh position={[1.15, 2.35, -1.05]} rotation={[0.2, 0, 0.55]} castShadow><cylinderGeometry args={[0.018, 0.014, 0.55, 8]} /><meshStandardMaterial color="#D7C3A3" roughness={0.6} /></mesh>
+        <mesh position={[1.62, 2.32, -1.05]} rotation={[0.2, 0, -0.55]} castShadow><cylinderGeometry args={[0.018, 0.014, 0.55, 8]} /><meshStandardMaterial color="#D7C3A3" roughness={0.6} /></mesh>
         <CharacterCard kind="chester" pos={[-0.6, 2.10, 0.75]} scale={1.08} frame={frame} energy={1} sing={chesterSing} />
         <CharacterCard kind="mike" pos={[-1.8, 2.03, -0.85]} scale={0.98} frame={frame} energy={energy} face="right" />
         <CharacterCard kind="guitarist" pos={[-3.2, 2.05, -0.05]} scale={1.0} frame={frame} energy={energy} face="right" />
