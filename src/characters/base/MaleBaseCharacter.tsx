@@ -1,7 +1,7 @@
 import React from "react";
 
 export type MouthShape = "neutral" | "smile" | "open" | "sad";
-export type HairVariant = "default" | "spiky" | "bald" | "short" | "feminine-long";
+export type HairVariant = "default" | "spiky" | "spiky-top" | "bald" | "short" | "feminine-long";
 export type HeadAccessory = "none" | "cap";
 
 export type MaleBaseCharacterProps = {
@@ -187,7 +187,7 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
       <g id={gid("character")} filter={`url(#${gid("soft-shadow")})`}>
         {/* HAIR BACK */}
         <g id={gid("hair-back")} transform={`translate(${headX} ${headY + bodyY}) rotate(${headRotate} 200 180)`}>
-          {hairVariant === "bald" || headAccessory === "cap" ? null : hairVariant === "spiky" ? (
+          {hairVariant === "bald" || headAccessory === "cap" ? null : hairVariant === "spiky" || hairVariant === "spiky-top" ? (
             <g transform="translate(0,-32)">
               <path d="M114 160 C112 118, 140 84, 200 82 C260 84, 288 118, 286 160 C284 176, 276 188, 268 196 L132 196 C124 188, 116 176, 114 160 Z" fill={hairDark} />
             </g>
@@ -235,11 +235,11 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
           <g id={gid("arm-left")} transform={`rotate(${armLeftRotate} 150 305)`}>
             <path d="M144 304 C124 308, 114 324, 118 344 L126 382 C129 394, 140 400, 151 396 C162 392, 168 380, 165 368 L157 336 L160 320" fill={skin} stroke={outline} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
             {tattoos && (
-              <g id={gid("tattoo-left")} opacity="0.55" fill="none" stroke={tattoo} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M131 344 C136 338, 142 338, 147 344 C142 350, 136 350, 131 344 Z" strokeWidth="2.2" />
-                <path d="M128 356 C136 352, 146 352, 154 358" strokeWidth="2.4" />
-                <path d="M130 364 C138 360, 146 361, 152 368" strokeWidth="2.2" />
-                <path d="M136 372 C140 368, 145 369, 148 374 C145 379, 140 379, 136 374 Z" strokeWidth="2" />
+              <g id={gid("tattoo-left")} opacity="0.72" fill="none" stroke={tattoo} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M134 372 C130 364, 132 356, 138 350 C141 356, 145 360, 144 368 C142 374, 138 378, 134 372 Z" fill={tattoo} strokeWidth="1.8" />
+                <path d="M141 362 C138 356, 140 350, 145 344 C148 350, 151 354, 150 360 C148 366, 144 368, 141 362 Z" fill={tattoo} strokeWidth="1.8" />
+                <path d="M132 382 C129 376, 131 370, 136 366" strokeWidth="2.2" />
+                <path d="M148 380 C150 374, 149 369, 145 364" strokeWidth="2" />
               </g>
             )}
             <path d="M142 300 C126 304, 116 317, 118 332 L124 350 L154 342 L152 316 C151 306, 148 301, 142 300 Z" fill={shirt} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
@@ -247,11 +247,11 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
           <g id={gid("arm-right")} transform={`rotate(${armRightRotate} 250 305)`}>
             <path d="M256 304 C276 308, 286 324, 282 344 L274 382 C271 394, 260 400, 249 396 C238 392, 232 380, 235 368 L243 336 L240 320" fill={skin} stroke={outline} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
             {tattoos && (
-              <g id={gid("tattoo-right")} opacity="0.55" fill="none" stroke={tattoo} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M253 344 C258 338, 264 338, 269 344 C264 350, 258 350, 253 344 Z" strokeWidth="2.2" />
-                <path d="M246 358 C254 352, 264 352, 272 356" strokeWidth="2.4" />
-                <path d="M248 368 C254 361, 262 360, 270 364" strokeWidth="2.2" />
-                <path d="M252 374 C255 369, 260 368, 264 372 C260 379, 255 379, 252 374 Z" strokeWidth="2" />
+              <g id={gid("tattoo-right")} opacity="0.72" fill="none" stroke={tattoo} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M266 372 C270 364, 268 356, 262 350 C259 356, 255 360, 256 368 C258 374, 262 378, 266 372 Z" fill={tattoo} strokeWidth="1.8" />
+                <path d="M259 362 C262 356, 260 350, 255 344 C252 350, 249 354, 250 360 C252 366, 256 368, 259 362 Z" fill={tattoo} strokeWidth="1.8" />
+                <path d="M268 382 C271 376, 269 370, 264 366" strokeWidth="2.2" />
+                <path d="M252 380 C250 374, 251 369, 255 364" strokeWidth="2" />
               </g>
             )}
             <path d="M258 300 C274 304, 284 317, 282 332 L276 350 L246 342 L248 316 C249 306, 252 301, 258 300 Z" fill={shirt} stroke={outline} strokeWidth="4" strokeLinejoin="round" />
@@ -334,6 +334,26 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
                 <path d="M231 130 L244 114 L243 136 Z" />
                 <path d="M249 139 L268 124 L262 145 Z" />
                 <path d="M264 149 L286 142 L272 156 Z" />
+              </g>
+            </g>
+          ) : hairVariant === "spiky-top" ? (
+            <g transform="translate(0,-32)">
+              <path d="M124 156 C124 118, 150 96, 200 94 C250 96, 276 118, 276 156 C276 162, 274 168, 270 172 C258 162, 242 158, 226 158 C216 162, 208 164, 200 164 C192 164, 184 162, 174 158 C158 158, 142 162, 130 172 C126 168, 124 162, 124 156 Z" fill={hair} stroke={outline} strokeWidth="4.5" strokeLinejoin="round" />
+              <g stroke={outline} strokeWidth="4" strokeLinejoin="round" strokeLinecap="round">
+                <path d="M150 140 L142 108 L166 132 Z" fill={hair} />
+                <path d="M168 132 L168 98 L186 126 Z" fill={hair} />
+                <path d="M186 126 L192 92 L204 124 Z" fill={hair} />
+                <path d="M204 124 L216 92 L222 126 Z" fill={hair} />
+                <path d="M222 128 L236 100 L234 134 Z" fill={hair} />
+                <path d="M236 136 L258 110 L250 142 Z" fill={hair} />
+              </g>
+              <g fill={hairHighlight} opacity="0.9">
+                <path d="M153 136 L147 116 L164 131 Z" />
+                <path d="M171 128 L171 106 L184 125 Z" />
+                <path d="M189 123 L195 100 L202 123 Z" />
+                <path d="M207 123 L213 100 L219 125 Z" />
+                <path d="M225 127 L232 108 L231 132 Z" />
+                <path d="M238 134 L251 118 L247 139 Z" />
               </g>
             </g>
           ) : hairVariant === "short" ? (
