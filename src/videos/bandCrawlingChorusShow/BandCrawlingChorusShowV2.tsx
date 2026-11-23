@@ -151,8 +151,8 @@ const Scene: React.FC = () => {
 
         {/* Instruments / amps - all visible, instruments in front of players */}
         <PropCard file="reference/drums-svg-reference.svg" pos={[1.4, 1.55, -0.7]} scale={0.62} />
-        <PropCard file="reference/guitar-svg-reference.svg" pos={[-3.2, 1.45, 0.25]} scale={0.46} rot={[0, 0.15, 0]} />
-        <PropCard file="reference/bass-svg-reference.svg" pos={[3.4, 1.45, 0.25]} scale={0.46} rot={[0, -0.15, 0]} />
+        <PropCard file="reference/guitar-svg-reference.svg" pos={[-3.2, 1.35, 0.25]} scale={0.46} rot={[0, 0.15, -1.57]} />
+        <PropCard file="reference/bass-svg-reference.svg" pos={[3.4, 1.35, 0.25]} scale={0.46} rot={[0, -0.15, 1.57]} />
         <PropCard file="reference/microphone-svg-reference.svg" pos={[-0.6, 1.55, 1.05]} scale={0.38} />
         <PropCard file="reference/keyboard-svg-reference.svg" pos={[-1.8, 1.2, -0.35]} scale={0.44} />
         <PropCard file="reference/dj-deck-svg-reference.svg" pos={[2.6, 1.25, -0.35]} scale={0.45} />
