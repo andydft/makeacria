@@ -45,16 +45,18 @@ const PropCard: React.FC<{ file: string; pos: [number, number, number]; scale?: 
 type CharKind = "chester" | "mike" | "guitarist" | "bassist" | "dj" | "drummer";
 const PRESETS: Record<CharKind, any> = { chester: CHESTER_ORIGINAL_V1, mike: MIKE_ORIGINAL_V1, guitarist: GUITARIST_ORIGINAL_V1, bassist: BASSIST_ORIGINAL_V1, dj: DJ_ORIGINAL_V1, drummer: DRUMMER_ORIGINAL_V1 };
 
+const PHASE: Record<CharKind, number> = { chester: 0, mike: 0.8, guitarist: 1.6, bassist: 2.4, dj: 3.2, drummer: 0.4 };
 const CharacterCard: React.FC<{ kind: CharKind; pos: [number, number, number]; scale?: number; rot?: [number, number, number]; frame: number; energy?: number; sing?: boolean; face?: "front" | "left" | "right" }> = ({ kind, pos, scale = 1, rot = [0, 0, 0], frame, energy = 0.5, sing = false, face = "front" }) => {
   const beat = frame / BCCS2_BEAT_FRAMES;
-  const step = beat * Math.PI * 2;
-  const bob = Math.sin(step) * -1.5 * energy;
-  const legSwing = Math.sin(step) * 2 * energy;
-  const armSwing = Math.sin(step + Math.PI) * (6 + 8 * energy);
-  const eyeOpen = frame % 110 > 104 && frame % 110 < 109 ? 0.08 : 1;
+  const phase = PHASE[kind] ?? 0;
+  const step = beat * Math.PI * 2 + phase;
+  const bob = Math.sin(step) * -1.2 * energy;
+  const legSwing = Math.sin(step * (kind === "drummer" ? 1.5 : 1)) * (kind === "drummer" ? 4 : 2) * energy;
+  const armSwing = Math.sin(step + Math.PI) * (kind === "drummer" ? 14 : 6 + 6 * energy);
+  const eyeOpen = (frame + Math.round(phase * 10)) % 110 > 104 && (frame + Math.round(phase * 10)) % 110 < 109 ? 0.08 : 1;
   const mouthShape = sing ? (Math.sin(step * 2) > 0.15 ? "open" : "smile") : "neutral";
-  const headY = bob * 0.35 + (sing ? Math.sin(step) * 1.2 : 0);
-  const headRotate = face === "left" ? -12 : face === "right" ? 12 : Math.sin(step * 0.5) * 2 * energy;
+  const headY = bob * 0.35 + (sing ? Math.sin(step * 1.3) * 1.2 : Math.sin(step * 0.5) * 0.4);
+  const headRotate = face === "left" ? -10 + Math.sin(step * 0.7) * 2 : face === "right" ? 10 + Math.sin(step * 0.7) * 2 : Math.sin(step * 0.5) * 3 * energy;
   const preset = PRESETS[kind];
   const tex = useSvgTexture(<MaleBaseCharacter width={512} height={768} {...preset} pose={{ bodyY: bob, headY, headRotate, armLeftRotate: armSwing, armRightRotate: -armSwing, legLeftRotate: legSwing, legRightRotate: -legSwing, eyeOpen, mouthShape }} />, [kind, Math.round(frame / 2), sing, face, Math.round(energy * 10)], 512, 768);
   return <Card tex={tex} pos={pos} scale={scale} rot={rot} />;
@@ -144,24 +146,24 @@ const Scene: React.FC = () => {
         <Stage />
         <PropCard file="reference/stage-svg-reference.svg" pos={[0, 2.3, -2.9]} scale={[3.2, 2.2, 1]} opacity={0.55} />
 
-        {/* Instruments / amps - all visible */}
-        <PropCard file="reference/drums-svg-reference.svg" pos={[1.8, 1.55, -1.1]} scale={0.62} />
-        <PropCard file="reference/guitar-svg-reference.svg" pos={[-4.0, 1.55, 0.0]} scale={0.46} rot={[0, 0.15, 0]} />
-        <PropCard file="reference/bass-svg-reference.svg" pos={[4.2, 1.55, 0.0]} scale={0.46} rot={[0, -0.15, 0]} />
-        <PropCard file="reference/microphone-svg-reference.svg" pos={[-0.8, 1.55, 0.95]} scale={0.38} />
-        <PropCard file="reference/keyboard-svg-reference.svg" pos={[-2.2, 1.2, -0.7]} scale={0.42} />
-        <PropCard file="reference/dj-svg-reference.svg" pos={[3.0, 1.25, -0.8]} scale={0.45} />
+        {/* Instruments / amps - all visible, instruments in front of players */}
+        <PropCard file="reference/drums-svg-reference.svg" pos={[1.8, 1.55, -0.7]} scale={0.62} />
+        <PropCard file="reference/guitar-svg-reference.svg" pos={[-4.0, 1.55, 0.35]} scale={0.46} rot={[0, 0.15, 0]} />
+        <PropCard file="reference/bass-svg-reference.svg" pos={[4.2, 1.55, 0.35]} scale={0.46} rot={[0, -0.15, 0]} />
+        <PropCard file="reference/microphone-svg-reference.svg" pos={[-0.8, 1.55, 1.05]} scale={0.38} />
+        <PropCard file="reference/keyboard-svg-reference.svg" pos={[-2.2, 1.2, -0.35]} scale={0.42} />
+        <PropCard file="reference/dj-svg-reference.svg" pos={[3.0, 1.25, -0.35]} scale={0.45} />
         <PropCard file="reference/amp-svg-reference.svg" pos={[-5.4, 1.0, -1.8]} scale={0.36} />
         <PropCard file="reference/amp-svg-reference.svg" pos={[5.4, 1.0, -1.8]} scale={0.36} />
         <PropCard file="reference/amp-svg-reference.svg" pos={[-2.8, 0.95, -2.2]} scale={0.30} />
 
-        {/* Band - no Emily */}
-        <CharacterCard kind="drummer" pos={[1.8, 2.15, -0.95]} scale={0.92} frame={frame} energy={energy} />
-        <CharacterCard kind="chester" pos={[-0.8, 2.10, 0.9]} scale={1.08} frame={frame} energy={1} sing={chesterSing} />
-        <CharacterCard kind="mike" pos={[-2.2, 2.03, -0.35]} scale={0.98} frame={frame} energy={energy} face="right" />
-        <CharacterCard kind="guitarist" pos={[-4.0, 2.05, 0.2]} scale={0.98} frame={frame} energy={energy} face="right" />
-        <CharacterCard kind="bassist" pos={[4.2, 2.05, 0.2]} scale={0.98} frame={frame} energy={energy} face="left" />
-        <CharacterCard kind="dj" pos={[3.0, 2.02, -0.45]} scale={0.94} frame={frame} energy={energy * 0.8} face="left" />
+        {/* Band - no Emily; players behind their instruments */}
+        <CharacterCard kind="drummer" pos={[1.8, 2.15, -1.3]} scale={0.92} frame={frame} energy={energy} />
+        <CharacterCard kind="chester" pos={[-0.8, 2.10, 0.75]} scale={1.08} frame={frame} energy={1} sing={chesterSing} />
+        <CharacterCard kind="mike" pos={[-2.2, 2.03, -0.85]} scale={0.98} frame={frame} energy={energy} face="right" />
+        <CharacterCard kind="guitarist" pos={[-4.0, 2.05, -0.05]} scale={0.98} frame={frame} energy={energy} face="right" />
+        <CharacterCard kind="bassist" pos={[4.2, 2.05, -0.05]} scale={0.98} frame={frame} energy={energy} face="left" />
+        <CharacterCard kind="dj" pos={[3.0, 2.02, -0.85]} scale={0.94} frame={frame} energy={energy * 0.8} face="left" />
 
         <Effects />
       </ThreeCanvas>
