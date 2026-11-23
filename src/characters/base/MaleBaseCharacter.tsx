@@ -41,7 +41,7 @@ export type MaleBaseCharacterProps = {
   /** Optional head accessory. */
   headAccessory?: HeadAccessory;
   /** Eye shape style. */
-  eyeStyle?: "default" | "almond";
+  eyeStyle?: "default" | "almond" | "thin";
   /** Animation/pose props (degrees / px / 0-1). */
   pose?: {
     headX?: number;
@@ -297,6 +297,15 @@ export const MaleBaseCharacter: React.FC<MaleBaseCharacterProps> = ({
                 </g>
                 <g id={gid("eye-right")}>
                   <rect id={gid("eye-right-white")} x="224" y={eyeY + 4} width="26" height={Math.max(2, eyeH * 0.72)} rx={Math.min(6, Math.max(1, (eyeH * 0.72) / 2))} fill={eyeWhite} stroke={outline} strokeWidth="4" transform={`rotate(6 237 ${eyeY + 4 + Math.max(2, eyeH * 0.72) / 2})`} />
+                </g>
+              </>
+            ) : eyeStyle === "thin" ? (
+              <>
+                <g id={gid("eye-left")}>
+                  <rect id={gid("eye-left-white")} x="148" y={eyeY + 8} width="28" height={Math.max(2, Math.min(6, eyeH * 0.28))} rx={Math.max(1, Math.min(3, eyeH * 0.14))} fill={eyeWhite} stroke={outline} strokeWidth="3.5" />
+                </g>
+                <g id={gid("eye-right")}>
+                  <rect id={gid("eye-right-white")} x="224" y={eyeY + 8} width="28" height={Math.max(2, Math.min(6, eyeH * 0.28))} rx={Math.max(1, Math.min(3, eyeH * 0.14))} fill={eyeWhite} stroke={outline} strokeWidth="3.5" />
                 </g>
               </>
             ) : (

@@ -1,0 +1,437 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "text": "Você sabia como o BTS começou? Em dois mil e treze, sete garotos estrearam pela pequena empresa Big Hit Entertainment. O nome BTS vem de Bangtan Sonyeondan, que significa Escoteiros à Prova de Balas. Os membros são RM, Jin, SUGA, j-hope, Jimin, V e Jungkook. No começo, eles enfrentaram muitas dúvidas e pouco reconhecimento. Mas com letras sobre juventude, sonhos e pressão social, o BTS conquistou fãs no mundo inteiro. E foi assim que um grupo de um pequeno estúdio começou a virar um fenômeno global.",
+  "words": [
+    {
+      "text": "Você",
+      "offset": 0.096291,
+      "duration": 0.254625
+    },
+    {
+      "text": "sabia",
+      "offset": 0.3625,
+      "duration": 0.42825
+    },
+    {
+      "text": "como",
+      "offset": 0.802333,
+      "duration": 0.219916
+    },
+    {
+      "text": "o",
+      "offset": 1.033791,
+      "duration": 0.023166
+    },
+    {
+      "text": "BTS",
+      "offset": 1.0685,
+      "duration": 0.555541
+    },
+    {
+      "text": "começou",
+      "offset": 1.635666,
+      "duration": 0.520833
+    },
+    {
+      "text": "Em",
+      "offset": 2.951375,
+      "duration": 0.104166
+    },
+    {
+      "text": "dois",
+      "offset": 3.067125,
+      "duration": 0.19675
+    },
+    {
+      "text": "mil",
+      "offset": 3.275458,
+      "duration": 0.081
+    },
+    {
+      "text": "e",
+      "offset": 3.368041,
+      "duration": 0.057875
+    },
+    {
+      "text": "treze",
+      "offset": 3.4375,
+      "duration": 0.347208
+    },
+    {
+      "text": "sete",
+      "offset": 4.074083,
+      "duration": 0.324083
+    },
+    {
+      "text": "garotos",
+      "offset": 4.409708,
+      "duration": 0.416666
+    },
+    {
+      "text": "estrearam",
+      "offset": 4.837958,
+      "duration": 0.50925
+    },
+    {
+      "text": "pela",
+      "offset": 5.358791,
+      "duration": 0.173625
+    },
+    {
+      "text": "pequena",
+      "offset": 5.544,
+      "duration": 0.324083
+    },
+    {
+      "text": "empresa",
+      "offset": 5.879625,
+      "duration": 0.405083
+    },
+    {
+      "text": "Big",
+      "offset": 6.296291,
+      "duration": 0.277791
+    },
+    {
+      "text": "Hit",
+      "offset": 6.585666,
+      "duration": 0.289333
+    },
+    {
+      "text": "Entertainment",
+      "offset": 6.886583,
+      "duration": 0.625
+    },
+    {
+      "text": "O",
+      "offset": 8.310166,
+      "duration": 0.104166
+    },
+    {
+      "text": "nome",
+      "offset": 8.425916,
+      "duration": 0.289333
+    },
+    {
+      "text": "BTS",
+      "offset": 8.726833,
+      "duration": 0.544
+    },
+    {
+      "text": "vem",
+      "offset": 9.282416,
+      "duration": 0.150458
+    },
+    {
+      "text": "de",
+      "offset": 9.444458,
+      "duration": 0.092583
+    },
+    {
+      "text": "Bangtan",
+      "offset": 9.548625,
+      "duration": 0.324083
+    },
+    {
+      "text": "Sonyeondan",
+      "offset": 9.88425,
+      "duration": 0.544
+    },
+    {
+      "text": "que",
+      "offset": 10.659708,
+      "duration": 0.11575
+    },
+    {
+      "text": "significa",
+      "offset": 10.787041,
+      "duration": 0.532416
+    },
+    {
+      "text": "Escoteiros",
+      "offset": 11.331,
+      "duration": 0.474541
+    },
+    {
+      "text": "à",
+      "offset": 11.817125,
+      "duration": 0.11575
+    },
+    {
+      "text": "Prova",
+      "offset": 11.944458,
+      "duration": 0.335666
+    },
+    {
+      "text": "de",
+      "offset": 12.291666,
+      "duration": 0.092583
+    },
+    {
+      "text": "Balas",
+      "offset": 12.395833,
+      "duration": 0.462958
+    },
+    {
+      "text": "Os",
+      "offset": 13.657416,
+      "duration": 0.173625
+    },
+    {
+      "text": "membros",
+      "offset": 13.842583,
+      "duration": 0.381958
+    },
+    {
+      "text": "são",
+      "offset": 14.236125,
+      "duration": 0.162041
+    },
+    {
+      "text": "RM",
+      "offset": 14.409708,
+      "duration": 0.474541
+    },
+    {
+      "text": "Jin",
+      "offset": 15.11575,
+      "duration": 0.266208
+    },
+    {
+      "text": "SUGA",
+      "offset": 15.544,
+      "duration": 0.370375
+    },
+    {
+      "text": "j-hope",
+      "offset": 16.13425,
+      "duration": 0.717583
+    },
+    {
+      "text": "Jimin",
+      "offset": 17.083333,
+      "duration": 0.370375
+    },
+    {
+      "text": "V",
+      "offset": 17.7315,
+      "duration": 0.208333
+    },
+    {
+      "text": "e",
+      "offset": 17.951375,
+      "duration": 0.057875
+    },
+    {
+      "text": "Jungkook",
+      "offset": 18.020833,
+      "duration": 0.578708
+    },
+    {
+      "text": "No",
+      "offset": 19.398166,
+      "duration": 0.150458
+    },
+    {
+      "text": "começo",
+      "offset": 19.560166,
+      "duration": 0.50925
+    },
+    {
+      "text": "eles",
+      "offset": 20.266208,
+      "duration": 0.104166
+    },
+    {
+      "text": "enfrentaram",
+      "offset": 20.381958,
+      "duration": 0.567125
+    },
+    {
+      "text": "muitas",
+      "offset": 20.960666,
+      "duration": 0.335666
+    },
+    {
+      "text": "dúvidas",
+      "offset": 21.307875,
+      "duration": 0.324083
+    },
+    {
+      "text": "e",
+      "offset": 21.6435,
+      "duration": 0.11575
+    },
+    {
+      "text": "pouco",
+      "offset": 21.770833,
+      "duration": 0.289333
+    },
+    {
+      "text": "reconhecimento",
+      "offset": 22.07175,
+      "duration": 0.798625
+    },
+    {
+      "text": "Mas",
+      "offset": 23.669,
+      "duration": 0.254625
+    },
+    {
+      "text": "com",
+      "offset": 23.935166,
+      "duration": 0.162041
+    },
+    {
+      "text": "letras",
+      "offset": 24.108791,
+      "duration": 0.347208
+    },
+    {
+      "text": "sobre",
+      "offset": 24.467583,
+      "duration": 0.2315
+    },
+    {
+      "text": "juventude",
+      "offset": 24.710666,
+      "duration": 0.648166
+    },
+    {
+      "text": "sonhos",
+      "offset": 25.578708,
+      "duration": 0.3125
+    },
+    {
+      "text": "e",
+      "offset": 25.902791,
+      "duration": 0.11575
+    },
+    {
+      "text": "pressão",
+      "offset": 26.030083,
+      "duration": 0.3125
+    },
+    {
+      "text": "social",
+      "offset": 26.354166,
+      "duration": 0.474541
+    },
+    {
+      "text": "o",
+      "offset": 27.118041,
+      "duration": 0.092583
+    },
+    {
+      "text": "BTS",
+      "offset": 27.222208,
+      "duration": 0.497666
+    },
+    {
+      "text": "conquistou",
+      "offset": 27.7315,
+      "duration": 0.439833
+    },
+    {
+      "text": "fãs",
+      "offset": 28.182875,
+      "duration": 0.300916
+    },
+    {
+      "text": "no",
+      "offset": 28.495375,
+      "duration": 0.069458
+    },
+    {
+      "text": "mundo",
+      "offset": 28.576375,
+      "duration": 0.289333
+    },
+    {
+      "text": "inteiro",
+      "offset": 28.877333,
+      "duration": 0.405083
+    },
+    {
+      "text": "E",
+      "offset": 30.081,
+      "duration": 0.11575
+    },
+    {
+      "text": "foi",
+      "offset": 30.208333,
+      "duration": 0.19675
+    },
+    {
+      "text": "assim",
+      "offset": 30.416666,
+      "duration": 0.324083
+    },
+    {
+      "text": "que",
+      "offset": 30.752333,
+      "duration": 0.092583
+    },
+    {
+      "text": "um",
+      "offset": 30.8565,
+      "duration": 0.104166
+    },
+    {
+      "text": "grupo",
+      "offset": 30.972208,
+      "duration": 0.277791
+    },
+    {
+      "text": "de",
+      "offset": 31.261583,
+      "duration": 0.057875
+    },
+    {
+      "text": "um",
+      "offset": 31.331,
+      "duration": 0.069458
+    },
+    {
+      "text": "pequeno",
+      "offset": 31.412041,
+      "duration": 0.335666
+    },
+    {
+      "text": "estúdio",
+      "offset": 31.75925,
+      "duration": 0.3935
+    },
+    {
+      "text": "começou",
+      "offset": 32.164333,
+      "duration": 0.405083
+    },
+    {
+      "text": "a",
+      "offset": 32.581,
+      "duration": 0.034708
+    },
+    {
+      "text": "virar",
+      "offset": 32.627333,
+      "duration": 0.254625
+    },
+    {
+      "text": "um",
+      "offset": 32.8935,
+      "duration": 0.069458
+    },
+    {
+      "text": "fenômeno",
+      "offset": 32.974541,
+      "duration": 0.462958
+    },
+    {
+      "text": "global",
+      "offset": 33.449083,
+      "duration": 0.416666
+    }
+  ]
+}
