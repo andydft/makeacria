@@ -6,13 +6,13 @@ VOICE = "pt-BR-AntonioNeural"
 RATE = "+8%"
 OUT = os.path.join("public", "bts-curiosity-1-debut")
 TEXT = (
-    "Espera! Antes de descobrir como sete desconhecidos viraram o BTS, já curte, comenta e compartilha. "
+    "ARMY, você sabia que o BTS quase nunca existiu? Curte, comenta e fica até o fim, essa história vai te emocionar! "
     "Em dois mil e treze, sete garotos estrearam pela pequena empresa Big Hit Entertainment. "
     "O nome BTS vem de Bangtan Sonyeondan, que significa Escoteiros à Prova de Balas. "
     "Os membros são RM, Jin, SUGA, j-hope, Jimin, V e Jungkook. "
-    "No começo, eles enfrentaram muitas dúvidas e pouco reconhecimento. "
+    "No começo, eles enfrentaram muitas dúvidas, críticas e pouco reconhecimento. "
     "Mas com letras sobre juventude, sonhos e pressão social, o BTS conquistou fãs no mundo inteiro. "
-    "E foi assim que um grupo de um pequeno estúdio começou a virar um fenômeno global."
+    "E foi assim que sete garotos de um pequeno estúdio viraram um fenômeno global que mudou vidas."
 )
 
 async def main():

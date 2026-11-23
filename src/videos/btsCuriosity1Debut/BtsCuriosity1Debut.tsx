@@ -20,7 +20,7 @@ import { JUNGKOOK_BTS_V1 } from "../../characters/presets/jungkookBtsV1";
 import wordsData from "../../../public/bts-curiosity-1-debut/words.json";
 
 export const BCD1_FPS = 30;
-export const BCD1_FRAMES = 1220; // ~40.7s, voice ~38.6s + tail
+export const BCD1_FRAMES = 1280; // ~42.7s, voice ~40.8s + tail
 
 const smooth = (t: number) => { const u = Math.max(0, Math.min(1, t)); return u * u * (3 - 2 * u); };
 const makeBloom = () => new BloomEffect({ blendFunction: BlendFunction.ADD, intensity: 0.35, luminanceThreshold: 0.88, luminanceSmoothing: 0.25, mipmapBlur: true, levels: 4, radius: 0.6 });
@@ -54,36 +54,63 @@ const CharacterCard: React.FC<{ m: Member; frame: number; highlight?: boolean }>
   return <Card tex={tex} pos={[m.x, y, 0]} scale={s} />;
 };
 
-const StudioStage: React.FC = () => (
-  <group>
-    {/* Floor */}
-    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]} receiveShadow>
-      <planeGeometry args={[30, 20]} />
-      <meshStandardMaterial color="#E8EDF5" roughness={0.9} metalness={0.02} />
-    </mesh>
-    {/* Back wall */}
-    <Box pos={[0, 3.2, -3.5]} args={[30, 7, 0.3]} color="#F3F6FB" rough={0.95} />
-    {/* LED panel */}
-    <mesh position={[0, 3.4, -3.34]}>
-      <planeGeometry args={[14, 4.2]} />
-      <meshBasicMaterial color="#DDEAFE" />
-    </mesh>
-    <mesh position={[0, 3.4, -3.33]}>
-      <planeGeometry args={[13.6, 3.8]} />
-      <meshBasicMaterial color="#EEF4FF" transparent opacity={0.95} />
-    </mesh>
-    {/* Side pillars */}
-    <Box pos={[-7.2, 2.5, -2.5]} args={[0.5, 5, 2]} color="#DCE5F2" />
-    <Box pos={[7.2, 2.5, -2.5]} args={[0.5, 5, 2]} color="#DCE5F2" />
-    {/* Accent lights */}
-    {[-5, -2.5, 0, 2.5, 5].map((x, i) => (
-      <mesh key={i} position={[x, 0.02, 1.8]}>
-        <circleGeometry args={[0.16, 20]} />
-        <meshBasicMaterial color={["#A78BFA", "#60A5FA", "#F472B6", "#60A5FA", "#A78BFA"][i]} transparent opacity={0.55} />
+const StudioStage: React.FC = () => {
+  const btsTex = useMemo(() => {
+    const c = document.createElement("canvas");
+    c.width = 1024; c.height = 512;
+    const ctx = c.getContext("2d")!;
+    ctx.clearRect(0, 0, c.width, c.height);
+    ctx.fillStyle = "rgba(238,244,255,0.0)";
+    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.font = "bold 220px Arial Black, Arial, sans-serif";
+    ctx.fillStyle = "rgba(124, 58, 237, 0.18)";
+    ctx.fillText("BTS", 512, 250);
+    ctx.font = "bold 56px Arial, sans-serif";
+    ctx.fillStyle = "rgba(59, 130, 246, 0.22)";
+    ctx.fillText("K-POP CURIOSIDADES", 512, 390);
+    const t = new THREE.CanvasTexture(c);
+    t.colorSpace = THREE.SRGBColorSpace;
+    t.needsUpdate = true;
+    return t;
+  }, []);
+
+  return (
+    <group>
+      {/* Floor */}
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]} receiveShadow>
+        <planeGeometry args={[30, 20]} />
+        <meshStandardMaterial color="#E8EDF5" roughness={0.9} metalness={0.02} />
       </mesh>
-    ))}
-  </group>
-);
+      {/* Back wall */}
+      <Box pos={[0, 3.2, -3.5]} args={[30, 7, 0.3]} color="#F3F6FB" rough={0.95} />
+      {/* LED panel */}
+      <mesh position={[0, 3.4, -3.34]}>
+        <planeGeometry args={[14, 4.2]} />
+        <meshBasicMaterial color="#DDEAFE" />
+      </mesh>
+      <mesh position={[0, 3.4, -3.33]}>
+        <planeGeometry args={[13.6, 3.8]} />
+        <meshBasicMaterial color="#EEF4FF" transparent opacity={0.95} />
+      </mesh>
+      <mesh position={[0, 3.35, -3.31]}>
+        <planeGeometry args={[13.2, 3.6]} />
+        <meshBasicMaterial map={btsTex} transparent />
+      </mesh>
+      {/* Side pillars */}
+      <Box pos={[-7.2, 2.5, -2.5]} args={[0.5, 5, 2]} color="#DCE5F2" />
+      <Box pos={[7.2, 2.5, -2.5]} args={[0.5, 5, 2]} color="#DCE5F2" />
+      {/* Accent lights */}
+      {[-5, -2.5, 0, 2.5, 5].map((x, i) => (
+        <mesh key={i} position={[x, 0.02, 1.8]}>
+          <circleGeometry args={[0.16, 20]} />
+          <meshBasicMaterial color={["#A78BFA", "#60A5FA", "#F472B6", "#60A5FA", "#A78BFA"][i]} transparent opacity={0.55} />
+        </mesh>
+      ))}
+    </group>
+  );
+};
 
 const CameraRig: React.FC<{ frame: number }> = ({ frame }) => {
   const { camera } = useThree();
@@ -154,9 +181,9 @@ const HookOverlay: React.FC = () => {
   const scale = interpolate(frame, [0, 15], [0.95, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
     <div style={{ position: "absolute", top: 120, left: 50, right: 50, textAlign: "center", opacity, transform: `scale(${scale})` }}>
-      <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 46, color: "#111827", textShadow: "0 3px 12px rgba(255,255,255,0.9)", background: "rgba(255,255,255,0.82)", borderRadius: 24, padding: "22px 20px", border: "3px solid #A78BFA" }}>
-        7 desconhecidos viraram o BTS...
-        <div style={{ fontSize: 30, marginTop: 10, color: "#374151", fontFamily: "Arial, sans-serif" }}>Curte, comenta e compartilha pra ver como!</div>
+      <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 44, color: "#111827", textShadow: "0 3px 12px rgba(255,255,255,0.9)", background: "rgba(255,255,255,0.88)", borderRadius: 24, padding: "22px 20px", border: "3px solid #A78BFA" }}>
+        ARMY, o BTS quase nunca existiu...
+        <div style={{ fontSize: 30, marginTop: 10, color: "#374151", fontFamily: "Arial, sans-serif" }}>Curte, comenta e fica até o fim — essa história emociona!</div>
       </div>
     </div>
   );
