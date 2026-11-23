@@ -31,6 +31,7 @@ import { BandCrawlingChorusShow, BCCS_FRAMES, BCCS_FPS } from "./videos/bandCraw
 import { BandCrawlingChorusShowV2, BCCS2_FRAMES, BCCS2_FPS } from "./videos/bandCrawlingChorusShow/BandCrawlingChorusShowV2";
 import { BandEmptinessMachineEmily, BEME_FRAMES, BEME_FPS } from "./videos/bandEmptinessMachineEmily/BandEmptinessMachineEmily";
 import { BtsCuriosity1Debut, BCD1_FRAMES, BCD1_FPS } from "./videos/btsCuriosity1Debut/BtsCuriosity1Debut";
+import { BtsCuriosity2ArmyKindness, BCD2_FRAMES, BCD2_FPS } from "./videos/btsCuriosity2ArmyKindness/BtsCuriosity2ArmyKindness";
 import { LinkinParkFormationV2Short, LPF2_FRAMES, LPF2_FPS } from "./videos/linkinParkFormationV2/LinkinParkFormationV2";
 import { OneMoreLightTributeV2Short, OML2_FRAMES, OML2_FPS } from "./videos/oneMoreLightTributeV2/OneMoreLightTributeV2";
 import { ChesterAccidentProneV2Short, CAP2_FRAMES, CAP2_FPS } from "./videos/chesterAccidentProneV2/ChesterAccidentProneV2";
@@ -184,6 +185,14 @@ export const RemotionRoot: React.FC = () => {
         component={BtsCuriosity1Debut}
         fps={BCD1_FPS}
         durationInFrames={BCD1_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="BtsCuriosity2ArmyKindness"
+        component={BtsCuriosity2ArmyKindness}
+        fps={BCD2_FPS}
+        durationInFrames={BCD2_FRAMES}
         width={1080}
         height={1920}
       />

@@ -1,0 +1,577 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "text": "ARMY, você sabia por que os fãs do BTS são tão apaixonados? Curte, comenta e fica até o fim, isso é lindo! O BTS sempre mostrou um carinho enorme pelos fãs. Eles fazem reverências profundas, escrevem cartas e nunca escondem o quanto a ARMY é importante. Em shows, o mar roxo das ARMY Bombs virou um símbolo de amor entre o BTS e os fãs. Foi o V que criou a frase Eu te roxo, dizendo que roxo significa confiança e amor por muito tempo. Por isso, a ligação entre BTS e ARMY não é só de fã e artista. É uma família que cresceu junta, com gratidão, respeito e carinho dos dois lados.",
+  "words": [
+    {
+      "text": "ARMY",
+      "offset": 0.096291,
+      "duration": 0.324083
+    },
+    {
+      "text": "você",
+      "offset": 0.709708,
+      "duration": 0.208333
+    },
+    {
+      "text": "sabia",
+      "offset": 0.929625,
+      "duration": 0.416666
+    },
+    {
+      "text": "por",
+      "offset": 1.357875,
+      "duration": 0.150458
+    },
+    {
+      "text": "que",
+      "offset": 1.519916,
+      "duration": 0.127333
+    },
+    {
+      "text": "os",
+      "offset": 1.658791,
+      "duration": 0.127333
+    },
+    {
+      "text": "fãs",
+      "offset": 1.797666,
+      "duration": 0.254625
+    },
+    {
+      "text": "do",
+      "offset": 2.063875,
+      "duration": 0.081
+    },
+    {
+      "text": "BTS",
+      "offset": 2.1565,
+      "duration": 0.520833
+    },
+    {
+      "text": "são",
+      "offset": 2.688875,
+      "duration": 0.243041
+    },
+    {
+      "text": "tão",
+      "offset": 2.9435,
+      "duration": 0.2315
+    },
+    {
+      "text": "apaixonados",
+      "offset": 3.186583,
+      "duration": 0.74075
+    },
+    {
+      "text": "Curte",
+      "offset": 4.722208,
+      "duration": 0.42825
+    },
+    {
+      "text": "comenta",
+      "offset": 5.358791,
+      "duration": 0.3935
+    },
+    {
+      "text": "e",
+      "offset": 5.763875,
+      "duration": 0.034708
+    },
+    {
+      "text": "fica",
+      "offset": 5.810166,
+      "duration": 0.2315
+    },
+    {
+      "text": "até",
+      "offset": 6.05325,
+      "duration": 0.208333
+    },
+    {
+      "text": "o",
+      "offset": 6.273166,
+      "duration": 0.0462909
+    },
+    {
+      "text": "fim",
+      "offset": 6.331,
+      "duration": 0.289333
+    },
+    {
+      "text": "isso",
+      "offset": 6.805541,
+      "duration": 0.219916
+    },
+    {
+      "text": "é",
+      "offset": 7.037041,
+      "duration": 0.0462909
+    },
+    {
+      "text": "lindo",
+      "offset": 7.094916,
+      "duration": 0.405083
+    },
+    {
+      "text": "O",
+      "offset": 8.298625,
+      "duration": 0.127333
+    },
+    {
+      "text": "BTS",
+      "offset": 8.4375,
+      "duration": 0.532416
+    },
+    {
+      "text": "sempre",
+      "offset": 8.9815,
+      "duration": 0.335666
+    },
+    {
+      "text": "mostrou",
+      "offset": 9.328708,
+      "duration": 0.324083
+    },
+    {
+      "text": "um",
+      "offset": 9.664333,
+      "duration": 0.069458
+    },
+    {
+      "text": "carinho",
+      "offset": 9.745375,
+      "duration": 0.335666
+    },
+    {
+      "text": "enorme",
+      "offset": 10.092583,
+      "duration": 0.3935
+    },
+    {
+      "text": "pelos",
+      "offset": 10.497666,
+      "duration": 0.254625
+    },
+    {
+      "text": "fãs",
+      "offset": 10.763875,
+      "duration": 0.416666
+    },
+    {
+      "text": "Eles",
+      "offset": 11.979166,
+      "duration": 0.219916
+    },
+    {
+      "text": "fazem",
+      "offset": 12.210666,
+      "duration": 0.3125
+    },
+    {
+      "text": "reverências",
+      "offset": 12.534708,
+      "duration": 0.555541
+    },
+    {
+      "text": "profundas",
+      "offset": 13.101833,
+      "duration": 0.613416
+    },
+    {
+      "text": "escrevem",
+      "offset": 13.912041,
+      "duration": 0.462958
+    },
+    {
+      "text": "cartas",
+      "offset": 14.386583,
+      "duration": 0.358791
+    },
+    {
+      "text": "e",
+      "offset": 14.756958,
+      "duration": 0.11575
+    },
+    {
+      "text": "nunca",
+      "offset": 14.88425,
+      "duration": 0.266208
+    },
+    {
+      "text": "escondem",
+      "offset": 15.162041,
+      "duration": 0.3935
+    },
+    {
+      "text": "o",
+      "offset": 15.567125,
+      "duration": 0.057875
+    },
+    {
+      "text": "quanto",
+      "offset": 15.636583,
+      "duration": 0.266208
+    },
+    {
+      "text": "a",
+      "offset": 15.914333,
+      "duration": 0.0462909
+    },
+    {
+      "text": "ARMY",
+      "offset": 15.972208,
+      "duration": 0.277791
+    },
+    {
+      "text": "é",
+      "offset": 16.261583,
+      "duration": 0.023166
+    },
+    {
+      "text": "importante",
+      "offset": 16.296291,
+      "duration": 0.682875
+    },
+    {
+      "text": "Em",
+      "offset": 17.777791,
+      "duration": 0.138875
+    },
+    {
+      "text": "shows",
+      "offset": 17.92825,
+      "duration": 0.405083
+    },
+    {
+      "text": "o",
+      "offset": 18.622666,
+      "duration": 0.034708
+    },
+    {
+      "text": "mar",
+      "offset": 18.669,
+      "duration": 0.208333
+    },
+    {
+      "text": "roxo",
+      "offset": 18.888875,
+      "duration": 0.324083
+    },
+    {
+      "text": "das",
+      "offset": 19.224541,
+      "duration": 0.104166
+    },
+    {
+      "text": "ARMY",
+      "offset": 19.340291,
+      "duration": 0.266208
+    },
+    {
+      "text": "Bombs",
+      "offset": 19.618041,
+      "duration": 0.335666
+    },
+    {
+      "text": "virou",
+      "offset": 19.965291,
+      "duration": 0.185166
+    },
+    {
+      "text": "um",
+      "offset": 20.162041,
+      "duration": 0.057875
+    },
+    {
+      "text": "símbolo",
+      "offset": 20.2315,
+      "duration": 0.405083
+    },
+    {
+      "text": "de",
+      "offset": 20.648166,
+      "duration": 0.069458
+    },
+    {
+      "text": "amor",
+      "offset": 20.729166,
+      "duration": 0.289333
+    },
+    {
+      "text": "entre",
+      "offset": 21.030083,
+      "duration": 0.173625
+    },
+    {
+      "text": "o",
+      "offset": 21.215291,
+      "duration": 0.023166
+    },
+    {
+      "text": "BTS",
+      "offset": 21.25,
+      "duration": 0.601833
+    },
+    {
+      "text": "e",
+      "offset": 21.863416,
+      "duration": 0.057875
+    },
+    {
+      "text": "os",
+      "offset": 21.932875,
+      "duration": 0.11575
+    },
+    {
+      "text": "fãs",
+      "offset": 22.060166,
+      "duration": 0.416666
+    },
+    {
+      "text": "Foi",
+      "offset": 23.275458,
+      "duration": 0.2315
+    },
+    {
+      "text": "o",
+      "offset": 23.5185,
+      "duration": 0.081
+    },
+    {
+      "text": "V",
+      "offset": 23.611125,
+      "duration": 0.185166
+    },
+    {
+      "text": "que",
+      "offset": 23.807875,
+      "duration": 0.11575
+    },
+    {
+      "text": "criou",
+      "offset": 23.935166,
+      "duration": 0.3125
+    },
+    {
+      "text": "a",
+      "offset": 24.25925,
+      "duration": 0.069458
+    },
+    {
+      "text": "frase",
+      "offset": 24.340291,
+      "duration": 0.370375
+    },
+    {
+      "text": "Eu",
+      "offset": 24.722208,
+      "duration": 0.081
+    },
+    {
+      "text": "te",
+      "offset": 24.814833,
+      "duration": 0.104166
+    },
+    {
+      "text": "roxo",
+      "offset": 24.930541,
+      "duration": 0.358791
+    },
+    {
+      "text": "dizendo",
+      "offset": 25.578708,
+      "duration": 0.381958
+    },
+    {
+      "text": "que",
+      "offset": 25.972208,
+      "duration": 0.092583
+    },
+    {
+      "text": "roxo",
+      "offset": 26.076375,
+      "duration": 0.289333
+    },
+    {
+      "text": "significa",
+      "offset": 26.377333,
+      "duration": 0.50925
+    },
+    {
+      "text": "confiança",
+      "offset": 26.898166,
+      "duration": 0.590291
+    },
+    {
+      "text": "e",
+      "offset": 27.5,
+      "duration": 0.057875
+    },
+    {
+      "text": "amor",
+      "offset": 27.569458,
+      "duration": 0.335666
+    },
+    {
+      "text": "por",
+      "offset": 27.916666,
+      "duration": 0.173625
+    },
+    {
+      "text": "muito",
+      "offset": 28.101833,
+      "duration": 0.335666
+    },
+    {
+      "text": "tempo",
+      "offset": 28.449083,
+      "duration": 0.324083
+    },
+    {
+      "text": "Por",
+      "offset": 29.57175,
+      "duration": 0.173625
+    },
+    {
+      "text": "isso",
+      "offset": 29.756958,
+      "duration": 0.300916
+    },
+    {
+      "text": "a",
+      "offset": 30.300916,
+      "duration": 0.057875
+    },
+    {
+      "text": "ligação",
+      "offset": 30.370375,
+      "duration": 0.474541
+    },
+    {
+      "text": "entre",
+      "offset": 30.8565,
+      "duration": 0.173625
+    },
+    {
+      "text": "BTS",
+      "offset": 31.041666,
+      "duration": 0.555541
+    },
+    {
+      "text": "e",
+      "offset": 31.608791,
+      "duration": 0.034708
+    },
+    {
+      "text": "ARMY",
+      "offset": 31.655083,
+      "duration": 0.3125
+    },
+    {
+      "text": "não",
+      "offset": 31.979166,
+      "duration": 0.162041
+    },
+    {
+      "text": "é",
+      "offset": 32.152791,
+      "duration": 0.057875
+    },
+    {
+      "text": "só",
+      "offset": 32.222208,
+      "duration": 0.173625
+    },
+    {
+      "text": "de",
+      "offset": 32.407416,
+      "duration": 0.11575
+    },
+    {
+      "text": "fã",
+      "offset": 32.534708,
+      "duration": 0.243041
+    },
+    {
+      "text": "e",
+      "offset": 32.789333,
+      "duration": 0.081
+    },
+    {
+      "text": "artista",
+      "offset": 32.881958,
+      "duration": 0.532416
+    },
+    {
+      "text": "É",
+      "offset": 34.212958,
+      "duration": 0.092583
+    },
+    {
+      "text": "uma",
+      "offset": 34.317125,
+      "duration": 0.173625
+    },
+    {
+      "text": "família",
+      "offset": 34.502333,
+      "duration": 0.370375
+    },
+    {
+      "text": "que",
+      "offset": 34.88425,
+      "duration": 0.11575
+    },
+    {
+      "text": "cresceu",
+      "offset": 35.011583,
+      "duration": 0.358791
+    },
+    {
+      "text": "junta",
+      "offset": 35.381958,
+      "duration": 0.370375
+    },
+    {
+      "text": "com",
+      "offset": 35.972208,
+      "duration": 0.127333
+    },
+    {
+      "text": "gratidão",
+      "offset": 36.111125,
+      "duration": 0.520833
+    },
+    {
+      "text": "respeito",
+      "offset": 36.898166,
+      "duration": 0.486125
+    },
+    {
+      "text": "e",
+      "offset": 37.395833,
+      "duration": 0.023166
+    },
+    {
+      "text": "carinho",
+      "offset": 37.430541,
+      "duration": 0.335666
+    },
+    {
+      "text": "dos",
+      "offset": 37.777791,
+      "duration": 0.150458
+    },
+    {
+      "text": "dois",
+      "offset": 37.939833,
+      "duration": 0.254625
+    },
+    {
+      "text": "lados",
+      "offset": 38.206,
+      "duration": 0.474541
+    }
+  ]
+}
