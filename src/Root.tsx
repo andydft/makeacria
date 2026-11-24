@@ -32,6 +32,7 @@ import { BandCrawlingChorusShowV2, BCCS2_FRAMES, BCCS2_FPS } from "./videos/band
 import { BandEmptinessMachineEmily, BEME_FRAMES, BEME_FPS } from "./videos/bandEmptinessMachineEmily/BandEmptinessMachineEmily";
 import { BtsCuriosity1Debut, BCD1_FRAMES, BCD1_FPS } from "./videos/btsCuriosity1Debut/BtsCuriosity1Debut";
 import { BtsCuriosity2ArmyKindness, BCD2_FRAMES, BCD2_FPS } from "./videos/btsCuriosity2ArmyKindness/BtsCuriosity2ArmyKindness";
+import { BtsCuriosity3PurpleOcean, BCD3_FRAMES, BCD3_FPS } from "./videos/btsCuriosity3PurpleOcean/BtsCuriosity3PurpleOcean";
 import { FresnoShowDesdeQuando, FSDQ_FRAMES, FSDQ_FPS } from "./videos/fresnoShowDesdeQuando/FresnoShowDesdeQuando";
 import { FresnoShowAlguemQueTeFazSorrir, FSAQ_FRAMES, FSAQ_FPS } from "./videos/fresnoShowAlguemQueTeFazSorrir/FresnoShowAlguemQueTeFazSorrir";
 import { BobMarleyCuriosity2Football, BMC2_FRAMES, BMC2_FPS } from "./videos/bobMarleyCuriosity2Football/BobMarleyCuriosity2Football";
@@ -197,6 +198,14 @@ export const RemotionRoot: React.FC = () => {
         component={BtsCuriosity2ArmyKindness}
         fps={BCD2_FPS}
         durationInFrames={BCD2_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="BtsCuriosity3PurpleOcean"
+        component={BtsCuriosity3PurpleOcean}
+        fps={BCD3_FPS}
+        durationInFrames={BCD3_FRAMES}
         width={1080}
         height={1920}
       />

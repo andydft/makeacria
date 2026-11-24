@@ -1,0 +1,507 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "text": "Você sabia como nasceu o Purple Ocean do BTS? Curte, segue e compartilha agora! Em shows de K-pop, cada grupo tem uma cor oficial de lightstick. Mas em alguns momentos, fãs de outros grupos apagavam as luzes quando o BTS subia ao palco. Foi aí que a ARMY tomou uma atitude linda: eles cobriram a arena inteira de roxo. Assim nasceu o famoso Purple Ocean, um mar roxo feito de amor e união. Desde então, o roxo virou símbolo da ligação entre BTS e ARMY. Se você é ARMY, comenta EU TE AMO BTS, curte e manda pra outro fã!",
+  "words": [
+    {
+      "text": "Você",
+      "offset": 0.096291,
+      "duration": 0.289333
+    },
+    {
+      "text": "sabia",
+      "offset": 0.397208,
+      "duration": 0.439833
+    },
+    {
+      "text": "como",
+      "offset": 0.848625,
+      "duration": 0.208333
+    },
+    {
+      "text": "nasceu",
+      "offset": 1.0685,
+      "duration": 0.324083
+    },
+    {
+      "text": "o",
+      "offset": 1.404166,
+      "duration": 0.0462909
+    },
+    {
+      "text": "Purple",
+      "offset": 1.462041,
+      "duration": 0.381958
+    },
+    {
+      "text": "Ocean",
+      "offset": 1.855541,
+      "duration": 0.300916
+    },
+    {
+      "text": "do",
+      "offset": 2.168041,
+      "duration": 0.104166
+    },
+    {
+      "text": "BTS",
+      "offset": 2.283791,
+      "duration": 0.601833
+    },
+    {
+      "text": "Curte",
+      "offset": 3.680541,
+      "duration": 0.3935
+    },
+    {
+      "text": "segue",
+      "offset": 4.282416,
+      "duration": 0.3125
+    },
+    {
+      "text": "e",
+      "offset": 4.6065,
+      "duration": 0.034708
+    },
+    {
+      "text": "compartilha",
+      "offset": 4.652791,
+      "duration": 0.567125
+    },
+    {
+      "text": "agora",
+      "offset": 5.2315,
+      "duration": 0.370375
+    },
+    {
+      "text": "Em",
+      "offset": 6.400458,
+      "duration": 0.138875
+    },
+    {
+      "text": "shows",
+      "offset": 6.550916,
+      "duration": 0.324083
+    },
+    {
+      "text": "de",
+      "offset": 6.886583,
+      "duration": 0.092583
+    },
+    {
+      "text": "K-pop",
+      "offset": 6.99075,
+      "duration": 0.50925
+    },
+    {
+      "text": "cada",
+      "offset": 7.685166,
+      "duration": 0.2315
+    },
+    {
+      "text": "grupo",
+      "offset": 7.92825,
+      "duration": 0.3125
+    },
+    {
+      "text": "tem",
+      "offset": 8.252333,
+      "duration": 0.127333
+    },
+    {
+      "text": "uma",
+      "offset": 8.391208,
+      "duration": 0.162041
+    },
+    {
+      "text": "cor",
+      "offset": 8.564833,
+      "duration": 0.208333
+    },
+    {
+      "text": "oficial",
+      "offset": 8.784708,
+      "duration": 0.462958
+    },
+    {
+      "text": "de",
+      "offset": 9.25925,
+      "duration": 0.081
+    },
+    {
+      "text": "lightstick",
+      "offset": 9.351833,
+      "duration": 0.578708
+    },
+    {
+      "text": "Mas",
+      "offset": 10.729166,
+      "duration": 0.173625
+    },
+    {
+      "text": "em",
+      "offset": 10.914333,
+      "duration": 0.127333
+    },
+    {
+      "text": "alguns",
+      "offset": 11.05325,
+      "duration": 0.324083
+    },
+    {
+      "text": "momentos",
+      "offset": 11.388875,
+      "duration": 0.520833
+    },
+    {
+      "text": "fãs",
+      "offset": 12.175916,
+      "duration": 0.219916
+    },
+    {
+      "text": "de",
+      "offset": 12.407416,
+      "duration": 0.104166
+    },
+    {
+      "text": "outros",
+      "offset": 12.523166,
+      "duration": 0.3125
+    },
+    {
+      "text": "grupos",
+      "offset": 12.847208,
+      "duration": 0.3125
+    },
+    {
+      "text": "apagavam",
+      "offset": 13.171291,
+      "duration": 0.567125
+    },
+    {
+      "text": "as",
+      "offset": 13.75,
+      "duration": 0.104166
+    },
+    {
+      "text": "luzes",
+      "offset": 13.86575,
+      "duration": 0.370375
+    },
+    {
+      "text": "quando",
+      "offset": 14.247666,
+      "duration": 0.19675
+    },
+    {
+      "text": "o",
+      "offset": 14.456,
+      "duration": 0.023166
+    },
+    {
+      "text": "BTS",
+      "offset": 14.49075,
+      "duration": 0.486125
+    },
+    {
+      "text": "subia",
+      "offset": 14.988416,
+      "duration": 0.335666
+    },
+    {
+      "text": "ao",
+      "offset": 15.335666,
+      "duration": 0.104166
+    },
+    {
+      "text": "palco",
+      "offset": 15.451375,
+      "duration": 0.358791
+    },
+    {
+      "text": "Foi",
+      "offset": 16.608791,
+      "duration": 0.2315
+    },
+    {
+      "text": "aí",
+      "offset": 16.851833,
+      "duration": 0.254625
+    },
+    {
+      "text": "que",
+      "offset": 17.118041,
+      "duration": 0.081
+    },
+    {
+      "text": "a",
+      "offset": 17.210666,
+      "duration": 0.023166
+    },
+    {
+      "text": "ARMY",
+      "offset": 17.245375,
+      "duration": 0.300916
+    },
+    {
+      "text": "tomou",
+      "offset": 17.557875,
+      "duration": 0.243041
+    },
+    {
+      "text": "uma",
+      "offset": 17.8125,
+      "duration": 0.104166
+    },
+    {
+      "text": "atitude",
+      "offset": 17.92825,
+      "duration": 0.451375
+    },
+    {
+      "text": "linda",
+      "offset": 18.391208,
+      "duration": 0.358791
+    },
+    {
+      "text": "eles",
+      "offset": 18.969916,
+      "duration": 0.19675
+    },
+    {
+      "text": "cobriram",
+      "offset": 19.17825,
+      "duration": 0.474541
+    },
+    {
+      "text": "a",
+      "offset": 19.664333,
+      "duration": 0.023166
+    },
+    {
+      "text": "arena",
+      "offset": 19.699083,
+      "duration": 0.300916
+    },
+    {
+      "text": "inteira",
+      "offset": 20.011583,
+      "duration": 0.370375
+    },
+    {
+      "text": "de",
+      "offset": 20.3935,
+      "duration": 0.092583
+    },
+    {
+      "text": "roxo",
+      "offset": 20.497666,
+      "duration": 0.358791
+    },
+    {
+      "text": "Assim",
+      "offset": 21.655083,
+      "duration": 0.381958
+    },
+    {
+      "text": "nasceu",
+      "offset": 22.048625,
+      "duration": 0.3125
+    },
+    {
+      "text": "o",
+      "offset": 22.372666,
+      "duration": 0.011583
+    },
+    {
+      "text": "famoso",
+      "offset": 22.395833,
+      "duration": 0.474541
+    },
+    {
+      "text": "Purple",
+      "offset": 22.881958,
+      "duration": 0.335666
+    },
+    {
+      "text": "Ocean",
+      "offset": 23.229166,
+      "duration": 0.370375
+    },
+    {
+      "text": "um",
+      "offset": 23.900458,
+      "duration": 0.11575
+    },
+    {
+      "text": "mar",
+      "offset": 24.027791,
+      "duration": 0.185166
+    },
+    {
+      "text": "roxo",
+      "offset": 24.224541,
+      "duration": 0.3125
+    },
+    {
+      "text": "feito",
+      "offset": 24.548625,
+      "duration": 0.266208
+    },
+    {
+      "text": "de",
+      "offset": 24.826375,
+      "duration": 0.081
+    },
+    {
+      "text": "amor",
+      "offset": 24.919,
+      "duration": 0.335666
+    },
+    {
+      "text": "e",
+      "offset": 25.266208,
+      "duration": 0.057875
+    },
+    {
+      "text": "união",
+      "offset": 25.335666,
+      "duration": 0.381958
+    },
+    {
+      "text": "Desde",
+      "offset": 26.516208,
+      "duration": 0.405083
+    },
+    {
+      "text": "então",
+      "offset": 26.932875,
+      "duration": 0.347208
+    },
+    {
+      "text": "o",
+      "offset": 27.557875,
+      "duration": 0.057875
+    },
+    {
+      "text": "roxo",
+      "offset": 27.627333,
+      "duration": 0.300916
+    },
+    {
+      "text": "virou",
+      "offset": 27.939833,
+      "duration": 0.2315
+    },
+    {
+      "text": "símbolo",
+      "offset": 28.182875,
+      "duration": 0.451375
+    },
+    {
+      "text": "da",
+      "offset": 28.645833,
+      "duration": 0.069458
+    },
+    {
+      "text": "ligação",
+      "offset": 28.726833,
+      "duration": 0.486125
+    },
+    {
+      "text": "entre",
+      "offset": 29.224541,
+      "duration": 0.162041
+    },
+    {
+      "text": "BTS",
+      "offset": 29.398166,
+      "duration": 0.578708
+    },
+    {
+      "text": "e",
+      "offset": 29.988416,
+      "duration": 0.0462909
+    },
+    {
+      "text": "ARMY",
+      "offset": 30.046291,
+      "duration": 0.358791
+    },
+    {
+      "text": "Se",
+      "offset": 31.203708,
+      "duration": 0.208333
+    },
+    {
+      "text": "você",
+      "offset": 31.423625,
+      "duration": 0.300916
+    },
+    {
+      "text": "é",
+      "offset": 31.736125,
+      "duration": 0.11575
+    },
+    {
+      "text": "ARMY",
+      "offset": 31.863416,
+      "duration": 0.324083
+    },
+    {
+      "text": "comenta",
+      "offset": 32.430541,
+      "duration": 0.405083
+    },
+    {
+      "text": "EU",
+      "offset": 32.847208,
+      "duration": 0.081
+    },
+    {
+      "text": "TE",
+      "offset": 32.939833,
+      "duration": 0.127333
+    },
+    {
+      "text": "AMO",
+      "offset": 33.078708,
+      "duration": 0.185166
+    },
+    {
+      "text": "BTS",
+      "offset": 33.275458,
+      "duration": 0.636583
+    },
+    {
+      "text": "curte",
+      "offset": 34.120375,
+      "duration": 0.3125
+    },
+    {
+      "text": "e",
+      "offset": 34.444458,
+      "duration": 0.034708
+    },
+    {
+      "text": "manda",
+      "offset": 34.49075,
+      "duration": 0.370375
+    },
+    {
+      "text": "pra",
+      "offset": 34.872666,
+      "duration": 0.208333
+    },
+    {
+      "text": "outro",
+      "offset": 35.092583,
+      "duration": 0.266208
+    },
+    {
+      "text": "fã",
+      "offset": 35.370375,
+      "duration": 0.277791
+    }
+  ]
+}
