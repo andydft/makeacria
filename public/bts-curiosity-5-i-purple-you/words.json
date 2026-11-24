@@ -1,0 +1,517 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "text": "Você sabe o significado de I Purple You, do BTS? Curte, segue e compartilha agora! Em 2016, durante um fanmeeting, o V, do BTS, criou uma frase que mudou tudo. Ele disse: roxo é a última cor do arco-íris, então significa confiar e amar por muito tempo. A partir daí, I Purple You virou a forma mais linda da ARMY e do BTS dizerem eu te amo. Hoje, o roxo representa carinho, confiança e uma conexão que atravessa o mundo. Uma simples frase virou um símbolo eterno entre BTS e ARMY. Comenta I PURPLE YOU, curte e segue pra mais curiosidades do BTS!",
+  "words": [
+    {
+      "text": "Você",
+      "offset": 0.096291,
+      "duration": 0.289333
+    },
+    {
+      "text": "sabe",
+      "offset": 0.397208,
+      "duration": 0.243041
+    },
+    {
+      "text": "o",
+      "offset": 0.651833,
+      "duration": 0.034708
+    },
+    {
+      "text": "significado",
+      "offset": 0.698166,
+      "duration": 0.717583
+    },
+    {
+      "text": "de",
+      "offset": 1.427333,
+      "duration": 0.104166
+    },
+    {
+      "text": "I",
+      "offset": 1.543041,
+      "duration": 0.0462909
+    },
+    {
+      "text": "Purple",
+      "offset": 1.600916,
+      "duration": 0.405083
+    },
+    {
+      "text": "You",
+      "offset": 2.017583,
+      "duration": 0.243041
+    },
+    {
+      "text": "do",
+      "offset": 2.503708,
+      "duration": 0.138875
+    },
+    {
+      "text": "BTS",
+      "offset": 2.654166,
+      "duration": 0.636583
+    },
+    {
+      "text": "Curte",
+      "offset": 4.085666,
+      "duration": 0.3935
+    },
+    {
+      "text": "segue",
+      "offset": 4.6875,
+      "duration": 0.3125
+    },
+    {
+      "text": "e",
+      "offset": 5.011583,
+      "duration": 0.034708
+    },
+    {
+      "text": "compartilha",
+      "offset": 5.057875,
+      "duration": 0.567125
+    },
+    {
+      "text": "agora",
+      "offset": 5.636583,
+      "duration": 0.370375
+    },
+    {
+      "text": "Em 2016",
+      "offset": 6.805541,
+      "duration": 1.0764169
+    },
+    {
+      "text": "durante",
+      "offset": 8.090291,
+      "duration": 0.370375
+    },
+    {
+      "text": "um",
+      "offset": 8.472208,
+      "duration": 0.057875
+    },
+    {
+      "text": "fanmeeting",
+      "offset": 8.541666,
+      "duration": 0.486125
+    },
+    {
+      "text": "o",
+      "offset": 9.351833,
+      "duration": 0.069458
+    },
+    {
+      "text": "V",
+      "offset": 9.432875,
+      "duration": 0.2315
+    },
+    {
+      "text": "do",
+      "offset": 9.919,
+      "duration": 0.173625
+    },
+    {
+      "text": "BTS",
+      "offset": 10.104166,
+      "duration": 0.625
+    },
+    {
+      "text": "criou",
+      "offset": 10.914333,
+      "duration": 0.3125
+    },
+    {
+      "text": "uma",
+      "offset": 11.238416,
+      "duration": 0.138875
+    },
+    {
+      "text": "frase",
+      "offset": 11.388875,
+      "duration": 0.381958
+    },
+    {
+      "text": "que",
+      "offset": 11.782416,
+      "duration": 0.092583
+    },
+    {
+      "text": "mudou",
+      "offset": 11.886583,
+      "duration": 0.3125
+    },
+    {
+      "text": "tudo",
+      "offset": 12.210666,
+      "duration": 0.358791
+    },
+    {
+      "text": "Ele",
+      "offset": 13.368041,
+      "duration": 0.219916
+    },
+    {
+      "text": "disse",
+      "offset": 13.599541,
+      "duration": 0.335666
+    },
+    {
+      "text": "roxo",
+      "offset": 14.212958,
+      "duration": 0.347208
+    },
+    {
+      "text": "é",
+      "offset": 14.57175,
+      "duration": 0.0462909
+    },
+    {
+      "text": "a",
+      "offset": 14.629625,
+      "duration": 0.092583
+    },
+    {
+      "text": "última",
+      "offset": 14.733791,
+      "duration": 0.358791
+    },
+    {
+      "text": "cor",
+      "offset": 15.104166,
+      "duration": 0.2315
+    },
+    {
+      "text": "do",
+      "offset": 15.347208,
+      "duration": 0.092583
+    },
+    {
+      "text": "arco-íris",
+      "offset": 15.451375,
+      "duration": 0.544
+    },
+    {
+      "text": "então",
+      "offset": 16.192125,
+      "duration": 0.277791
+    },
+    {
+      "text": "significa",
+      "offset": 16.4815,
+      "duration": 0.578708
+    },
+    {
+      "text": "confiar",
+      "offset": 17.07175,
+      "duration": 0.451375
+    },
+    {
+      "text": "e",
+      "offset": 17.534708,
+      "duration": 0.057875
+    },
+    {
+      "text": "amar",
+      "offset": 17.604166,
+      "duration": 0.254625
+    },
+    {
+      "text": "por",
+      "offset": 17.870375,
+      "duration": 0.162041
+    },
+    {
+      "text": "muito",
+      "offset": 18.044,
+      "duration": 0.358791
+    },
+    {
+      "text": "tempo",
+      "offset": 18.414333,
+      "duration": 0.335666
+    },
+    {
+      "text": "A",
+      "offset": 19.548625,
+      "duration": 0.104166
+    },
+    {
+      "text": "partir",
+      "offset": 19.664333,
+      "duration": 0.381958
+    },
+    {
+      "text": "daí",
+      "offset": 20.057875,
+      "duration": 0.335666
+    },
+    {
+      "text": "I",
+      "offset": 20.590291,
+      "duration": 0.11575
+    },
+    {
+      "text": "Purple",
+      "offset": 20.717583,
+      "duration": 0.42825
+    },
+    {
+      "text": "You",
+      "offset": 21.157416,
+      "duration": 0.208333
+    },
+    {
+      "text": "virou",
+      "offset": 21.377333,
+      "duration": 0.243041
+    },
+    {
+      "text": "a",
+      "offset": 21.631958,
+      "duration": 0.069458
+    },
+    {
+      "text": "forma",
+      "offset": 21.712958,
+      "duration": 0.300916
+    },
+    {
+      "text": "mais",
+      "offset": 22.025458,
+      "duration": 0.243041
+    },
+    {
+      "text": "linda",
+      "offset": 22.280083,
+      "duration": 0.266208
+    },
+    {
+      "text": "da",
+      "offset": 22.557875,
+      "duration": 0.092583
+    },
+    {
+      "text": "ARMY",
+      "offset": 22.662041,
+      "duration": 0.300916
+    },
+    {
+      "text": "e",
+      "offset": 22.974541,
+      "duration": 0.034708
+    },
+    {
+      "text": "do",
+      "offset": 23.020833,
+      "duration": 0.092583
+    },
+    {
+      "text": "BTS",
+      "offset": 23.125,
+      "duration": 0.532416
+    },
+    {
+      "text": "dizerem",
+      "offset": 23.669,
+      "duration": 0.42825
+    },
+    {
+      "text": "eu",
+      "offset": 24.108791,
+      "duration": 0.081
+    },
+    {
+      "text": "te",
+      "offset": 24.201375,
+      "duration": 0.162041
+    },
+    {
+      "text": "amo",
+      "offset": 24.375,
+      "duration": 0.266208
+    },
+    {
+      "text": "Hoje",
+      "offset": 25.439833,
+      "duration": 0.416666
+    },
+    {
+      "text": "o",
+      "offset": 26.05325,
+      "duration": 0.092583
+    },
+    {
+      "text": "roxo",
+      "offset": 26.157416,
+      "duration": 0.300916
+    },
+    {
+      "text": "representa",
+      "offset": 26.469916,
+      "duration": 0.462958
+    },
+    {
+      "text": "carinho",
+      "offset": 26.944458,
+      "duration": 0.42825
+    },
+    {
+      "text": "confiança",
+      "offset": 27.627333,
+      "duration": 0.601833
+    },
+    {
+      "text": "e",
+      "offset": 28.24075,
+      "duration": 0.023166
+    },
+    {
+      "text": "uma",
+      "offset": 28.275458,
+      "duration": 0.127333
+    },
+    {
+      "text": "conexão",
+      "offset": 28.414333,
+      "duration": 0.544
+    },
+    {
+      "text": "que",
+      "offset": 28.969916,
+      "duration": 0.081
+    },
+    {
+      "text": "atravessa",
+      "offset": 29.0625,
+      "duration": 0.416666
+    },
+    {
+      "text": "o",
+      "offset": 29.49075,
+      "duration": 0.011583
+    },
+    {
+      "text": "mundo",
+      "offset": 29.513875,
+      "duration": 0.324083
+    },
+    {
+      "text": "Uma",
+      "offset": 30.636583,
+      "duration": 0.243041
+    },
+    {
+      "text": "simples",
+      "offset": 30.891208,
+      "duration": 0.416666
+    },
+    {
+      "text": "frase",
+      "offset": 31.319458,
+      "duration": 0.324083
+    },
+    {
+      "text": "virou",
+      "offset": 31.655083,
+      "duration": 0.185166
+    },
+    {
+      "text": "um",
+      "offset": 31.851833,
+      "duration": 0.081
+    },
+    {
+      "text": "símbolo",
+      "offset": 31.944458,
+      "duration": 0.381958
+    },
+    {
+      "text": "eterno",
+      "offset": 32.337958,
+      "duration": 0.381958
+    },
+    {
+      "text": "entre",
+      "offset": 32.7315,
+      "duration": 0.185166
+    },
+    {
+      "text": "BTS",
+      "offset": 32.92825,
+      "duration": 0.544
+    },
+    {
+      "text": "e",
+      "offset": 33.483791,
+      "duration": 0.0462909
+    },
+    {
+      "text": "ARMY",
+      "offset": 33.541666,
+      "duration": 0.324083
+    },
+    {
+      "text": "Comenta",
+      "offset": 34.664333,
+      "duration": 0.486125
+    },
+    {
+      "text": "I",
+      "offset": 35.162041,
+      "duration": 0.069458
+    },
+    {
+      "text": "PURPLE",
+      "offset": 35.243041,
+      "duration": 0.405083
+    },
+    {
+      "text": "YOU",
+      "offset": 35.659708,
+      "duration": 0.277791
+    },
+    {
+      "text": "curte",
+      "offset": 36.180541,
+      "duration": 0.300916
+    },
+    {
+      "text": "e",
+      "offset": 36.493041,
+      "duration": 0.023166
+    },
+    {
+      "text": "segue",
+      "offset": 36.527791,
+      "duration": 0.3125
+    },
+    {
+      "text": "pra",
+      "offset": 36.851833,
+      "duration": 0.138875
+    },
+    {
+      "text": "mais",
+      "offset": 37.002333,
+      "duration": 0.3125
+    },
+    {
+      "text": "curiosidades",
+      "offset": 37.326375,
+      "duration": 0.682875
+    },
+    {
+      "text": "do",
+      "offset": 38.020833,
+      "duration": 0.11575
+    },
+    {
+      "text": "BTS",
+      "offset": 38.148166,
+      "duration": 0.694458
+    }
+  ]
+}
