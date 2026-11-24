@@ -9,9 +9,10 @@ export type BobMarleyV1Props = {
   mouthShape?: "neutral" | "open" | "smile";
   shirtColor?: string;
   adidasStripes?: boolean;
+  pose?: "stand" | "kick";
 };
 
-export const BobMarleyV1: React.FC<BobMarleyV1Props> = ({ width = 512, height = 768, className, style, eyeOpen = 1, mouthShape = "smile", shirtColor, adidasStripes = false }) => {
+export const BobMarleyV1: React.FC<BobMarleyV1Props> = ({ width = 512, height = 768, className, style, eyeOpen = 1, mouthShape = "smile", shirtColor, adidasStripes = false, pose = "stand" }) => {
   const eo = Math.max(0, Math.min(1, eyeOpen));
   const eyeH = 32 * eo;
   const eyeY = 162 + (32 - eyeH) / 2;
@@ -46,7 +47,7 @@ export const BobMarleyV1: React.FC<BobMarleyV1Props> = ({ width = 512, height = 
             <path d="M150 476 C160 470, 178 470, 190 476" fill="none" stroke="var(--char-shoe-detail, #F2F2F2)" strokeWidth="4" strokeLinecap="round" />
           </g>
         </g>
-        <g id="bm3-leg-right" transform="rotate(0 224 395)">
+        <g id="bm3-leg-right" transform={pose === "kick" ? "rotate(-45 224 395)" : "rotate(0 224 395)"}>
           <rect x="210" y="392" width="28" height="78" rx="14" fill="var(--char-skin, #B87E56)" stroke="var(--char-outline, #241A16)" strokeWidth="4" />
           <path d="M202 430 L246 430 L252 468 L196 468 Z" fill="var(--char-shorts, #252A30)" stroke="var(--char-outline, #241A16)" strokeWidth="4" strokeLinejoin="round" />
           <g id="bm3-shoe-right">

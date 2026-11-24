@@ -86,32 +86,32 @@ const Pitch: React.FC = () => (
 
 const BobCard: React.FC<{ frame: number }> = ({ frame }) => {
   const t = frame / BMC2_FRAMES;
-  const bob = Math.sin(frame * 0.08) * 0.05;
-  const sway = Math.sin(frame * 0.05) * 0.04;
-  const kick = t > 0.45 && t < 0.62 ? Math.sin((t - 0.45) / 0.17 * Math.PI) * 0.08 : 0;
+  const kicking = (t > 0.38 && t < 0.52) || (t > 0.72 && t < 0.82);
+  const pose = kicking ? "kick" : "stand";
   const singCycle = Math.sin(frame * 0.22);
   const mouthShape: "neutral" | "open" | "smile" = singCycle > 0.2 ? "open" : "smile";
   const blink = frame % 110 > 104 ? 0.08 : 1;
   const tex = useSvgTexture(
-    <BobMarleyV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} shirtColor="#1B8A3A" adidasStripes />,
-    ["bob-football-br", Math.round(frame / 2), mouthShape, blink < 0.5 ? 1 : 0],
+    <BobMarleyV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} shirtColor="#1B8A3A" adidasStripes pose={pose} />,
+    ["bob-football-br2", Math.round(frame / 3), mouthShape, blink < 0.5 ? 1 : 0, pose],
     512, 768
   );
-  return <Card tex={tex} pos={[sway, 1.74 + bob + kick, 0]} scale={1.02} />;
+  // Grounded: card height 3.366, bottom = y - 1.683 => 0.02
+  return <Card tex={tex} pos={[0, 1.70, 0]} scale={1.02} />;
 };
 
 const CameraRig: React.FC<{ frame: number }> = ({ frame }) => {
   const { camera } = useThree();
   const t = frame / BMC2_FRAMES;
-  let cam = { x: 0, y: 3.0, z: 10.5, lx: 0, ly: 2.1, lz: 0, fov: 44 };
-  if (t < 0.12) { const p = smooth(t / 0.12); cam = { x: -1.5 + p * 0.8, y: 3.1, z: 11.2 - p * 0.8, lx: 0, ly: 2.1, lz: 0, fov: 46 }; }
-  else if (t < 0.22) { cam = { x: 0.3, y: 2.7, z: 8.0, lx: 0, ly: 2.35, lz: 0.2, fov: 38 }; } // quick close
-  else if (t < 0.35) { const p = smooth((t - 0.22) / 0.13); cam = { x: 1.2 - p * 2.4, y: 3.0, z: 10.0, lx: 0, ly: 2.15, lz: 0, fov: 44 }; }
-  else if (t < 0.48) { cam = { x: -0.2, y: 2.6, z: 7.6, lx: 0, ly: 2.4, lz: 0.2, fov: 36 }; } // Brazil moment close
-  else if (t < 0.62) { const p = smooth((t - 0.48) / 0.14); cam = { x: -1.0 + p * 2.0, y: 2.9, z: 9.2, lx: 0, ly: 2.1, lz: 0, fov: 42 }; }
-  else if (t < 0.72) { cam = { x: 0, y: 5.2, z: 9.0, lx: 0, ly: 1.8, lz: -0.5, fov: 52 }; } // high dynamic
-  else if (t < 0.86) { const p = smooth((t - 0.72) / 0.14); cam = { x: 0.8 - p * 1.6, y: 2.8, z: 8.8, lx: 0, ly: 2.25, lz: 0.1, fov: 40 }; }
-  else { const p = smooth((t - 0.86) / 0.14); cam = { x: 0, y: 3.2, z: 11.0 - p * 0.8, lx: 0, ly: 2.1, lz: 0, fov: 46 }; }
+  let cam = { x: 0, y: 2.9, z: 10.5, lx: 0, ly: 2.0, lz: 0, fov: 44 };
+  if (t < 0.12) { const p = smooth(t / 0.12); cam = { x: -1.2 + p * 0.6, y: 2.9, z: 10.8 - p * 0.6, lx: 0, ly: 2.0, lz: 0, fov: 45 }; }
+  else if (t < 0.22) { cam = { x: 0, y: 2.6, z: 7.8, lx: 0, ly: 2.25, lz: 0.2, fov: 38 }; } // front close
+  else if (t < 0.35) { const p = smooth((t - 0.22) / 0.13); cam = { x: 1.0 - p * 2.0, y: 2.9, z: 9.8, lx: 0, ly: 2.0, lz: 0, fov: 44 }; }
+  else if (t < 0.52) { cam = { x: 2.6, y: 2.2, z: 8.2, lx: 0.6, ly: 1.7, lz: 0.3, fov: 42 }; } // kick side
+  else if (t < 0.65) { cam = { x: -0.3, y: 2.6, z: 7.6, lx: 0, ly: 2.3, lz: 0.2, fov: 37 }; } // Brazil close
+  else if (t < 0.72) { cam = { x: 0, y: 4.8, z: 9.5, lx: 0, ly: 1.6, lz: -0.2, fov: 50 }; } // high
+  else if (t < 0.82) { cam = { x: -2.4, y: 2.3, z: 8.4, lx: 0.2, ly: 1.7, lz: 0.3, fov: 42 }; } // kick other side
+  else { const p = smooth((t - 0.82) / 0.18); cam = { x: 0.8 - p * 0.8, y: 2.9, z: 10.5 - p * 0.5, lx: 0, ly: 2.0, lz: 0, fov: 45 }; }
   camera.position.set(cam.x, cam.y, cam.z);
   camera.lookAt(cam.lx, cam.ly, cam.lz);
   if ("fov" in camera) { (camera as THREE.PerspectiveCamera).fov = cam.fov; camera.updateProjectionMatrix(); }
@@ -182,8 +182,12 @@ const BrazilMoment: React.FC = () => {
 const Scene: React.FC = () => {
   const frame = useCurrentFrame();
   const { width, height } = useVideoConfig();
-  const ballZ = 0.8 + Math.sin(frame * 0.12) * 0.15;
-  const ballX = 0.9 + Math.sin(frame * 0.06) * 0.08;
+  const t = frame / BMC2_FRAMES;
+  let ballX = 0.65; let ballY = 0.28; let ballZ = 0.55;
+  if (t > 0.40 && t < 0.56) { const p = (t - 0.40) / 0.16; ballX = 0.65 + p * 2.8; ballZ = 0.55 - p * 1.8; ballY = 0.28 + Math.sin(p * Math.PI) * 0.9; }
+  else if (t >= 0.56 && t < 0.72) { ballX = 3.45; ballZ = -1.25; ballY = 0.28; }
+  else if (t > 0.74 && t < 0.86) { const p = (t - 0.74) / 0.12; ballX = 0.65 + p * 2.2; ballZ = 0.55 - p * 1.2; ballY = 0.28 + Math.sin(p * Math.PI) * 0.7; }
+  else if (t >= 0.86) { ballX = 2.85; ballZ = -0.65; ballY = 0.28; }
   return (
     <>
       <ThreeCanvas width={width} height={height} frameloop="demand" dpr={1.0}
@@ -203,7 +207,7 @@ const Scene: React.FC = () => {
           <meshBasicMaterial color="#000000" transparent opacity={0.18} />
         </mesh>
         <BobCard frame={frame} />
-        <Football pos={[ballX, 0.28, ballZ]} rot={[frame * 0.03, frame * 0.02, 0]} />
+        <Football pos={[ballX, ballY, ballZ]} rot={[frame * 0.03, frame * 0.02, 0]} />
         <Effects />
       </ThreeCanvas>
       <HookOverlay />
