@@ -1,607 +1,623 @@
 {
   "voice": "pt-BR-AntonioNeural",
-  "rate": "+8%",
-  "text": "Oi, eu sou Rogério Skylab. Eu fui vaiado ao vivo no Jô Soares e achei que minha carreira tinha acabado. Curte, segue e compartilha esse vexame histórico! Na minha primeira vez no programa do Jô, eu resolvi soltar uma frase filosófica: disse que o Ayrton Senna era um peão das multinacionais. A plateia me vaiou na hora. O Jô não gostou. Eu senti o cheiro do cancelamento antes do cancelamento existir. Mas veio o plot twist: o Jô me pediu pra cantar. Eu cantei, o público aplaudiu, cantei de novo, aplaudiram mais. A moral da história: quando a vida te vaia, canta até o povo esquecer. Comenta VIRA VIRA, curte, segue e manda pra quem já passou vergonha ao vivo!",
+  "rate": "+0%",
+  "pitch": "-4Hz",
+  "text": "Boa noite. Eu sou Rogério Skylab. E hoje eu vou te contar como fui humilhado ao vivo na televisão brasileira. Curte, segue e compartilha esse desastre. Na minha primeira vez no programa do Jô, eu tive uma ideia brilhante: dizer que Ayrton Senna era um peão das multinacionais. A plateia me vaiou. O Jô me olhou com desprezo. Eu senti minha carreira evaporar em rede nacional. Mas veio o plot twist: o Jô pediu pra eu cantar. Eu cantei. O público aplaudiu. Cantei outra. Aplaudiram mais. Eu voltei dos mortos ao vivo. A moral da história: quando o mundo te odeia, canta. Se não resolver, canta mais alto. Comenta VIRA VIRA, curte, segue e compartilha. Me ajuda, eu sobrevivi à humilhação, eu mereço.",
   "words": [
     {
-      "text": "Oi",
-      "offset": 0.096291,
-      "duration": 0.266208
+      "text": "Boa",
+      "offset": 0.1,
+      "duration": 0.3
     },
     {
-      "text": "eu",
-      "offset": 0.594,
-      "duration": 0.104166
+      "text": "noite",
+      "offset": 0.4125,
+      "duration": 0.45
+    },
+    {
+      "text": "Eu",
+      "offset": 1.725,
+      "duration": 0.1625
     },
     {
       "text": "sou",
-      "offset": 0.709708,
-      "duration": 0.2315
+      "offset": 1.9,
+      "duration": 0.2625
     },
     {
       "text": "Rogério",
-      "offset": 0.952791,
-      "duration": 0.42825
+      "offset": 2.175,
+      "duration": 0.475
     },
     {
       "text": "Skylab",
-      "offset": 1.392583,
-      "duration": 0.613416
+      "offset": 2.6625,
+      "duration": 0.6875
     },
     {
-      "text": "Eu",
-      "offset": 2.800916,
-      "duration": 0.150458
+      "text": "E",
+      "offset": 4.2125,
+      "duration": 0.175
     },
     {
-      "text": "fui",
-      "offset": 2.962958,
-      "duration": 0.138875
-    },
-    {
-      "text": "vaiado",
-      "offset": 3.113416,
-      "duration": 0.42825
-    },
-    {
-      "text": "ao",
-      "offset": 3.55325,
-      "duration": 0.092583
-    },
-    {
-      "text": "vivo",
-      "offset": 3.657416,
-      "duration": 0.243041
-    },
-    {
-      "text": "no",
-      "offset": 3.912041,
-      "duration": 0.081
-    },
-    {
-      "text": "Jô",
-      "offset": 4.004625,
-      "duration": 0.162041
-    },
-    {
-      "text": "Soares",
-      "offset": 4.17825,
-      "duration": 0.347208
-    },
-    {
-      "text": "e",
-      "offset": 4.537041,
-      "duration": 0.081
-    },
-    {
-      "text": "achei",
-      "offset": 4.629625,
-      "duration": 0.254625
-    },
-    {
-      "text": "que",
-      "offset": 4.895833,
-      "duration": 0.104166
-    },
-    {
-      "text": "minha",
-      "offset": 5.011583,
-      "duration": 0.162041
-    },
-    {
-      "text": "carreira",
-      "offset": 5.185166,
-      "duration": 0.381958
-    },
-    {
-      "text": "tinha",
-      "offset": 5.578708,
-      "duration": 0.19675
-    },
-    {
-      "text": "acabado",
-      "offset": 5.787041,
-      "duration": 0.497666
-    },
-    {
-      "text": "Curte",
-      "offset": 7.083333,
-      "duration": 0.405083
-    },
-    {
-      "text": "segue",
-      "offset": 7.708333,
-      "duration": 0.335666
-    },
-    {
-      "text": "e",
-      "offset": 8.055541,
-      "duration": 0.023166
-    },
-    {
-      "text": "compartilha",
-      "offset": 8.090291,
-      "duration": 0.555541
-    },
-    {
-      "text": "esse",
-      "offset": 8.657416,
-      "duration": 0.173625
-    },
-    {
-      "text": "vexame",
-      "offset": 8.842583,
-      "duration": 0.381958
-    },
-    {
-      "text": "histórico",
-      "offset": 9.236125,
-      "duration": 0.50925
-    },
-    {
-      "text": "Na",
-      "offset": 10.544,
-      "duration": 0.150458
-    },
-    {
-      "text": "minha",
-      "offset": 10.706,
-      "duration": 0.19675
-    },
-    {
-      "text": "primeira",
-      "offset": 10.914333,
-      "duration": 0.324083
-    },
-    {
-      "text": "vez",
-      "offset": 11.25,
-      "duration": 0.185166
-    },
-    {
-      "text": "no",
-      "offset": 11.44675,
-      "duration": 0.081
-    },
-    {
-      "text": "programa",
-      "offset": 11.539333,
-      "duration": 0.3935
-    },
-    {
-      "text": "do",
-      "offset": 11.944458,
-      "duration": 0.104166
-    },
-    {
-      "text": "Jô",
-      "offset": 12.060166,
-      "duration": 0.219916
+      "text": "hoje",
+      "offset": 4.4,
+      "duration": 0.2875
     },
     {
       "text": "eu",
-      "offset": 12.523166,
-      "duration": 0.081
+      "offset": 4.7,
+      "duration": 0.075
     },
     {
-      "text": "resolvi",
-      "offset": 12.61575,
-      "duration": 0.416666
-    },
-    {
-      "text": "soltar",
-      "offset": 13.044,
-      "duration": 0.358791
-    },
-    {
-      "text": "uma",
-      "offset": 13.414333,
-      "duration": 0.138875
-    },
-    {
-      "text": "frase",
-      "offset": 13.564833,
-      "duration": 0.335666
-    },
-    {
-      "text": "filosófica",
-      "offset": 13.912041,
-      "duration": 0.671291
-    },
-    {
-      "text": "disse",
-      "offset": 14.826375,
-      "duration": 0.3125
-    },
-    {
-      "text": "que",
-      "offset": 15.150458,
-      "duration": 0.057875
-    },
-    {
-      "text": "o",
-      "offset": 15.219916,
-      "duration": 0.057875
-    },
-    {
-      "text": "Ayrton",
-      "offset": 15.289333,
-      "duration": 0.370375
-    },
-    {
-      "text": "Senna",
-      "offset": 15.671291,
-      "duration": 0.335666
-    },
-    {
-      "text": "era",
-      "offset": 16.0185,
-      "duration": 0.092583
-    },
-    {
-      "text": "um",
-      "offset": 16.122666,
-      "duration": 0.057875
-    },
-    {
-      "text": "peão",
-      "offset": 16.192125,
-      "duration": 0.254625
-    },
-    {
-      "text": "das",
-      "offset": 16.458333,
-      "duration": 0.162041
-    },
-    {
-      "text": "multinacionais",
-      "offset": 16.631958,
-      "duration": 0.914333
-    },
-    {
-      "text": "A",
-      "offset": 18.344916,
-      "duration": 0.11575
-    },
-    {
-      "text": "plateia",
-      "offset": 18.472208,
-      "duration": 0.474541
-    },
-    {
-      "text": "me",
-      "offset": 18.958333,
-      "duration": 0.092583
-    },
-    {
-      "text": "vaiou",
-      "offset": 19.0625,
-      "duration": 0.266208
-    },
-    {
-      "text": "na",
-      "offset": 19.340291,
-      "duration": 0.11575
-    },
-    {
-      "text": "hora",
-      "offset": 19.467583,
-      "duration": 0.3125
-    },
-    {
-      "text": "O",
-      "offset": 20.578708,
-      "duration": 0.11575
-    },
-    {
-      "text": "Jô",
-      "offset": 20.706,
-      "duration": 0.173625
-    },
-    {
-      "text": "não",
-      "offset": 20.891208,
-      "duration": 0.208333
-    },
-    {
-      "text": "gostou",
-      "offset": 21.111125,
-      "duration": 0.451375
-    },
-    {
-      "text": "Eu",
-      "offset": 22.361125,
-      "duration": 0.150458
-    },
-    {
-      "text": "senti",
-      "offset": 22.523166,
-      "duration": 0.381958
-    },
-    {
-      "text": "o",
-      "offset": 22.916666,
-      "duration": 0.034708
-    },
-    {
-      "text": "cheiro",
-      "offset": 22.962958,
-      "duration": 0.347208
-    },
-    {
-      "text": "do",
-      "offset": 23.32175,
-      "duration": 0.081
-    },
-    {
-      "text": "cancelamento",
-      "offset": 23.414333,
-      "duration": 0.729166
-    },
-    {
-      "text": "antes",
-      "offset": 24.155083,
-      "duration": 0.289333
-    },
-    {
-      "text": "do",
-      "offset": 24.456,
-      "duration": 0.092583
-    },
-    {
-      "text": "cancelamento",
-      "offset": 24.560166,
-      "duration": 0.625
-    },
-    {
-      "text": "existir",
-      "offset": 25.19675,
-      "duration": 0.462958
-    },
-    {
-      "text": "Mas",
-      "offset": 26.458333,
-      "duration": 0.3125
-    },
-    {
-      "text": "veio",
-      "offset": 26.782416,
-      "duration": 0.254625
-    },
-    {
-      "text": "o",
-      "offset": 27.048625,
-      "duration": 0.057875
-    },
-    {
-      "text": "plot",
-      "offset": 27.118041,
-      "duration": 0.3935
-    },
-    {
-      "text": "twist",
-      "offset": 27.523166,
-      "duration": 0.405083
-    },
-    {
-      "text": "o",
-      "offset": 28.171291,
-      "duration": 0.092583
-    },
-    {
-      "text": "Jô",
-      "offset": 28.275458,
-      "duration": 0.173625
-    },
-    {
-      "text": "me",
-      "offset": 28.460666,
-      "duration": 0.092583
-    },
-    {
-      "text": "pediu",
-      "offset": 28.564833,
-      "duration": 0.254625
-    },
-    {
-      "text": "pra",
-      "offset": 28.831,
-      "duration": 0.127333
-    },
-    {
-      "text": "cantar",
-      "offset": 28.969916,
-      "duration": 0.405083
-    },
-    {
-      "text": "Eu",
-      "offset": 30.173625,
-      "duration": 0.173625
-    },
-    {
-      "text": "cantei",
-      "offset": 30.358791,
-      "duration": 0.439833
-    },
-    {
-      "text": "o",
-      "offset": 30.983791,
-      "duration": 0.092583
-    },
-    {
-      "text": "público",
-      "offset": 31.087958,
-      "duration": 0.381958
-    },
-    {
-      "text": "aplaudiu",
-      "offset": 31.4815,
-      "duration": 0.555541
-    },
-    {
-      "text": "cantei",
-      "offset": 32.245375,
-      "duration": 0.3935
-    },
-    {
-      "text": "de",
-      "offset": 32.650458,
-      "duration": 0.104166
-    },
-    {
-      "text": "novo",
-      "offset": 32.766208,
-      "duration": 0.347208
-    },
-    {
-      "text": "aplaudiram",
-      "offset": 33.3565,
-      "duration": 0.555541
-    },
-    {
-      "text": "mais",
-      "offset": 33.923625,
-      "duration": 0.405083
-    },
-    {
-      "text": "A",
-      "offset": 35.127333,
-      "duration": 0.092583
-    },
-    {
-      "text": "moral",
-      "offset": 35.2315,
-      "duration": 0.324083
-    },
-    {
-      "text": "da",
-      "offset": 35.567125,
-      "duration": 0.081
-    },
-    {
-      "text": "história",
-      "offset": 35.659708,
-      "duration": 0.439833
-    },
-    {
-      "text": "quando",
-      "offset": 36.354166,
-      "duration": 0.19675
-    },
-    {
-      "text": "a",
-      "offset": 36.5625,
-      "duration": 0.069458
-    },
-    {
-      "text": "vida",
-      "offset": 36.6435,
-      "duration": 0.2315
+      "text": "vou",
+      "offset": 4.7875,
+      "duration": 0.1375
     },
     {
       "text": "te",
-      "offset": 36.886583,
-      "duration": 0.104166
+      "offset": 4.9375,
+      "duration": 0.0875
     },
     {
-      "text": "vaia",
-      "offset": 37.002333,
-      "duration": 0.3125
+      "text": "contar",
+      "offset": 5.0375,
+      "duration": 0.4
     },
     {
-      "text": "canta",
-      "offset": 37.488416,
-      "duration": 0.300916
+      "text": "como",
+      "offset": 5.45,
+      "duration": 0.2625
     },
     {
-      "text": "até",
-      "offset": 37.800916,
-      "duration": 0.173625
+      "text": "fui",
+      "offset": 5.725,
+      "duration": 0.2
     },
     {
-      "text": "o",
-      "offset": 37.986125,
-      "duration": 0.057875
-    },
-    {
-      "text": "povo",
-      "offset": 38.055541,
-      "duration": 0.254625
-    },
-    {
-      "text": "esquecer",
-      "offset": 38.32175,
-      "duration": 0.474541
-    },
-    {
-      "text": "Comenta",
-      "offset": 39.594916,
-      "duration": 0.486125
-    },
-    {
-      "text": "VIRA",
-      "offset": 40.092583,
-      "duration": 0.254625
-    },
-    {
-      "text": "VIRA",
-      "offset": 40.358791,
-      "duration": 0.289333
-    },
-    {
-      "text": "curte",
-      "offset": 40.879625,
-      "duration": 0.381958
-    },
-    {
-      "text": "segue",
-      "offset": 41.527791,
-      "duration": 0.289333
-    },
-    {
-      "text": "e",
-      "offset": 41.828708,
-      "duration": 0.034708
-    },
-    {
-      "text": "manda",
-      "offset": 41.875,
-      "duration": 0.324083
-    },
-    {
-      "text": "pra",
-      "offset": 42.210666,
-      "duration": 0.138875
-    },
-    {
-      "text": "quem",
-      "offset": 42.361125,
-      "duration": 0.19675
-    },
-    {
-      "text": "já",
-      "offset": 42.569458,
-      "duration": 0.127333
-    },
-    {
-      "text": "passou",
-      "offset": 42.708333,
-      "duration": 0.335666
-    },
-    {
-      "text": "vergonha",
-      "offset": 43.055541,
-      "duration": 0.451375
+      "text": "humilhado",
+      "offset": 5.9375,
+      "duration": 0.4625
     },
     {
       "text": "ao",
-      "offset": 43.5185,
-      "duration": 0.092583
+      "offset": 6.4125,
+      "duration": 0.125
     },
     {
       "text": "vivo",
-      "offset": 43.622666,
-      "duration": 0.347208
+      "offset": 6.55,
+      "duration": 0.2875
+    },
+    {
+      "text": "na",
+      "offset": 6.85,
+      "duration": 0.1125
+    },
+    {
+      "text": "televisão",
+      "offset": 6.975,
+      "duration": 0.5
+    },
+    {
+      "text": "brasileira",
+      "offset": 7.4875,
+      "duration": 0.6
+    },
+    {
+      "text": "Curte",
+      "offset": 8.95,
+      "duration": 0.4375
+    },
+    {
+      "text": "segue",
+      "offset": 9.65,
+      "duration": 0.3625
+    },
+    {
+      "text": "e",
+      "offset": 10.025,
+      "duration": 0.025
+    },
+    {
+      "text": "compartilha",
+      "offset": 10.0625,
+      "duration": 0.6
+    },
+    {
+      "text": "esse",
+      "offset": 10.675,
+      "duration": 0.2
+    },
+    {
+      "text": "desastre",
+      "offset": 10.8875,
+      "duration": 0.6
+    },
+    {
+      "text": "Na",
+      "offset": 12.35,
+      "duration": 0.1625
+    },
+    {
+      "text": "minha",
+      "offset": 12.525,
+      "duration": 0.225
+    },
+    {
+      "text": "primeira",
+      "offset": 12.7625,
+      "duration": 0.35
+    },
+    {
+      "text": "vez",
+      "offset": 13.125,
+      "duration": 0.2
+    },
+    {
+      "text": "no",
+      "offset": 13.3375,
+      "duration": 0.1
+    },
+    {
+      "text": "programa",
+      "offset": 13.45,
+      "duration": 0.45
+    },
+    {
+      "text": "do",
+      "offset": 13.9125,
+      "duration": 0.1125
+    },
+    {
+      "text": "Jô",
+      "offset": 14.0375,
+      "duration": 0.2375
+    },
+    {
+      "text": "eu",
+      "offset": 14.5375,
+      "duration": 0.1125
+    },
+    {
+      "text": "tive",
+      "offset": 14.6625,
+      "duration": 0.225
+    },
+    {
+      "text": "uma",
+      "offset": 14.9,
+      "duration": 0.0875
+    },
+    {
+      "text": "ideia",
+      "offset": 15.0,
+      "duration": 0.275
+    },
+    {
+      "text": "brilhante",
+      "offset": 15.2875,
+      "duration": 0.5375
+    },
+    {
+      "text": "dizer",
+      "offset": 16.05,
+      "duration": 0.4
+    },
+    {
+      "text": "que",
+      "offset": 16.4625,
+      "duration": 0.125
+    },
+    {
+      "text": "Ayrton",
+      "offset": 16.6,
+      "duration": 0.4125
+    },
+    {
+      "text": "Senna",
+      "offset": 17.025,
+      "duration": 0.375
+    },
+    {
+      "text": "era",
+      "offset": 17.4125,
+      "duration": 0.1125
+    },
+    {
+      "text": "um",
+      "offset": 17.5375,
+      "duration": 0.0625
+    },
+    {
+      "text": "peão",
+      "offset": 17.6125,
+      "duration": 0.275
+    },
+    {
+      "text": "das",
+      "offset": 17.9,
+      "duration": 0.175
+    },
+    {
+      "text": "multinacionais",
+      "offset": 18.0875,
+      "duration": 0.9875
+    },
+    {
+      "text": "A",
+      "offset": 19.9375,
+      "duration": 0.125
+    },
+    {
+      "text": "plateia",
+      "offset": 20.075,
+      "duration": 0.5375
+    },
+    {
+      "text": "me",
+      "offset": 20.625,
+      "duration": 0.1125
+    },
+    {
+      "text": "vaiou",
+      "offset": 20.75,
+      "duration": 0.3875
+    },
+    {
+      "text": "O",
+      "offset": 22.0,
+      "duration": 0.125
+    },
+    {
+      "text": "Jô",
+      "offset": 22.1375,
+      "duration": 0.225
+    },
+    {
+      "text": "me",
+      "offset": 22.375,
+      "duration": 0.1125
+    },
+    {
+      "text": "olhou",
+      "offset": 22.5,
+      "duration": 0.2625
+    },
+    {
+      "text": "com",
+      "offset": 22.775,
+      "duration": 0.1625
+    },
+    {
+      "text": "desprezo",
+      "offset": 22.95,
+      "duration": 0.5625
+    },
+    {
+      "text": "Eu",
+      "offset": 24.375,
+      "duration": 0.1625
+    },
+    {
+      "text": "senti",
+      "offset": 24.55,
+      "duration": 0.425
+    },
+    {
+      "text": "minha",
+      "offset": 24.9875,
+      "duration": 0.1625
+    },
+    {
+      "text": "carreira",
+      "offset": 25.1625,
+      "duration": 0.375
+    },
+    {
+      "text": "evaporar",
+      "offset": 25.55,
+      "duration": 0.4625
+    },
+    {
+      "text": "em",
+      "offset": 26.025,
+      "duration": 0.0875
+    },
+    {
+      "text": "rede",
+      "offset": 26.125,
+      "duration": 0.3
+    },
+    {
+      "text": "nacional",
+      "offset": 26.4375,
+      "duration": 0.5625
+    },
+    {
+      "text": "Mas",
+      "offset": 27.8625,
+      "duration": 0.3375
+    },
+    {
+      "text": "veio",
+      "offset": 28.2125,
+      "duration": 0.275
+    },
+    {
+      "text": "o",
+      "offset": 28.5,
+      "duration": 0.0625
+    },
+    {
+      "text": "plot",
+      "offset": 28.575,
+      "duration": 0.425
+    },
+    {
+      "text": "twist",
+      "offset": 29.0125,
+      "duration": 0.4375
+    },
+    {
+      "text": "o",
+      "offset": 29.75,
+      "duration": 0.0625
+    },
+    {
+      "text": "Jô",
+      "offset": 29.825,
+      "duration": 0.1625
+    },
+    {
+      "text": "pediu",
+      "offset": 30.0,
+      "duration": 0.2875
+    },
+    {
+      "text": "pra",
+      "offset": 30.3,
+      "duration": 0.175
+    },
+    {
+      "text": "eu",
+      "offset": 30.4875,
+      "duration": 0.15
+    },
+    {
+      "text": "cantar",
+      "offset": 30.65,
+      "duration": 0.4375
+    },
+    {
+      "text": "Eu",
+      "offset": 31.95,
+      "duration": 0.1875
+    },
+    {
+      "text": "cantei",
+      "offset": 32.15,
+      "duration": 0.5125
+    },
+    {
+      "text": "O",
+      "offset": 33.525,
+      "duration": 0.1375
+    },
+    {
+      "text": "público",
+      "offset": 33.675,
+      "duration": 0.475
+    },
+    {
+      "text": "aplaudiu",
+      "offset": 34.1625,
+      "duration": 0.6125
+    },
+    {
+      "text": "Cantei",
+      "offset": 35.6375,
+      "duration": 0.4875
+    },
+    {
+      "text": "outra",
+      "offset": 36.1375,
+      "duration": 0.3875
+    },
+    {
+      "text": "Aplaudiram",
+      "offset": 37.3875,
+      "duration": 0.7
+    },
+    {
+      "text": "mais",
+      "offset": 38.1,
+      "duration": 0.425
+    },
+    {
+      "text": "Eu",
+      "offset": 39.3875,
+      "duration": 0.175
+    },
+    {
+      "text": "voltei",
+      "offset": 39.575,
+      "duration": 0.35
+    },
+    {
+      "text": "dos",
+      "offset": 39.9375,
+      "duration": 0.175
+    },
+    {
+      "text": "mortos",
+      "offset": 40.125,
+      "duration": 0.3875
+    },
+    {
+      "text": "ao",
+      "offset": 40.525,
+      "duration": 0.225
+    },
+    {
+      "text": "vivo",
+      "offset": 40.7625,
+      "duration": 0.3375
+    },
+    {
+      "text": "A",
+      "offset": 41.9625,
+      "duration": 0.1
+    },
+    {
+      "text": "moral",
+      "offset": 42.075,
+      "duration": 0.35
+    },
+    {
+      "text": "da",
+      "offset": 42.4375,
+      "duration": 0.0875
+    },
+    {
+      "text": "história",
+      "offset": 42.5375,
+      "duration": 0.475
+    },
+    {
+      "text": "quando",
+      "offset": 43.35,
+      "duration": 0.225
+    },
+    {
+      "text": "o",
+      "offset": 43.5875,
+      "duration": 0.025
+    },
+    {
+      "text": "mundo",
+      "offset": 43.625,
+      "duration": 0.3375
+    },
+    {
+      "text": "te",
+      "offset": 43.975,
+      "duration": 0.0875
+    },
+    {
+      "text": "odeia",
+      "offset": 44.075,
+      "duration": 0.4
+    },
+    {
+      "text": "canta",
+      "offset": 44.65,
+      "duration": 0.45
+    },
+    {
+      "text": "Se",
+      "offset": 45.9625,
+      "duration": 0.225
+    },
+    {
+      "text": "não",
+      "offset": 46.2,
+      "duration": 0.2125
+    },
+    {
+      "text": "resolver",
+      "offset": 46.425,
+      "duration": 0.5625
+    },
+    {
+      "text": "canta",
+      "offset": 47.1625,
+      "duration": 0.3375
+    },
+    {
+      "text": "mais",
+      "offset": 47.5125,
+      "duration": 0.1875
+    },
+    {
+      "text": "alto",
+      "offset": 47.7125,
+      "duration": 0.4375
+    },
+    {
+      "text": "Comenta",
+      "offset": 49.0125,
+      "duration": 0.525
+    },
+    {
+      "text": "VIRA",
+      "offset": 49.55,
+      "duration": 0.2625
+    },
+    {
+      "text": "VIRA",
+      "offset": 49.825,
+      "duration": 0.3375
+    },
+    {
+      "text": "curte",
+      "offset": 50.4,
+      "duration": 0.425
+    },
+    {
+      "text": "segue",
+      "offset": 51.075,
+      "duration": 0.3875
+    },
+    {
+      "text": "e",
+      "offset": 51.475,
+      "duration": 0.0375
+    },
+    {
+      "text": "compartilha",
+      "offset": 51.525,
+      "duration": 0.6875
+    },
+    {
+      "text": "Me",
+      "offset": 53.075,
+      "duration": 0.125
+    },
+    {
+      "text": "ajuda",
+      "offset": 53.2125,
+      "duration": 0.55
+    },
+    {
+      "text": "eu",
+      "offset": 53.9625,
+      "duration": 0.1125
+    },
+    {
+      "text": "sobrevivi",
+      "offset": 54.0875,
+      "duration": 0.575
+    },
+    {
+      "text": "à",
+      "offset": 54.675,
+      "duration": 0.0875
+    },
+    {
+      "text": "humilhação",
+      "offset": 54.775,
+      "duration": 0.65
+    },
+    {
+      "text": "eu",
+      "offset": 55.65,
+      "duration": 0.1
+    },
+    {
+      "text": "mereço",
+      "offset": 55.7625,
+      "duration": 0.5375
     }
   ]
 }

@@ -1,522 +1,353 @@
 {
   "voice": "pt-BR-AntonioNeural",
-  "rate": "+8%",
-  "text": "Oi, eu sou Rogério Skylab. Eu escrevi uma música cheia de ódio, mas a inspiração era amorosa. Curte, segue e compartilha esse caos doméstico! O pessoal acha que minhas letras nascem de grandes crises existenciais, tormentos cósmicos e filosofia pesada. A música Pára de Roncar, FDP, parece puro ódio. Mas veio o plot twist: eu me inspirei na minha mulher roncando do meu lado. Sem metáfora. Sem poesia. Só ronco e desespero. A moral da história: o amor é lindo, mas dormir ao lado de quem ronca é arte performática. Comenta RONCO FDP, curte, segue e manda pra quem ronca feito um trator!",
+  "rate": "+0%",
+  "pitch": "-4Hz",
+  "text": "Boa noite. Eu sou Rogerio Skylab. E vou revelar a origem nojenta de uma das minhas musicas. Curte, segue e compartilha esse sofrimento conjugal. As pessoas acham que minhas letras vem de crises existenciais, filosofia pesada, tormento cosmico. Para de Roncar, FDP, por exemplo. Parece odio puro, parece revolta contra o universo. Mas veio o plot twist: eu escrevi essa musica porque minha mulher estava roncando do meu lado. Sem metafora. Sem poesia. So ronco. A moral da historia: o amor e belo, mas o ronco e terrorismo sonoro. Comenta RONCO FDP, curte, segue e compartilha. Se voce ronca, peca perdao e de like.",
   "words": [
     {
-      "text": "Oi",
-      "offset": 0.096291,
-      "duration": 0.266208
+      "text": "Boa",
+      "offset": 0.1,
+      "duration": 0.3
     },
     {
-      "text": "eu",
-      "offset": 0.594,
-      "duration": 0.104166
-    },
-    {
-      "text": "sou",
-      "offset": 0.709708,
-      "duration": 0.2315
-    },
-    {
-      "text": "Rogério",
-      "offset": 0.952791,
-      "duration": 0.42825
-    },
-    {
-      "text": "Skylab",
-      "offset": 1.392583,
-      "duration": 0.613416
+      "text": "noite",
+      "offset": 0.4125,
+      "duration": 0.45
     },
     {
       "text": "Eu",
-      "offset": 2.800916,
-      "duration": 0.162041
+      "offset": 1.725,
+      "duration": 0.1625
     },
     {
-      "text": "escrevi",
-      "offset": 2.974541,
-      "duration": 0.347208
+      "text": "sou",
+      "offset": 1.9,
+      "duration": 0.2625
     },
     {
-      "text": "uma",
-      "offset": 3.333333,
-      "duration": 0.138875
+      "text": "Rogerio",
+      "offset": 2.175,
+      "duration": 0.475
     },
     {
-      "text": "música",
-      "offset": 3.483791,
-      "duration": 0.416666
+      "text": "Skylab",
+      "offset": 2.6625,
+      "duration": 0.6875
     },
     {
-      "text": "cheia",
-      "offset": 3.912041,
-      "duration": 0.3125
+      "text": "E",
+      "offset": 4.2125,
+      "duration": 0.1125
     },
     {
-      "text": "de",
-      "offset": 4.236125,
-      "duration": 0.127333
+      "text": "vou",
+      "offset": 4.3375,
+      "duration": 0.15
     },
     {
-      "text": "ódio",
-      "offset": 4.375,
-      "duration": 0.3125
-    },
-    {
-      "text": "mas",
-      "offset": 4.942125,
-      "duration": 0.11575
+      "text": "revelar",
+      "offset": 4.5,
+      "duration": 0.4875
     },
     {
       "text": "a",
-      "offset": 5.069458,
-      "duration": 0.104166
+      "offset": 5.0,
+      "duration": 0.05
     },
     {
-      "text": "inspiração",
-      "offset": 5.185166,
-      "duration": 0.601833
+      "text": "origem",
+      "offset": 5.0625,
+      "duration": 0.3625
     },
     {
-      "text": "era",
-      "offset": 5.798625,
-      "duration": 0.092583
+      "text": "nojenta",
+      "offset": 5.4375,
+      "duration": 0.525
     },
     {
-      "text": "amorosa",
-      "offset": 5.902791,
-      "duration": 0.497666
+      "text": "de",
+      "offset": 5.975,
+      "duration": 0.1125
     },
     {
-      "text": "Curte",
-      "offset": 7.199083,
-      "duration": 0.3935
+      "text": "uma",
+      "offset": 6.1,
+      "duration": 0.175
     },
     {
-      "text": "segue",
-      "offset": 7.824083,
-      "duration": 0.347208
-    },
-    {
-      "text": "e",
-      "offset": 8.182875,
-      "duration": 0.034708
-    },
-    {
-      "text": "compartilha",
-      "offset": 8.229166,
-      "duration": 0.567125
-    },
-    {
-      "text": "esse",
-      "offset": 8.807875,
-      "duration": 0.19675
-    },
-    {
-      "text": "caos",
-      "offset": 9.016208,
-      "duration": 0.2315
-    },
-    {
-      "text": "doméstico",
-      "offset": 9.25925,
-      "duration": 0.625
-    },
-    {
-      "text": "O",
-      "offset": 10.682875,
-      "duration": 0.11575
-    },
-    {
-      "text": "pessoal",
-      "offset": 10.810166,
-      "duration": 0.50925
-    },
-    {
-      "text": "acha",
-      "offset": 11.331,
-      "duration": 0.277791
-    },
-    {
-      "text": "que",
-      "offset": 11.620375,
-      "duration": 0.092583
+      "text": "das",
+      "offset": 6.2875,
+      "duration": 0.2
     },
     {
       "text": "minhas",
-      "offset": 11.724541,
-      "duration": 0.208333
+      "offset": 6.5,
+      "duration": 0.2625
     },
     {
-      "text": "letras",
-      "offset": 11.944458,
-      "duration": 0.347208
+      "text": "musicas",
+      "offset": 6.775,
+      "duration": 0.7125
     },
     {
-      "text": "nascem",
-      "offset": 12.30325,
-      "duration": 0.300916
-    },
-    {
-      "text": "de",
-      "offset": 12.61575,
-      "duration": 0.104166
-    },
-    {
-      "text": "grandes",
-      "offset": 12.7315,
-      "duration": 0.3935
-    },
-    {
-      "text": "crises",
-      "offset": 13.136583,
-      "duration": 0.277791
-    },
-    {
-      "text": "existenciais",
-      "offset": 13.425916,
-      "duration": 0.810166
-    },
-    {
-      "text": "tormentos",
-      "offset": 14.479166,
-      "duration": 0.520833
-    },
-    {
-      "text": "cósmicos",
-      "offset": 15.011583,
-      "duration": 0.497666
-    },
-    {
-      "text": "e",
-      "offset": 15.520833,
-      "duration": 0.104166
-    },
-    {
-      "text": "filosofia",
-      "offset": 15.636583,
-      "duration": 0.578708
-    },
-    {
-      "text": "pesada",
-      "offset": 16.226833,
-      "duration": 0.474541
-    },
-    {
-      "text": "A",
-      "offset": 17.5,
-      "duration": 0.092583
-    },
-    {
-      "text": "música",
-      "offset": 17.604166,
-      "duration": 0.462958
-    },
-    {
-      "text": "Pára",
-      "offset": 18.078708,
-      "duration": 0.162041
-    },
-    {
-      "text": "de",
-      "offset": 18.252333,
-      "duration": 0.069458
-    },
-    {
-      "text": "Roncar",
-      "offset": 18.333333,
-      "duration": 0.451375
-    },
-    {
-      "text": "FDP",
-      "offset": 19.016208,
-      "duration": 0.578708
-    },
-    {
-      "text": "parece",
-      "offset": 19.872666,
-      "duration": 0.405083
-    },
-    {
-      "text": "puro",
-      "offset": 20.289333,
-      "duration": 0.254625
-    },
-    {
-      "text": "ódio",
-      "offset": 20.555541,
-      "duration": 0.3125
-    },
-    {
-      "text": "Mas",
-      "offset": 21.666666,
-      "duration": 0.335666
-    },
-    {
-      "text": "veio",
-      "offset": 22.013875,
-      "duration": 0.277791
-    },
-    {
-      "text": "o",
-      "offset": 22.30325,
-      "duration": 0.0462909
-    },
-    {
-      "text": "plot",
-      "offset": 22.361125,
-      "duration": 0.42825
-    },
-    {
-      "text": "twist",
-      "offset": 22.800916,
-      "duration": 0.405083
-    },
-    {
-      "text": "eu",
-      "offset": 23.425916,
-      "duration": 0.104166
-    },
-    {
-      "text": "me",
-      "offset": 23.541666,
-      "duration": 0.0462909
-    },
-    {
-      "text": "inspirei",
-      "offset": 23.599541,
-      "duration": 0.358791
-    },
-    {
-      "text": "na",
-      "offset": 23.969916,
-      "duration": 0.092583
-    },
-    {
-      "text": "minha",
-      "offset": 24.074083,
-      "duration": 0.185166
-    },
-    {
-      "text": "mulher",
-      "offset": 24.270833,
-      "duration": 0.324083
-    },
-    {
-      "text": "roncando",
-      "offset": 24.6065,
-      "duration": 0.42825
-    },
-    {
-      "text": "do",
-      "offset": 25.046291,
-      "duration": 0.081
-    },
-    {
-      "text": "meu",
-      "offset": 25.138875,
-      "duration": 0.138875
-    },
-    {
-      "text": "lado",
-      "offset": 25.289333,
-      "duration": 0.335666
-    },
-    {
-      "text": "Sem",
-      "offset": 26.423625,
-      "duration": 0.277791
-    },
-    {
-      "text": "metáfora",
-      "offset": 26.712958,
-      "duration": 0.706
-    },
-    {
-      "text": "Sem",
-      "offset": 28.217583,
-      "duration": 0.277791
-    },
-    {
-      "text": "poesia",
-      "offset": 28.506958,
-      "duration": 0.544
-    },
-    {
-      "text": "Só",
-      "offset": 29.849541,
-      "duration": 0.254625
-    },
-    {
-      "text": "ronco",
-      "offset": 30.11575,
-      "duration": 0.347208
-    },
-    {
-      "text": "e",
-      "offset": 30.474541,
-      "duration": 0.034708
-    },
-    {
-      "text": "desespero",
-      "offset": 30.520833,
-      "duration": 0.544
-    },
-    {
-      "text": "A",
-      "offset": 31.863416,
-      "duration": 0.092583
-    },
-    {
-      "text": "moral",
-      "offset": 31.967583,
-      "duration": 0.347208
-    },
-    {
-      "text": "da",
-      "offset": 32.326375,
-      "duration": 0.081
-    },
-    {
-      "text": "história",
-      "offset": 32.419,
-      "duration": 0.439833
-    },
-    {
-      "text": "o",
-      "offset": 33.171291,
-      "duration": 0.092583
-    },
-    {
-      "text": "amor",
-      "offset": 33.275458,
-      "duration": 0.324083
-    },
-    {
-      "text": "é",
-      "offset": 33.611125,
-      "duration": 0.057875
-    },
-    {
-      "text": "lindo",
-      "offset": 33.680541,
-      "duration": 0.335666
-    },
-    {
-      "text": "mas",
-      "offset": 34.294,
-      "duration": 0.173625
-    },
-    {
-      "text": "dormir",
-      "offset": 34.479166,
-      "duration": 0.324083
-    },
-    {
-      "text": "ao",
-      "offset": 34.814833,
-      "duration": 0.081
-    },
-    {
-      "text": "lado",
-      "offset": 34.907416,
-      "duration": 0.300916
-    },
-    {
-      "text": "de",
-      "offset": 35.219916,
-      "duration": 0.104166
-    },
-    {
-      "text": "quem",
-      "offset": 35.335666,
-      "duration": 0.19675
-    },
-    {
-      "text": "ronca",
-      "offset": 35.544,
-      "duration": 0.358791
-    },
-    {
-      "text": "é",
-      "offset": 35.914333,
-      "duration": 0.057875
-    },
-    {
-      "text": "arte",
-      "offset": 35.983791,
-      "duration": 0.243041
-    },
-    {
-      "text": "performática",
-      "offset": 36.238416,
-      "duration": 0.752333
-    },
-    {
-      "text": "Comenta",
-      "offset": 37.789333,
-      "duration": 0.486125
-    },
-    {
-      "text": "RONCO",
-      "offset": 38.287041,
-      "duration": 0.335666
-    },
-    {
-      "text": "FDP",
-      "offset": 38.63425,
-      "duration": 0.590291
-    },
-    {
-      "text": "curte",
-      "offset": 39.479166,
-      "duration": 0.381958
+      "text": "Curte",
+      "offset": 8.35,
+      "duration": 0.45
     },
     {
       "text": "segue",
-      "offset": 40.11575,
-      "duration": 0.300916
+      "offset": 9.0625,
+      "duration": 0.35
     },
     {
       "text": "e",
-      "offset": 40.42825,
-      "duration": 0.034708
+      "offset": 9.425,
+      "duration": 0.025
     },
     {
-      "text": "manda",
-      "offset": 40.474541,
+      "text": "compartilha",
+      "offset": 9.4625,
+      "duration": 0.625
+    },
+    {
+      "text": "esse",
+      "offset": 10.1,
+      "duration": 0.1875
+    },
+    {
+      "text": "sofrimento",
+      "offset": 10.3,
+      "duration": 0.6125
+    },
+    {
+      "text": "conjugal",
+      "offset": 10.925,
+      "duration": 0.5375
+    },
+    {
+      "text": "As",
+      "offset": 12.325,
+      "duration": 0.1875
+    },
+    {
+      "text": "pessoas",
+      "offset": 12.525,
+      "duration": 0.4625
+    },
+    {
+      "text": "acham",
+      "offset": 13.0,
+      "duration": 0.375
+    },
+    {
+      "text": "que",
+      "offset": 13.3875,
+      "duration": 0.1
+    },
+    {
+      "text": "minhas",
+      "offset": 13.5,
+      "duration": 0.2375
+    },
+    {
+      "text": "letras",
+      "offset": 13.75,
+      "duration": 0.3875
+    },
+    {
+      "text": "vem",
+      "offset": 14.15,
+      "duration": 0.1625
+    },
+    {
+      "text": "de",
+      "offset": 14.325,
+      "duration": 0.125
+    },
+    {
+      "text": "crises",
+      "offset": 14.4625,
+      "duration": 0.325
+    },
+    {
+      "text": "existenciais",
+      "offset": 14.8,
+      "duration": 0.875
+    },
+    {
+      "text": "filosofia",
+      "offset": 15.975,
+      "duration": 0.6625
+    },
+    {
+      "text": "pesada",
+      "offset": 16.65,
+      "duration": 0.525
+    },
+    {
+      "text": "tormento",
+      "offset": 17.3625,
+      "duration": 0.5
+    },
+    {
+      "text": "cosmico",
+      "offset": 17.875,
+      "duration": 0.55
+    },
+    {
+      "text": "Para",
+      "offset": 19.2875,
+      "duration": 0.2125
+    },
+    {
+      "text": "de",
+      "offset": 19.5125,
+      "duration": 0.075
+    },
+    {
+      "text": "Roncar",
+      "offset": 19.6,
+      "duration": 0.4625
+    },
+    {
+      "text": "FDP",
+      "offset": 20.3375,
+      "duration": 0.65
+    },
+    {
+      "text": "por",
+      "offset": 21.3,
+      "duration": 0.1375
+    },
+    {
+      "text": "exemplo",
+      "offset": 21.45,
+      "duration": 0.475
+    },
+    {
+      "text": "Parece",
+      "offset": 22.7875,
+      "duration": 0.475
+    },
+    {
+      "text": "odio",
+      "offset": 23.275,
+      "duration": 0.2875
+    },
+    {
+      "text": "puro",
+      "offset": 23.575,
+      "duration": 0.3375
+    },
+    {
+      "text": "parece",
+      "offset": 24.1625,
+      "duration": 0.4125
+    },
+    {
+      "text": "revolta",
+      "offset": 24.5875,
+      "duration": 0.525
+    },
+    {
+      "text": "contra",
+      "offset": 25.125,
+      "duration": 0.3625
+    },
+    {
+      "text": "o",
+      "offset": 25.5,
+      "duration": 0.025
+    },
+    {
+      "text": "universo",
+      "offset": 25.5375,
+      "duration": 0.625
+    },
+    {
+      "text": "Mas",
+      "offset": 27.025,
+      "duration": 0.3375
+    },
+    {
+      "text": "veio",
+      "offset": 27.375,
+      "duration": 0.275
+    },
+    {
+      "text": "o",
+      "offset": 27.6625,
+      "duration": 0.05
+    },
+    {
+      "text": "plot",
+      "offset": 27.725,
+      "duration": 0.4375
+    },
+    {
+      "text": "twist",
+      "offset": 28.175,
+      "duration": 0.4625
+    },
+    {
+      "text": "eu",
+      "offset": 28.8625,
+      "duration": 0.1125
+    },
+    {
+      "text": "escrevi",
+      "offset": 28.9875,
+      "duration": 0.3875
+    },
+    {
+      "text": "essa",
+      "offset": 29.3875,
+      "duration": 0.2125
+    },
+    {
+      "text": "musica",
+      "offset": 29.6125,
+      "duration": 0.4375
+    },
+    {
+      "text": "porque",
+      "offset": 30.0625,
+      "duration": 0.275
+    },
+    {
+      "text": "minha",
+      "offset": 30.35,
+      "duration": 0.1875
+    },
+    {
+      "text": "mulher",
+      "offset": 30.55,
+      "duration": 0.3375
+    },
+    {
+      "text": "estava",
+      "offset": 30.9,
       "duration": 0.3125
     },
     {
-      "text": "pra",
-      "offset": 40.798625,
-      "duration": 0.127333
+      "text": "roncando",
+      "offset": 31.225,
+      "duration": 0.5125
     },
     {
-      "text": "quem",
-      "offset": 40.9375,
-      "duration": 0.185166
+      "text": "do",
+      "offset": 31.75,
+      "duration": 0.0875
     },
     {
-      "text": "ronca",
-      "offset": 41.13425,
-      "duration": 0.335666
+      "text": "meu",
+      "offset": 31.85,
+      "duration": 0.1625
     },
     {
-      "text": "feito",
-      "offset": 41.4815,
-      "duration": 0.266208
-    },
-    {
-      "text": "um",
-      "offset": 41.75925,
-      "duration": 0.057875
-    },
-    {
-      "text": "trator",
-      "offset": 41.828708,
-      "duration": 0.3935
+      "text": "lado",
+      "offset": 32.025,
+      "duration": 0.35
     }
   ]
 }
