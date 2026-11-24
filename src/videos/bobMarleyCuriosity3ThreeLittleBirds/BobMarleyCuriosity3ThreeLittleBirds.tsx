@@ -23,12 +23,24 @@ const Card: React.FC<{ tex: THREE.Texture | null; pos: [number, number, number];
   return <mesh position={pos} rotation={rot} scale={scale as any} layers={NOINK}><planeGeometry args={[2.2, 3.3]} /><meshBasicMaterial map={tex} transparent alphaTest={0.05} side={THREE.DoubleSide} /></mesh>;
 };
 
-const Bird: React.FC<{ pos: [number, number, number]; color?: string; flap?: number }> = ({ pos, color = "#FDE68A", flap = 0 }) => (
+const Bird: React.FC<{ pos: [number, number, number]; color?: string; flap?: number }> = ({ pos, color = "#FFD966", flap = 0 }) => (
   <group position={pos}>
-    <mesh><sphereGeometry args={[0.12, 16, 16]} /><meshStandardMaterial color={color} /></mesh>
-    <mesh position={[0.12, 0.02, 0]} rotation={[0, 0, -0.3]}><coneGeometry args={[0.04, 0.1, 8]} /><meshStandardMaterial color="#F59E0B" /></mesh>
-    <mesh position={[-0.15, 0.05 + flap, 0]} rotation={[0, 0, 0.6 + flap]}><boxGeometry args={[0.22, 0.03, 0.12]} /><meshStandardMaterial color={color} /></mesh>
-    <mesh position={[0.15, 0.05 + flap, 0]} rotation={[0, 0, -0.6 - flap]}><boxGeometry args={[0.22, 0.03, 0.12]} /><meshStandardMaterial color={color} /></mesh>
+    {/* body */}
+    <mesh><sphereGeometry args={[0.14, 20, 20]} /><meshStandardMaterial color={color} roughness={0.7} /></mesh>
+    {/* belly */}
+    <mesh position={[0.02, -0.02, 0.08]}><sphereGeometry args={[0.09, 16, 16]} /><meshStandardMaterial color="#FFF3BF" roughness={0.8} /></mesh>
+    {/* head */}
+    <mesh position={[0.11, 0.08, 0]}><sphereGeometry args={[0.095, 18, 18]} /><meshStandardMaterial color={color} roughness={0.7} /></mesh>
+    {/* eye */}
+    <mesh position={[0.16, 0.11, 0.05]}><sphereGeometry args={[0.022, 12, 12]} /><meshBasicMaterial color="#1F2937" /></mesh>
+    <mesh position={[0.168, 0.118, 0.065]}><sphereGeometry args={[0.008, 10, 10]} /><meshBasicMaterial color="#FFFFFF" /></mesh>
+    {/* beak */}
+    <mesh position={[0.205, 0.075, 0]} rotation={[0, 0, -Math.PI / 2]}><coneGeometry args={[0.028, 0.07, 12]} /><meshStandardMaterial color="#FF9800" /></mesh>
+    {/* wings */}
+    <mesh position={[-0.02, 0.03, 0.13]} rotation={[0.2, 0.2, 0.5 + flap]}><sphereGeometry args={[0.085, 14, 14, 0, Math.PI]} /><meshStandardMaterial color={color} roughness={0.75} /></mesh>
+    <mesh position={[-0.02, 0.03, -0.13]} rotation={[-0.2, -0.2, 0.5 + flap]}><sphereGeometry args={[0.085, 14, 14, 0, Math.PI]} /><meshStandardMaterial color={color} roughness={0.75} /></mesh>
+    {/* tail */}
+    <mesh position={[-0.17, -0.01, 0]} rotation={[0, 0, 0.4]}><boxGeometry args={[0.1, 0.04, 0.08]} /><meshStandardMaterial color={color} /></mesh>
   </group>
 );
 
