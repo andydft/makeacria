@@ -40,6 +40,8 @@ import { FresnoShowAlguemQueTeFazSorrir, FSAQ_FRAMES, FSAQ_FPS } from "./videos/
 import { BobMarleyCuriosity2Football, BMC2_FRAMES, BMC2_FPS } from "./videos/bobMarleyCuriosity2Football/BobMarleyCuriosity2Football";
 import { BobMarleyCuriosity3ThreeLittleBirds, BMC3_FRAMES, BMC3_FPS } from "./videos/bobMarleyCuriosity3ThreeLittleBirds/BobMarleyCuriosity3ThreeLittleBirds";
 import { BobMarleyShowBuffaloSoldier, BMSBS_FRAMES, BMSBS_FPS } from "./videos/bobMarleyShowBuffaloSoldier/BobMarleyShowBuffaloSoldier";
+import { BobMarleyStoryNoWomanNoCry, BMNW_FRAMES, BMNW_FPS } from "./videos/bobMarleyStoryNoWomanNoCry/BobMarleyStoryNoWomanNoCry";
+import { BobMarleyStoryLoveMessage, BMLM_FRAMES, BMLM_FPS } from "./videos/bobMarleyStoryLoveMessage/BobMarleyStoryLoveMessage";
 import { LinkinParkFormationV2Short, LPF2_FRAMES, LPF2_FPS } from "./videos/linkinParkFormationV2/LinkinParkFormationV2";
 import { OneMoreLightTributeV2Short, OML2_FRAMES, OML2_FPS } from "./videos/oneMoreLightTributeV2/OneMoreLightTributeV2";
 import { ChesterAccidentProneV2Short, CAP2_FRAMES, CAP2_FPS } from "./videos/chesterAccidentProneV2/ChesterAccidentProneV2";
@@ -265,6 +267,22 @@ export const RemotionRoot: React.FC = () => {
         component={BobMarleyShowBuffaloSoldier}
         fps={BMSBS_FPS}
         durationInFrames={BMSBS_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="BobMarleyStoryNoWomanNoCry"
+        component={BobMarleyStoryNoWomanNoCry}
+        fps={BMNW_FPS}
+        durationInFrames={BMNW_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="BobMarleyStoryLoveMessage"
+        component={BobMarleyStoryLoveMessage}
+        fps={BMLM_FPS}
+        durationInFrames={BMLM_FRAMES}
         width={1080}
         height={1920}
       />
