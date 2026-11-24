@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import * as THREE from "three";
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, interpolate } from "remotion";
+import { AbsoluteFill, staticFile, useCurrentFrame, useVideoConfig, interpolate } from "remotion";
 import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
 import { EffectComposer } from "@react-three/postprocessing";
@@ -24,6 +24,10 @@ const Card: React.FC<{ tex: THREE.Texture | null; pos: [number, number, number];
 const Box: React.FC<{ pos: [number, number, number]; args: [number, number, number]; color: string; rough?: number }> = ({ pos, args, color, rough = 0.85 }) => (
   <mesh position={pos} castShadow receiveShadow><boxGeometry args={args} /><meshStandardMaterial color={color} roughness={rough} metalness={0.05} /></mesh>
 );
+const PropCard: React.FC<{ file: string; pos: [number, number, number]; scale?: number | [number, number, number]; rot?: [number, number, number] }> = ({ file, pos, scale = 1, rot = [0, 0, 0] }) => {
+  const tex = useMemo(() => { const t = new THREE.TextureLoader().load(staticFile(file)); t.colorSpace = THREE.SRGBColorSpace; return t; }, [file]);
+  return <Card tex={tex} pos={pos} scale={scale} rot={rot} />;
+};
 
 const BobCard: React.FC<{ frame: number }> = ({ frame }) => {
   const beat = frame / 13.846; // ~130bpm feel
@@ -64,12 +68,13 @@ const CameraRig: React.FC<{ frame: number }> = ({ frame }) => {
   const { camera } = useThree();
   const t = frame / BMSBS_FRAMES;
   let cam = { x: 0, y: 2.9, z: 8.5, lx: 0, ly: 2.2, lz: 0.2, fov: 40 };
-  if (t < 0.2) { const p=smooth(t/0.2); cam={x:-0.8+p*0.8,y:2.9,z:9.2-p*0.5,lx:0,ly:2.2,lz:0.2,fov:42}; }
-  else if (t < 0.35) { cam={x:0.5,y:2.7,z:7.2,lx:0,ly:2.35,lz:0.2,fov:36}; }
-  else if (t < 0.55) { const p=smooth((t-0.35)/0.2); cam={x:1.0-p*2.0,y:2.9,z:8.8,lx:0,ly:2.2,lz:0.1,fov:40}; }
-  else if (t < 0.7) { cam={x:-0.4,y:2.7,z:7.0,lx:0,ly:2.4,lz:0.2,fov:35}; }
-  else if (t < 0.85) { const p=smooth((t-0.7)/0.15); cam={x:-0.8+p*1.6,y:3.0,z:9.0,lx:0,ly:2.2,lz:0.1,fov:42}; }
-  else { const p=smooth((t-0.85)/0.15); cam={x:0,y:3.2,z:10.0-p*0.5,lx:0,ly:2.15,lz:0.1,fov:44}; }
+  if (t < 0.15) { const p=smooth(t/0.15); cam={x:-0.6+p*0.4,y:2.9,z:9.0-p*0.4,lx:0,ly:2.2,lz:0.2,fov:42}; }
+  else if (t < 0.28) { cam={x:0.15,y:2.55,z:6.8,lx:0,ly:2.45,lz:0.25,fov:34}; } // face close
+  else if (t < 0.40) { cam={x:0.7,y:2.2,z:7.0,lx:0.35,ly:1.55,lz:0.45,fov:38}; } // guitar close
+  else if (t < 0.55) { const p=smooth((t-0.40)/0.15); cam={x:0.8-p*1.6,y:2.9,z:8.8,lx:0,ly:2.2,lz:0.15,fov:40}; }
+  else if (t < 0.68) { cam={x:-0.1,y:2.55,z:6.7,lx:0,ly:2.45,lz:0.25,fov:34}; } // face close
+  else if (t < 0.80) { cam={x:-0.5,y:2.25,z:7.2,lx:0.25,ly:1.6,lz:0.45,fov:38}; } // guitar/body
+  else { const p=smooth((t-0.80)/0.20); cam={x:0,y:3.1,z:9.8-p*0.6,lx:0,ly:2.15,lz:0.15,fov:44}; }
   camera.position.set(cam.x,cam.y,cam.z); camera.lookAt(cam.lx,cam.ly,cam.lz);
   if ("fov" in camera) { (camera as THREE.PerspectiveCamera).fov = cam.fov; camera.updateProjectionMatrix(); }
   return null;
@@ -102,6 +107,7 @@ const Scene: React.FC = () => {
       <Stage />
       <mesh rotation={[-Math.PI/2,0,0]} position={[0,0.02,0.25]} layers={NOINK}><circleGeometry args={[0.55,32]} /><meshBasicMaterial color="#000000" transparent opacity={0.18} /></mesh>
       <BobCard frame={frame} />
+      <PropCard file="reference/guitar-svg-reference.svg" pos={[0.35, 1.25, 0.55]} scale={0.46} rot={[0, 0, -0.25]} />
       <Effects />
     </ThreeCanvas>
     <div style={{ position: "absolute", top: 70, left: 0, right: 0, textAlign: "center", fontFamily: "Arial Black, sans-serif", fontSize: 42, color: "#fff", textShadow: "0 4px 24px rgba(0,0,0,0.7)", opacity: interpolate(frame, [0,15,90,120], [0,1,1,0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>

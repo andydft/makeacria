@@ -3,21 +3,22 @@ import asyncio, json, os
 import edge_tts
 
 VOICE = "pt-BR-AntonioNeural"
-RATE = "+8%"
+RATE = "+0%"
+PITCH = "-3Hz"
 OUT = os.path.join("public", "bob-marley-story-no-woman-no-cry")
 TEXT = (
-    "Você sabe por que Bob Marley fez No Woman, No Cry? Curte, segue e compartilha essa história! "
-    "A música foi inspirada nas lembranças de Bob Marley em Trenchtown, na Jamaica, onde ele viveu tempos difíceis. "
-    "Mas, em vez de falar só de dor, ele quis trazer conforto e esperança. "
-    "No Woman, No Cry é como um abraço: uma mensagem dizendo que, mesmo nas dificuldades, tudo vai ficar bem. "
-    "Bob Marley transformou a luta do povo em uma canção de força e carinho. "
-    "Por isso essa música emociona tanta gente até hoje. "
-    "Comenta NO WOMAN NO CRY se essa música toca seu coração!"
+    "Oi, eu sou Bob Marley. Curte e segue se essa história tocar seu coração. "
+    "Eu escrevi No Woman, No Cry lembrando dos meus dias em Trenchtown, na Jamaica. "
+    "A vida era difícil, mas a gente tinha um ao outro, e isso dava força. "
+    "Quando eu cantava essa música, eu queria abraçar cada pessoa que estava sofrendo. "
+    "Eu queria dizer: não chore, tudo vai ficar bem, a gente vai superar juntos. "
+    "Essa canção é o meu carinho em forma de música. "
+    "Comenta NO WOMAN NO CRY, curte e compartilha essa mensagem!"
 )
 
 async def main():
     os.makedirs(OUT, exist_ok=True)
-    comm = edge_tts.Communicate(TEXT, VOICE, rate=RATE, boundary="WordBoundary")
+    comm = edge_tts.Communicate(TEXT, VOICE, rate=RATE, pitch=PITCH, boundary="WordBoundary")
     words = []
     audio = bytearray()
     async for chunk in comm.stream():
@@ -28,7 +29,7 @@ async def main():
     with open(os.path.join(OUT, "voice.wav"), "wb") as f:
         f.write(audio)
     with open(os.path.join(OUT, "words.json"), "w", encoding="utf-8") as f:
-        json.dump({"voice": VOICE, "rate": RATE, "text": TEXT, "words": words}, f, ensure_ascii=False, indent=2)
+        json.dump({"voice": VOICE, "rate": RATE, "pitch": PITCH, "text": TEXT, "words": words}, f, ensure_ascii=False, indent=2)
     dur = (words[-1]["offset"] + words[-1]["duration"]) if words else 0
     print(f"words={len(words)} dur={dur:.3f}s")
 

@@ -13,7 +13,7 @@ import BobMarleyV1 from "../../characters/presets/BobMarleyV1";
 import wordsData from "../../../public/bob-marley-story-no-woman-no-cry/words.json";
 
 export const BMNW_FPS = 30;
-export const BMNW_FRAMES = 1140;
+export const BMNW_FRAMES = 1060;
 
 const smooth = (t: number) => { const u = Math.max(0, Math.min(1, t)); return u * u * (3 - 2 * u); };
 const makeBloom = () => new BloomEffect({ blendFunction: BlendFunction.ADD, intensity: 0.35, luminanceThreshold: 0.88, luminanceSmoothing: 0.25, mipmapBlur: true, levels: 4, radius: 0.6 });
@@ -25,26 +25,33 @@ const Card: React.FC<{ tex: THREE.Texture | null; pos: [number, number, number];
 
 const SceneScenery: React.FC = () => (
   <group>
-    <mesh rotation={[-Math.PI/2,0,0]} position={[0,0,0]} receiveShadow><planeGeometry args={[26,16]} /><meshStandardMaterial color="#8B6B4A" roughness={0.95} /></mesh>
-    <mesh position={[0,3.8,-6.0]}><planeGeometry args={[28,9]} /><meshBasicMaterial color="#F6B26B" /></mesh>
-    <mesh position={[0,1.0,-5.9]}><planeGeometry args={[28,4]} /><meshBasicMaterial color="#D98C4A" /></mesh>
-    {/* simple houses */}
-    {[[-4.5,1.1,-4.8],[ -1.8,1.0,-5.1],[1.8,1.0,-5.0],[4.5,1.1,-4.8]].map((p,i)=>(
-      <group key={i} position={p as any}>
-        <mesh><boxGeometry args={[2.2,2.2,1.6]} /><meshStandardMaterial color={i%2?"#C9ADA1":"#B08968"} /></mesh>
-        <mesh position={[0,1.45,0]} rotation={[0,0,Math.PI/4]}><boxGeometry args={[1.7,1.7,1.7]} /><meshStandardMaterial color="#6D4C41" /></mesh>
+    <mesh rotation={[-Math.PI/2,0,0]} position={[0,0,0]} receiveShadow><planeGeometry args={[26,16]} /><meshStandardMaterial color="#A67C52" roughness={0.95} /></mesh>
+    <mesh position={[0,3.8,-6.0]}><planeGeometry args={[28,9]} /><meshBasicMaterial color="#FFBE76" /></mesh>
+    <mesh position={[0,1.0,-5.9]}><planeGeometry args={[28,4]} /><meshBasicMaterial color="#E67E22" opacity={0.35} transparent /></mesh>
+    {/* cute little huts */}
+    {[[-4.8,0,-4.8,0.9],[ -2.2,0,-5.2,0.75],[2.2,0,-5.1,0.8],[4.8,0,-4.7,0.95]].map((p,i)=>(
+      <group key={i} position={[p[0],0,p[2]] as any} scale={p[3] as number}>
+        <mesh position={[0,0.9,0]}><cylinderGeometry args={[0.95,1.05,1.8,8]} /><meshStandardMaterial color={i%2?"#F5DEB3":"#E8C39E"} /></mesh>
+        <mesh position={[0,2.15,0]}><coneGeometry args={[1.35,1.3,8]} /><meshStandardMaterial color={i%3===0?"#8D6E63":"#795548"} /></mesh>
+        <mesh position={[0,0.55,0.96]}><boxGeometry args={[0.45,0.8,0.08]} /><meshStandardMaterial color="#5D4037" /></mesh>
+        <mesh position={[0.55,1.1,0.96]}><boxGeometry args={[0.32,0.32,0.06]} /><meshBasicMaterial color="#FFF9C4" /></mesh>
       </group>
     ))}
-    <pointLight position={[0,5,-2]} intensity={0.8} color="#FFD7A8" distance={18} />
+    <pointLight position={[0,5,-2]} intensity={0.9} color="#FFD7A8" distance={18} />
   </group>
 );
 
 const BobCard: React.FC<{ frame: number }> = ({ frame }) => {
-  const singCycle = Math.sin(frame * 0.2);
-  const mouthShape: "neutral" | "open" | "smile" = singCycle > 0.25 ? "open" : "smile";
+  const { fps } = useVideoConfig();
+  const t = frame / fps;
+  const words = (wordsData as any).words as { text: string; offset: number; duration: number }[];
+  const speaking = words.some(w => t >= w.offset - 0.03 && t <= w.offset + w.duration + 0.08);
+  const singCycle = Math.sin(frame * 0.22);
+  const mouthShape: "neutral" | "open" | "smile" = speaking ? (singCycle > 0.15 ? "open" : "smile") : "smile";
   const blink = frame % 120 > 114 ? 0.08 : 1;
-  const tex = useSvgTexture(<BobMarleyV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} />, ["bob-nwnc", Math.round(frame/3), mouthShape, blink<0.5?1:0], 512, 768);
-  return <Card tex={tex} pos={[0,1.7,0]} scale={1.02} />;
+  const bob = Math.sin(frame * 0.035) * 0.012;
+  const tex = useSvgTexture(<BobMarleyV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} />, ["bob-nwnc-v2", Math.round(frame/2), mouthShape, speaking?1:0, blink<0.5?1:0], 512, 768);
+  return <Card tex={tex} pos={[0,1.7+bob,0]} scale={1.02} />;
 };
 
 const CameraRig: React.FC<{ frame: number }> = ({ frame }) => {
@@ -80,11 +87,11 @@ const Subtitle: React.FC = () => {
 
 const Hook: React.FC = () => {
   const frame = useCurrentFrame();
-  const opacity = interpolate(frame,[0,8,70,90],[0,1,1,0],{extrapolateLeft:"clamp",extrapolateRight:"clamp"});
+  const opacity = interpolate(frame,[0,8,75,95],[0,1,1,0],{extrapolateLeft:"clamp",extrapolateRight:"clamp"});
   return <div style={{ position:"absolute",top:100,left:50,right:50,textAlign:"center",opacity }}>
     <div style={{ fontFamily:"Arial Black, Arial, sans-serif",fontSize:40,color:"#FFFFFF",background:"rgba(120,53,15,0.72)",borderRadius:24,padding:"20px",border:"3px solid #FCD34D" }}>
-      Por que Bob Marley fez “No Woman, No Cry”? 🥺
-      <div style={{ fontSize:28,marginTop:10,color:"#FEF3C7",fontFamily:"Arial, sans-serif" }}>Curte, segue e compartilha essa história!</div>
+      Oi, eu sou Bob Marley... 🥺
+      <div style={{ fontSize:28,marginTop:10,color:"#FEF3C7",fontFamily:"Arial, sans-serif" }}>Essa é a história de No Woman, No Cry</div>
     </div>
   </div>;
 };
