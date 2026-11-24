@@ -107,7 +107,7 @@ const Scene: React.FC = () => {
       <Stage />
       <mesh rotation={[-Math.PI/2,0,0]} position={[0,0.02,0.25]} layers={NOINK}><circleGeometry args={[0.55,32]} /><meshBasicMaterial color="#000000" transparent opacity={0.18} /></mesh>
       <BobCard frame={frame} />
-      <PropCard file="reference/guitar-svg-reference.svg" pos={[0.45, 1.35, 0.55]} scale={0.46} rot={[0, 0, -0.12]} />
+      <PropCard file="reference/guitar-svg-reference.svg" pos={[0.25, 1.3, 0.55]} scale={0.44} rot={[0, 0.1, -1.57]} />
       <Effects />
     </ThreeCanvas>
     <div style={{ position: "absolute", top: 70, left: 0, right: 0, textAlign: "center", fontFamily: "Arial Black, sans-serif", fontSize: 42, color: "#fff", textShadow: "0 4px 24px rgba(0,0,0,0.7)", opacity: interpolate(frame, [0,15,90,120], [0,1,1,0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
