@@ -33,9 +33,10 @@ const BobCard: React.FC<{ frame: number }> = ({ frame }) => {
   const beat = frame / 13.846; // ~130bpm feel
   const bob = Math.sin(beat * Math.PI * 2) * 0.03;
   const singCycle = Math.sin(frame * 0.18);
-  const mouthShape: "neutral" | "open" | "smile" = singCycle > 0.25 ? "open" : singCycle > -0.2 ? "smile" : "neutral";
-  const blink = frame % 120 > 114 ? 0.08 : 1;
-  const tex = useSvgTexture(<BobMarleyV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} pose="stand" />, ["bob-buffalo", Math.round(frame / 2), mouthShape], 512, 768);
+  const mouthShape: "neutral" | "open" | "smile" = singCycle > 0.1 ? "open" : "smile";
+  const nearEnd = frame > BMSBS_FRAMES - 60;
+  const blink = !nearEnd && frame % 120 > 114 ? 0.08 : 1;
+  const tex = useSvgTexture(<BobMarleyV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} pose="stand" />, ["bob-buffalo", Math.round(frame / 2), mouthShape, blink < 0.5 ? 1 : 0], 512, 768);
   return <Card tex={tex} pos={[0, 1.72 + bob, 0.2]} scale={1.05} />;
 };
 
