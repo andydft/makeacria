@@ -97,7 +97,7 @@ const BobCard: React.FC<{ frame: number }> = ({ frame }) => {
     ["bob-football-br", Math.round(frame / 2), mouthShape, blink < 0.5 ? 1 : 0],
     512, 768
   );
-  return <Card tex={tex} pos={[sway, 2.05 + bob + kick, 0]} scale={1.02} />;
+  return <Card tex={tex} pos={[sway, 1.74 + bob + kick, 0]} scale={1.02} />;
 };
 
 const CameraRig: React.FC<{ frame: number }> = ({ frame }) => {
@@ -198,6 +198,10 @@ const Scene: React.FC = () => {
         <directionalLight position={[5, 10, 6]} intensity={1.25} castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024} />
         <pointLight position={[0, 5, 2]} intensity={0.5} color="#FFF7CC" distance={18} />
         <Pitch />
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.02, 0.1]} layers={NOINK}>
+          <circleGeometry args={[0.55, 32]} />
+          <meshBasicMaterial color="#000000" transparent opacity={0.18} />
+        </mesh>
         <BobCard frame={frame} />
         <Football pos={[ballX, 0.28, ballZ]} rot={[frame * 0.03, frame * 0.02, 0]} />
         <Effects />
