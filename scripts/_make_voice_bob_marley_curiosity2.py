@@ -6,13 +6,13 @@ VOICE = "pt-BR-AntonioNeural"
 RATE = "+8%"
 OUT = os.path.join("public", "bob-marley-curiosity-2-football")
 TEXT = (
-    "Você sabia que Bob Marley quase amava mais futebol do que música? Segue pra ver esse lado dele! "
-    "Sempre que podia, Bob Marley estava jogando bola. "
-    "Em turnês, nos bastidores, ou em qualquer campo que encontrava, ele chamava todo mundo pra jogar. "
-    "Para ele, o futebol era liberdade, união e alegria, do mesmo jeito que o reggae. "
-    "Ele dizia que jogar bola era uma forma de se sentir vivo. "
-    "Por isso, além de lenda da música, Bob Marley também era apaixonado por futebol. "
-    "Curte, comenta REGGAE e compartilha com quem ama Bob Marley!"
+    "Você sabia que Bob Marley quase amava mais futebol do que música? "
+    "Já curte e compartilha pra mais histórias assim! "
+    "Sempre que podia, Bob estava jogando bola, em turnês, nos bastidores, em qualquer lugar. "
+    "E o mais incrível: ele veio até o Brasil e jogou futebol por aqui! "
+    "Para Bob Marley, o futebol era liberdade, união e alegria, igual ao reggae. "
+    "Bola no pé, sorriso no rosto e espírito livre. "
+    "Comenta REGGAE se você também é fã de Bob Marley!"
 )
 
 async def main():

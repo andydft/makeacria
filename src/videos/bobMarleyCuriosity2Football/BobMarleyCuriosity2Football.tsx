@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import * as THREE from "three";
-import { AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig, interpolate } from "remotion";
+import { AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig, interpolate, Easing } from "remotion";
 import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
 import { EffectComposer } from "@react-three/postprocessing";
@@ -13,21 +13,21 @@ import BobMarleyV1 from "../../characters/presets/BobMarleyV1";
 import wordsData from "../../../public/bob-marley-curiosity-2-football/words.json";
 
 export const BMC2_FPS = 30;
-export const BMC2_FRAMES = 1120;
+export const BMC2_FRAMES = 960;
 
 const smooth = (t: number) => { const u = Math.max(0, Math.min(1, t)); return u * u * (3 - 2 * u); };
-const makeBloom = () => new BloomEffect({ blendFunction: BlendFunction.ADD, intensity: 0.35, luminanceThreshold: 0.88, luminanceSmoothing: 0.25, mipmapBlur: true, levels: 4, radius: 0.6 });
+const makeBloom = () => new BloomEffect({ blendFunction: BlendFunction.ADD, intensity: 0.42, luminanceThreshold: 0.86, luminanceSmoothing: 0.25, mipmapBlur: true, levels: 4, radius: 0.65 });
 
 const Card: React.FC<{ tex: THREE.Texture | null; pos: [number, number, number]; scale?: number | [number, number, number]; rot?: [number, number, number] }> = ({ tex, pos, scale = 1, rot = [0, 0, 0] }) => {
   if (!tex) return null;
   return <mesh position={pos} rotation={rot} scale={scale as any} layers={NOINK}><planeGeometry args={[2.2, 3.3]} /><meshBasicMaterial map={tex} transparent alphaTest={0.05} side={THREE.DoubleSide} /></mesh>;
 };
 
-const Football: React.FC<{ pos: [number, number, number] }> = ({ pos }) => (
-  <group position={pos}>
+const Football: React.FC<{ pos: [number, number, number]; rot?: [number, number, number] }> = ({ pos, rot = [0, 0, 0] }) => (
+  <group position={pos} rotation={rot}>
     <mesh castShadow>
       <sphereGeometry args={[0.28, 24, 24]} />
-      <meshStandardMaterial color="#F5F5F5" roughness={0.6} />
+      <meshStandardMaterial color="#F5F5F5" roughness={0.55} />
     </mesh>
     {[[0,0,0.285],[0,0,-0.285],[0.285,0,0],[-0.285,0,0],[0,0.285,0],[0,-0.285,0]].map((p,i)=>(
       <mesh key={i} position={p as any} rotation={[i*0.5, i*0.3, 0]}>
@@ -38,49 +38,80 @@ const Football: React.FC<{ pos: [number, number, number] }> = ({ pos }) => (
   </group>
 );
 
+const BrazilFlag: React.FC<{ pos: [number, number, number]; scale?: number }> = ({ pos, scale = 1 }) => (
+  <group position={pos} scale={scale}>
+    <mesh><planeGeometry args={[1.6, 1.0]} /><meshBasicMaterial color="#1B8A3A" /></mesh>
+    <mesh position={[0, 0, 0.01]} rotation={[0, 0, Math.PI / 4]}><planeGeometry args={[0.95, 0.95]} /><meshBasicMaterial color="#F2C200" /></mesh>
+    <mesh position={[0, 0, 0.02]}><circleGeometry args={[0.28, 32]} /><meshBasicMaterial color="#1D4ED8" /></mesh>
+    <mesh position={[0.02, 0.03, 0.03]} rotation={[0,0,-0.2]}><planeGeometry args={[0.52, 0.06]} /><meshBasicMaterial color="#FFFFFF" /></mesh>
+  </group>
+);
+
 const Pitch: React.FC = () => (
   <group>
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]} receiveShadow>
-      <planeGeometry args={[24, 16]} />
-      <meshStandardMaterial color="#2E7D32" roughness={0.95} />
+      <planeGeometry args={[28, 18]} />
+      <meshStandardMaterial color="#2E8B3A" roughness={0.95} />
     </mesh>
-    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 0]}>
-      <ringGeometry args={[1.8, 1.9, 48]} />
-      <meshBasicMaterial color="#FFFFFF" transparent opacity={0.8} />
-    </mesh>
-    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 0]}>
-      <planeGeometry args={[0.08, 12]} />
-      <meshBasicMaterial color="#FFFFFF" transparent opacity={0.8} />
-    </mesh>
-    <mesh position={[0, 2.8, -4.5]}>
-      <planeGeometry args={[20, 7]} />
-      <meshBasicMaterial color="#87CEEB" />
-    </mesh>
-    <mesh position={[0, 0.8, -4.4]}>
-      <planeGeometry args={[20, 3]} />
-      <meshBasicMaterial color="#4CAF50" />
-    </mesh>
+    {/* field lines */}
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 0]}><ringGeometry args={[2.2, 2.28, 56]} /><meshBasicMaterial color="#FFFFFF" transparent opacity={0.85} /></mesh>
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 0]}><planeGeometry args={[0.08, 14]} /><meshBasicMaterial color="#FFFFFF" transparent opacity={0.85} /></mesh>
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, -5.5]}><planeGeometry args={[10, 0.08]} /><meshBasicMaterial color="#FFFFFF" transparent opacity={0.7} /></mesh>
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 5.5]}><planeGeometry args={[10, 0.08]} /><meshBasicMaterial color="#FFFFFF" transparent opacity={0.7} /></mesh>
+    {/* sky/backdrop */}
+    <mesh position={[0, 4.2, -6.5]}><planeGeometry args={[30, 10]} /><meshBasicMaterial color="#5BC0EB" /></mesh>
+    <mesh position={[0, 1.3, -6.4]}><planeGeometry args={[30, 4]} /><meshBasicMaterial color="#8FD694" /></mesh>
+    {/* stands */}
+    {[-1, 1].map((side) => (
+      <group key={side} position={[side * 7.5, 1.2, -4.8]}>
+        <mesh><boxGeometry args={[3.2, 2.4, 3.5]} /><meshStandardMaterial color="#1F2937" roughness={0.9} /></mesh>
+        {Array.from({ length: 18 }).map((_, i) => (
+          <mesh key={i} position={[-1 + (i % 6) * 0.4, -0.7 + Math.floor(i / 6) * 0.45, 1.8]}>
+            <boxGeometry args={[0.22, 0.22, 0.05]} />
+            <meshBasicMaterial color={i % 3 === 0 ? "#F2C200" : i % 3 === 1 ? "#1B8A3A" : "#FFFFFF"} />
+          </mesh>
+        ))}
+      </group>
+    ))}
+    {/* goal */}
+    <group position={[0, 1.2, -5.2]}>
+      <mesh position={[-2.2, 0, 0]}><boxGeometry args={[0.12, 2.4, 0.12]} /><meshStandardMaterial color="#FFFFFF" /></mesh>
+      <mesh position={[2.2, 0, 0]}><boxGeometry args={[0.12, 2.4, 0.12]} /><meshStandardMaterial color="#FFFFFF" /></mesh>
+      <mesh position={[0, 1.2, 0]}><boxGeometry args={[4.52, 0.12, 0.12]} /><meshStandardMaterial color="#FFFFFF" /></mesh>
+    </group>
+    <BrazilFlag pos={[-5.2, 2.8, -4.0]} scale={0.9} />
+    <BrazilFlag pos={[5.2, 2.8, -4.0]} scale={0.9} />
   </group>
 );
 
 const BobCard: React.FC<{ frame: number }> = ({ frame }) => {
-  const bob = Math.sin(frame * 0.05) * 0.03;
-  const singCycle = Math.sin(frame * 0.16);
-  const mouthShape: "neutral" | "open" | "smile" = singCycle > 0.3 ? "open" : singCycle > -0.2 ? "smile" : "neutral";
-  const blink = frame % 130 > 124 && frame % 130 < 129 ? 0.08 : 1;
-  const tex = useSvgTexture(<BobMarleyV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} shirtColor="#1B8A3A" adidasStripes />, ["bob-football", Math.round(frame / 2), mouthShape], 512, 768);
-  return <Card tex={tex} pos={[0, 2.05 + bob, 0]} scale={1.02} />;
+  const t = frame / BMC2_FRAMES;
+  const bob = Math.sin(frame * 0.08) * 0.05;
+  const sway = Math.sin(frame * 0.05) * 0.04;
+  const kick = t > 0.45 && t < 0.62 ? Math.sin((t - 0.45) / 0.17 * Math.PI) * 0.08 : 0;
+  const singCycle = Math.sin(frame * 0.22);
+  const mouthShape: "neutral" | "open" | "smile" = singCycle > 0.2 ? "open" : "smile";
+  const blink = frame % 110 > 104 ? 0.08 : 1;
+  const tex = useSvgTexture(
+    <BobMarleyV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} shirtColor="#1B8A3A" adidasStripes />,
+    ["bob-football-br", Math.round(frame / 2), mouthShape, blink < 0.5 ? 1 : 0],
+    512, 768
+  );
+  return <Card tex={tex} pos={[sway, 2.05 + bob + kick, 0]} scale={1.02} />;
 };
 
 const CameraRig: React.FC<{ frame: number }> = ({ frame }) => {
   const { camera } = useThree();
   const t = frame / BMC2_FRAMES;
   let cam = { x: 0, y: 3.0, z: 10.5, lx: 0, ly: 2.1, lz: 0, fov: 44 };
-  if (t < 0.15) { const p = smooth(t / 0.15); cam = { x: -0.8 + p * 0.8, y: 3.2, z: 11.5 - p * 1.0, lx: 0, ly: 2.1, lz: 0, fov: 46 }; }
-  else if (t < 0.4) { const p = smooth((t - 0.15) / 0.25); cam = { x: 0.6 - p * 1.2, y: 2.9, z: 9.8, lx: 0, ly: 2.2, lz: 0, fov: 43 }; }
-  else if (t < 0.65) { const p = smooth((t - 0.4) / 0.25); cam = { x: -0.5 + p * 1.0, y: 3.0, z: 10.2, lx: 0, ly: 2.15, lz: 0, fov: 44 }; }
-  else if (t < 0.85) { cam = { x: 0, y: 2.7, z: 8.8, lx: 0, ly: 2.3, lz: 0.2, fov: 40 }; }
-  else { const p = smooth((t - 0.85) / 0.15); cam = { x: 0, y: 3.2, z: 11.0 - p * 0.5, lx: 0, ly: 2.1, lz: 0, fov: 46 }; }
+  if (t < 0.12) { const p = smooth(t / 0.12); cam = { x: -1.5 + p * 0.8, y: 3.1, z: 11.2 - p * 0.8, lx: 0, ly: 2.1, lz: 0, fov: 46 }; }
+  else if (t < 0.22) { cam = { x: 0.3, y: 2.7, z: 8.0, lx: 0, ly: 2.35, lz: 0.2, fov: 38 }; } // quick close
+  else if (t < 0.35) { const p = smooth((t - 0.22) / 0.13); cam = { x: 1.2 - p * 2.4, y: 3.0, z: 10.0, lx: 0, ly: 2.15, lz: 0, fov: 44 }; }
+  else if (t < 0.48) { cam = { x: -0.2, y: 2.6, z: 7.6, lx: 0, ly: 2.4, lz: 0.2, fov: 36 }; } // Brazil moment close
+  else if (t < 0.62) { const p = smooth((t - 0.48) / 0.14); cam = { x: -1.0 + p * 2.0, y: 2.9, z: 9.2, lx: 0, ly: 2.1, lz: 0, fov: 42 }; }
+  else if (t < 0.72) { cam = { x: 0, y: 5.2, z: 9.0, lx: 0, ly: 1.8, lz: -0.5, fov: 52 }; } // high dynamic
+  else if (t < 0.86) { const p = smooth((t - 0.72) / 0.14); cam = { x: 0.8 - p * 1.6, y: 2.8, z: 8.8, lx: 0, ly: 2.25, lz: 0.1, fov: 40 }; }
+  else { const p = smooth((t - 0.86) / 0.14); cam = { x: 0, y: 3.2, z: 11.0 - p * 0.8, lx: 0, ly: 2.1, lz: 0, fov: 46 }; }
   camera.position.set(cam.x, cam.y, cam.z);
   camera.lookAt(cam.lx, cam.ly, cam.lz);
   if ("fov" in camera) { (camera as THREE.PerspectiveCamera).fov = cam.fov; camera.updateProjectionMatrix(); }
@@ -117,29 +148,33 @@ const Subtitle: React.FC = () => {
   const recent = words.filter(w => w.offset <= t).slice(-6);
   const line = (active.length ? active : recent).map(w => w.text).join(" ");
   if (!line) return null;
-  return <div style={{ position: "absolute", bottom: 110, left: 60, right: 60, textAlign: "center", fontFamily: "Arial Black, Arial, sans-serif", fontSize: 44, lineHeight: 1.25, color: "#FFFFFF", textShadow: "0 4px 18px rgba(0,0,0,0.55)", padding: "18px 24px", borderRadius: 20, background: "rgba(17,24,39,0.35)" }}>{line}</div>;
+  return <div style={{ position: "absolute", bottom: 110, left: 60, right: 60, textAlign: "center", fontFamily: "Arial Black, Arial, sans-serif", fontSize: 42, lineHeight: 1.25, color: "#FFFFFF", textShadow: "0 4px 18px rgba(0,0,0,0.55)", padding: "18px 24px", borderRadius: 20, background: "rgba(17,24,39,0.35)" }}>{line}</div>;
 };
 
 const HookOverlay: React.FC = () => {
   const frame = useCurrentFrame();
-  const opacity = interpolate(frame, [0, 10, 75, 95], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const opacity = interpolate(frame, [0, 8, 70, 90], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <div style={{ position: "absolute", top: 120, left: 50, right: 50, textAlign: "center", opacity }}>
-      <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 44, color: "#FFFFFF", textShadow: "0 3px 14px rgba(0,0,0,0.5)", background: "rgba(27,138,58,0.82)", borderRadius: 24, padding: "22px 20px", border: "3px solid #F2C200" }}>
+    <div style={{ position: "absolute", top: 100, left: 50, right: 50, textAlign: "center", opacity }}>
+      <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 42, color: "#FFFFFF", textShadow: "0 3px 14px rgba(0,0,0,0.5)", background: "rgba(27,138,58,0.88)", borderRadius: 24, padding: "20px 20px", border: "3px solid #F2C200" }}>
         Bob Marley amava futebol!
-        <div style={{ fontSize: 30, marginTop: 10, color: "#FFF9C4", fontFamily: "Arial, sans-serif" }}>Segue pra ver esse lado dele ⚽</div>
+        <div style={{ fontSize: 30, marginTop: 10, color: "#FFF9C4", fontFamily: "Arial, sans-serif" }}>Curte e compartilha agora ⚽🇧🇷</div>
       </div>
     </div>
   );
 };
 
-const TitleCard: React.FC = () => {
+const BrazilMoment: React.FC = () => {
   const frame = useCurrentFrame();
-  const opacity = interpolate(frame, [80, 100, 170, 200], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const { fps } = useVideoConfig();
+  const t = frame / fps;
+  // show around when "veio até o Brasil" is said (~12-16s in new audio)
+  const opacity = interpolate(t, [11.5, 12.2, 16.5, 17.5], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <div style={{ position: "absolute", top: 80, left: 0, right: 0, textAlign: "center", opacity }}>
-      <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 50, color: "#FFFFFF", textShadow: "0 4px 18px rgba(0,0,0,0.6)" }}>BOB MARLEY ⚽ FUTEBOL</div>
-      <div style={{ fontFamily: "Arial, sans-serif", fontSize: 30, color: "#FFF9C4", marginTop: 8 }}>Curiosidade #2</div>
+    <div style={{ position: "absolute", top: 180, left: 80, right: 80, textAlign: "center", opacity }}>
+      <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 48, color: "#F2C200", textShadow: "0 4px 20px rgba(0,0,0,0.6)", background: "rgba(0,0,0,0.28)", borderRadius: 20, padding: "16px" }}>
+        ELE JOGOU NO BRASIL! 🇧🇷
+      </div>
     </div>
   );
 };
@@ -147,32 +182,35 @@ const TitleCard: React.FC = () => {
 const Scene: React.FC = () => {
   const frame = useCurrentFrame();
   const { width, height } = useVideoConfig();
+  const ballZ = 0.8 + Math.sin(frame * 0.12) * 0.15;
+  const ballX = 0.9 + Math.sin(frame * 0.06) * 0.08;
   return (
     <>
       <ThreeCanvas width={width} height={height} frameloop="demand" dpr={1.0}
         shadows gl={{ antialias: false, alpha: false, powerPreference: "high-performance", toneMapping: THREE.NoToneMapping, outputColorSpace: THREE.SRGBColorSpace }}
         camera={{ fov: 44, position: [0, 3.0, 10.5], near: 0.1, far: 60 }}
-        onCreated={({ gl }) => { gl.setClearColor(0x87CEEB, 1); gl.shadowMap.enabled = true; gl.shadowMap.type = THREE.PCFSoftShadowMap; }}
+        onCreated={({ gl }) => { gl.setClearColor(0x5BC0EB, 1); gl.shadowMap.enabled = true; gl.shadowMap.type = THREE.PCFSoftShadowMap; }}
       >
         <CameraRig frame={frame} />
-        <color attach="background" args={["#87CEEB"]} />
-        <fog attach="fog" args={["#87CEEB", 14, 40]} />
-        <ambientLight intensity={0.7} />
-        <directionalLight position={[5, 10, 6]} intensity={1.2} castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024} />
+        <color attach="background" args={["#5BC0EB"]} />
+        <fog attach="fog" args={["#5BC0EB", 14, 45]} />
+        <ambientLight intensity={0.75} />
+        <directionalLight position={[5, 10, 6]} intensity={1.25} castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024} />
+        <pointLight position={[0, 5, 2]} intensity={0.5} color="#FFF7CC" distance={18} />
         <Pitch />
         <BobCard frame={frame} />
-        <Football pos={[0.9, 0.28, 0.8]} />
+        <Football pos={[ballX, 0.28, ballZ]} rot={[frame * 0.03, frame * 0.02, 0]} />
         <Effects />
       </ThreeCanvas>
       <HookOverlay />
-      <TitleCard />
+      <BrazilMoment />
       <Subtitle />
     </>
   );
 };
 
 export const BobMarleyCuriosity2Football: React.FC = () => (
-  <AbsoluteFill style={{ backgroundColor: "#87CEEB" }}>
+  <AbsoluteFill style={{ backgroundColor: "#5BC0EB" }}>
     <Audio src={staticFile("bob-marley-curiosity-2-football/voice.wav")} />
     <Scene />
   </AbsoluteFill>
