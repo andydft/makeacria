@@ -13,7 +13,7 @@ import BobMarleyV1 from "../../characters/presets/BobMarleyV1";
 import wordsData from "../../../public/bob-marley-story-love-message/words.json";
 
 export const BMLM_FPS = 30;
-export const BMLM_FRAMES = 1060;
+export const BMLM_FRAMES = 1020;
 
 const smooth = (t: number) => { const u = Math.max(0, Math.min(1, t)); return u * u * (3 - 2 * u); };
 const makeBloom = () => new BloomEffect({ blendFunction: BlendFunction.ADD, intensity: 0.38, luminanceThreshold: 0.86, luminanceSmoothing: 0.25, mipmapBlur: true, levels: 4, radius: 0.6 });
@@ -41,11 +41,16 @@ const SceneScenery: React.FC = () => (
 );
 
 const BobCard: React.FC<{ frame: number }> = ({ frame }) => {
-  const singCycle = Math.sin(frame * 0.2);
-  const mouthShape: "neutral" | "open" | "smile" = singCycle > 0.25 ? "open" : "smile";
+  const { fps } = useVideoConfig();
+  const t = frame / fps;
+  const words = (wordsData as any).words as { text: string; offset: number; duration: number }[];
+  const speaking = words.some(w => t >= w.offset - 0.03 && t <= w.offset + w.duration + 0.08);
+  const singCycle = Math.sin(frame * 0.24);
+  const mouthShape: "neutral" | "open" | "smile" = speaking ? (singCycle > 0.15 ? "open" : "smile") : "smile";
   const blink = frame % 120 > 114 ? 0.08 : 1;
-  const tex = useSvgTexture(<BobMarleyV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} />, ["bob-love", Math.round(frame/3), mouthShape, blink<0.5?1:0], 512, 768);
-  return <Card tex={tex} pos={[0,1.7,0]} scale={1.02} />;
+  const bob = Math.sin(frame * 0.04) * 0.015;
+  const tex = useSvgTexture(<BobMarleyV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} />, ["bob-love-v2", Math.round(frame/2), mouthShape, speaking?1:0, blink<0.5?1:0], 512, 768);
+  return <Card tex={tex} pos={[0,1.7 + bob,0]} scale={1.02} />;
 };
 
 const CameraRig: React.FC<{ frame: number }> = ({ frame }) => {
@@ -81,11 +86,21 @@ const Subtitle: React.FC = () => {
 
 const Hook: React.FC = () => {
   const frame = useCurrentFrame();
-  const opacity = interpolate(frame,[0,8,70,90],[0,1,1,0],{extrapolateLeft:"clamp",extrapolateRight:"clamp"});
+  const opacity = interpolate(frame,[0,8,75,95],[0,1,1,0],{extrapolateLeft:"clamp",extrapolateRight:"clamp"});
   return <div style={{ position:"absolute",top:100,left:50,right:50,textAlign:"center",opacity }}>
-    <div style={{ fontFamily:"Arial Black, Arial, sans-serif",fontSize:40,color:"#FFFFFF",background:"rgba(27,138,58,0.75)",borderRadius:24,padding:"20px",border:"3px solid #FCD34D" }}>
-      A mensagem de amor de Bob Marley 💚
-      <div style={{ fontSize:28,marginTop:10,color:"#FEF3C7",fontFamily:"Arial, sans-serif" }}>Curte, segue e compartilha!</div>
+    <div style={{ fontFamily:"Arial Black, Arial, sans-serif",fontSize:40,color:"#FFFFFF",background:"rgba(27,138,58,0.78)",borderRadius:24,padding:"20px",border:"3px solid #FCD34D" }}>
+      Oi, eu sou Bob Marley 💚
+      <div style={{ fontSize:28,marginTop:10,color:"#FEF3C7",fontFamily:"Arial, sans-serif" }}>Curte, segue e fica comigo até o fim!</div>
+    </div>
+  </div>;
+};
+
+const EndCTA: React.FC = () => {
+  const frame = useCurrentFrame();
+  const opacity = interpolate(frame,[BMLM_FRAMES-110,BMLM_FRAMES-80],[0,1],{extrapolateLeft:"clamp",extrapolateRight:"clamp"});
+  return <div style={{ position:"absolute",top:140,left:60,right:60,textAlign:"center",opacity }}>
+    <div style={{ fontFamily:"Arial Black, Arial, sans-serif",fontSize:34,color:"#FFFFFF",background:"rgba(27,138,58,0.7)",borderRadius:20,padding:"18px",border:"2px solid #FCD34D" }}>
+      Comenta ONE LOVE 💚 Curta, siga e compartilhe!
     </div>
   </div>;
 };
@@ -108,7 +123,10 @@ const Scene: React.FC = () => {
       <Heart pos={[0,3.6+float*0.6,-1.5]} color="#FCD34D" scale={0.6} />
       <Effects />
     </ThreeCanvas>
-    <Hook /><Subtitle />
+    <Hook />
+    {(() => { const t = frame/30; const o = interpolate(t,[18.5,19.2,23.5,24.5],[0,1,1,0],{extrapolateLeft:"clamp",extrapolateRight:"clamp"}); return <div style={{ position:"absolute",top:210,left:80,right:80,textAlign:"center",opacity:o }}><div style={{ fontFamily:"Arial Black, Arial, sans-serif",fontSize:44,color:"#FCD34D",textShadow:"0 4px 18px rgba(0,0,0,0.5)",background:"rgba(0,0,0,0.22)",borderRadius:18,padding:"14px" }}>🎵 Is This Love</div></div>; })()}
+    <EndCTA />
+    <Subtitle />
   </>;
 };
 

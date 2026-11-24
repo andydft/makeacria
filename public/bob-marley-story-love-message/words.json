@@ -1,447 +1,457 @@
 {
   "voice": "pt-BR-AntonioNeural",
   "rate": "+8%",
-  "text": "Você sabia que Bob Marley queria espalhar amor para o mundo inteiro? Curte, segue e compartilha! Mais do que fama, Bob Marley queria usar a música para unir pessoas. Em suas canções, ele falava de paz, respeito, fé e amor ao próximo. Para ele, o reggae era uma forma de curar corações e aproximar pessoas diferentes. Mesmo em tempos difíceis, Bob Marley escolheu espalhar luz em vez de ódio. Por isso sua mensagem continua viva até hoje: One Love. Comenta ONE LOVE se você também acredita nessa mensagem!",
+  "text": "Oi, eu sou Bob Marley. Curte e segue se você também acredita no amor! Eu sempre acreditei que a música podia unir as pessoas, curar corações e espalhar paz. Para mim, cantar era uma forma de levar amor para o mundo inteiro. Quando eu cantava músicas como Is This Love, eu queria que você sentisse esse carinho de verdade. O amor é a mensagem mais forte que a gente pode deixar. Então espalhe amor, respeito e boas vibrações por onde você passar. Comenta ONE LOVE, curte e compartilha essa mensagem!",
   "words": [
     {
-      "text": "Você",
+      "text": "Oi",
       "offset": 0.096291,
-      "duration": 0.266208
-    },
-    {
-      "text": "sabia",
-      "offset": 0.374083,
-      "duration": 0.416666
-    },
-    {
-      "text": "que",
-      "offset": 0.802333,
-      "duration": 0.104166
-    },
-    {
-      "text": "Bob",
-      "offset": 0.918041,
-      "duration": 0.300916
-    },
-    {
-      "text": "Marley",
-      "offset": 1.230541,
-      "duration": 0.358791
-    },
-    {
-      "text": "queria",
-      "offset": 1.600916,
-      "duration": 0.243041
-    },
-    {
-      "text": "espalhar",
-      "offset": 1.855541,
-      "duration": 0.335666
-    },
-    {
-      "text": "amor",
-      "offset": 2.202791,
-      "duration": 0.3125
-    },
-    {
-      "text": "para",
-      "offset": 2.526833,
-      "duration": 0.162041
-    },
-    {
-      "text": "o",
-      "offset": 2.700458,
-      "duration": 0.023166
-    },
-    {
-      "text": "mundo",
-      "offset": 2.735166,
-      "duration": 0.243041
-    },
-    {
-      "text": "inteiro",
-      "offset": 2.989833,
-      "duration": 0.3935
-    },
-    {
-      "text": "Curte",
-      "offset": 4.17825,
-      "duration": 0.3935
-    },
-    {
-      "text": "segue",
-      "offset": 4.780083,
-      "duration": 0.347208
-    },
-    {
-      "text": "e",
-      "offset": 5.138875,
-      "duration": 0.0462909
-    },
-    {
-      "text": "compartilha",
-      "offset": 5.19675,
-      "duration": 0.706
-    },
-    {
-      "text": "Mais",
-      "offset": 6.701375,
       "duration": 0.289333
     },
     {
-      "text": "do",
-      "offset": 7.002333,
-      "duration": 0.092583
-    },
-    {
-      "text": "que",
-      "offset": 7.1065,
+      "text": "eu",
+      "offset": 0.582416,
       "duration": 0.127333
     },
     {
-      "text": "fama",
-      "offset": 7.245375,
-      "duration": 0.347208
+      "text": "sou",
+      "offset": 0.721291,
+      "duration": 0.219916
     },
     {
       "text": "Bob",
-      "offset": 7.824083,
-      "duration": 0.266208
+      "offset": 0.952791,
+      "duration": 0.324083
     },
     {
       "text": "Marley",
-      "offset": 8.101833,
-      "duration": 0.405083
+      "offset": 1.288416,
+      "duration": 0.42825
     },
     {
-      "text": "queria",
-      "offset": 8.5185,
-      "duration": 0.254625
+      "text": "Curte",
+      "offset": 2.511583,
+      "duration": 0.300916
     },
     {
-      "text": "usar",
-      "offset": 8.784708,
-      "duration": 0.2315
+      "text": "e",
+      "offset": 2.824083,
+      "duration": 0.034708
+    },
+    {
+      "text": "segue",
+      "offset": 2.870375,
+      "duration": 0.324083
+    },
+    {
+      "text": "se",
+      "offset": 3.206,
+      "duration": 0.11575
+    },
+    {
+      "text": "você",
+      "offset": 3.333333,
+      "duration": 0.277791
+    },
+    {
+      "text": "também",
+      "offset": 3.622666,
+      "duration": 0.370375
+    },
+    {
+      "text": "acredita",
+      "offset": 4.004625,
+      "duration": 0.50925
+    },
+    {
+      "text": "no",
+      "offset": 4.525458,
+      "duration": 0.11575
+    },
+    {
+      "text": "amor",
+      "offset": 4.652791,
+      "duration": 0.358791
+    },
+    {
+      "text": "Eu",
+      "offset": 5.810166,
+      "duration": 0.162041
+    },
+    {
+      "text": "sempre",
+      "offset": 5.983791,
+      "duration": 0.381958
+    },
+    {
+      "text": "acreditei",
+      "offset": 6.377333,
+      "duration": 0.474541
+    },
+    {
+      "text": "que",
+      "offset": 6.863416,
+      "duration": 0.081
     },
     {
       "text": "a",
-      "offset": 9.027791,
+      "offset": 6.956,
       "duration": 0.0462909
     },
     {
       "text": "música",
-      "offset": 9.085666,
-      "duration": 0.416666
-    },
-    {
-      "text": "para",
-      "offset": 9.513875,
-      "duration": 0.162041
-    },
-    {
-      "text": "unir",
-      "offset": 9.6875,
-      "duration": 0.243041
-    },
-    {
-      "text": "pessoas",
-      "offset": 9.942125,
-      "duration": 0.613416
-    },
-    {
-      "text": "Em",
-      "offset": 11.354166,
-      "duration": 0.150458
-    },
-    {
-      "text": "suas",
-      "offset": 11.516208,
-      "duration": 0.254625
-    },
-    {
-      "text": "canções",
-      "offset": 11.782416,
-      "duration": 0.520833
-    },
-    {
-      "text": "ele",
-      "offset": 12.569458,
-      "duration": 0.138875
-    },
-    {
-      "text": "falava",
-      "offset": 12.719916,
-      "duration": 0.358791
-    },
-    {
-      "text": "de",
-      "offset": 13.090291,
-      "duration": 0.104166
-    },
-    {
-      "text": "paz",
-      "offset": 13.206,
+      "offset": 7.013875,
       "duration": 0.3935
     },
     {
-      "text": "respeito",
-      "offset": 13.807875,
-      "duration": 0.567125
-    },
-    {
-      "text": "fé",
-      "offset": 14.710666,
-      "duration": 0.185166
-    },
-    {
-      "text": "e",
-      "offset": 14.907416,
-      "duration": 0.081
-    },
-    {
-      "text": "amor",
-      "offset": 15.0,
-      "duration": 0.300916
-    },
-    {
-      "text": "ao",
-      "offset": 15.3125,
-      "duration": 0.092583
-    },
-    {
-      "text": "próximo",
-      "offset": 15.416666,
-      "duration": 0.486125
-    },
-    {
-      "text": "Para",
-      "offset": 16.701375,
+      "text": "podia",
+      "offset": 7.419,
       "duration": 0.243041
     },
     {
-      "text": "ele",
-      "offset": 16.956,
-      "duration": 0.266208
+      "text": "unir",
+      "offset": 7.673625,
+      "duration": 0.2315
     },
     {
-      "text": "o",
-      "offset": 17.453708,
-      "duration": 0.104166
+      "text": "as",
+      "offset": 7.916666,
+      "duration": 0.11575
     },
     {
-      "text": "reggae",
-      "offset": 17.569458,
+      "text": "pessoas",
+      "offset": 8.044,
+      "duration": 0.555541
+    },
+    {
+      "text": "curar",
+      "offset": 8.831,
       "duration": 0.289333
     },
     {
+      "text": "corações",
+      "offset": 9.131958,
+      "duration": 0.520833
+    },
+    {
+      "text": "e",
+      "offset": 9.664333,
+      "duration": 0.081
+    },
+    {
+      "text": "espalhar",
+      "offset": 9.756958,
+      "duration": 0.405083
+    },
+    {
+      "text": "paz",
+      "offset": 10.173625,
+      "duration": 0.42825
+    },
+    {
+      "text": "Para",
+      "offset": 11.400458,
+      "duration": 0.208333
+    },
+    {
+      "text": "mim",
+      "offset": 11.620375,
+      "duration": 0.19675
+    },
+    {
+      "text": "cantar",
+      "offset": 12.07175,
+      "duration": 0.381958
+    },
+    {
       "text": "era",
-      "offset": 17.870375,
+      "offset": 12.465291,
       "duration": 0.092583
     },
     {
       "text": "uma",
-      "offset": 17.974541,
-      "duration": 0.138875
+      "offset": 12.569458,
+      "duration": 0.127333
     },
     {
       "text": "forma",
-      "offset": 18.125,
-      "duration": 0.335666
-    },
-    {
-      "text": "de",
-      "offset": 18.472208,
-      "duration": 0.081
-    },
-    {
-      "text": "curar",
-      "offset": 18.564833,
-      "duration": 0.254625
-    },
-    {
-      "text": "corações",
-      "offset": 18.831,
-      "duration": 0.520833
-    },
-    {
-      "text": "e",
-      "offset": 19.363416,
-      "duration": 0.081
-    },
-    {
-      "text": "aproximar",
-      "offset": 19.456,
-      "duration": 0.474541
-    },
-    {
-      "text": "pessoas",
-      "offset": 19.942125,
-      "duration": 0.451375
-    },
-    {
-      "text": "diferentes",
-      "offset": 20.405083,
-      "duration": 0.706
-    },
-    {
-      "text": "Mesmo",
-      "offset": 21.909708,
-      "duration": 0.370375
-    },
-    {
-      "text": "em",
-      "offset": 22.291666,
-      "duration": 0.092583
-    },
-    {
-      "text": "tempos",
-      "offset": 22.395833,
-      "duration": 0.300916
-    },
-    {
-      "text": "difíceis",
-      "offset": 22.708333,
-      "duration": 0.613416
-    },
-    {
-      "text": "Bob",
-      "offset": 23.530083,
-      "duration": 0.277791
-    },
-    {
-      "text": "Marley",
-      "offset": 23.819458,
+      "offset": 12.708333,
       "duration": 0.358791
     },
     {
-      "text": "escolheu",
-      "offset": 24.189833,
-      "duration": 0.370375
-    },
-    {
-      "text": "espalhar",
-      "offset": 24.57175,
-      "duration": 0.42825
-    },
-    {
-      "text": "luz",
-      "offset": 25.011583,
-      "duration": 0.19675
-    },
-    {
-      "text": "em",
-      "offset": 25.219916,
-      "duration": 0.19675
-    },
-    {
-      "text": "vez",
-      "offset": 25.42825,
-      "duration": 0.243041
-    },
-    {
       "text": "de",
-      "offset": 25.682875,
-      "duration": 0.092583
+      "offset": 13.078708,
+      "duration": 0.069458
     },
     {
-      "text": "ódio",
-      "offset": 25.787041,
-      "duration": 0.289333
-    },
-    {
-      "text": "Por",
-      "offset": 26.875,
-      "duration": 0.173625
-    },
-    {
-      "text": "isso",
-      "offset": 27.060166,
+      "text": "levar",
+      "offset": 13.159708,
       "duration": 0.266208
     },
     {
-      "text": "sua",
-      "offset": 27.337958,
-      "duration": 0.150458
+      "text": "amor",
+      "offset": 13.4375,
+      "duration": 0.3125
     },
     {
-      "text": "mensagem",
-      "offset": 27.5,
-      "duration": 0.544
+      "text": "para",
+      "offset": 13.761583,
+      "duration": 0.173625
     },
     {
-      "text": "continua",
-      "offset": 28.055541,
-      "duration": 0.497666
+      "text": "o",
+      "offset": 13.94675,
+      "duration": 0.023166
     },
     {
-      "text": "viva",
-      "offset": 28.564833,
+      "text": "mundo",
+      "offset": 13.9815,
       "duration": 0.277791
     },
     {
-      "text": "até",
-      "offset": 28.854166,
-      "duration": 0.19675
+      "text": "inteiro",
+      "offset": 14.270833,
+      "duration": 0.42825
     },
     {
-      "text": "hoje",
-      "offset": 29.0625,
-      "duration": 0.335666
+      "text": "Quando",
+      "offset": 15.497666,
+      "duration": 0.2315
     },
     {
-      "text": "One",
-      "offset": 29.664333,
-      "duration": 0.185166
+      "text": "eu",
+      "offset": 15.74075,
+      "duration": 0.069458
     },
     {
-      "text": "Love",
-      "offset": 29.861125,
+      "text": "cantava",
+      "offset": 15.82175,
       "duration": 0.381958
     },
     {
-      "text": "Comenta",
-      "offset": 31.041666,
-      "duration": 0.474541
+      "text": "músicas",
+      "offset": 16.215291,
+      "duration": 0.439833
     },
     {
-      "text": "ONE",
-      "offset": 31.527791,
-      "duration": 0.138875
+      "text": "como",
+      "offset": 16.666666,
+      "duration": 0.2315
     },
     {
-      "text": "LOVE",
-      "offset": 31.67825,
+      "text": "Is",
+      "offset": 16.909708,
+      "duration": 0.081
+    },
+    {
+      "text": "This",
+      "offset": 17.002333,
+      "duration": 0.150458
+    },
+    {
+      "text": "Love",
+      "offset": 17.164333,
       "duration": 0.358791
     },
     {
-      "text": "se",
-      "offset": 32.048625,
-      "duration": 0.092583
+      "text": "eu",
+      "offset": 17.777791,
+      "duration": 0.104166
+    },
+    {
+      "text": "queria",
+      "offset": 17.8935,
+      "duration": 0.300916
+    },
+    {
+      "text": "que",
+      "offset": 18.206,
+      "duration": 0.081
     },
     {
       "text": "você",
-      "offset": 32.152791,
+      "offset": 18.298625,
       "duration": 0.243041
     },
     {
-      "text": "também",
-      "offset": 32.407416,
-      "duration": 0.335666
+      "text": "sentisse",
+      "offset": 18.55325,
+      "duration": 0.532416
     },
     {
-      "text": "acredita",
-      "offset": 32.754625,
-      "duration": 0.50925
+      "text": "esse",
+      "offset": 19.097208,
+      "duration": 0.19675
     },
     {
-      "text": "nessa",
-      "offset": 33.275458,
-      "duration": 0.277791
+      "text": "carinho",
+      "offset": 19.305541,
+      "duration": 0.358791
+    },
+    {
+      "text": "de",
+      "offset": 19.675916,
+      "duration": 0.069458
+    },
+    {
+      "text": "verdade",
+      "offset": 19.756958,
+      "duration": 0.532416
+    },
+    {
+      "text": "O",
+      "offset": 21.087958,
+      "duration": 0.104166
+    },
+    {
+      "text": "amor",
+      "offset": 21.203708,
+      "duration": 0.347208
+    },
+    {
+      "text": "é",
+      "offset": 21.5625,
+      "duration": 0.0462909
+    },
+    {
+      "text": "a",
+      "offset": 21.620375,
+      "duration": 0.034708
     },
     {
       "text": "mensagem",
-      "offset": 33.564833,
-      "duration": 0.636583
+      "offset": 21.666666,
+      "duration": 0.544
+    },
+    {
+      "text": "mais",
+      "offset": 22.222208,
+      "duration": 0.185166
+    },
+    {
+      "text": "forte",
+      "offset": 22.419,
+      "duration": 0.3935
+    },
+    {
+      "text": "que",
+      "offset": 22.824083,
+      "duration": 0.057875
+    },
+    {
+      "text": "a",
+      "offset": 22.8935,
+      "duration": 0.057875
+    },
+    {
+      "text": "gente",
+      "offset": 22.962958,
+      "duration": 0.289333
+    },
+    {
+      "text": "pode",
+      "offset": 23.263875,
+      "duration": 0.277791
+    },
+    {
+      "text": "deixar",
+      "offset": 23.55325,
+      "duration": 0.405083
+    },
+    {
+      "text": "Então",
+      "offset": 24.756958,
+      "duration": 0.3935
+    },
+    {
+      "text": "espalhe",
+      "offset": 25.162041,
+      "duration": 0.3125
+    },
+    {
+      "text": "amor",
+      "offset": 25.486125,
+      "duration": 0.335666
+    },
+    {
+      "text": "respeito",
+      "offset": 26.041666,
+      "duration": 0.555541
+    },
+    {
+      "text": "e",
+      "offset": 26.608791,
+      "duration": 0.057875
+    },
+    {
+      "text": "boas",
+      "offset": 26.67825,
+      "duration": 0.347208
+    },
+    {
+      "text": "vibrações",
+      "offset": 27.037041,
+      "duration": 0.555541
+    },
+    {
+      "text": "por",
+      "offset": 27.604166,
+      "duration": 0.127333
+    },
+    {
+      "text": "onde",
+      "offset": 27.743041,
+      "duration": 0.208333
+    },
+    {
+      "text": "você",
+      "offset": 27.962958,
+      "duration": 0.243041
+    },
+    {
+      "text": "passar",
+      "offset": 28.217583,
+      "duration": 0.416666
+    },
+    {
+      "text": "Comenta",
+      "offset": 29.432875,
+      "duration": 0.451375
+    },
+    {
+      "text": "ONE",
+      "offset": 29.895833,
+      "duration": 0.150458
+    },
+    {
+      "text": "LOVE",
+      "offset": 30.057875,
+      "duration": 0.3935
+    },
+    {
+      "text": "curte",
+      "offset": 30.694458,
+      "duration": 0.324083
+    },
+    {
+      "text": "e",
+      "offset": 31.030083,
+      "duration": 0.011583
+    },
+    {
+      "text": "compartilha",
+      "offset": 31.05325,
+      "duration": 0.578708
+    },
+    {
+      "text": "essa",
+      "offset": 31.6435,
+      "duration": 0.243041
+    },
+    {
+      "text": "mensagem",
+      "offset": 31.898166,
+      "duration": 0.613416
     }
   ]
 }

@@ -1,4 +1,4 @@
-"""Gera voice.wav + words.json para Bob Marley Story - Love Message."""
+"""Gera voice.wav + words.json para Bob Marley Story - Love Message (1a pessoa)."""
 import asyncio, json, os
 import edge_tts
 
@@ -6,13 +6,13 @@ VOICE = "pt-BR-AntonioNeural"
 RATE = "+8%"
 OUT = os.path.join("public", "bob-marley-story-love-message")
 TEXT = (
-    "Você sabia que Bob Marley queria espalhar amor para o mundo inteiro? Curte, segue e compartilha! "
-    "Mais do que fama, Bob Marley queria usar a música para unir pessoas. "
-    "Em suas canções, ele falava de paz, respeito, fé e amor ao próximo. "
-    "Para ele, o reggae era uma forma de curar corações e aproximar pessoas diferentes. "
-    "Mesmo em tempos difíceis, Bob Marley escolheu espalhar luz em vez de ódio. "
-    "Por isso sua mensagem continua viva até hoje: One Love. "
-    "Comenta ONE LOVE se você também acredita nessa mensagem!"
+    "Oi, eu sou Bob Marley. Curte e segue se você também acredita no amor! "
+    "Eu sempre acreditei que a música podia unir as pessoas, curar corações e espalhar paz. "
+    "Para mim, cantar era uma forma de levar amor para o mundo inteiro. "
+    "Quando eu cantava músicas como Is This Love, eu queria que você sentisse esse carinho de verdade. "
+    "O amor é a mensagem mais forte que a gente pode deixar. "
+    "Então espalhe amor, respeito e boas vibrações por onde você passar. "
+    "Comenta ONE LOVE, curte e compartilha essa mensagem!"
 )
 
 async def main():
