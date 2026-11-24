@@ -18,12 +18,12 @@ export const BobMarleyV1: React.FC<BobMarleyV1Props> = ({ width = 512, height = 
   const eyeY = 162 + (32 - eyeH) / 2;
   const eyeRx = Math.min(10, eyeH / 2);
   const mouthPath = mouthShape === "open"
-    ? "M174 223 L226 223 C224 244, 212 252, 200 252 C188 252, 176 244, 174 223 Z"
+    ? "M176 225 C184 242, 216 242, 224 225 C218 236, 210 240, 200 240 C190 240, 182 236, 176 225 Z"
     : mouthShape === "smile"
-    ? "M170 224 C182 242, 218 242, 230 224 L226 224 C220 236, 210 242, 200 242 C190 242, 180 236, 174 224 Z"
-    : "M174 228 C184 236, 216 236, 226 228";
-  const mouthFill = mouthShape === "open" ? "#FFFFFF" : mouthShape === "smile" ? "#FFFFFF" : "none";
-  const mouthStroke = "var(--char-outline, #241A16)";
+    ? "M174 228 C184 238, 216 238, 226 228"
+    : "M176 231 C186 237, 214 237, 224 231";
+  const mouthFill = mouthShape === "open" ? "var(--char-mouth, #8F443E)" : "none";
+  const mouthStroke = mouthShape === "open" ? "var(--char-outline, #241A16)" : "var(--char-mouth, #B35A5A)";
   return (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width={width} height={height} className={className} style={{ "--char-skin":"#B87E56","--char-hair":"#1E1A18","--char-hair-dark":"#141110","--char-hair-highlight":"#362F2B","--char-shirt": shirtColor || "#3E4348","--char-shorts":"#252A30","--char-shoe":"#1A1A1E","--char-shoe-sole":"#F2F2F2","--char-shoe-detail":"#F2F2F2","--char-eye-white":"#FFFFFF","--char-pupil":"#171717","--char-mouth":"#8F443E","--char-outline":"#241A16","--char-goatee":"#1A1614", ...style } as React.CSSProperties} role="img" aria-label="Bob Marley, front-facing">
     <defs>
@@ -104,8 +104,7 @@ export const BobMarleyV1: React.FC<BobMarleyV1Props> = ({ width = 512, height = 
         </g>
         <path d="M195 190 C191 198, 191 206, 200 210 C209 206, 209 198, 205 190" fill="none" stroke="var(--char-outline, #241A16)" strokeOpacity="0.48" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
         <g id="bm3-mouth">
-          <path d={mouthPath} fill={mouthFill} stroke={mouthStroke} strokeWidth="3.5" strokeLinejoin="round" strokeLinecap="round" />
-          {mouthShape !== "neutral" && <line x1="173" y1="235" x2="227" y2="235" stroke="var(--char-outline, #241A16)" strokeWidth="2" opacity="0.65" />}
+          <path d={mouthPath} fill={mouthFill} stroke={mouthStroke} strokeWidth={mouthShape === "open" ? "3.5" : "5.5"} strokeLinejoin="round" strokeLinecap="round" />
         </g>
       </g>
       <g id="bm3-hair-front" transform="translate(0 0) rotate(0 200 180)">
