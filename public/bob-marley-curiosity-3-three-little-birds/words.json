@@ -1,0 +1,447 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "text": "Você sabia que uma das músicas mais felizes do Bob Marley nasceu de um momento simples? Curte e compartilha essa história boa! A música Three Little Birds foi inspirada por passarinhos que apareciam perto da janela de Bob Marley, na Jamaica. Eles cantavam, e aquilo virou uma mensagem de paz e alegria. Por isso a música diz: não se preocupe com nada, porque tudo vai ficar bem. Uma cena simples virou um hino de felicidade no mundo inteiro. Comenta THREE LITTLE BIRDS se essa música te deixa feliz!",
+  "words": [
+    {
+      "text": "Você",
+      "offset": 0.096291,
+      "duration": 0.266208
+    },
+    {
+      "text": "sabia",
+      "offset": 0.374083,
+      "duration": 0.462958
+    },
+    {
+      "text": "que",
+      "offset": 0.848625,
+      "duration": 0.127333
+    },
+    {
+      "text": "uma",
+      "offset": 0.9875,
+      "duration": 0.138875
+    },
+    {
+      "text": "das",
+      "offset": 1.137958,
+      "duration": 0.162041
+    },
+    {
+      "text": "músicas",
+      "offset": 1.311583,
+      "duration": 0.439833
+    },
+    {
+      "text": "mais",
+      "offset": 1.762958,
+      "duration": 0.19675
+    },
+    {
+      "text": "felizes",
+      "offset": 1.971291,
+      "duration": 0.439833
+    },
+    {
+      "text": "do",
+      "offset": 2.422666,
+      "duration": 0.092583
+    },
+    {
+      "text": "Bob",
+      "offset": 2.526833,
+      "duration": 0.277791
+    },
+    {
+      "text": "Marley",
+      "offset": 2.816208,
+      "duration": 0.370375
+    },
+    {
+      "text": "nasceu",
+      "offset": 3.198166,
+      "duration": 0.370375
+    },
+    {
+      "text": "de",
+      "offset": 3.580083,
+      "duration": 0.057875
+    },
+    {
+      "text": "um",
+      "offset": 3.649541,
+      "duration": 0.057875
+    },
+    {
+      "text": "momento",
+      "offset": 3.719,
+      "duration": 0.3935
+    },
+    {
+      "text": "simples",
+      "offset": 4.124083,
+      "duration": 0.578708
+    },
+    {
+      "text": "Curte",
+      "offset": 5.497666,
+      "duration": 0.324083
+    },
+    {
+      "text": "e",
+      "offset": 5.833333,
+      "duration": 0.011583
+    },
+    {
+      "text": "compartilha",
+      "offset": 5.8565,
+      "duration": 0.590291
+    },
+    {
+      "text": "essa",
+      "offset": 6.458333,
+      "duration": 0.19675
+    },
+    {
+      "text": "história",
+      "offset": 6.666666,
+      "duration": 0.405083
+    },
+    {
+      "text": "boa",
+      "offset": 7.083333,
+      "duration": 0.370375
+    },
+    {
+      "text": "A",
+      "offset": 8.252333,
+      "duration": 0.092583
+    },
+    {
+      "text": "música",
+      "offset": 8.3565,
+      "duration": 0.439833
+    },
+    {
+      "text": "Three",
+      "offset": 8.807875,
+      "duration": 0.138875
+    },
+    {
+      "text": "Little",
+      "offset": 8.958333,
+      "duration": 0.324083
+    },
+    {
+      "text": "Birds",
+      "offset": 9.294,
+      "duration": 0.381958
+    },
+    {
+      "text": "foi",
+      "offset": 9.6875,
+      "duration": 0.138875
+    },
+    {
+      "text": "inspirada",
+      "offset": 9.837958,
+      "duration": 0.462958
+    },
+    {
+      "text": "por",
+      "offset": 10.3125,
+      "duration": 0.127333
+    },
+    {
+      "text": "passarinhos",
+      "offset": 10.451375,
+      "duration": 0.601833
+    },
+    {
+      "text": "que",
+      "offset": 11.064833,
+      "duration": 0.057875
+    },
+    {
+      "text": "apareciam",
+      "offset": 11.13425,
+      "duration": 0.486125
+    },
+    {
+      "text": "perto",
+      "offset": 11.631958,
+      "duration": 0.277791
+    },
+    {
+      "text": "da",
+      "offset": 11.921291,
+      "duration": 0.081
+    },
+    {
+      "text": "janela",
+      "offset": 12.013875,
+      "duration": 0.3935
+    },
+    {
+      "text": "de",
+      "offset": 12.419,
+      "duration": 0.092583
+    },
+    {
+      "text": "Bob",
+      "offset": 12.523166,
+      "duration": 0.266208
+    },
+    {
+      "text": "Marley",
+      "offset": 12.800916,
+      "duration": 0.416666
+    },
+    {
+      "text": "na",
+      "offset": 13.402791,
+      "duration": 0.127333
+    },
+    {
+      "text": "Jamaica",
+      "offset": 13.541666,
+      "duration": 0.50925
+    },
+    {
+      "text": "Eles",
+      "offset": 14.849541,
+      "duration": 0.243041
+    },
+    {
+      "text": "cantavam",
+      "offset": 15.104166,
+      "duration": 0.555541
+    },
+    {
+      "text": "e",
+      "offset": 15.9375,
+      "duration": 0.092583
+    },
+    {
+      "text": "aquilo",
+      "offset": 16.041666,
+      "duration": 0.347208
+    },
+    {
+      "text": "virou",
+      "offset": 16.400458,
+      "duration": 0.19675
+    },
+    {
+      "text": "uma",
+      "offset": 16.608791,
+      "duration": 0.104166
+    },
+    {
+      "text": "mensagem",
+      "offset": 16.724541,
+      "duration": 0.544
+    },
+    {
+      "text": "de",
+      "offset": 17.280083,
+      "duration": 0.127333
+    },
+    {
+      "text": "paz",
+      "offset": 17.419,
+      "duration": 0.219916
+    },
+    {
+      "text": "e",
+      "offset": 17.650458,
+      "duration": 0.081
+    },
+    {
+      "text": "alegria",
+      "offset": 17.743041,
+      "duration": 0.474541
+    },
+    {
+      "text": "Por",
+      "offset": 19.016208,
+      "duration": 0.185166
+    },
+    {
+      "text": "isso",
+      "offset": 19.212958,
+      "duration": 0.2315
+    },
+    {
+      "text": "a",
+      "offset": 19.456,
+      "duration": 0.023166
+    },
+    {
+      "text": "música",
+      "offset": 19.49075,
+      "duration": 0.416666
+    },
+    {
+      "text": "diz",
+      "offset": 19.919,
+      "duration": 0.370375
+    },
+    {
+      "text": "não",
+      "offset": 20.474541,
+      "duration": 0.185166
+    },
+    {
+      "text": "se",
+      "offset": 20.671291,
+      "duration": 0.104166
+    },
+    {
+      "text": "preocupe",
+      "offset": 20.787041,
+      "duration": 0.405083
+    },
+    {
+      "text": "com",
+      "offset": 21.203708,
+      "duration": 0.173625
+    },
+    {
+      "text": "nada",
+      "offset": 21.388875,
+      "duration": 0.300916
+    },
+    {
+      "text": "porque",
+      "offset": 21.932875,
+      "duration": 0.3125
+    },
+    {
+      "text": "tudo",
+      "offset": 22.256958,
+      "duration": 0.266208
+    },
+    {
+      "text": "vai",
+      "offset": 22.534708,
+      "duration": 0.127333
+    },
+    {
+      "text": "ficar",
+      "offset": 22.673625,
+      "duration": 0.266208
+    },
+    {
+      "text": "bem",
+      "offset": 22.951375,
+      "duration": 0.243041
+    },
+    {
+      "text": "Uma",
+      "offset": 23.993041,
+      "duration": 0.2315
+    },
+    {
+      "text": "cena",
+      "offset": 24.236125,
+      "duration": 0.324083
+    },
+    {
+      "text": "simples",
+      "offset": 24.57175,
+      "duration": 0.439833
+    },
+    {
+      "text": "virou",
+      "offset": 25.023166,
+      "duration": 0.219916
+    },
+    {
+      "text": "um",
+      "offset": 25.254625,
+      "duration": 0.11575
+    },
+    {
+      "text": "hino",
+      "offset": 25.381958,
+      "duration": 0.162041
+    },
+    {
+      "text": "de",
+      "offset": 25.555541,
+      "duration": 0.081
+    },
+    {
+      "text": "felicidade",
+      "offset": 25.648166,
+      "duration": 0.613416
+    },
+    {
+      "text": "no",
+      "offset": 26.273166,
+      "duration": 0.069458
+    },
+    {
+      "text": "mundo",
+      "offset": 26.354166,
+      "duration": 0.254625
+    },
+    {
+      "text": "inteiro",
+      "offset": 26.620375,
+      "duration": 0.405083
+    },
+    {
+      "text": "Comenta",
+      "offset": 27.824083,
+      "duration": 0.462958
+    },
+    {
+      "text": "THREE",
+      "offset": 28.298625,
+      "duration": 0.150458
+    },
+    {
+      "text": "LITTLE",
+      "offset": 28.460666,
+      "duration": 0.324083
+    },
+    {
+      "text": "BIRDS",
+      "offset": 28.796291,
+      "duration": 0.416666
+    },
+    {
+      "text": "se",
+      "offset": 29.224541,
+      "duration": 0.092583
+    },
+    {
+      "text": "essa",
+      "offset": 29.328708,
+      "duration": 0.208333
+    },
+    {
+      "text": "música",
+      "offset": 29.548625,
+      "duration": 0.416666
+    },
+    {
+      "text": "te",
+      "offset": 29.976833,
+      "duration": 0.11575
+    },
+    {
+      "text": "deixa",
+      "offset": 30.104166,
+      "duration": 0.324083
+    },
+    {
+      "text": "feliz",
+      "offset": 30.439833,
+      "duration": 0.451375
+    }
+  ]
+}
