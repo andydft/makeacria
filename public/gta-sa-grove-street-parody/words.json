@@ -1,0 +1,293 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "pitch": "-2Hz",
+  "text": "Ah não... GTA seis chegou e todo mundo esqueceu da Grove Street. Calma. Missão nova: voltar pro San Andreas. Pega a bike, desvia do bug, respeita a Grove Street. Missão cumprida: respeito mais noventa e nove. O GTA seis pode ter gráfico... mas o San Andreas tem alma. Comenta: SA ou GTA seis? Curte, segue e compartilha.",
+  "words": [
+    {
+      "text": "Ah",
+      "offset": 0.096291,
+      "duration": 0.138875
+    },
+    {
+      "text": "não",
+      "offset": 0.24675,
+      "duration": 0.358791
+    },
+    {
+      "text": "GTA",
+      "offset": 1.400458,
+      "duration": 0.405083
+    },
+    {
+      "text": "seis",
+      "offset": 1.817125,
+      "duration": 0.289333
+    },
+    {
+      "text": "chegou",
+      "offset": 2.118041,
+      "duration": 0.324083
+    },
+    {
+      "text": "e",
+      "offset": 2.453708,
+      "duration": 0.081
+    },
+    {
+      "text": "todo",
+      "offset": 2.546291,
+      "duration": 0.2315
+    },
+    {
+      "text": "mundo",
+      "offset": 2.789333,
+      "duration": 0.254625
+    },
+    {
+      "text": "esqueceu",
+      "offset": 3.055541,
+      "duration": 0.416666
+    },
+    {
+      "text": "da",
+      "offset": 3.483791,
+      "duration": 0.11575
+    },
+    {
+      "text": "Grove",
+      "offset": 3.611125,
+      "duration": 0.347208
+    },
+    {
+      "text": "Street",
+      "offset": 3.969916,
+      "duration": 0.405083
+    },
+    {
+      "text": "Calma",
+      "offset": 5.173625,
+      "duration": 0.451375
+    },
+    {
+      "text": "Missão",
+      "offset": 6.423625,
+      "duration": 0.439833
+    },
+    {
+      "text": "nova",
+      "offset": 6.875,
+      "duration": 0.358791
+    },
+    {
+      "text": "voltar",
+      "offset": 7.476833,
+      "duration": 0.42825
+    },
+    {
+      "text": "pro",
+      "offset": 7.916666,
+      "duration": 0.185166
+    },
+    {
+      "text": "San",
+      "offset": 8.113416,
+      "duration": 0.19675
+    },
+    {
+      "text": "Andreas",
+      "offset": 8.32175,
+      "duration": 0.555541
+    },
+    {
+      "text": "Pega",
+      "offset": 9.675916,
+      "duration": 0.254625
+    },
+    {
+      "text": "a",
+      "offset": 9.942125,
+      "duration": 0.023166
+    },
+    {
+      "text": "bike",
+      "offset": 9.976833,
+      "duration": 0.381958
+    },
+    {
+      "text": "desvia",
+      "offset": 10.578708,
+      "duration": 0.405083
+    },
+    {
+      "text": "do",
+      "offset": 10.995375,
+      "duration": 0.104166
+    },
+    {
+      "text": "bug",
+      "offset": 11.111125,
+      "duration": 0.3125
+    },
+    {
+      "text": "respeita",
+      "offset": 11.666666,
+      "duration": 0.486125
+    },
+    {
+      "text": "a",
+      "offset": 12.164333,
+      "duration": 0.023166
+    },
+    {
+      "text": "Grove",
+      "offset": 12.199083,
+      "duration": 0.300916
+    },
+    {
+      "text": "Street",
+      "offset": 12.511583,
+      "duration": 0.42825
+    },
+    {
+      "text": "Missão",
+      "offset": 13.738416,
+      "duration": 0.416666
+    },
+    {
+      "text": "cumprida",
+      "offset": 14.166666,
+      "duration": 0.486125
+    },
+    {
+      "text": "respeito",
+      "offset": 14.872666,
+      "duration": 0.474541
+    },
+    {
+      "text": "mais",
+      "offset": 15.358791,
+      "duration": 0.219916
+    },
+    {
+      "text": "noventa",
+      "offset": 15.590291,
+      "duration": 0.381958
+    },
+    {
+      "text": "e",
+      "offset": 15.983791,
+      "duration": 0.023166
+    },
+    {
+      "text": "nove",
+      "offset": 16.0185,
+      "duration": 0.358791
+    },
+    {
+      "text": "O",
+      "offset": 17.175916,
+      "duration": 0.104166
+    },
+    {
+      "text": "GTA",
+      "offset": 17.291666,
+      "duration": 0.3125
+    },
+    {
+      "text": "seis",
+      "offset": 17.61575,
+      "duration": 0.3125
+    },
+    {
+      "text": "pode",
+      "offset": 17.939833,
+      "duration": 0.2315
+    },
+    {
+      "text": "ter",
+      "offset": 18.182875,
+      "duration": 0.127333
+    },
+    {
+      "text": "gráfico",
+      "offset": 18.32175,
+      "duration": 0.497666
+    },
+    {
+      "text": "mas",
+      "offset": 19.074083,
+      "duration": 0.127333
+    },
+    {
+      "text": "o",
+      "offset": 19.212958,
+      "duration": 0.11575
+    },
+    {
+      "text": "San",
+      "offset": 19.340291,
+      "duration": 0.173625
+    },
+    {
+      "text": "Andreas",
+      "offset": 19.525458,
+      "duration": 0.381958
+    },
+    {
+      "text": "tem",
+      "offset": 19.919,
+      "duration": 0.150458
+    },
+    {
+      "text": "alma",
+      "offset": 20.081,
+      "duration": 0.335666
+    },
+    {
+      "text": "Comenta",
+      "offset": 21.215291,
+      "duration": 0.520833
+    },
+    {
+      "text": "SA",
+      "offset": 21.967583,
+      "duration": 0.462958
+    },
+    {
+      "text": "ou",
+      "offset": 22.442125,
+      "duration": 0.104166
+    },
+    {
+      "text": "GTA",
+      "offset": 22.557875,
+      "duration": 0.381958
+    },
+    {
+      "text": "seis",
+      "offset": 22.951375,
+      "duration": 0.486125
+    },
+    {
+      "text": "Curte",
+      "offset": 24.236125,
+      "duration": 0.3935
+    },
+    {
+      "text": "segue",
+      "offset": 24.849541,
+      "duration": 0.347208
+    },
+    {
+      "text": "e",
+      "offset": 25.208333,
+      "duration": 0.034708
+    },
+    {
+      "text": "compartilha",
+      "offset": 25.254625,
+      "duration": 0.636583
+    }
+  ]
+}
