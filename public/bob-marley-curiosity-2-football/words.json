@@ -1,0 +1,472 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "text": "Você sabia que Bob Marley quase amava mais futebol do que música? Segue pra ver esse lado dele! Sempre que podia, Bob Marley estava jogando bola. Em turnês, nos bastidores, ou em qualquer campo que encontrava, ele chamava todo mundo pra jogar. Para ele, o futebol era liberdade, união e alegria, do mesmo jeito que o reggae. Ele dizia que jogar bola era uma forma de se sentir vivo. Por isso, além de lenda da música, Bob Marley também era apaixonado por futebol. Curte, comenta REGGAE e compartilha com quem ama Bob Marley!",
+  "words": [
+    {
+      "text": "Você",
+      "offset": 0.096291,
+      "duration": 0.266208
+    },
+    {
+      "text": "sabia",
+      "offset": 0.374083,
+      "duration": 0.416666
+    },
+    {
+      "text": "que",
+      "offset": 0.802333,
+      "duration": 0.104166
+    },
+    {
+      "text": "Bob",
+      "offset": 0.918041,
+      "duration": 0.277791
+    },
+    {
+      "text": "Marley",
+      "offset": 1.207416,
+      "duration": 0.370375
+    },
+    {
+      "text": "quase",
+      "offset": 1.589333,
+      "duration": 0.266208
+    },
+    {
+      "text": "amava",
+      "offset": 1.867125,
+      "duration": 0.277791
+    },
+    {
+      "text": "mais",
+      "offset": 2.1565,
+      "duration": 0.19675
+    },
+    {
+      "text": "futebol",
+      "offset": 2.364833,
+      "duration": 0.405083
+    },
+    {
+      "text": "do",
+      "offset": 2.7815,
+      "duration": 0.092583
+    },
+    {
+      "text": "que",
+      "offset": 2.885666,
+      "duration": 0.092583
+    },
+    {
+      "text": "música",
+      "offset": 2.989833,
+      "duration": 0.462958
+    },
+    {
+      "text": "Segue",
+      "offset": 4.247666,
+      "duration": 0.42825
+    },
+    {
+      "text": "pra",
+      "offset": 4.6875,
+      "duration": 0.185166
+    },
+    {
+      "text": "ver",
+      "offset": 4.88425,
+      "duration": 0.185166
+    },
+    {
+      "text": "esse",
+      "offset": 5.081,
+      "duration": 0.208333
+    },
+    {
+      "text": "lado",
+      "offset": 5.300916,
+      "duration": 0.358791
+    },
+    {
+      "text": "dele",
+      "offset": 5.671291,
+      "duration": 0.370375
+    },
+    {
+      "text": "Sempre",
+      "offset": 6.840291,
+      "duration": 0.439833
+    },
+    {
+      "text": "que",
+      "offset": 7.291666,
+      "duration": 0.104166
+    },
+    {
+      "text": "podia",
+      "offset": 7.407416,
+      "duration": 0.381958
+    },
+    {
+      "text": "Bob",
+      "offset": 8.032416,
+      "duration": 0.3125
+    },
+    {
+      "text": "Marley",
+      "offset": 8.3565,
+      "duration": 0.381958
+    },
+    {
+      "text": "estava",
+      "offset": 8.75,
+      "duration": 0.266208
+    },
+    {
+      "text": "jogando",
+      "offset": 9.027791,
+      "duration": 0.3935
+    },
+    {
+      "text": "bola",
+      "offset": 9.432875,
+      "duration": 0.370375
+    },
+    {
+      "text": "Em",
+      "offset": 10.601833,
+      "duration": 0.138875
+    },
+    {
+      "text": "turnês",
+      "offset": 10.752333,
+      "duration": 0.50925
+    },
+    {
+      "text": "nos",
+      "offset": 11.388875,
+      "duration": 0.173625
+    },
+    {
+      "text": "bastidores",
+      "offset": 11.574083,
+      "duration": 0.671291
+    },
+    {
+      "text": "ou",
+      "offset": 12.476833,
+      "duration": 0.150458
+    },
+    {
+      "text": "em",
+      "offset": 12.638875,
+      "duration": 0.081
+    },
+    {
+      "text": "qualquer",
+      "offset": 12.7315,
+      "duration": 0.381958
+    },
+    {
+      "text": "campo",
+      "offset": 13.125,
+      "duration": 0.335666
+    },
+    {
+      "text": "que",
+      "offset": 13.472208,
+      "duration": 0.069458
+    },
+    {
+      "text": "encontrava",
+      "offset": 13.55325,
+      "duration": 0.601833
+    },
+    {
+      "text": "ele",
+      "offset": 14.375,
+      "duration": 0.104166
+    },
+    {
+      "text": "chamava",
+      "offset": 14.49075,
+      "duration": 0.439833
+    },
+    {
+      "text": "todo",
+      "offset": 14.942125,
+      "duration": 0.300916
+    },
+    {
+      "text": "mundo",
+      "offset": 15.254625,
+      "duration": 0.300916
+    },
+    {
+      "text": "pra",
+      "offset": 15.567125,
+      "duration": 0.138875
+    },
+    {
+      "text": "jogar",
+      "offset": 15.717583,
+      "duration": 0.347208
+    },
+    {
+      "text": "Para",
+      "offset": 16.863416,
+      "duration": 0.243041
+    },
+    {
+      "text": "ele",
+      "offset": 17.118041,
+      "duration": 0.266208
+    },
+    {
+      "text": "o",
+      "offset": 17.627333,
+      "duration": 0.057875
+    },
+    {
+      "text": "futebol",
+      "offset": 17.69675,
+      "duration": 0.474541
+    },
+    {
+      "text": "era",
+      "offset": 18.182875,
+      "duration": 0.104166
+    },
+    {
+      "text": "liberdade",
+      "offset": 18.298625,
+      "duration": 0.625
+    },
+    {
+      "text": "união",
+      "offset": 19.155083,
+      "duration": 0.416666
+    },
+    {
+      "text": "e",
+      "offset": 19.583333,
+      "duration": 0.034708
+    },
+    {
+      "text": "alegria",
+      "offset": 19.629625,
+      "duration": 0.451375
+    },
+    {
+      "text": "do",
+      "offset": 20.3125,
+      "duration": 0.150458
+    },
+    {
+      "text": "mesmo",
+      "offset": 20.474541,
+      "duration": 0.335666
+    },
+    {
+      "text": "jeito",
+      "offset": 20.82175,
+      "duration": 0.3125
+    },
+    {
+      "text": "que",
+      "offset": 21.145833,
+      "duration": 0.081
+    },
+    {
+      "text": "o",
+      "offset": 21.238416,
+      "duration": 0.0462909
+    },
+    {
+      "text": "reggae",
+      "offset": 21.296291,
+      "duration": 0.42825
+    },
+    {
+      "text": "Ele",
+      "offset": 22.523166,
+      "duration": 0.185166
+    },
+    {
+      "text": "dizia",
+      "offset": 22.719916,
+      "duration": 0.381958
+    },
+    {
+      "text": "que",
+      "offset": 23.113416,
+      "duration": 0.081
+    },
+    {
+      "text": "jogar",
+      "offset": 23.206,
+      "duration": 0.381958
+    },
+    {
+      "text": "bola",
+      "offset": 23.599541,
+      "duration": 0.3125
+    },
+    {
+      "text": "era",
+      "offset": 23.923625,
+      "duration": 0.127333
+    },
+    {
+      "text": "uma",
+      "offset": 24.0625,
+      "duration": 0.11575
+    },
+    {
+      "text": "forma",
+      "offset": 24.189833,
+      "duration": 0.370375
+    },
+    {
+      "text": "de",
+      "offset": 24.57175,
+      "duration": 0.092583
+    },
+    {
+      "text": "se",
+      "offset": 24.675916,
+      "duration": 0.11575
+    },
+    {
+      "text": "sentir",
+      "offset": 24.80325,
+      "duration": 0.381958
+    },
+    {
+      "text": "vivo",
+      "offset": 25.19675,
+      "duration": 0.347208
+    },
+    {
+      "text": "Por",
+      "offset": 26.342583,
+      "duration": 0.162041
+    },
+    {
+      "text": "isso",
+      "offset": 26.516208,
+      "duration": 0.300916
+    },
+    {
+      "text": "além",
+      "offset": 27.025458,
+      "duration": 0.254625
+    },
+    {
+      "text": "de",
+      "offset": 27.291666,
+      "duration": 0.11575
+    },
+    {
+      "text": "lenda",
+      "offset": 27.419,
+      "duration": 0.254625
+    },
+    {
+      "text": "da",
+      "offset": 27.685166,
+      "duration": 0.092583
+    },
+    {
+      "text": "música",
+      "offset": 27.789333,
+      "duration": 0.405083
+    },
+    {
+      "text": "Bob",
+      "offset": 28.460666,
+      "duration": 0.300916
+    },
+    {
+      "text": "Marley",
+      "offset": 28.773166,
+      "duration": 0.3935
+    },
+    {
+      "text": "também",
+      "offset": 29.17825,
+      "duration": 0.3935
+    },
+    {
+      "text": "era",
+      "offset": 29.583333,
+      "duration": 0.11575
+    },
+    {
+      "text": "apaixonado",
+      "offset": 29.710666,
+      "duration": 0.590291
+    },
+    {
+      "text": "por",
+      "offset": 30.3125,
+      "duration": 0.138875
+    },
+    {
+      "text": "futebol",
+      "offset": 30.462958,
+      "duration": 0.50925
+    },
+    {
+      "text": "Curte",
+      "offset": 31.770833,
+      "duration": 0.405083
+    },
+    {
+      "text": "comenta",
+      "offset": 32.395833,
+      "duration": 0.497666
+    },
+    {
+      "text": "REGGAE",
+      "offset": 32.905083,
+      "duration": 0.324083
+    },
+    {
+      "text": "e",
+      "offset": 33.24075,
+      "duration": 0.023166
+    },
+    {
+      "text": "compartilha",
+      "offset": 33.275458,
+      "duration": 0.567125
+    },
+    {
+      "text": "com",
+      "offset": 33.854166,
+      "duration": 0.162041
+    },
+    {
+      "text": "quem",
+      "offset": 34.027791,
+      "duration": 0.208333
+    },
+    {
+      "text": "ama",
+      "offset": 34.247666,
+      "duration": 0.208333
+    },
+    {
+      "text": "Bob",
+      "offset": 34.467583,
+      "duration": 0.289333
+    },
+    {
+      "text": "Marley",
+      "offset": 34.7685,
+      "duration": 0.462958
+    }
+  ]
+}
