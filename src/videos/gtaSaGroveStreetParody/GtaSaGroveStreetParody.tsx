@@ -51,24 +51,46 @@ const Bike: React.FC<{ pos: [number, number, number]; rot?: [number, number, num
   </group>
 );
 
+const Car: React.FC<{ pos: [number, number, number]; rot?: [number, number, number]; color?: string }> = ({ pos, rot = [0, 0, 0], color = "#1D7A3D" }) => (
+  <group position={pos} rotation={rot}>
+    <mesh position={[0, 0.42, 0]}><boxGeometry args={[2.4, 0.45, 1.1]} /><meshStandardMaterial color={color} metalness={0.2} roughness={0.5} /></mesh>
+    <mesh position={[0.1, 0.72, 0]}><boxGeometry args={[1.2, 0.35, 0.95]} /><meshStandardMaterial color="#BFD7EA" transparent opacity={0.7} /></mesh>
+    <mesh position={[-0.7, 0.22, 0.56]} rotation={[Math.PI / 2, 0, 0]}><cylinderGeometry args={[0.22, 0.22, 0.12, 16]} /><meshStandardMaterial color="#111827" /></mesh>
+    <mesh position={[0.7, 0.22, 0.56]} rotation={[Math.PI / 2, 0, 0]}><cylinderGeometry args={[0.22, 0.22, 0.12, 16]} /><meshStandardMaterial color="#111827" /></mesh>
+    <mesh position={[-0.7, 0.22, -0.56]} rotation={[Math.PI / 2, 0, 0]}><cylinderGeometry args={[0.22, 0.22, 0.12, 16]} /><meshStandardMaterial color="#111827" /></mesh>
+    <mesh position={[0.7, 0.22, -0.56]} rotation={[Math.PI / 2, 0, 0]}><cylinderGeometry args={[0.22, 0.22, 0.12, 16]} /><meshStandardMaterial color="#111827" /></mesh>
+    <mesh position={[1.21, 0.38, 0.35]}><boxGeometry args={[0.04, 0.08, 0.18]} /><meshStandardMaterial color="#FDE68A" emissive="#FDE68A" emissiveIntensity={0.8} /></mesh>
+    <mesh position={[1.21, 0.38, -0.35]}><boxGeometry args={[0.04, 0.08, 0.18]} /><meshStandardMaterial color="#FDE68A" emissive="#FDE68A" emissiveIntensity={0.8} /></mesh>
+  </group>
+);
+
 const Scenery: React.FC<{ mood: "modern" | "grove" }> = ({ mood }) => (
   <group>
-    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]} receiveShadow><planeGeometry args={[30, 20]} /><meshStandardMaterial color={mood === "grove" ? "#6B8E4E" : "#64748B"} roughness={0.95} /></mesh>
-    <mesh position={[0, 4.2, -7]}><planeGeometry args={[32, 11]} /><meshBasicMaterial color={mood === "grove" ? "#7DD3FC" : "#94A3B8"} /></mesh>
-    <mesh position={[3.5, 6.2, -6.8]}><circleGeometry args={[1.0, 32]} /><meshBasicMaterial color="#FCD34D" /></mesh>
-    <mesh position={[0, 0.01, 1.2]} rotation={[-Math.PI/2,0,0]}><planeGeometry args={[30, 2.4]} /><meshStandardMaterial color="#4B5563" /></mesh>
-    {/* street line */}
-    <mesh position={[0, 0.02, 1.2]} rotation={[-Math.PI/2,0,0]}><planeGeometry args={[0.18, 8]} /><meshStandardMaterial color="#E5E7EB" /></mesh>
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]} receiveShadow><planeGeometry args={[34, 22]} /><meshStandardMaterial color={mood === "grove" ? "#719A52" : "#6B7280"} roughness={0.95} /></mesh>
+    <mesh position={[0, 4.6, -7.5]}><planeGeometry args={[36, 12]} /><meshBasicMaterial color={mood === "grove" ? "#7DD3FC" : "#A5B4FC"} /></mesh>
+    <mesh position={[4.2, 6.6, -7.3]}><circleGeometry args={[1.15, 32]} /><meshBasicMaterial color="#FDE047" /></mesh>
+    {/* road */}
+    <mesh position={[0, 0.01, 1.4]} rotation={[-Math.PI/2,0,0]}><planeGeometry args={[34, 3.0]} /><meshStandardMaterial color="#374151" roughness={0.95} /></mesh>
+    {[-4,-2,0,2,4].map((x,i)=><mesh key={i} position={[x,0.02,1.4]} rotation={[-Math.PI/2,0,0]}><planeGeometry args={[0.7,0.12]} /><meshStandardMaterial color="#F3F4F6" /></mesh>)}
+    {/* sidewalk */}
+    <mesh position={[0,0.03,-0.25]} rotation={[-Math.PI/2,0,0]}><planeGeometry args={[34,0.9]} /><meshStandardMaterial color="#CBD5E1" /></mesh>
     {mood === "grove" ? <>
-      <GroveHouse pos={[-4.2,0,-2.8]} scale={0.9} />
-      <GroveHouse pos={[4.2,0,-3.2]} scale={0.95} />
-      <Palm pos={[-6.2,0,-1.8]} s={0.9} />
-      <Palm pos={[6.4,0,-2.0]} s={1.0} />
-      <Palm pos={[1.8,0,-4.8]} s={0.8} />
+      <GroveHouse pos={[-4.4,0,-3.2]} scale={0.95} />
+      <GroveHouse pos={[4.6,0,-3.4]} scale={1.0} />
+      <GroveHouse pos={[0.2,0,-4.8]} scale={0.85} />
+      <Palm pos={[-6.8,0,-2.0]} s={1.0} />
+      <Palm pos={[6.8,0,-2.2]} s={1.05} />
+      <Palm pos={[-1.8,0,-5.2]} s={0.82} />
+      <Palm pos={[2.4,0,-5.4]} s={0.78} />
+      <Car pos={[-2.8,0,1.35]} rot={[0,0.08,0]} color="#166534" />
+      {/* graffiti wall */}
+      <mesh position={[0,1.0,-2.3]}><boxGeometry args={[3.4,1.2,0.15]} /><meshStandardMaterial color="#D6D3D1" /></mesh>
+      <mesh position={[-0.6,1.05,-2.22]}><boxGeometry args={[0.9,0.35,0.03]} /><meshBasicMaterial color="#22C55E" /></mesh>
+      <mesh position={[0.7,0.95,-2.22]}><boxGeometry args={[0.8,0.25,0.03]} /><meshBasicMaterial color="#F59E0B" /></mesh>
     </> : <>
-      <mesh position={[-4.5,1.8,-3.5]}><boxGeometry args={[2.2,3.6,2.2]} /><meshStandardMaterial color="#475569" /></mesh>
-      <mesh position={[4.5,2.2,-3.8]}><boxGeometry args={[2.6,4.4,2.2]} /><meshStandardMaterial color="#334155" /></mesh>
-      <mesh position={[0,1.4,-4.2]}><boxGeometry args={[1.8,2.8,1.8]} /><meshStandardMaterial color="#64748B" /></mesh>
+      {[-5,0,5].map((x,i)=><mesh key={i} position={[x,2.0,-4.0]}><boxGeometry args={[2.4,4.0,2.2]} /><meshStandardMaterial color={i===1?"#475569":"#64748B"} /></mesh>)}
+      <mesh position={[-2.5,1.2,-2.2]}><boxGeometry args={[1.4,2.4,0.12]} /><meshBasicMaterial color="#60A5FA" transparent opacity={0.35} /></mesh>
+      <mesh position={[2.5,1.2,-2.2]}><boxGeometry args={[1.4,2.4,0.12]} /><meshBasicMaterial color="#A78BFA" transparent opacity={0.25} /></mesh>
     </>}
   </group>
 );
@@ -79,19 +101,25 @@ const CjCard: React.FC<{ frame: number; t: number }> = ({ frame, t }) => {
   const cycle = Math.sin(frame * 0.24);
   const mouthShape: "neutral" | "open" | "smile" = speaking ? (cycle > 0.15 ? "open" : "smile") : "neutral";
   const blink = frame % 110 > 104 ? 0.08 : 1;
-  const bob = Math.sin(frame * 0.05) * 0.015;
-  const tex = useSvgTexture(<CjLikeV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} />, ["cj-like-v1", Math.round(frame/2), mouthShape, speaking?1:0, blink<0.5?1:0], 512, 768);
-  return <Card tex={tex} pos={[0, 1.72 + bob, 0.3]} scale={1.02} />;
+  const bob = Math.sin(frame * 0.06) * 0.02;
+  const sway = Math.sin(frame * 0.04) * 2.5;
+  const tex = useSvgTexture(
+    <CjLikeV1 width={512} height={768} eyeOpen={blink} mouthShape={mouthShape} pose={{ bodyY: bob * -8, headY: bob * -4, headRotate: Math.sin(frame * 0.03) * 1.5, armLeftRotate: 8 + sway, armRightRotate: -8 - sway }} />,
+    ["cj-like-v2", Math.round(frame / 2), mouthShape, speaking ? 1 : 0, blink < 0.5 ? 1 : 0],
+    512, 768
+  );
+  return <Card tex={tex} pos={[0, 1.72 + bob, 0.3]} scale={1.05} />;
 };
 
 const CameraRig: React.FC<{ frame: number }> = ({ frame }) => {
   const { camera } = useThree();
   const t = frame / GTA_FRAMES;
-  let cam = { x: 0, y: 2.9, z: 10.5, lx: 0, ly: 2.1, lz: 0, fov: 44 };
-  if (t < 0.2) { const p = smooth(t / 0.2); cam = { x: -0.8 + p * 0.8, y: 2.9, z: 10.8 - p * 0.8, lx: 0, ly: 2.1, lz: 0, fov: 45 }; }
-  else if (t < 0.45) { const p = smooth((t - 0.2) / 0.25); cam = { x: 1.2 - p * 2.4, y: 2.7, z: 9.2, lx: 0, ly: 2.1, lz: 0, fov: 42 }; }
-  else if (t < 0.7) { cam = { x: 0, y: 2.5, z: 7.8, lx: 0, ly: 2.3, lz: 0.2, fov: 38 }; }
-  else { const p = smooth((t - 0.7) / 0.3); cam = { x: -0.6 + p * 0.6, y: 3.0, z: 10.5 - p * 0.5, lx: 0, ly: 2.1, lz: 0, fov: 45 }; }
+  let cam = { x: 0, y: 2.9, z: 10.2, lx: 0, ly: 2.1, lz: 0.2, fov: 44 };
+  if (t < 0.18) { const p = smooth(t / 0.18); cam = { x: -1.4 + p * 1.0, y: 3.1, z: 11.5 - p * 1.2, lx: -0.2, ly: 2.0, lz: 0.2, fov: 46 }; }
+  else if (t < 0.38) { const p = smooth((t - 0.18) / 0.20); cam = { x: 1.6 - p * 2.8, y: 2.6, z: 9.2 - p * 0.4, lx: 0.1 - p * 0.1, ly: 2.15, lz: 0.3, fov: 41 }; }
+  else if (t < 0.55) { const p = smooth((t - 0.38) / 0.17); cam = { x: 0.0, y: 2.35 + p * 0.1, z: 7.4, lx: 0, ly: 2.35, lz: 0.35, fov: 36 }; }
+  else if (t < 0.75) { const p = smooth((t - 0.55) / 0.20); cam = { x: -1.2 + p * 2.4, y: 2.8, z: 9.8 - p * 1.0, lx: 0, ly: 2.15, lz: 0.2, fov: 43 }; }
+  else { const p = smooth((t - 0.75) / 0.25); cam = { x: 0.6 - p * 0.6, y: 3.0, z: 10.8 - p * 0.8, lx: 0, ly: 2.1, lz: 0.2, fov: 45 }; }
   camera.position.set(cam.x, cam.y, cam.z);
   camera.lookAt(cam.lx, cam.ly, cam.lz);
   if ("fov" in camera) { (camera as THREE.PerspectiveCamera).fov = cam.fov; camera.updateProjectionMatrix(); }
@@ -119,11 +147,12 @@ const Subtitle: React.FC = () => {
 
 const Hook: React.FC = () => {
   const frame = useCurrentFrame();
-  const opacity = interpolate(frame, [0, 8, 70, 90], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  return <div style={{ position: "absolute", top: 100, left: 50, right: 50, textAlign: "center", opacity }}>
-    <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 42, color: "#FFFFFF", background: "rgba(22,101,52,0.85)", borderRadius: 24, padding: "20px", border: "3px solid #86EFAC" }}>
-      GTA 6 chegou...
-      <div style={{ fontSize: 28, marginTop: 10, color: "#DCFCE7", fontFamily: "Arial, sans-serif" }}>mas a missão é voltar pra Grove Street</div>
+  const opacity = interpolate(frame, [0, 8, 75, 95], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const y = interpolate(frame, [0, 12], [20, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return <div style={{ position: "absolute", top: 90, left: 45, right: 45, textAlign: "center", opacity, transform: `translateY(${y}px)` }}>
+    <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 46, color: "#FDE047", background: "rgba(20,83,45,0.88)", borderRadius: 26, padding: "22px 20px", border: "4px solid #4ADE80", boxShadow: "0 12px 40px rgba(0,0,0,0.35)" }}>
+      GTA 6 CHEGOU...
+      <div style={{ fontSize: 30, marginTop: 10, color: "#FFFFFF", fontFamily: "Arial, sans-serif", fontWeight: 700 }}>mas a missão é voltar pra Grove Street</div>
     </div>
   </div>;
 };
@@ -132,20 +161,22 @@ const MissionPassed: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  const show = t > 14.5 && t < 18.5;
-  const opacity = show ? interpolate(t, [14.5, 15.0, 17.8, 18.5], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 0;
-  return <div style={{ position: "absolute", top: 180, left: 80, right: 80, textAlign: "center", opacity }}>
-    <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 54, color: "#FACC15", textShadow: "0 6px 24px rgba(0,0,0,0.6)", letterSpacing: 1 }}>MISSÃO CUMPRIDA</div>
-    <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 34, color: "#86EFAC", marginTop: 8 }}>RESPEITO +99</div>
+  const show = t > 13.8 && t < 18.2;
+  const opacity = show ? interpolate(t, [13.8, 14.3, 17.5, 18.2], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 0;
+  const scale = show ? interpolate(t, [13.8, 14.3], [0.85, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 1;
+  return <div style={{ position: "absolute", top: 170, left: 60, right: 60, textAlign: "center", opacity, transform: `scale(${scale})` }}>
+    <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 60, color: "#FACC15", textShadow: "0 8px 30px rgba(0,0,0,0.65)", letterSpacing: 1.5 }}>MISSÃO CUMPRIDA</div>
+    <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 38, color: "#4ADE80", marginTop: 10, textShadow: "0 4px 16px rgba(0,0,0,0.5)" }}>RESPEITO +99</div>
   </div>;
 };
 
 const CTA: React.FC = () => {
   const frame = useCurrentFrame();
-  const opacity = interpolate(frame, [GTA_FRAMES - 120, GTA_FRAMES - 90], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  return <div style={{ position: "absolute", top: 140, left: 60, right: 60, textAlign: "center", opacity }}>
-    <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 34, color: "#FFFFFF", background: "rgba(22,101,52,0.72)", borderRadius: 20, padding: "18px", border: "2px solid #86EFAC" }}>
+  const opacity = interpolate(frame, [GTA_FRAMES - 130, GTA_FRAMES - 100], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return <div style={{ position: "absolute", top: 130, left: 55, right: 55, textAlign: "center", opacity }}>
+    <div style={{ fontFamily: "Arial Black, Arial, sans-serif", fontSize: 38, color: "#FFFFFF", background: "rgba(20,83,45,0.82)", borderRadius: 22, padding: "20px", border: "3px solid #4ADE80", boxShadow: "0 10px 30px rgba(0,0,0,0.3)" }}>
       Comenta: SA ou GTA 6? 💚
+      <div style={{ fontSize: 24, marginTop: 8, color: "#BBF7D0", fontFamily: "Arial, sans-serif" }}>Curte, segue e compartilha</div>
     </div>
   </div>;
 };
@@ -161,8 +192,9 @@ const Scene: React.FC = () => {
       <CameraRig frame={frame} />
       <color attach="background" args={[mood === "grove" ? "#7DD3FC" : "#94A3B8"]} />
       <fog attach="fog" args={[mood === "grove" ? "#7DD3FC" : "#94A3B8", 14, 40]} />
-      <ambientLight intensity={0.75} />
-      <directionalLight position={[5, 10, 6]} intensity={1.2} castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024} />
+      <ambientLight intensity={0.72} />
+      <directionalLight position={[6, 10, 5]} intensity={1.35} color="#FFF4D6" castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024} />
+      <pointLight position={[-4, 3, 2]} intensity={0.45} color={mood === "grove" ? "#86EFAC" : "#93C5FD"} distance={12} />
       <Scenery mood={mood} />
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.02, 0.35]} layers={NOINK}><circleGeometry args={[0.55, 32]} /><meshBasicMaterial color="#000000" transparent opacity={0.16} /></mesh>
       <CjCard frame={frame} t={t} />

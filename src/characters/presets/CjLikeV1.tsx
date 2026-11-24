@@ -10,19 +10,22 @@ export const CjLikeV1: React.FC<CjLikeV1Props> = ({ eyeOpen = 1, mouthShape = "n
   <MaleBaseCharacter
     {...rest}
     hairVariant="bald"
-    headAccessory="none"
+    headAccessory="cap"
     goatee={false}
-    tattoos={false}
+    tattoos={true}
     colors={{
-      skin: "#A86B45",
+      skin: "#9C6644",
       hair: "#2B2118",
       hairDark: "#1A130E",
-      shirt: "#F5F5F5",
-      shorts: "#4F83CC",
-      shoe: "#E8E8E8",
-      shoeSole: "#D1D5DB",
-      shoeDetail: "#4F83CC",
+      shirt: "#F3F4F6",
+      shorts: "#3B82C4",
+      shoe: "#F8FAFC",
+      shoeSole: "#E5E7EB",
+      shoeDetail: "#1F2937",
       outline: "#241A16",
+      cap: "#1F2937",
+      capDetail: "#111827",
+      tattoo: "#1F2937",
       ...(rest.colors ?? {}),
     }}
     pose={{ ...pose, eyeOpen, mouthShape }}
