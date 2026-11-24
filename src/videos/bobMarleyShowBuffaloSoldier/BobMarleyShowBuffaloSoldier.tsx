@@ -12,7 +12,7 @@ import { useSvgTexture } from "../../characters/base/useSvgTexture";
 import BobMarleyV1 from "../../characters/presets/BobMarleyV1";
 
 export const BMSBS_FPS = 30;
-export const BMSBS_FRAMES = 1320; // 44s silent for overlay
+export const BMSBS_FRAMES = 600; // 20s - intro only, silent for overlay
 
 const smooth = (t: number) => { const u = Math.max(0, Math.min(1, t)); return u * u * (3 - 2 * u); };
 const makeBloom = () => new BloomEffect({ blendFunction: BlendFunction.ADD, intensity: 0.5, luminanceThreshold: 0.82, luminanceSmoothing: 0.25, mipmapBlur: true, levels: 5, radius: 0.7 });
@@ -107,14 +107,14 @@ const Scene: React.FC = () => {
       <Stage />
       <mesh rotation={[-Math.PI/2,0,0]} position={[0,0.02,0.25]} layers={NOINK}><circleGeometry args={[0.55,32]} /><meshBasicMaterial color="#000000" transparent opacity={0.18} /></mesh>
       <BobCard frame={frame} />
-      <PropCard file="reference/guitar-svg-reference.svg" pos={[0.35, 1.25, 0.55]} scale={0.46} rot={[0, 0, -0.25]} />
+      <PropCard file="reference/guitar-svg-reference.svg" pos={[0.45, 1.35, 0.55]} scale={0.46} rot={[0, 0, -0.12]} />
       <Effects />
     </ThreeCanvas>
     <div style={{ position: "absolute", top: 70, left: 0, right: 0, textAlign: "center", fontFamily: "Arial Black, sans-serif", fontSize: 42, color: "#fff", textShadow: "0 4px 24px rgba(0,0,0,0.7)", opacity: interpolate(frame, [0,15,90,120], [0,1,1,0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
       BOB MARLEY — BUFFALO SOLDIER
     </div>
-    <div style={{ position: "absolute", bottom: 60, left: 0, right: 0, textAlign: "center", fontFamily: "Arial, sans-serif", fontSize: 26, color: "rgba(255,255,255,0.85)", textShadow: "0 2px 12px rgba(0,0,0,0.8)", opacity: interpolate(frame, [BMSBS_FRAMES-90, BMSBS_FRAMES-50], [0,1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-      Show clip • 44s • Add your music
+    <div style={{ position: "absolute", bottom: 60, left: 0, right: 0, textAlign: "center", fontFamily: "Arial, sans-serif", fontSize: 26, color: "rgba(255,255,255,0.85)", textShadow: "0 2px 12px rgba(0,0,0,0.8)", opacity: interpolate(frame, [BMSBS_FRAMES-60, BMSBS_FRAMES-30], [0,1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
+      Intro • 20s • Add your music
     </div>
   </>;
 };
