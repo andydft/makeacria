@@ -1,4 +1,4 @@
-"""TTS - Goku Origem Parte 2 (Bloco A)."""
+"""TTS - Goku Origem Parte 2 (Raditz)."""
 import asyncio, json, os, edge_tts
 
 VOICE = "pt-BR-AntonioNeural"
@@ -6,15 +6,15 @@ RATE = "+8%"
 PITCH = "+0Hz"
 OUT = os.path.join("public", "goku-origem-parte2")
 TEXT = (
-    "Na parte um, a gente viu como o Goku nasceu de uma lenda. Mas a história dele ainda ia ficar muito maior. "
-    "Quando tudo parecia só uma aventura, Goku já tinha crescido, formado família e descobriu que era pai do Gohan. "
-    "Mas a grande revelação veio com Raditz: Goku era um Saiyajin, vindo de outro planeta, e seu nome verdadeiro era Kakaroto. "
-    "Aquela cauda, que parecia só uma curiosidade, fazia parte da origem dele. "
-    "Depois veio Vegeta, o príncipe dos Saiyajins. No começo, ele era um rival perigoso e orgulhoso, mas com o tempo se tornaria um dos personagens mais marcantes da saga. "
-    "E teve uma curiosidade famosa: Akira Toriyama comentou que deixar o cabelo do Goku loiro no Super Saiyajin também ajudava no trabalho do mangá. "
-    "O resultado foi uma das transformações mais icônicas de todos os animes. "
-    "De uma lenda antiga a uma saga cheia de batalhas, revelações e transformações... e isso ainda é só o começo. "
-    "Segue pra ver a próxima parte!"
+    "Na parte um, vimos como o Goku nasceu inspirado em uma lenda. Mas a paz não duraria para sempre. "
+    "Goku já estava adulto, vivendo tranquilo na Terra, ao lado do seu filho, Gohan. "
+    "Até que um guerreiro misterioso apareceu no céu. Era Raditz. "
+    "Ele revelou uma verdade chocante: Goku era um Saiyajin, vindo de outro planeta, e seu nome verdadeiro era Kakaroto. "
+    "Raditz queria que Goku se juntasse a ele. Mas Goku recusou. "
+    "Então Raditz fez algo cruel: sequestrou o pequeno Gohan e exigiu que Goku obedecesse. "
+    "Agora Goku teria que enfrentar o próprio irmão para salvar seu filho. "
+    "E essa batalha mudaria Dragon Ball para sempre. "
+    "Continua na parte três!"
 )
 
 async def main():

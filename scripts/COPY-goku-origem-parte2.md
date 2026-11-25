@@ -1,12 +1,14 @@
-# COPY — Goku: A Origem (Parte 2 / Bloco A)
+# COPY — Goku: A Origem (Parte 2 - Raditz)
 
 ## Título
-A origem do Goku Parte 2: Raditz, Saiyajins e Super Saiyajin
+A origem do Goku Parte 2: Raditz sequestra Gohan!
 
 ## Legenda
-Na Parte 2, a história do Goku fica ainda maior: a chegada do Gohan, a revelação de Raditz, a origem Saiyajin, o orgulho de Vegeta e a curiosidade por trás do cabelo loiro do Super Saiyajin.
+A paz na Terra acaba quando Raditz aparece e revela a verdade: Goku é um Saiyajin, e seu nome verdadeiro é Kakaroto.
 
-Continua na próxima parte...
+Quando Goku se recusa a se juntar a ele, Raditz toma uma decisão cruel: sequestrar o pequeno Gohan. Agora Goku terá que enfrentar o próprio irmão...
+
+Continua na Parte 3!
 
 ## Hashtags
-#DragonBall #Goku #Vegeta #Raditz #SuperSaiyajin #DragonBallZ #Anime #Curiosidades #Otaku #Shorts
+#DragonBall #Goku #Gohan #Raditz #Saiyajin #Kakaroto #DragonBallZ #Anime #Curiosidades #Shorts
