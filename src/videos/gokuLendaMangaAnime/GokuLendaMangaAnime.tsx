@@ -93,19 +93,24 @@ const SceneManga: React.FC = () => {
   );
 };
 
+const KameScenery: React.FC<{ opacity?: number; scale?: number; x?: number; y?: number }> = ({ opacity = 1, scale = 1, x = -60, y = 320 }) => (
+  <AbsoluteFill style={{ opacity }}>
+    <Img src={staticFile("kame-house-cenario-16bit.svg")} style={{ position: "absolute", left: x, top: y, width: 1200 * scale, height: 800 * scale, ...PX }} />
+  </AbsoluteFill>
+);
+
 const SceneAnime: React.FC = () => {
   const frame = useCurrentFrame();
   const tvIn = interpolate(frame, [0, 25], [80, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const bgFade = interpolate(frame, [0, 20], [0, 1], { extrapolateRight: "clamp" });
   return (
     <AbsoluteFill>
-      <Bg />
-      <div style={{ position: "absolute", left: 40, top: 380 }}>
-        <Img src={staticFile("kame-house-16bit.svg")} style={{ width: 520, height: 312, ...PX }} />
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg,#63BEFF 0%,#2B7FD4 45%,#2182D6 70%,#07264D 100%)" }} />
+      <KameScenery opacity={bgFade} scale={1.02} x={-70} y={300} />
+      <div style={{ position: "absolute", right: 70, top: 350 + tvIn }}>
+        <Float amp={4}><Img src={staticFile("tv-crt-16bit.svg")} style={{ width: 320, height: 256, ...PX }} /></Float>
       </div>
-      <div style={{ position: "absolute", right: 80, top: 430 + tvIn }}>
-        <Float amp={4}><Img src={staticFile("tv-crt-16bit.svg")} style={{ width: 360, height: 288, ...PX }} /></Float>
-      </div>
-      <div style={{ position: "absolute", left: 380, top: 700 }}>
+      <div style={{ position: "absolute", left: 360, top: 760 }}>
         <Float amp={3} speed={0.04}><Img src={staticFile("goku-gt-chibi-16bit-sorriso-bobo.svg")} style={{ width: 280, height: 336, ...PX }} /></Float>
       </div>
     </AbsoluteFill>
@@ -117,14 +122,12 @@ const Outro: React.FC = () => {
   const o = interpolate(frame, [0, 15], [0, 1], { extrapolateRight: "clamp" });
   return (
     <AbsoluteFill>
-      <Bg />
-      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity: o }}>
-        <Img src={staticFile("kame-house-16bit.svg")} style={{ position: "absolute", width: 760, height: 456, top: 360, opacity: 0.95, ...PX }} />
-        <Img src={staticFile("goku-gt-chibi-16bit-sorriso-bobo.svg")} style={{ position: "absolute", width: 320, height: 384, top: 700, ...PX }} />
-        <div style={{ position: "absolute", bottom: 180, left: 80, right: 80, textAlign: "center", fontFamily: "Arial Black, Arial, sans-serif", fontSize: 48, color: "#FFF7CC", textShadow: "0 4px 14px rgba(0,0,0,0.6)" }}>
-          De lenda... a mangá... a anime.
-        </div>
-      </AbsoluteFill>
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg,#63BEFF 0%,#2B7FD4 45%,#2182D6 70%,#07264D 100%)" }} />
+      <KameScenery opacity={o} scale={1.02} x={-70} y={280} />
+      <Img src={staticFile("goku-gt-chibi-16bit-sorriso-bobo.svg")} style={{ position: "absolute", width: 300, height: 360, left: 390, top: 760, opacity: o, ...PX }} />
+      <div style={{ position: "absolute", bottom: 150, left: 80, right: 80, textAlign: "center", fontFamily: "Arial Black, Arial, sans-serif", fontSize: 48, color: "#FFF7CC", textShadow: "0 4px 14px rgba(0,0,0,0.6)", opacity: o }}>
+        De lenda... a mangá... a anime.
+      </div>
     </AbsoluteFill>
   );
 };

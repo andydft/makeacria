@@ -1,0 +1,514 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="1200" height="800" role="img" aria-label="Casa do Kame na ilha com o triplo de detalhes estilo 16-bit em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; }
+      .sky-1 { fill: #63BEFF; }
+      .sky-2 { fill: #44A1F0; }
+      .sky-3 { fill: #2B7FD4; }
+      .sky-4 { fill: #1E63B0; }
+      .sun-g { fill: #FFE97D; }
+      .sun { fill: #FFF5A8; }
+      .sun-h { fill: #FFFFFF; }
+      .cloud { fill: #FFFFFF; }
+      .cloud-s { fill: #C7E6FC; }
+      .cloud-d { fill: #9AC6EB; }
+      .bird { fill: #1B2838; }
+
+      .sea-1 { fill: #2182D6; }
+      .sea-2 { fill: #196AB8; }
+      .sea-3 { fill: #125194; }
+      .sea-4 { fill: #0C3B70; }
+      .sea-5 { fill: #07264D; }
+      .foam { fill: #BCE8FF; }
+      .foam-2 { fill: #6BBBF2; }
+      .foam-3 { fill: #3B8ED4; }
+
+      .sand-h { fill: #FFF0BE; }
+      .sand { fill: #F7D286; }
+      .sand-s { fill: #DEB05B; }
+      .sand-d { fill: #B58238; }
+      .sand-dd { fill: #875B20; }
+      .grass-h { fill: #74E07B; }
+      .grass { fill: #3EC24E; }
+      .grass-d { fill: #228F33; }
+      .rock-h { fill: #B3AEBA; }
+      .rock { fill: #85808C; }
+      .rock-s { fill: #5E5966; }
+      .rock-d { fill: #3B3742; }
+
+      .wall-h { fill: #FFD1E5; }
+      .wall { fill: #F78EB8; }
+      .wall-s { fill: #D96896; }
+      .wall-d { fill: #AD4470; }
+      .wall-dd { fill: #7D294D; }
+      .trim { fill: #FFFBF2; }
+      .trim-s { fill: #E3D7C3; }
+      .trim-d { fill: #B5A58E; }
+
+      .roof-h { fill: #FF948A; }
+      .roof { fill: #EB493D; }
+      .roof-s { fill: #C22F25; }
+      .roof-d { fill: #911B14; }
+      .roof-dd { fill: #630E09; }
+
+      .sign-bg { fill: #FFF7D1; }
+      .sign-h { fill: #FFFFFF; }
+      .sign-s { fill: #E6D293; }
+      .sign-d { fill: #B89F5C; }
+
+      .wood-h { fill: #C77E48; }
+      .wood { fill: #96592E; }
+      .wood-s { fill: #703F1D; }
+      .wood-d { fill: #4A270E; }
+
+      .win-sky { fill: #B3E4FF; }
+      .win-sea { fill: #62B4E8; }
+      .win-glare { fill: #FFFFFF; }
+      .curtain { fill: #E85D68; }
+      .curtain-d { fill: #B03842; }
+
+      .palm-h { fill: #88EB90; }
+      .palm { fill: #38BA50; }
+      .palm-s { fill: #218F38; }
+      .palm-d { fill: #126123; }
+      .coco { fill: #75421F; }
+      .coco-h { fill: #A66538; }
+      .coco-d { fill: #4D2810; }
+
+      .flower-r { fill: #FF5964; }
+      .flower-y { fill: #FFD166; }
+      .flower-p { fill: #FF9EBB; }
+      .flower-w { fill: #FFFFFF; }
+      .shell { fill: #FFF2E6; }
+      .shell-p { fill: #F7A8B8; }
+      .gold { fill: #F7C62B; }
+      .gold-l { fill: #FFF08A; }
+    </style>
+  </defs>
+
+  
+  <g id="sky-layer">
+    <rect class="sky-1" x="0" y="0" width="240" height="24" />
+    <rect class="sky-2" x="0" y="24" width="240" height="28" />
+    <rect class="sky-3" x="0" y="52" width="240" height="28" />
+    <rect class="sky-4" x="0" y="80" width="240" height="16" />
+
+    
+    <rect class="sun-g" x="194" y="10" width="28" height="28" />
+    <rect class="o" x="198" y="14" width="20" height="20" />
+    <rect class="sun" x="199" y="15" width="18" height="18" />
+    <rect class="sun-h" x="201" y="17" width="7" height="6" />
+    <rect class="sun-h" x="209" y="17" width="3" height="2" />
+
+    
+    <rect class="o" x="14" y="22" width="44" height="10" />
+    <rect class="o" x="20" y="18" width="28" height="4" />
+    <rect class="o" x="26" y="15" width="14" height="3" />
+    <rect class="cloud" x="27" y="16" width="12" height="2" />
+    <rect class="cloud" x="21" y="19" width="26" height="4" />
+    <rect class="cloud" x="15" y="23" width="42" height="5" />
+    <rect class="cloud-s" x="15" y="28" width="42" height="2" />
+    <rect class="cloud-d" x="15" y="30" width="42" height="1" />
+
+    
+    <rect class="o" x="102" y="14" width="32" height="8" />
+    <rect class="o" x="108" y="11" width="18" height="3" />
+    <rect class="cloud" x="109" y="12" width="16" height="2" />
+    <rect class="cloud" x="103" y="15" width="30" height="4" />
+    <rect class="cloud-s" x="103" y="19" width="30" height="2" />
+
+    
+    <rect class="o" x="156" y="42" width="28" height="7" />
+    <rect class="o" x="162" y="39" width="16" height="3" />
+    <rect class="cloud" x="163" y="40" width="14" height="2" />
+    <rect class="cloud" x="157" y="43" width="26" height="3" />
+    <rect class="cloud-s" x="157" y="46" width="26" height="2" />
+
+    
+    <rect class="bird" x="76" y="24" width="2" height="1" />
+    <rect class="bird" x="78" y="25" width="2" height="1" />
+    <rect class="bird" x="80" y="24" width="2" height="1" />
+
+    <rect class="bird" x="86" y="20" width="2" height="1" />
+    <rect class="bird" x="88" y="21" width="1" height="1" />
+    <rect class="bird" x="89" y="20" width="2" height="1" />
+  </g>
+
+  
+  <g id="sea-layer">
+    <rect class="sea-1" x="0" y="96" width="240" height="12" />
+    <rect class="sea-2" x="0" y="108" width="240" height="14" />
+    <rect class="sea-3" x="0" y="122" width="240" height="14" />
+    <rect class="sea-4" x="0" y="136" width="240" height="12" />
+    <rect class="sea-5" x="0" y="148" width="240" height="12" />
+
+    
+    <rect class="o" x="28" y="91" width="12" height="4" />
+    <rect class="wood-h" x="29" y="92" width="10" height="2" />
+    <rect class="o" x="34" y="85" width="1" height="6" />
+    <rect class="o" x="35" y="86" width="4" height="4" />
+    <rect class="trim" x="35" y="87" width="3" height="2" />
+
+    
+    <rect class="foam" x="8" y="100" width="16" height="1" />
+    <rect class="foam-2" x="12" y="101" width="14" height="1" />
+    <rect class="foam" x="210" y="102" width="20" height="1" />
+    <rect class="foam-2" x="214" y="103" width="16" height="1" />
+
+    <rect class="foam" x="18" y="113" width="22" height="1" />
+    <rect class="foam-2" x="22" y="114" width="18" height="1" />
+    <rect class="foam" x="196" y="116" width="26" height="1" />
+    <rect class="foam-2" x="200" y="117" width="22" height="1" />
+
+    <rect class="foam-2" x="12" y="127" width="28" height="1" />
+    <rect class="foam-3" x="16" y="128" width="24" height="1" />
+    <rect class="foam-2" x="184" y="130" width="32" height="1" />
+    <rect class="foam-3" x="188" y="131" width="28" height="1" />
+
+    <rect class="foam-2" x="48" y="141" width="34" height="1" />
+    <rect class="foam-3" x="52" y="142" width="30" height="1" />
+    <rect class="foam-2" x="150" y="143" width="38" height="1" />
+    <rect class="foam-3" x="154" y="144" width="34" height="1" />
+
+    <rect class="foam-3" x="24" y="153" width="42" height="1" />
+    <rect class="foam-3" x="136" y="155" width="48" height="1" />
+  </g>
+
+  
+  <g id="pier-layer">
+    
+    <rect class="o" x="182" y="106" width="7" height="24" />
+    <rect class="wood-h" x="183" y="107" width="2" height="22" />
+    <rect class="wood" x="185" y="107" width="2" height="22" />
+    <rect class="wood-d" x="187" y="107" width="1" height="22" />
+    <rect class="foam-2" x="181" y="129" width="9" height="1" />
+
+    <rect class="o" x="204" y="106" width="7" height="24" />
+    <rect class="wood-h" x="205" y="107" width="2" height="22" />
+    <rect class="wood" x="207" y="107" width="2" height="22" />
+    <rect class="wood-d" x="209" y="107" width="1" height="22" />
+    <rect class="foam-2" x="203" y="129" width="9" height="1" />
+
+    <rect class="o" x="224" y="106" width="7" height="22" />
+    <rect class="wood-h" x="225" y="107" width="2" height="20" />
+    <rect class="wood" x="227" y="107" width="2" height="20" />
+    <rect class="wood-d" x="229" y="107" width="1" height="20" />
+    <rect class="foam-2" x="223" y="127" width="9" height="1" />
+
+    
+    <rect class="o" x="174" y="100" width="62" height="8" />
+    <rect class="wood-h" x="175" y="101" width="60" height="2" />
+    <rect class="wood" x="175" y="103" width="60" height="3" />
+    <rect class="wood-s" x="175" y="106" width="60" height="1" />
+    <rect class="wood-d" x="175" y="107" width="60" height="1" />
+
+    
+    <rect class="o" x="181" y="101" width="1" height="6" />
+    <rect class="o" x="188" y="101" width="1" height="6" />
+    <rect class="o" x="195" y="101" width="1" height="6" />
+    <rect class="o" x="202" y="101" width="1" height="6" />
+    <rect class="o" x="209" y="101" width="1" height="6" />
+    <rect class="o" x="216" y="101" width="1" height="6" />
+    <rect class="o" x="223" y="101" width="1" height="6" />
+    <rect class="o" x="230" y="101" width="1" height="6" />
+
+    
+    <rect class="o" x="226" y="92" width="3" height="8" />
+    <rect class="wood-s" x="227" y="93" width="1" height="7" />
+    <rect class="o" x="225" y="88" width="5" height="5" />
+    <rect class="gold-l" x="226" y="89" width="3" height="3" />
+    <rect class="o" x="224" y="87" width="7" height="1" />
+  </g>
+
+  
+  <g id="island-layer">
+    
+    <rect class="foam" x="24" y="109" width="154" height="2" />
+    <rect class="foam-2" x="28" y="111" width="146" height="1" />
+
+    
+    <rect class="o" x="28" y="101" width="146" height="8" />
+    <rect class="o" x="34" y="98" width="134" height="3" />
+    <rect class="o" x="42" y="96" width="118" height="2" />
+
+    <rect class="sand-h" x="43" y="97" width="116" height="2" />
+    <rect class="sand-h" x="35" y="99" width="132" height="2" />
+    <rect class="sand" x="29" y="101" width="144" height="4" />
+    <rect class="sand-s" x="29" y="105" width="144" height="2" />
+    <rect class="sand-d" x="29" y="107" width="144" height="1" />
+    <rect class="sand-dd" x="29" y="108" width="144" height="1" />
+
+    
+    <rect class="o" x="34" y="101" width="12" height="6" />
+    <rect class="o" x="36" y="99" width="8" height="2" />
+    <rect class="rock-h" x="37" y="100" width="5" height="2" />
+    <rect class="rock" x="35" y="102" width="7" height="3" />
+    <rect class="rock-s" x="42" y="102" width="3" height="3" />
+    <rect class="rock-d" x="35" y="105" width="10" height="1" />
+
+    <rect class="o" x="46" y="103" width="7" height="4" />
+    <rect class="rock-h" x="47" y="104" width="3" height="1" />
+    <rect class="rock" x="47" y="105" width="3" height="1" />
+    <rect class="rock-d" x="50" y="105" width="2" height="1" />
+
+    
+    <rect class="o" x="158" y="101" width="12" height="6" />
+    <rect class="o" x="160" y="99" width="8" height="2" />
+    <rect class="rock-h" x="161" y="100" width="5" height="2" />
+    <rect class="rock" x="159" y="102" width="7" height="3" />
+    <rect class="rock-s" x="166" y="102" width="3" height="3" />
+    <rect class="rock-d" x="159" y="105" width="10" height="1" />
+
+    
+    <rect class="o" x="74" y="104" width="4" height="3" />
+    <rect class="shell" x="75" y="105" width="2" height="1" />
+
+    <rect class="o" x="142" y="103" width="5" height="4" />
+    <rect class="shell-p" x="143" y="104" width="3" height="2" />
+    <rect class="shell" x="144" y="104" width="1" height="1" />
+
+    
+    <rect class="o" x="62" y="95" width="22" height="5" />
+    <rect class="o" x="65" y="93" width="16" height="2" />
+    <rect class="grass-h" x="66" y="94" width="14" height="1" />
+    <rect class="grass" x="63" y="95" width="20" height="2" />
+    <rect class="grass-d" x="63" y="97" width="20" height="2" />
+    <rect class="flower-r" x="67" y="95" width="2" height="1" />
+    <rect class="flower-y" x="73" y="96" width="2" height="1" />
+    <rect class="flower-p" x="79" y="95" width="2" height="1" />
+
+    <rect class="o" x="150" y="95" width="20" height="5" />
+    <rect class="o" x="153" y="93" width="14" height="2" />
+    <rect class="grass-h" x="154" y="94" width="12" height="1" />
+    <rect class="grass" x="151" y="95" width="18" height="2" />
+    <rect class="grass-d" x="151" y="97" width="18" height="2" />
+    <rect class="flower-y" x="155" y="95" width="2" height="1" />
+    <rect class="flower-r" x="161" y="96" width="2" height="1" />
+    <rect class="flower-w" x="166" y="95" width="1" height="1" />
+  </g>
+
+  
+  <g id="palm-tree-layer">
+    
+    <rect class="o" x="50" y="92" width="8" height="6" />
+    <rect class="wood-h" x="51" y="93" width="2" height="4" />
+    <rect class="wood" x="53" y="93" width="3" height="4" />
+    <rect class="wood-d" x="56" y="93" width="1" height="4" />
+
+    <rect class="o" x="51" y="85" width="8" height="7" />
+    <rect class="wood-h" x="52" y="86" width="2" height="5" />
+    <rect class="wood" x="54" y="86" width="3" height="5" />
+    <rect class="wood-d" x="57" y="86" width="1" height="5" />
+
+    <rect class="o" x="52" y="78" width="8" height="7" />
+    <rect class="wood-h" x="53" y="79" width="2" height="5" />
+    <rect class="wood" x="55" y="79" width="3" height="5" />
+    <rect class="wood-d" x="58" y="79" width="1" height="5" />
+
+    <rect class="o" x="53" y="71" width="8" height="7" />
+    <rect class="wood-h" x="54" y="72" width="2" height="5" />
+    <rect class="wood" x="56" y="72" width="3" height="5" />
+    <rect class="wood-d" x="59" y="72" width="1" height="5" />
+
+    <rect class="o" x="54" y="64" width="8" height="7" />
+    <rect class="wood-h" x="55" y="65" width="2" height="5" />
+    <rect class="wood" x="57" y="65" width="3" height="5" />
+    <rect class="wood-d" x="60" y="65" width="1" height="5" />
+
+    <rect class="o" x="55" y="57" width="8" height="7" />
+    <rect class="wood-h" x="56" y="58" width="2" height="5" />
+    <rect class="wood" x="58" y="58" width="3" height="5" />
+    <rect class="wood-d" x="61" y="58" width="1" height="5" />
+
+    
+    <rect class="o" x="51" y="53" width="6" height="6" />
+    <rect class="coco-h" x="52" y="54" width="2" height="2" />
+    <rect class="coco" x="52" y="56" width="4" height="2" />
+    <rect class="coco-d" x="55" y="54" width="1" height="4" />
+
+    <rect class="o" x="57" y="53" width="6" height="6" />
+    <rect class="coco-h" x="58" y="54" width="2" height="2" />
+    <rect class="coco" x="58" y="56" width="4" height="2" />
+    <rect class="coco-d" x="61" y="54" width="1" height="4" />
+
+    <rect class="o" x="63" y="54" width="5" height="5" />
+    <rect class="coco-h" x="64" y="55" width="1" height="1" />
+    <rect class="coco" x="64" y="56" width="3" height="2" />
+
+    
+    <rect class="o" x="28" y="47" width="30" height="4" />
+    <rect class="o" x="34" y="45" width="24" height="2" />
+    <rect class="o" x="42" y="43" width="16" height="2" />
+    <rect class="palm-h" x="43" y="44" width="14" height="1" />
+    <rect class="palm-h" x="35" y="46" width="22" height="1" />
+    <rect class="palm" x="29" y="48" width="28" height="1" />
+    <rect class="palm-d" x="29" y="49" width="28" height="1" />
+
+    
+    <rect class="o" x="58" y="46" width="34" height="4" />
+    <rect class="o" x="58" y="44" width="24" height="2" />
+    <rect class="o" x="58" y="42" width="14" height="2" />
+    <rect class="palm-h" x="59" y="43" width="12" height="1" />
+    <rect class="palm-h" x="59" y="45" width="22" height="1" />
+    <rect class="palm" x="59" y="47" width="32" height="1" />
+    <rect class="palm-d" x="59" y="48" width="32" height="1" />
+
+    
+    <rect class="o" x="18" y="53" width="34" height="4" />
+    <rect class="o" x="24" y="51" width="28" height="2" />
+    <rect class="palm-h" x="25" y="52" width="14" height="1" />
+    <rect class="palm" x="39" y="52" width="12" height="1" />
+    <rect class="palm" x="19" y="54" width="18" height="1" />
+    <rect class="palm-s" x="37" y="54" width="14" height="1" />
+    <rect class="palm-d" x="19" y="55" width="32" height="1" />
+
+    
+    <rect class="o" x="64" y="52" width="36" height="4" />
+    <rect class="o" x="64" y="50" width="28" height="2" />
+    <rect class="palm" x="65" y="51" width="14" height="1" />
+    <rect class="palm-h" x="79" y="51" width="12" height="1" />
+    <rect class="palm-s" x="65" y="53" width="16" height="1" />
+    <rect class="palm" x="81" y="53" width="18" height="1" />
+    <rect class="palm-d" x="65" y="54" width="34" height="1" />
+  </g>
+
+  
+  <g id="kame-house-layer">
+    
+    <rect class="o" x="142" y="29" width="12" height="18" />
+    <rect class="wall-h" x="143" y="30" width="3" height="16" />
+    <rect class="wall-s" x="146" y="30" width="5" height="16" />
+    <rect class="wall-d" x="151" y="30" width="2" height="16" />
+    <rect class="wall-dd" x="143" y="36" width="10" height="1" />
+    <rect class="wall-dd" x="143" y="42" width="10" height="1" />
+    <rect class="o" x="140" y="26" width="16" height="4" />
+    <rect class="trim" x="141" y="27" width="14" height="1" />
+    <rect class="trim-d" x="141" y="28" width="14" height="1" />
+
+    
+    <rect class="o" x="84" y="53" width="76" height="43" />
+    <rect class="wall" x="85" y="54" width="74" height="41" />
+
+    
+    <rect class="wall-h" x="85" y="54" width="6" height="41" />
+    <rect class="wall-h" x="91" y="54" width="2" height="24" />
+
+    
+    <rect class="wall-s" x="85" y="54" width="74" height="3" />
+    <rect class="wall-d" x="85" y="57" width="74" height="1" />
+
+    
+    <rect class="wall-s" x="136" y="54" width="23" height="41" />
+    <rect class="wall-d" x="147" y="54" width="12" height="41" />
+    <rect class="wall-dd" x="155" y="54" width="4" height="41" />
+
+    
+    <rect class="trim-s" x="85" y="89" width="74" height="2" />
+    <rect class="trim" x="85" y="91" width="74" height="3" />
+    <rect class="trim-d" x="85" y="94" width="74" height="1" />
+
+    
+    <rect class="o" x="76" y="50" width="92" height="4" />
+    <rect class="o" x="82" y="47" width="80" height="3" />
+    <rect class="o" x="88" y="44" width="68" height="3" />
+    <rect class="o" x="94" y="42" width="56" height="2" />
+
+    <rect class="roof-h" x="95" y="43" width="54" height="1" />
+    <rect class="roof-h" x="89" y="45" width="66" height="2" />
+    <rect class="roof" x="83" y="48" width="78" height="2" />
+    <rect class="roof-s" x="77" y="51" width="90" height="2" />
+    <rect class="roof-d" x="77" y="53" width="90" height="1" />
+
+    
+    <rect class="roof-dd" x="94" y="45" width="1" height="8" />
+    <rect class="roof-dd" x="106" y="44" width="1" height="9" />
+    <rect class="roof-dd" x="118" y="43" width="1" height="10" />
+    <rect class="roof-dd" x="130" y="43" width="1" height="10" />
+    <rect class="roof-dd" x="142" y="44" width="1" height="9" />
+    <rect class="roof-dd" x="154" y="45" width="1" height="8" />
+
+    
+    <rect class="o" x="86" y="28" width="72" height="13" />
+    <rect class="sign-s" x="87" y="29" width="70" height="11" />
+    <rect class="sign-bg" x="88" y="29" width="68" height="9" />
+    <rect class="sign-h" x="89" y="30" width="66" height="1" />
+    <rect class="sign-d" x="87" y="39" width="70" height="1" />
+
+    
+    <rect class="gold" x="89" y="31" width="2" height="2" />
+    <rect class="gold" x="153" y="31" width="2" height="2" />
+    <rect class="gold" x="89" y="37" width="2" height="2" />
+    <rect class="gold" x="153" y="37" width="2" height="2" />
+
+    
+    <path class="o" d="M93 32h1v6h-1zM94 34h1v-1h1v1h-1v4h1v-1h-1zM95 32h1v1h-1z" />
+    <path class="o" d="M98 33h3v5h-1v-2h-1v2h-1v-5zM98 32h3v1h-3z" />
+    <path class="o" d="M103 32h1v6h-1zM104 33h1v2h-1zM105 33h1v2h-1zM106 32h1v6h-1z" />
+    <path class="o" d="M109 32h4v1h-3v1h2v1h-2v2h3v1h-4z" />
+
+    
+    <path class="o" d="M122 32h1v6h-1zM123 34h2v1h-2zM125 32h1v6h-1z" />
+    <rect class="o" x="128" y="32" width="4" height="6" />
+    <rect class="sign-bg" x="129" y="33" width="2" height="4" />
+    <path class="o" d="M134 32h1v5h2v-5h1v6h-4z" />
+    <path class="o" d="M140 32h3v1h-2v1h2v4h-3v-1h2v-2h-2z" />
+    <path class="o" d="M145 32h4v1h-3v1h2v1h-2v2h3v1h-4z" />
+
+    
+    <rect class="o" x="94" y="92" width="20" height="4" />
+    <rect class="trim" x="95" y="93" width="18" height="1" />
+    <rect class="trim-d" x="95" y="94" width="18" height="1" />
+
+    <rect class="o" x="96" y="64" width="16" height="28" />
+    <rect class="trim" x="97" y="65" width="14" height="27" />
+    <rect class="wood" x="98" y="66" width="12" height="26" />
+    <rect class="wood-h" x="98" y="66" width="3" height="26" />
+    <rect class="wood-s" x="107" y="66" width="3" height="26" />
+
+    
+    <rect class="o" x="100" y="68" width="8" height="7" />
+    <rect class="wood-d" x="101" y="69" width="6" height="5" />
+    <rect class="wood-s" x="101" y="69" width="4" height="1" />
+
+    <rect class="o" x="100" y="78" width="8" height="10" />
+    <rect class="wood-d" x="101" y="79" width="6" height="8" />
+    <rect class="wood-s" x="101" y="79" width="4" height="1" />
+
+    
+    <rect class="o" x="106" y="79" width="2" height="3" />
+    <rect class="gold-l" x="107" y="80" width="1" height="1" />
+
+    
+    <rect class="o" x="118" y="62" width="22" height="17" />
+    <rect class="trim" x="119" y="63" width="20" height="15" />
+    <rect class="win-sky" x="120" y="64" width="18" height="10" />
+    <rect class="win-sea" x="120" y="74" width="18" height="3" />
+
+    
+    <path class="win-glare" d="M121 65h5l-5 5z" />
+    <rect class="win-glare" x="127" y="65" width="2" height="1" />
+
+    
+    <rect class="curtain" x="120" y="64" width="3" height="13" />
+    <rect class="curtain-d" x="122" y="64" width="1" height="13" />
+    <rect class="curtain" x="135" y="64" width="3" height="13" />
+    <rect class="curtain-d" x="135" y="64" width="1" height="13" />
+
+    
+    <rect class="trim" x="128" y="64" width="2" height="13" />
+    <rect class="trim" x="120" y="70" width="18" height="2" />
+
+    
+    <rect class="o" x="116" y="79" width="26" height="3" />
+    <rect class="trim" x="117" y="80" width="24" height="1" />
+    <rect class="trim-d" x="117" y="81" width="24" height="1" />
+
+    
+    <rect class="o" x="89" y="79" width="5" height="11" />
+    <rect class="wood-h" x="90" y="80" width="1" height="9" />
+    <rect class="wood-d" x="91" y="80" width="2" height="9" />
+    <rect class="o" x="88" y="76" width="7" height="4" />
+    <rect class="roof" x="89" y="77" width="5" height="2" />
+    <rect class="roof-h" x="89" y="77" width="3" height="1" />
+  </g>
+</svg>
