@@ -2,382 +2,432 @@
   "voice": "pt-BR-AntonioNeural",
   "rate": "+8%",
   "pitch": "+0Hz",
-  "text": "Você sabia que o Goku nasceu de uma lenda antiga? A inspiração veio do Rei Macaco, Sun Wukong, da lenda chinesa Jornada ao Oeste, que também ficou muito famosa no Japão. Em mil novecentos e oitenta e quatro, Akira Toriyama transformou essa ideia em mangá e criou Dragon Ball. Poucos anos depois, essa história virou anime, chegou na televisão do mundo inteiro e fez do Goku um dos heróis mais conhecidos de todos os tempos.",
+  "text": "Você sabia que o Goku foi inspirado em uma lenda antiga? A inspiração veio do Rei Macaco, Sun Wukong, da lenda chinesa Jornada ao Oeste, que também ficou muito famosa no Japão. Em mil novecentos e oitenta e quatro, Akira Toriyama transformou essa ideia em mangá e criou Dragon Ball. Poucos anos depois, essa história virou anime, chegou na televisão do mundo inteiro e fez do Goku um dos heróis mais conhecidos de todos os tempos. Curtiu essa origem? Segue pra mais curiosidades de anime.",
   "words": [
     {
       "text": "Você",
       "offset": 0.096291,
-      "duration": 0.243041
+      "duration": 0.266208
     },
     {
       "text": "sabia",
-      "offset": 0.350916,
+      "offset": 0.374083,
       "duration": 0.451375
     },
     {
       "text": "que",
-      "offset": 0.813875,
+      "offset": 0.837041,
       "duration": 0.092583
     },
     {
       "text": "o",
-      "offset": 0.918041,
+      "offset": 0.941208,
       "duration": 0.034708
     },
     {
       "text": "Goku",
-      "offset": 0.964333,
-      "duration": 0.243041
+      "offset": 0.9875,
+      "duration": 0.289333
     },
     {
-      "text": "nasceu",
-      "offset": 1.219,
-      "duration": 0.358791
+      "text": "foi",
+      "offset": 1.288416,
+      "duration": 0.138875
     },
     {
-      "text": "de",
-      "offset": 1.589333,
-      "duration": 0.057875
+      "text": "inspirado",
+      "offset": 1.438875,
+      "duration": 0.497666
+    },
+    {
+      "text": "em",
+      "offset": 1.948166,
+      "duration": 0.069458
     },
     {
       "text": "uma",
-      "offset": 1.658791,
+      "offset": 2.029166,
       "duration": 0.138875
     },
     {
       "text": "lenda",
-      "offset": 1.80925,
+      "offset": 2.179625,
       "duration": 0.289333
     },
     {
       "text": "antiga",
-      "offset": 2.110166,
-      "duration": 0.474541
+      "offset": 2.480541,
+      "duration": 0.462958
     },
     {
       "text": "A",
-      "offset": 3.379625,
+      "offset": 3.738416,
       "duration": 0.081
     },
     {
       "text": "inspiração",
-      "offset": 3.472208,
+      "offset": 3.831,
       "duration": 0.613416
     },
     {
       "text": "veio",
-      "offset": 4.097208,
+      "offset": 4.456,
       "duration": 0.219916
     },
     {
       "text": "do",
-      "offset": 4.328708,
+      "offset": 4.6875,
       "duration": 0.127333
     },
     {
       "text": "Rei",
-      "offset": 4.467583,
+      "offset": 4.826375,
       "duration": 0.173625
     },
     {
       "text": "Macaco",
-      "offset": 4.652791,
+      "offset": 5.011583,
       "duration": 0.486125
     },
     {
       "text": "Sun",
-      "offset": 5.416666,
+      "offset": 5.775458,
       "duration": 0.185166
     },
     {
       "text": "Wukong",
-      "offset": 5.613416,
+      "offset": 5.972208,
       "duration": 0.3935
     },
     {
       "text": "da",
-      "offset": 6.273166,
+      "offset": 6.631958,
       "duration": 0.11575
     },
     {
       "text": "lenda",
-      "offset": 6.400458,
+      "offset": 6.75925,
       "duration": 0.300916
     },
     {
       "text": "chinesa",
-      "offset": 6.712958,
+      "offset": 7.07175,
       "duration": 0.3935
     },
     {
       "text": "Jornada",
-      "offset": 7.118041,
+      "offset": 7.476833,
       "duration": 0.451375
     },
     {
       "text": "ao",
-      "offset": 7.581,
+      "offset": 7.939833,
       "duration": 0.11575
     },
     {
       "text": "Oeste",
-      "offset": 7.708333,
+      "offset": 8.067125,
       "duration": 0.462958
     },
     {
       "text": "que",
-      "offset": 8.425916,
+      "offset": 8.784708,
       "duration": 0.127333
     },
     {
       "text": "também",
-      "offset": 8.564833,
+      "offset": 8.923625,
       "duration": 0.347208
     },
     {
       "text": "ficou",
-      "offset": 8.923625,
+      "offset": 9.282416,
       "duration": 0.289333
     },
     {
       "text": "muito",
-      "offset": 9.224541,
+      "offset": 9.583333,
       "duration": 0.3935
     },
     {
       "text": "famosa",
-      "offset": 9.629625,
+      "offset": 9.988416,
       "duration": 0.462958
     },
     {
       "text": "no",
-      "offset": 10.104166,
+      "offset": 10.462958,
       "duration": 0.069458
     },
     {
       "text": "Japão",
-      "offset": 10.185166,
+      "offset": 10.544,
       "duration": 0.381958
     },
     {
       "text": "Em",
-      "offset": 11.36575,
+      "offset": 11.724541,
       "duration": 0.150458
     },
     {
       "text": "mil",
-      "offset": 11.527791,
+      "offset": 11.886583,
       "duration": 0.127333
     },
     {
       "text": "novecentos",
-      "offset": 11.666666,
+      "offset": 12.025458,
       "duration": 0.544
     },
     {
       "text": "e",
-      "offset": 12.222208,
+      "offset": 12.581,
       "duration": 0.081
     },
     {
       "text": "oitenta",
-      "offset": 12.314833,
+      "offset": 12.673625,
       "duration": 0.266208
     },
     {
       "text": "e",
-      "offset": 12.592583,
+      "offset": 12.951375,
       "duration": 0.034708
     },
     {
       "text": "quatro",
-      "offset": 12.638875,
+      "offset": 12.997666,
       "duration": 0.381958
     },
     {
       "text": "Akira",
-      "offset": 13.24075,
+      "offset": 13.599541,
       "duration": 0.324083
     },
     {
       "text": "Toriyama",
-      "offset": 13.576375,
+      "offset": 13.935166,
       "duration": 0.451375
     },
     {
       "text": "transformou",
-      "offset": 14.039333,
+      "offset": 14.398166,
       "duration": 0.532416
     },
     {
       "text": "essa",
-      "offset": 14.583333,
+      "offset": 14.942125,
       "duration": 0.150458
     },
     {
       "text": "ideia",
-      "offset": 14.745375,
+      "offset": 15.104166,
       "duration": 0.254625
     },
     {
       "text": "em",
-      "offset": 15.011583,
+      "offset": 15.370375,
       "duration": 0.0462909
     },
     {
       "text": "mangá",
-      "offset": 15.069458,
+      "offset": 15.42825,
       "duration": 0.370375
     },
     {
       "text": "e",
-      "offset": 15.451375,
+      "offset": 15.810166,
       "duration": 0.069458
     },
     {
       "text": "criou",
-      "offset": 15.532416,
+      "offset": 15.891208,
       "duration": 0.3125
     },
     {
       "text": "Dragon",
-      "offset": 15.8565,
+      "offset": 16.215291,
       "duration": 0.335666
     },
     {
       "text": "Ball",
-      "offset": 16.203708,
+      "offset": 16.5625,
       "duration": 0.254625
     },
     {
       "text": "Poucos",
-      "offset": 17.256958,
+      "offset": 17.61575,
       "duration": 0.324083
     },
     {
       "text": "anos",
-      "offset": 17.592583,
+      "offset": 17.951375,
       "duration": 0.324083
     },
     {
       "text": "depois",
-      "offset": 17.92825,
+      "offset": 18.287041,
       "duration": 0.439833
     },
     {
       "text": "essa",
-      "offset": 18.611125,
+      "offset": 18.969916,
       "duration": 0.173625
     },
     {
       "text": "história",
-      "offset": 18.796291,
+      "offset": 19.155083,
       "duration": 0.347208
     },
     {
       "text": "virou",
-      "offset": 19.155083,
+      "offset": 19.513875,
       "duration": 0.254625
     },
     {
       "text": "anime",
-      "offset": 19.421291,
+      "offset": 19.780083,
       "duration": 0.324083
     },
     {
       "text": "chegou",
-      "offset": 20.0,
+      "offset": 20.358791,
       "duration": 0.347208
     },
     {
       "text": "na",
-      "offset": 20.358791,
+      "offset": 20.717583,
       "duration": 0.104166
     },
     {
       "text": "televisão",
-      "offset": 20.474541,
+      "offset": 20.833333,
       "duration": 0.486125
     },
     {
       "text": "do",
-      "offset": 20.972208,
+      "offset": 21.331,
       "duration": 0.104166
     },
     {
       "text": "mundo",
-      "offset": 21.087958,
+      "offset": 21.44675,
       "duration": 0.266208
     },
     {
       "text": "inteiro",
-      "offset": 21.36575,
+      "offset": 21.724541,
       "duration": 0.347208
     },
     {
       "text": "e",
-      "offset": 21.724541,
+      "offset": 22.083333,
       "duration": 0.0462909
     },
     {
       "text": "fez",
-      "offset": 21.782416,
-      "duration": 0.243041
-    },
-    {
-      "text": "do",
-      "offset": 22.037041,
-      "duration": 0.092583
-    },
-    {
-      "text": "Goku",
       "offset": 22.141208,
       "duration": 0.243041
     },
     {
-      "text": "um",
+      "text": "do",
       "offset": 22.395833,
+      "duration": 0.092583
+    },
+    {
+      "text": "Goku",
+      "offset": 22.5,
+      "duration": 0.243041
+    },
+    {
+      "text": "um",
+      "offset": 22.754625,
       "duration": 0.138875
     },
     {
       "text": "dos",
-      "offset": 22.546291,
+      "offset": 22.905083,
       "duration": 0.104166
     },
     {
       "text": "heróis",
-      "offset": 22.662041,
+      "offset": 23.020833,
       "duration": 0.324083
     },
     {
       "text": "mais",
-      "offset": 22.997666,
+      "offset": 23.3565,
       "duration": 0.243041
     },
     {
       "text": "conhecidos",
-      "offset": 23.252333,
+      "offset": 23.611125,
       "duration": 0.578708
     },
     {
       "text": "de",
-      "offset": 23.842583,
+      "offset": 24.201375,
       "duration": 0.11575
     },
     {
       "text": "todos",
-      "offset": 23.969916,
+      "offset": 24.328708,
       "duration": 0.277791
     },
     {
       "text": "os",
-      "offset": 24.25925,
+      "offset": 24.618041,
       "duration": 0.162041
     },
     {
       "text": "tempos",
-      "offset": 24.432875,
+      "offset": 24.791666,
       "duration": 0.474541
+    },
+    {
+      "text": "Curtiu",
+      "offset": 26.064833,
+      "duration": 0.42825
+    },
+    {
+      "text": "essa",
+      "offset": 26.504625,
+      "duration": 0.208333
+    },
+    {
+      "text": "origem",
+      "offset": 26.724541,
+      "duration": 0.42825
+    },
+    {
+      "text": "Segue",
+      "offset": 27.951375,
+      "duration": 0.416666
+    },
+    {
+      "text": "pra",
+      "offset": 28.379625,
+      "duration": 0.150458
+    },
+    {
+      "text": "mais",
+      "offset": 28.541666,
+      "duration": 0.243041
+    },
+    {
+      "text": "curiosidades",
+      "offset": 28.796291,
+      "duration": 0.671291
+    },
+    {
+      "text": "de",
+      "offset": 29.479166,
+      "duration": 0.069458
+    },
+    {
+      "text": "anime",
+      "offset": 29.560166,
+      "duration": 0.381958
     }
   ]
 }

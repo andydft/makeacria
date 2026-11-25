@@ -6,10 +6,11 @@ RATE = "+8%"
 PITCH = "+0Hz"
 OUT = os.path.join("public", "goku-lenda-manga-anime")
 TEXT = (
-    "Você sabia que o Goku nasceu de uma lenda antiga? "
+    "Você sabia que o Goku foi inspirado em uma lenda antiga? "
     "A inspiração veio do Rei Macaco, Sun Wukong, da lenda chinesa Jornada ao Oeste, que também ficou muito famosa no Japão. "
     "Em mil novecentos e oitenta e quatro, Akira Toriyama transformou essa ideia em mangá e criou Dragon Ball. "
-    "Poucos anos depois, essa história virou anime, chegou na televisão do mundo inteiro e fez do Goku um dos heróis mais conhecidos de todos os tempos."
+    "Poucos anos depois, essa história virou anime, chegou na televisão do mundo inteiro e fez do Goku um dos heróis mais conhecidos de todos os tempos. "
+    "Curtiu essa origem? Segue pra mais curiosidades de anime."
 )
 
 async def main():
