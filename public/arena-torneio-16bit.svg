@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 65" width="900" height="260" shape-rendering="crispEdges" role="img" aria-label="Plataforma e piso de torneio de artes marciais em vista frontal simples de pedra e tatame no estilo 16-bit com fundo transparente">
+  <defs>
+    <style>
+      .o { fill: #121014; }
+
+      /* Cores de pedra / concreto da plataforma */
+      .stone-hi { fill: #D9D5E0; }
+      .stone { fill: #ACA6B8; }
+      .stone-mid { fill: #847E91; }
+      .stone-shd { fill: #5E596B; }
+      .stone-deep { fill: #3B3747; }
+
+      /* Cores do tatame central de artes marciais */
+      .mat-hi { fill: #73B8F2; }
+      .mat { fill: #468ED1; }
+      .mat-shd { fill: #2E6BA8; }
+      .mat-deep { fill: #1D4B7A; }
+      .mat-line { fill: #DCEBFA; }
+
+      /* Detalhes dourados e bordas do torneio */
+      .gold-hi { fill: #FFE885; }
+      .gold { fill: #E6B529; }
+      .gold-shd { fill: #A6790A; }
+    </style>
+  </defs>
+
+  <!-- Plataforma de torneio de artes marciais em vista frontal (fundo transparente, ~900x260) -->
+  <g id="martial-arts-arena">
+    <!-- Base / alicerce inferior em pedra -->
+    <rect class="o" x="6" y="42" width="213" height="18" />
+    <rect class="stone-mid" x="7" y="43" width="211" height="4" />
+    <rect class="stone-shd" x="7" y="47" width="211" height="6" />
+    <rect class="stone-deep" x="7" y="53" width="211" height="6" />
+
+    <!-- Blocos e juntas verticais na base de pedra -->
+    <rect class="o" x="24" y="43" width="1" height="16" />
+    <rect class="o" x="48" y="43" width="1" height="16" />
+    <rect class="o" x="72" y="43" width="1" height="16" />
+    <rect class="o" x="96" y="43" width="1" height="16" />
+    <rect class="o" x="112" y="43" width="1" height="16" />
+    <rect class="o" x="128" y="43" width="1" height="16" />
+    <rect class="o" x="152" y="43" width="1" height="16" />
+    <rect class="o" x="176" y="43" width="1" height="16" />
+    <rect class="o" x="200" y="43" width="1" height="16" />
+
+    <!-- Escada frontal central simples -->
+    <rect class="o" x="94" y="48" width="37" height="12" />
+    <rect class="stone-hi" x="95" y="49" width="35" height="2" />
+    <rect class="stone" x="95" y="51" width="35" height="2" />
+    <rect class="stone-shd" x="95" y="53" width="35" height="3" />
+    <rect class="stone-deep" x="95" y="56" width="35" height="3" />
+
+    <!-- Degraus horizontais -->
+    <rect class="o" x="95" y="52" width="35" height="1" />
+    <rect class="o" x="95" y="55" width="35" height="1" />
+
+    <!-- Faixa / moldura superior da plataforma de pedra -->
+    <rect class="o" x="4" y="34" width="217" height="9" />
+    <rect class="stone-hi" x="5" y="35" width="215" height="2" />
+    <rect class="stone" x="5" y="37" width="215" height="3" />
+    <rect class="stone-shd" x="5" y="40" width="215" height="2" />
+
+    <!-- Divisórias na borda da plataforma -->
+    <rect class="o" x="32" y="35" width="1" height="7" />
+    <rect class="o" x="64" y="35" width="1" height="7" />
+    <rect class="o" x="96" y="35" width="1" height="7" />
+    <rect class="o" x="128" y="35" width="1" height="7" />
+    <rect class="o" x="160" y="35" width="1" height="7" />
+    <rect class="o" x="192" y="35" width="1" height="7" />
+
+    <!-- Piso / tatame central de artes marciais -->
+    <rect class="o" x="12" y="24" width="201" height="11" />
+
+    <!-- Faixa frontal do tatame (espessura vista de frente) -->
+    <rect class="mat-shd" x="13" y="30" width="199" height="3" />
+    <rect class="mat-deep" x="13" y="33" width="199" height="1" />
+
+    <!-- Superfície superior do tatame em perspectiva simples -->
+    <rect class="mat-hi" x="13" y="25" width="199" height="2" />
+    <rect class="mat" x="13" y="27" width="199" height="3" />
+
+    <!-- Emendas / placas do tatame e faixa central -->
+    <rect class="mat-shd" x="42" y="25" width="1" height="8" />
+    <rect class="mat-shd" x="72" y="25" width="1" height="8" />
+    <rect class="mat-shd" x="102" y="25" width="1" height="8" />
+    <rect class="mat-shd" x="122" y="25" width="1" height="8" />
+    <rect class="mat-shd" x="152" y="25" width="1" height="8" />
+    <rect class="mat-shd" x="182" y="25" width="1" height="8" />
+
+    <!-- Linha de marcação frontal no tatame -->
+    <rect class="mat-line" x="18" y="28" width="189" height="1" />
+
+    <!-- Pequenos marcadores dourados nas extremidades do tatame -->
+    <rect class="o" x="15" y="26" width="5" height="5" />
+    <rect class="gold-hi" x="16" y="27" width="3" height="1" />
+    <rect class="gold" x="16" y="28" width="3" height="1" />
+    <rect class="gold-shd" x="16" y="29" width="3" height="1" />
+
+    <rect class="o" x="205" y="26" width="5" height="5" />
+    <rect class="gold-hi" x="206" y="27" width="3" height="1" />
+    <rect class="gold" x="206" y="28" width="3" height="1" />
+    <rect class="gold-shd" x="206" y="29" width="3" height="1" />
+  </g>
+</svg>

@@ -1,0 +1,973 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "pitch": "+0Hz",
+  "text": "Você sabia que o Goku foi inspirado em um dos personagens mais famosos de uma antiga lenda chinesa? A inspiração veio de Sun Wukong, o Rei Macaco, de Jornada ao Oeste. Ele é um guerreiro poderoso, irreverente e cheio de aventuras. E até o nome Son Goku vem desse personagem lendário. Akira Toriyama aproveitou ideias dessa lenda, como o bastão mágico, a nuvem voadora e os traços de macaco. Mas transformou tudo em algo novo: um garoto com cauda, simples, forte e cheio de curiosidade. Em vinte de novembro de mil novecentos e oitenta e quatro, Dragon Ball estreou na revista Weekly Shonen Jump. No começo, era uma aventura cômica em busca das sete Esferas do Dragão. A cauda deixava o Goku único. E quando olhava para a lua cheia, algo incrível podia acontecer: a transformação no grande Oozaru. Com o tempo, a história ganhou torneios, artes marciais e batalhas cada vez mais intensas. Em mil novecentos e oitenta e seis, Dragon Ball virou anime na televisão japonesa e conquistou o mundo. De uma lenda antiga ao maior herói dos animes... essa história ainda está só começando. Segue pra ver a próxima parte!",
+  "words": [
+    {
+      "text": "Você",
+      "offset": 0.096291,
+      "duration": 0.289333
+    },
+    {
+      "text": "sabia",
+      "offset": 0.397208,
+      "duration": 0.451375
+    },
+    {
+      "text": "que",
+      "offset": 0.860166,
+      "duration": 0.104166
+    },
+    {
+      "text": "o",
+      "offset": 0.975916,
+      "duration": 0.034708
+    },
+    {
+      "text": "Goku",
+      "offset": 1.022208,
+      "duration": 0.324083
+    },
+    {
+      "text": "foi",
+      "offset": 1.357875,
+      "duration": 0.138875
+    },
+    {
+      "text": "inspirado",
+      "offset": 1.508333,
+      "duration": 0.497666
+    },
+    {
+      "text": "em",
+      "offset": 2.017583,
+      "duration": 0.069458
+    },
+    {
+      "text": "um",
+      "offset": 2.098625,
+      "duration": 0.069458
+    },
+    {
+      "text": "dos",
+      "offset": 2.179625,
+      "duration": 0.185166
+    },
+    {
+      "text": "personagens",
+      "offset": 2.376375,
+      "duration": 0.648166
+    },
+    {
+      "text": "mais",
+      "offset": 3.036125,
+      "duration": 0.219916
+    },
+    {
+      "text": "famosos",
+      "offset": 3.267583,
+      "duration": 0.520833
+    },
+    {
+      "text": "de",
+      "offset": 3.8,
+      "duration": 0.069458
+    },
+    {
+      "text": "uma",
+      "offset": 3.881,
+      "duration": 0.092583
+    },
+    {
+      "text": "antiga",
+      "offset": 3.985166,
+      "duration": 0.324083
+    },
+    {
+      "text": "lenda",
+      "offset": 4.320833,
+      "duration": 0.277791
+    },
+    {
+      "text": "chinesa",
+      "offset": 4.610166,
+      "duration": 0.474541
+    },
+    {
+      "text": "A",
+      "offset": 5.879625,
+      "duration": 0.081
+    },
+    {
+      "text": "inspiração",
+      "offset": 5.972208,
+      "duration": 0.601833
+    },
+    {
+      "text": "veio",
+      "offset": 6.585666,
+      "duration": 0.219916
+    },
+    {
+      "text": "de",
+      "offset": 6.817125,
+      "duration": 0.092583
+    },
+    {
+      "text": "Sun",
+      "offset": 6.921291,
+      "duration": 0.2315
+    },
+    {
+      "text": "Wukong",
+      "offset": 7.164333,
+      "duration": 0.358791
+    },
+    {
+      "text": "o",
+      "offset": 7.858791,
+      "duration": 0.0462909
+    },
+    {
+      "text": "Rei",
+      "offset": 7.916666,
+      "duration": 0.173625
+    },
+    {
+      "text": "Macaco",
+      "offset": 8.101833,
+      "duration": 0.474541
+    },
+    {
+      "text": "de",
+      "offset": 8.807875,
+      "duration": 0.081
+    },
+    {
+      "text": "Jornada",
+      "offset": 8.900458,
+      "duration": 0.462958
+    },
+    {
+      "text": "ao",
+      "offset": 9.375,
+      "duration": 0.104166
+    },
+    {
+      "text": "Oeste",
+      "offset": 9.49075,
+      "duration": 0.462958
+    },
+    {
+      "text": "Ele",
+      "offset": 10.752333,
+      "duration": 0.185166
+    },
+    {
+      "text": "é",
+      "offset": 10.949083,
+      "duration": 0.023166
+    },
+    {
+      "text": "um",
+      "offset": 10.983791,
+      "duration": 0.081
+    },
+    {
+      "text": "guerreiro",
+      "offset": 11.076375,
+      "duration": 0.358791
+    },
+    {
+      "text": "poderoso",
+      "offset": 11.44675,
+      "duration": 0.520833
+    },
+    {
+      "text": "irreverente",
+      "offset": 12.1875,
+      "duration": 0.567125
+    },
+    {
+      "text": "e",
+      "offset": 12.766208,
+      "duration": 0.023166
+    },
+    {
+      "text": "cheio",
+      "offset": 12.800916,
+      "duration": 0.3125
+    },
+    {
+      "text": "de",
+      "offset": 13.125,
+      "duration": 0.069458
+    },
+    {
+      "text": "aventuras",
+      "offset": 13.206,
+      "duration": 0.682875
+    },
+    {
+      "text": "E",
+      "offset": 14.6875,
+      "duration": 0.11575
+    },
+    {
+      "text": "até",
+      "offset": 14.814833,
+      "duration": 0.254625
+    },
+    {
+      "text": "o",
+      "offset": 15.081,
+      "duration": 0.034708
+    },
+    {
+      "text": "nome",
+      "offset": 15.127333,
+      "duration": 0.2315
+    },
+    {
+      "text": "Son",
+      "offset": 15.370375,
+      "duration": 0.219916
+    },
+    {
+      "text": "Goku",
+      "offset": 15.601833,
+      "duration": 0.289333
+    },
+    {
+      "text": "vem",
+      "offset": 15.902791,
+      "duration": 0.150458
+    },
+    {
+      "text": "desse",
+      "offset": 16.064833,
+      "duration": 0.208333
+    },
+    {
+      "text": "personagem",
+      "offset": 16.284708,
+      "duration": 0.567125
+    },
+    {
+      "text": "lendário",
+      "offset": 16.863416,
+      "duration": 0.486125
+    },
+    {
+      "text": "Akira",
+      "offset": 18.148166,
+      "duration": 0.42825
+    },
+    {
+      "text": "Toriyama",
+      "offset": 18.587958,
+      "duration": 0.405083
+    },
+    {
+      "text": "aproveitou",
+      "offset": 19.004625,
+      "duration": 0.486125
+    },
+    {
+      "text": "ideias",
+      "offset": 19.502333,
+      "duration": 0.3125
+    },
+    {
+      "text": "dessa",
+      "offset": 19.826375,
+      "duration": 0.266208
+    },
+    {
+      "text": "lenda",
+      "offset": 20.104166,
+      "duration": 0.347208
+    },
+    {
+      "text": "como",
+      "offset": 20.729166,
+      "duration": 0.19675
+    },
+    {
+      "text": "o",
+      "offset": 20.9375,
+      "duration": 0.023166
+    },
+    {
+      "text": "bastão",
+      "offset": 20.972208,
+      "duration": 0.3125
+    },
+    {
+      "text": "mágico",
+      "offset": 21.296291,
+      "duration": 0.462958
+    },
+    {
+      "text": "a",
+      "offset": 22.002333,
+      "duration": 0.081
+    },
+    {
+      "text": "nuvem",
+      "offset": 22.094916,
+      "duration": 0.324083
+    },
+    {
+      "text": "voadora",
+      "offset": 22.430541,
+      "duration": 0.462958
+    },
+    {
+      "text": "e",
+      "offset": 22.905083,
+      "duration": 0.034708
+    },
+    {
+      "text": "os",
+      "offset": 22.951375,
+      "duration": 0.104166
+    },
+    {
+      "text": "traços",
+      "offset": 23.067125,
+      "duration": 0.370375
+    },
+    {
+      "text": "de",
+      "offset": 23.449083,
+      "duration": 0.069458
+    },
+    {
+      "text": "macaco",
+      "offset": 23.530083,
+      "duration": 0.474541
+    },
+    {
+      "text": "Mas",
+      "offset": 24.80325,
+      "duration": 0.277791
+    },
+    {
+      "text": "transformou",
+      "offset": 25.092583,
+      "duration": 0.567125
+    },
+    {
+      "text": "tudo",
+      "offset": 25.671291,
+      "duration": 0.243041
+    },
+    {
+      "text": "em",
+      "offset": 25.925916,
+      "duration": 0.092583
+    },
+    {
+      "text": "algo",
+      "offset": 26.030083,
+      "duration": 0.254625
+    },
+    {
+      "text": "novo",
+      "offset": 26.296291,
+      "duration": 0.347208
+    },
+    {
+      "text": "um",
+      "offset": 26.956,
+      "duration": 0.104166
+    },
+    {
+      "text": "garoto",
+      "offset": 27.07175,
+      "duration": 0.381958
+    },
+    {
+      "text": "com",
+      "offset": 27.465291,
+      "duration": 0.162041
+    },
+    {
+      "text": "cauda",
+      "offset": 27.638875,
+      "duration": 0.3125
+    },
+    {
+      "text": "simples",
+      "offset": 28.148166,
+      "duration": 0.486125
+    },
+    {
+      "text": "forte",
+      "offset": 28.888875,
+      "duration": 0.370375
+    },
+    {
+      "text": "e",
+      "offset": 29.270833,
+      "duration": 0.023166
+    },
+    {
+      "text": "cheio",
+      "offset": 29.305541,
+      "duration": 0.277791
+    },
+    {
+      "text": "de",
+      "offset": 29.594916,
+      "duration": 0.092583
+    },
+    {
+      "text": "curiosidade",
+      "offset": 29.699083,
+      "duration": 0.706
+    },
+    {
+      "text": "Em",
+      "offset": 31.203708,
+      "duration": 0.162041
+    },
+    {
+      "text": "vinte",
+      "offset": 31.377333,
+      "duration": 0.277791
+    },
+    {
+      "text": "de",
+      "offset": 31.666666,
+      "duration": 0.069458
+    },
+    {
+      "text": "novembro",
+      "offset": 31.747666,
+      "duration": 0.439833
+    },
+    {
+      "text": "de",
+      "offset": 32.199083,
+      "duration": 0.092583
+    },
+    {
+      "text": "mil",
+      "offset": 32.30325,
+      "duration": 0.11575
+    },
+    {
+      "text": "novecentos",
+      "offset": 32.430541,
+      "duration": 0.486125
+    },
+    {
+      "text": "e",
+      "offset": 32.92825,
+      "duration": 0.081
+    },
+    {
+      "text": "oitenta",
+      "offset": 33.020833,
+      "duration": 0.254625
+    },
+    {
+      "text": "e",
+      "offset": 33.287041,
+      "duration": 0.034708
+    },
+    {
+      "text": "quatro",
+      "offset": 33.333333,
+      "duration": 0.381958
+    },
+    {
+      "text": "Dragon",
+      "offset": 33.958333,
+      "duration": 0.370375
+    },
+    {
+      "text": "Ball",
+      "offset": 34.340291,
+      "duration": 0.254625
+    },
+    {
+      "text": "estreou",
+      "offset": 34.6065,
+      "duration": 0.358791
+    },
+    {
+      "text": "na",
+      "offset": 34.976833,
+      "duration": 0.104166
+    },
+    {
+      "text": "revista",
+      "offset": 35.092583,
+      "duration": 0.405083
+    },
+    {
+      "text": "Weekly",
+      "offset": 35.50925,
+      "duration": 0.3125
+    },
+    {
+      "text": "Shonen",
+      "offset": 35.833333,
+      "duration": 0.324083
+    },
+    {
+      "text": "Jump",
+      "offset": 36.169,
+      "duration": 0.416666
+    },
+    {
+      "text": "No",
+      "offset": 37.38425,
+      "duration": 0.162041
+    },
+    {
+      "text": "começo",
+      "offset": 37.557875,
+      "duration": 0.50925
+    },
+    {
+      "text": "era",
+      "offset": 38.298625,
+      "duration": 0.127333
+    },
+    {
+      "text": "uma",
+      "offset": 38.4375,
+      "duration": 0.092583
+    },
+    {
+      "text": "aventura",
+      "offset": 38.541666,
+      "duration": 0.42825
+    },
+    {
+      "text": "cômica",
+      "offset": 38.9815,
+      "duration": 0.347208
+    },
+    {
+      "text": "em",
+      "offset": 39.340291,
+      "duration": 0.081
+    },
+    {
+      "text": "busca",
+      "offset": 39.432875,
+      "duration": 0.370375
+    },
+    {
+      "text": "das",
+      "offset": 39.814833,
+      "duration": 0.162041
+    },
+    {
+      "text": "sete",
+      "offset": 39.988416,
+      "duration": 0.254625
+    },
+    {
+      "text": "Esferas",
+      "offset": 40.254625,
+      "duration": 0.405083
+    },
+    {
+      "text": "do",
+      "offset": 40.671291,
+      "duration": 0.104166
+    },
+    {
+      "text": "Dragão",
+      "offset": 40.787041,
+      "duration": 0.405083
+    },
+    {
+      "text": "A",
+      "offset": 41.99075,
+      "duration": 0.127333
+    },
+    {
+      "text": "cauda",
+      "offset": 42.129625,
+      "duration": 0.3125
+    },
+    {
+      "text": "deixava",
+      "offset": 42.453708,
+      "duration": 0.405083
+    },
+    {
+      "text": "o",
+      "offset": 42.870375,
+      "duration": 0.023166
+    },
+    {
+      "text": "Goku",
+      "offset": 42.905083,
+      "duration": 0.277791
+    },
+    {
+      "text": "único",
+      "offset": 43.194458,
+      "duration": 0.3125
+    },
+    {
+      "text": "E",
+      "offset": 44.305541,
+      "duration": 0.104166
+    },
+    {
+      "text": "quando",
+      "offset": 44.421291,
+      "duration": 0.208333
+    },
+    {
+      "text": "olhava",
+      "offset": 44.641208,
+      "duration": 0.381958
+    },
+    {
+      "text": "para",
+      "offset": 45.034708,
+      "duration": 0.150458
+    },
+    {
+      "text": "a",
+      "offset": 45.19675,
+      "duration": 0.011583
+    },
+    {
+      "text": "lua",
+      "offset": 45.219916,
+      "duration": 0.185166
+    },
+    {
+      "text": "cheia",
+      "offset": 45.416666,
+      "duration": 0.358791
+    },
+    {
+      "text": "algo",
+      "offset": 45.995375,
+      "duration": 0.185166
+    },
+    {
+      "text": "incrível",
+      "offset": 46.192125,
+      "duration": 0.42825
+    },
+    {
+      "text": "podia",
+      "offset": 46.631958,
+      "duration": 0.266208
+    },
+    {
+      "text": "acontecer",
+      "offset": 46.909708,
+      "duration": 0.555541
+    },
+    {
+      "text": "a",
+      "offset": 47.7315,
+      "duration": 0.069458
+    },
+    {
+      "text": "transformação",
+      "offset": 47.8125,
+      "duration": 0.694458
+    },
+    {
+      "text": "no",
+      "offset": 48.5185,
+      "duration": 0.092583
+    },
+    {
+      "text": "grande",
+      "offset": 48.622666,
+      "duration": 0.347208
+    },
+    {
+      "text": "Oozaru",
+      "offset": 48.9815,
+      "duration": 0.416666
+    },
+    {
+      "text": "Com",
+      "offset": 50.19675,
+      "duration": 0.185166
+    },
+    {
+      "text": "o",
+      "offset": 50.3935,
+      "duration": 0.0462909
+    },
+    {
+      "text": "tempo",
+      "offset": 50.451375,
+      "duration": 0.358791
+    },
+    {
+      "text": "a",
+      "offset": 50.983791,
+      "duration": 0.057875
+    },
+    {
+      "text": "história",
+      "offset": 51.05325,
+      "duration": 0.370375
+    },
+    {
+      "text": "ganhou",
+      "offset": 51.435166,
+      "duration": 0.254625
+    },
+    {
+      "text": "torneios",
+      "offset": 51.701375,
+      "duration": 0.567125
+    },
+    {
+      "text": "artes",
+      "offset": 52.488416,
+      "duration": 0.324083
+    },
+    {
+      "text": "marciais",
+      "offset": 52.824083,
+      "duration": 0.462958
+    },
+    {
+      "text": "e",
+      "offset": 53.298625,
+      "duration": 0.069458
+    },
+    {
+      "text": "batalhas",
+      "offset": 53.379625,
+      "duration": 0.50925
+    },
+    {
+      "text": "cada",
+      "offset": 53.900458,
+      "duration": 0.208333
+    },
+    {
+      "text": "vez",
+      "offset": 54.120375,
+      "duration": 0.208333
+    },
+    {
+      "text": "mais",
+      "offset": 54.340291,
+      "duration": 0.208333
+    },
+    {
+      "text": "intensas",
+      "offset": 54.560166,
+      "duration": 0.682875
+    },
+    {
+      "text": "Em",
+      "offset": 56.041666,
+      "duration": 0.150458
+    },
+    {
+      "text": "mil",
+      "offset": 56.203708,
+      "duration": 0.127333
+    },
+    {
+      "text": "novecentos",
+      "offset": 56.342583,
+      "duration": 0.520833
+    },
+    {
+      "text": "e",
+      "offset": 56.875,
+      "duration": 0.081
+    },
+    {
+      "text": "oitenta",
+      "offset": 56.967583,
+      "duration": 0.266208
+    },
+    {
+      "text": "e",
+      "offset": 57.245375,
+      "duration": 0.034708
+    },
+    {
+      "text": "seis",
+      "offset": 57.291666,
+      "duration": 0.335666
+    },
+    {
+      "text": "Dragon",
+      "offset": 57.847208,
+      "duration": 0.3935
+    },
+    {
+      "text": "Ball",
+      "offset": 58.252333,
+      "duration": 0.19675
+    },
+    {
+      "text": "virou",
+      "offset": 58.460625,
+      "duration": 0.2315
+    },
+    {
+      "text": "anime",
+      "offset": 58.703708,
+      "duration": 0.289333
+    },
+    {
+      "text": "na",
+      "offset": 59.004625,
+      "duration": 0.11575
+    },
+    {
+      "text": "televisão",
+      "offset": 59.131958,
+      "duration": 0.439833
+    },
+    {
+      "text": "japonesa",
+      "offset": 59.583333,
+      "duration": 0.567125
+    },
+    {
+      "text": "e",
+      "offset": 60.162041,
+      "duration": 0.0462909
+    },
+    {
+      "text": "conquistou",
+      "offset": 60.219916,
+      "duration": 0.474541
+    },
+    {
+      "text": "o",
+      "offset": 60.706,
+      "duration": 0.023166
+    },
+    {
+      "text": "mundo",
+      "offset": 60.74075,
+      "duration": 0.358791
+    },
+    {
+      "text": "De",
+      "offset": 61.898125,
+      "duration": 0.162041
+    },
+    {
+      "text": "uma",
+      "offset": 62.07175,
+      "duration": 0.138875
+    },
+    {
+      "text": "lenda",
+      "offset": 62.222208,
+      "duration": 0.266208
+    },
+    {
+      "text": "antiga",
+      "offset": 62.5,
+      "duration": 0.324083
+    },
+    {
+      "text": "ao",
+      "offset": 62.835625,
+      "duration": 0.081
+    },
+    {
+      "text": "maior",
+      "offset": 62.92825,
+      "duration": 0.254625
+    },
+    {
+      "text": "herói",
+      "offset": 63.194458,
+      "duration": 0.19675
+    },
+    {
+      "text": "dos",
+      "offset": 63.402791,
+      "duration": 0.081
+    },
+    {
+      "text": "animes",
+      "offset": 63.495375,
+      "duration": 0.520833
+    },
+    {
+      "text": "essa",
+      "offset": 64.25925,
+      "duration": 0.185166
+    },
+    {
+      "text": "história",
+      "offset": 64.456,
+      "duration": 0.347208
+    },
+    {
+      "text": "ainda",
+      "offset": 64.814791,
+      "duration": 0.208333
+    },
+    {
+      "text": "está",
+      "offset": 65.034708,
+      "duration": 0.185166
+    },
+    {
+      "text": "só",
+      "offset": 65.231458,
+      "duration": 0.254625
+    },
+    {
+      "text": "começando",
+      "offset": 65.497666,
+      "duration": 0.590291
+    },
+    {
+      "text": "Segue",
+      "offset": 66.886583,
+      "duration": 0.42825
+    },
+    {
+      "text": "pra",
+      "offset": 67.326375,
+      "duration": 0.173625
+    },
+    {
+      "text": "ver",
+      "offset": 67.511583,
+      "duration": 0.162041
+    },
+    {
+      "text": "a",
+      "offset": 67.685166,
+      "duration": 0.081
+    },
+    {
+      "text": "próxima",
+      "offset": 67.777791,
+      "duration": 0.486125
+    },
+    {
+      "text": "parte",
+      "offset": 68.275458,
+      "duration": 0.451375
+    }
+  ]
+}

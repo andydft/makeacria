@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 200" width="60" height="500" role="img" aria-label="Bastão mágico vermelho e dourado estilo Ruyi Jingu Bang em 16-bit com fundo transparente">
+  <defs>
+    <style>
+      .o { fill: #121014; }
+      .red-hi { fill: #FF786E; }
+      .red { fill: #E32B24; }
+      .red-shd { fill: #B31914; }
+      .red-deep { fill: #7A0D0A; }
+      .gold-hi { fill: #FFF394; }
+      .gold { fill: #F7C225; }
+      .gold-shd { fill: #C98B0E; }
+      .gold-deep { fill: #8C5B05; }
+      .ring-band { fill: #3B2814; }
+      .spark { fill: #FFFBE0; }
+    </style>
+  </defs>
+
+  
+  <g id="magic-sparks">
+    <rect class="o" x="20" y="16" width="2" height="4" />
+    <rect class="o" x="19" y="17" width="4" height="2" />
+    <rect class="spark" x="20" y="17" width="2" height="2" />
+
+    <rect class="o" x="2" y="96" width="2" height="4" />
+    <rect class="o" x="1" y="97" width="4" height="2" />
+    <rect class="spark" x="2" y="97" width="2" height="2" />
+
+    <rect class="o" x="21" y="178" width="2" height="4" />
+    <rect class="o" x="20" y="179" width="4" height="2" />
+    <rect class="spark" x="21" y="179" width="2" height="2" />
+  </g>
+
+  
+  <g id="staff-shaft">
+    
+    <rect class="o" x="7" y="14" width="10" height="172" />
+
+    
+    <rect class="red-hi" x="8" y="15" width="2" height="170" />
+    <rect class="red" x="10" y="15" width="3" height="170" />
+    <rect class="red-shd" x="13" y="15" width="2" height="170" />
+    <rect class="red-deep" x="15" y="15" width="1" height="170" />
+
+    
+    <rect class="red-deep" x="8" y="48" width="8" height="1" />
+    <rect class="red-deep" x="8" y="84" width="8" height="1" />
+    <rect class="red-deep" x="8" y="116" width="8" height="1" />
+    <rect class="red-deep" x="8" y="152" width="8" height="1" />
+  </g>
+
+  
+  <g id="top-gold-ring">
+    <rect class="o" x="5" y="10" width="14" height="14" />
+    <rect class="gold-hi" x="6" y="11" width="4" height="12" />
+    <rect class="gold" x="10" y="11" width="4" height="12" />
+    <rect class="gold-shd" x="14" y="11" width="3" height="12" />
+    <rect class="gold-deep" x="17" y="11" width="1" height="12" />
+
+    
+    <rect class="o" x="6" y="13" width="12" height="1" />
+    <rect class="o" x="6" y="20" width="12" height="1" />
+    <rect class="ring-band" x="7" y="14" width="10" height="6" />
+    <rect class="gold-hi" x="8" y="15" width="2" height="4" />
+    <rect class="gold" x="10" y="15" width="4" height="4" />
+    <rect class="gold-shd" x="14" y="15" width="2" height="4" />
+
+    
+    <rect class="o" x="10" y="15" width="4" height="4" />
+    <rect class="gold-hi" x="11" y="16" width="2" height="2" />
+  </g>
+
+  
+  <g id="bottom-gold-ring">
+    <rect class="o" x="5" y="176" width="14" height="14" />
+    <rect class="gold-hi" x="6" y="177" width="4" height="12" />
+    <rect class="gold" x="10" y="177" width="4" height="12" />
+    <rect class="gold-shd" x="14" y="177" width="3" height="12" />
+    <rect class="gold-deep" x="17" y="177" width="1" height="12" />
+
+    
+    <rect class="o" x="6" y="179" width="12" height="1" />
+    <rect class="o" x="6" y="186" width="12" height="1" />
+    <rect class="ring-band" x="7" y="180" width="10" height="6" />
+    <rect class="gold-hi" x="8" y="181" width="2" height="4" />
+    <rect class="gold" x="10" y="181" width="4" height="4" />
+    <rect class="gold-shd" x="14" y="181" width="2" height="4" />
+
+    
+    <rect class="o" x="10" y="181" width="4" height="4" />
+    <rect class="gold-hi" x="11" y="182" width="2" height="2" />
+  </g>
+</svg>

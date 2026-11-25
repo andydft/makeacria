@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 130" width="420" height="520" role="img" aria-label="Silhueta limpa do macaco gigante Oozaru em pose imponente estilo 16-bit com fundo transparente">
+  <defs>
+    <style>
+      .rim { fill: #4A455A; }
+      .body { fill: #14121A; }
+    </style>
+  </defs>
+
+  <g id="oozaru-silhouette">
+    
+    <g class="rim">
+      <rect x="46" y="8" width="4" height="2" />
+      <rect x="36" y="10" width="24" height="2" />
+      <rect x="34" y="12" width="2" height="4" />
+      <rect x="60" y="12" width="2" height="4" />
+      <rect x="32" y="16" width="2" height="6" />
+      <rect x="62" y="16" width="2" height="6" />
+      <rect x="26" y="22" width="6" height="2" />
+      <rect x="64" y="22" width="6" height="2" />
+      <rect x="24" y="24" width="2" height="4" />
+      <rect x="70" y="24" width="2" height="8" />
+
+      <rect x="18" y="28" width="6" height="2" />
+      <rect x="16" y="30" width="2" height="8" />
+      <rect x="18" y="38" width="14" height="2" />
+
+      <rect x="10" y="34" width="8" height="2" />
+      <rect x="8" y="36" width="2" height="26" />
+      <rect x="8" y="62" width="12" height="2" />
+
+      <rect x="28" y="40" width="46" height="2" />
+      <rect x="74" y="42" width="16" height="2" />
+      <rect x="90" y="44" width="4" height="24" />
+      <rect x="78" y="68" width="14" height="2" />
+      <rect x="22" y="54" width="2" height="3" />
+      <rect x="22" y="68" width="2" height="3" />
+
+      <rect x="94" y="70" width="2" height="20" />
+      <rect x="84" y="86" width="10" height="2" />
+      <rect x="72" y="88" width="12" height="2" />
+      <rect x="84" y="94" width="10" height="2" />
+      <rect x="94" y="90" width="2" height="4" />
+
+      <rect x="16" y="92" width="4" height="22" />
+      <rect x="14" y="114" width="28" height="4" />
+
+      <rect x="78" y="90" width="4" height="24" />
+      <rect x="58" y="114" width="26" height="4" />
+    </g>
+
+    
+    <g class="body">
+      <rect x="47" y="10" width="2" height="2" />
+      <rect x="36" y="12" width="24" height="4" />
+      <rect x="34" y="16" width="28" height="6" />
+      <rect x="32" y="22" width="32" height="2" />
+      <rect x="26" y="24" width="44" height="6" />
+      <rect x="18" y="30" width="52" height="8" />
+      <rect x="10" y="36" width="54" height="6" />
+      <rect x="10" y="42" width="80" height="20" />
+      <rect x="20" y="62" width="70" height="6" />
+      <rect x="24" y="68" width="54" height="2" />
+      <rect x="24" y="70" width="70" height="18" />
+      <rect x="20" y="88" width="74" height="6" />
+      <rect x="20" y="94" width="22" height="20" />
+      <rect x="58" y="94" width="20" height="20" />
+      <rect x="16" y="114" width="26" height="2" />
+      <rect x="58" y="114" width="24" height="2" />
+    </g>
+  </g>
+</svg>

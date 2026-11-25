@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 130" width="900" height="520" shape-rendering="crispEdges" role="img" aria-label="Shenlong verde em arco no céu com corpo serpenteante e cabeça visível no estilo 16-bit com fundo transparente">
+  <defs>
+    <style>
+      .o { fill: #121014; }
+      .g-hi { fill: #8CE86B; }
+      .g-main { fill: #3EB83B; }
+      .g-shd { fill: #238229; }
+      .g-deep { fill: #14541C; }
+
+      .belly-hi { fill: #FFF49C; }
+      .belly { fill: #F2C138; }
+      .belly-shd { fill: #C48A19; }
+
+      .horn { fill: #FFF7D6; }
+      .horn-shd { fill: #D6C392; }
+      .eye { fill: #FF3B30; }
+      .eye-hi { fill: #FF9E99; }
+      .whisker { fill: #52B844; }
+      .whisker-hi { fill: #9EF57D; }
+      .mane { fill: #2A8C30; }
+    </style>
+  </defs>
+
+  <!-- Shenlong verde em arco serpenteante no céu (SVG puro 16-bit, ~900x520, fundo transparente) -->
+  <g id="shenlong-16bit">
+    <!-- Cauda serpenteante à esquerda com barbatana/ponta -->
+    <g id="shenlong-tail">
+      <rect class="o" x="10" y="92" width="16" height="4" />
+      <rect class="o" x="16" y="88" width="14" height="4" />
+      <rect class="o" x="22" y="96" width="14" height="4" />
+      <rect class="g-hi" x="17" y="89" width="12" height="2" />
+      <rect class="g-main" x="11" y="93" width="14" height="2" />
+      <rect class="g-shd" x="23" y="97" width="12" height="2" />
+
+      <!-- Segmentos iniciais da cauda subindo -->
+      <rect class="o" x="30" y="84" width="14" height="12" />
+      <rect class="g-hi" x="31" y="85" width="12" height="3" />
+      <rect class="g-main" x="31" y="88" width="12" height="4" />
+      <rect class="belly" x="31" y="92" width="12" height="3" />
+    </g>
+
+    <!-- Primeira curva ascendente do corpo -->
+    <g id="shenlong-curve-1">
+      <rect class="o" x="40" y="64" width="18" height="24" />
+      <rect class="g-hi" x="41" y="65" width="6" height="22" />
+      <rect class="g-main" x="47" y="65" width="6" height="22" />
+      <rect class="g-shd" x="53" y="65" width="4" height="22" />
+
+      <!-- Anéis de escamas e crista -->
+      <rect class="o" x="41" y="72" width="16" height="1" />
+      <rect class="o" x="41" y="80" width="16" height="1" />
+      <rect class="mane" x="57" y="68" width="3" height="3" />
+      <rect class="mane" x="57" y="76" width="3" height="3" />
+    </g>
+
+    <!-- Arco superior central (curva longa no alto do céu) -->
+    <g id="shenlong-top-arch">
+      <rect class="o" x="50" y="42" width="64" height="24" />
+      <rect class="o" x="58" y="38" width="48" height="4" />
+
+      <!-- Faixa superior iluminada -->
+      <rect class="g-hi" x="59" y="39" width="46" height="4" />
+      <rect class="g-hi" x="51" y="43" width="62" height="5" />
+
+      <!-- Corpo verde principal -->
+      <rect class="g-main" x="51" y="48" width="62" height="7" />
+
+      <!-- Faixa ventral amarela/dourada ao longo da barriga do dragão -->
+      <rect class="belly-hi" x="52" y="55" width="60" height="2" />
+      <rect class="belly" x="52" y="57" width="60" height="4" />
+      <rect class="belly-shd" x="52" y="61" width="60" height="2" />
+      <rect class="g-shd" x="52" y="63" width="60" height="2" />
+
+      <!-- Divisões dos segmentos do corpo e espinhos/cristas -->
+      <rect class="o" x="66" y="39" width="1" height="25" />
+      <rect class="o" x="82" y="39" width="1" height="25" />
+      <rect class="o" x="98" y="39" width="1" height="25" />
+
+      <rect class="o" x="64" y="34" width="3" height="4" />
+      <rect class="g-hi" x="65" y="35" width="1" height="3" />
+      <rect class="o" x="80" y="33" width="3" height="5" />
+      <rect class="g-hi" x="81" y="34" width="1" height="4" />
+      <rect class="o" x="96" y="34" width="3" height="4" />
+      <rect class="g-hi" x="97" y="35" width="1" height="3" />
+    </g>
+
+    <!-- Segunda curva descendente e subida para o pescoço -->
+    <g id="shenlong-curve-2">
+      <rect class="o" x="104" y="56" width="20" height="28" />
+      <rect class="g-hi" x="105" y="57" width="5" height="26" />
+      <rect class="g-main" x="110" y="57" width="6" height="26" />
+      <rect class="g-shd" x="116" y="57" width="5" height="26" />
+      <rect class="g-deep" x="121" y="57" width="2" height="26" />
+
+      <!-- Segmentos e crista lateral -->
+      <rect class="o" x="105" y="66" width="18" height="1" />
+      <rect class="o" x="105" y="75" width="18" height="1" />
+      <rect class="o" x="124" y="62" width="3" height="3" />
+      <rect class="g-main" x="124" y="63" width="2" height="1" />
+      <rect class="o" x="124" y="71" width="3" height="3" />
+      <rect class="g-main" x="124" y="72" width="2" height="1" />
+    </g>
+
+    <!-- Pescoço serpenteante subindo até a cabeça à direita -->
+    <g id="shenlong-neck">
+      <rect class="o" x="118" y="42" width="26" height="26" />
+      <rect class="g-hi" x="119" y="43" width="7" height="24" />
+      <rect class="g-main" x="126" y="43" width="8" height="24" />
+      <rect class="belly" x="134" y="43" width="4" height="24" />
+      <rect class="g-shd" x="138" y="43" width="5" height="24" />
+
+      <!-- Divisórias do pescoço -->
+      <rect class="o" x="119" y="51" width="24" height="1" />
+      <rect class="o" x="119" y="59" width="24" height="1" />
+    </g>
+
+    <!-- Cabeça imponente do Shenlong (voltada para a direita/frente) -->
+    <g id="shenlong-head">
+      <!-- Chifres longos de cervo/dragão -->
+      <rect class="o" x="138" y="14" width="4" height="16" />
+      <rect class="o" x="142" y="18" width="12" height="4" />
+      <rect class="o" x="150" y="12" width="4" height="6" />
+      <rect class="horn" x="139" y="15" width="2" height="14" />
+      <rect class="horn" x="141" y="19" width="11" height="2" />
+      <rect class="horn-shd" x="151" y="13" width="2" height="6" />
+
+      <rect class="o" x="154" y="16" width="4" height="14" />
+      <rect class="o" x="158" y="20" width="12" height="4" />
+      <rect class="o" x="166" y="14" width="4" height="6" />
+      <rect class="horn" x="155" y="17" width="2" height="12" />
+      <rect class="horn" x="157" y="21" width="11" height="2" />
+      <rect class="horn-shd" x="167" y="15" width="2" height="6" />
+
+      <!-- Juba / crina ao redor da cabeça -->
+      <rect class="o" x="130" y="26" width="10" height="20" />
+      <rect class="mane" x="131" y="27" width="8" height="18" />
+      <rect class="g-hi" x="131" y="28" width="4" height="16" />
+
+      <!-- Crânio e focinho -->
+      <rect class="o" x="140" y="28" width="38" height="18" />
+      <rect class="o" x="144" y="46" width="28" height="6" />
+
+      <rect class="g-hi" x="141" y="29" width="22" height="5" />
+      <rect class="g-main" x="141" y="34" width="36" height="6" />
+      <rect class="g-shd" x="141" y="40" width="36" height="5" />
+      <rect class="belly" x="145" y="47" width="26" height="4" />
+
+      <!-- Narina e boca/focinho -->
+      <rect class="o" x="172" y="33" width="3" height="3" />
+      <rect class="o" x="146" y="42" width="28" height="2" />
+      <rect class="horn" x="150" y="44" width="2" height="2" />
+      <rect class="horn" x="164" y="44" width="2" height="2" />
+
+      <!-- Olho vermelho expressivo -->
+      <rect class="o" x="154" y="33" width="8" height="6" />
+      <rect class="eye" x="155" y="34" width="6" height="4" />
+      <rect class="eye-hi" x="156" y="34" width="2" height="2" />
+
+      <!-- Bigodes longos ondulados -->
+      <rect class="o" x="174" y="38" width="24" height="3" />
+      <rect class="o" x="194" y="35" width="10" height="3" />
+      <rect class="whisker-hi" x="175" y="39" width="22" height="1" />
+      <rect class="whisker" x="195" y="36" width="8" height="2" />
+
+      <rect class="o" x="168" y="46" width="22" height="3" />
+      <rect class="o" x="186" y="49" width="12" height="3" />
+      <rect class="whisker" x="169" y="47" width="20" height="1" />
+      <rect class="whisker-hi" x="187" y="50" width="10" height="1" />
+    </g>
+  </g>
+</svg>
