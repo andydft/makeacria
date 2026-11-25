@@ -11,6 +11,7 @@ import { LinkinParkAnthem, LP_FRAMES, LP_FPS } from "./videos/linkinParkAnthem/L
 import { LinkinParkCrawling, CRAWL_FRAMES, CRAWL_FPS } from "./videos/linkinParkCrawling/LinkinParkCrawling";
 import { LinkinParkJayz, JAYZ_FRAMES, JAYZ_FPS } from "./videos/linkinParkJayz/LinkinParkJayz";
 import { ChesterCrawling, CHESTER_CRAWL_FRAMES, CHESTER_CRAWL_FPS } from "./videos/chesterCrawling/ChesterCrawling";
+import { ChesterCrawlingChorusDemo, CHESTER_CRAWLING_DEMO_FPS, CHESTER_CRAWLING_DEMO_FRAMES } from "./videos/chesterCrawlingChorusDemo/ChesterCrawlingChorusDemo";
 import { MikeShinoda, MIKE_FRAMES, MIKE_FPS } from "./videos/mikeShinoda/MikeShinoda";
 import { LinkinParkChesterTapeShort, CHESTER_TAPE_FRAMES, CHESTER_TAPE_FPS } from "./videos/linkinParkChesterTape/LinkinParkChesterTape";
 import { LinkinParkOneMoreLightShort, OML_FRAMES, OML_FPS } from "./videos/linkinParkOneMoreLight/LinkinParkOneMoreLight";
@@ -397,6 +398,14 @@ export const RemotionRoot: React.FC = () => {
         component={ChesterCrawling}
         fps={CHESTER_CRAWL_FPS}
         durationInFrames={CHESTER_CRAWL_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ChesterCrawlingChorusDemo"
+        component={ChesterCrawlingChorusDemo}
+        fps={CHESTER_CRAWLING_DEMO_FPS}
+        durationInFrames={CHESTER_CRAWLING_DEMO_FRAMES}
         width={1080}
         height={1920}
       />
