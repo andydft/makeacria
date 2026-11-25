@@ -1,0 +1,133 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "pitch": "+0Hz",
+  "text": "Na mesma hora o motor roncou, soltou fumaça e fez barulho! O Goku pulou de susto achando que o bicho ia partir pra cima dele!",
+  "words": [
+    {
+      "text": "Na",
+      "offset": 0.096291,
+      "duration": 0.173625
+    },
+    {
+      "text": "mesma",
+      "offset": 0.2815,
+      "duration": 0.335666
+    },
+    {
+      "text": "hora",
+      "offset": 0.628708,
+      "duration": 0.19675
+    },
+    {
+      "text": "o",
+      "offset": 0.837041,
+      "duration": 0.011583
+    },
+    {
+      "text": "motor",
+      "offset": 0.860166,
+      "duration": 0.335666
+    },
+    {
+      "text": "roncou",
+      "offset": 1.207416,
+      "duration": 0.42825
+    },
+    {
+      "text": "soltou",
+      "offset": 1.936583,
+      "duration": 0.347208
+    },
+    {
+      "text": "fumaça",
+      "offset": 2.295375,
+      "duration": 0.497666
+    },
+    {
+      "text": "e",
+      "offset": 2.804625,
+      "duration": 0.0462909
+    },
+    {
+      "text": "fez",
+      "offset": 2.8625,
+      "duration": 0.243041
+    },
+    {
+      "text": "barulho",
+      "offset": 3.117125,
+      "duration": 0.486125
+    },
+    {
+      "text": "O",
+      "offset": 4.398166,
+      "duration": 0.092583
+    },
+    {
+      "text": "Goku",
+      "offset": 4.502333,
+      "duration": 0.266208
+    },
+    {
+      "text": "pulou",
+      "offset": 4.780083,
+      "duration": 0.324083
+    },
+    {
+      "text": "de",
+      "offset": 5.11575,
+      "duration": 0.104166
+    },
+    {
+      "text": "susto",
+      "offset": 5.2315,
+      "duration": 0.381958
+    },
+    {
+      "text": "achando",
+      "offset": 5.625,
+      "duration": 0.381958
+    },
+    {
+      "text": "que",
+      "offset": 6.0185,
+      "duration": 0.104166
+    },
+    {
+      "text": "o",
+      "offset": 6.13425,
+      "duration": 0.0462909
+    },
+    {
+      "text": "bicho",
+      "offset": 6.192125,
+      "duration": 0.370375
+    },
+    {
+      "text": "ia",
+      "offset": 6.574083,
+      "duration": 0.138875
+    },
+    {
+      "text": "partir",
+      "offset": 6.724541,
+      "duration": 0.370375
+    },
+    {
+      "text": "pra",
+      "offset": 7.1065,
+      "duration": 0.185166
+    },
+    {
+      "text": "cima",
+      "offset": 7.30325,
+      "duration": 0.347208
+    },
+    {
+      "text": "dele",
+      "offset": 7.662041,
+      "duration": 0.347208
+    }
+  ]
+}

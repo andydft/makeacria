@@ -1,0 +1,118 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "pitch": "+0Hz",
+  "text": "Sem saber o que era aquilo, ele foi chegando de mansinho e mandou uma cutucada só pra ver se o bicho reagia.",
+  "words": [
+    {
+      "text": "Sem",
+      "offset": 0.096291,
+      "duration": 0.277791
+    },
+    {
+      "text": "saber",
+      "offset": 0.385666,
+      "duration": 0.347208
+    },
+    {
+      "text": "o",
+      "offset": 0.744458,
+      "duration": 0.0462909
+    },
+    {
+      "text": "que",
+      "offset": 0.802333,
+      "duration": 0.104166
+    },
+    {
+      "text": "era",
+      "offset": 0.918041,
+      "duration": 0.104166
+    },
+    {
+      "text": "aquilo",
+      "offset": 1.033791,
+      "duration": 0.370375
+    },
+    {
+      "text": "ele",
+      "offset": 1.589333,
+      "duration": 0.138875
+    },
+    {
+      "text": "foi",
+      "offset": 1.739833,
+      "duration": 0.150458
+    },
+    {
+      "text": "chegando",
+      "offset": 1.901833,
+      "duration": 0.370375
+    },
+    {
+      "text": "de",
+      "offset": 2.283791,
+      "duration": 0.081
+    },
+    {
+      "text": "mansinho",
+      "offset": 2.376375,
+      "duration": 0.462958
+    },
+    {
+      "text": "e",
+      "offset": 2.850916,
+      "duration": 0.023166
+    },
+    {
+      "text": "mandou",
+      "offset": 2.885666,
+      "duration": 0.266208
+    },
+    {
+      "text": "uma",
+      "offset": 3.163416,
+      "duration": 0.11575
+    },
+    {
+      "text": "cutucada",
+      "offset": 3.29075,
+      "duration": 0.532416
+    },
+    {
+      "text": "só",
+      "offset": 3.834708,
+      "duration": 0.173625
+    },
+    {
+      "text": "pra",
+      "offset": 4.019916,
+      "duration": 0.185166
+    },
+    {
+      "text": "ver",
+      "offset": 4.216666,
+      "duration": 0.219916
+    },
+    {
+      "text": "se",
+      "offset": 4.448166,
+      "duration": 0.11575
+    },
+    {
+      "text": "o",
+      "offset": 4.575458,
+      "duration": 0.0462909
+    },
+    {
+      "text": "bicho",
+      "offset": 4.633333,
+      "duration": 0.289333
+    },
+    {
+      "text": "reagia",
+      "offset": 4.93425,
+      "duration": 0.532416
+    }
+  ]
+}

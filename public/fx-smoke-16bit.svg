@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="12 40 38 16" width="600" height="253" role="img" aria-label="Fumaça 16-bits">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+      .sm { fill: #E6ECF2; } /* Fumaça clara */
+      .smd { fill: #B4C0CC; } /* Fumaça sombra */
+      .sml { fill: #FFFFFF; } /* Brilho fumaça */
+      .ex { fill: #FF3B30; } /* Exclamação vermelha */
+      .exl { fill: #FF8A80; } /* Luz exclamação */
+      .sw { fill: #64B5F6; } /* Gota de suor */
+      .swl { fill: #E3F2FD; } /* Brilho suor */
+      .bz { fill: #FFD54F; } /* Ondas de buzina */
+    </style>
+  </defs>
+  <g id="fx-smoke">
+    <path class="o" d="M12 44h4v-2h8v2h2v2h2v6h-2v2H12v-2h-2v-6h2z" />
+    <path class="sm" d="M13 45h3v-2h6v2h2v1h2v5h-2v1H13v-1h-2v-5h2z" />
+    <path class="sml" d="M16 44h5v2h-5z" />
+    <path class="smd" d="M12 50h14v2H12z" />
+    <path class="o" d="M28 48h4v-2h6v2h2v5h-2v1h-8v-1h-2z" />
+    <path class="sm" d="M29 49h3v-2h4v2h2v3h-2v1h-6v-1h-1z" />
+    <path class="smd" d="M29 52h9v1h-9z" />
+    <path class="o" d="M41 51h6v4h-6z" />
+    <path class="sm" d="M42 52h4v2h-4z" />
+  </g>
+</svg>

@@ -1,0 +1,163 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "pitch": "+0Hz",
+  "text": "No começo da jornada, o Goku deu de cara com um negócio muito estranho no meio da estrada... e olhou tudo com cara de quem não confia nem na própria sombra.",
+  "words": [
+    {
+      "text": "No",
+      "offset": 0.096291,
+      "duration": 0.162041
+    },
+    {
+      "text": "começo",
+      "offset": 0.269916,
+      "duration": 0.405083
+    },
+    {
+      "text": "da",
+      "offset": 0.686583,
+      "duration": 0.092583
+    },
+    {
+      "text": "jornada",
+      "offset": 0.79075,
+      "duration": 0.497666
+    },
+    {
+      "text": "o",
+      "offset": 1.577791,
+      "duration": 0.057875
+    },
+    {
+      "text": "Goku",
+      "offset": 1.647208,
+      "duration": 0.300916
+    },
+    {
+      "text": "deu",
+      "offset": 1.959708,
+      "duration": 0.138875
+    },
+    {
+      "text": "de",
+      "offset": 2.110166,
+      "duration": 0.092583
+    },
+    {
+      "text": "cara",
+      "offset": 2.214333,
+      "duration": 0.266208
+    },
+    {
+      "text": "com",
+      "offset": 2.492125,
+      "duration": 0.127333
+    },
+    {
+      "text": "um",
+      "offset": 2.631,
+      "duration": 0.0462909
+    },
+    {
+      "text": "negócio",
+      "offset": 2.688875,
+      "duration": 0.462958
+    },
+    {
+      "text": "muito",
+      "offset": 3.163416,
+      "duration": 0.300916
+    },
+    {
+      "text": "estranho",
+      "offset": 3.475916,
+      "duration": 0.335666
+    },
+    {
+      "text": "no",
+      "offset": 3.823166,
+      "duration": 0.081
+    },
+    {
+      "text": "meio",
+      "offset": 3.91575,
+      "duration": 0.19675
+    },
+    {
+      "text": "da",
+      "offset": 4.124083,
+      "duration": 0.069458
+    },
+    {
+      "text": "estrada",
+      "offset": 4.205083,
+      "duration": 0.451375
+    },
+    {
+      "text": "e",
+      "offset": 4.980541,
+      "duration": 0.081
+    },
+    {
+      "text": "olhou",
+      "offset": 5.073166,
+      "duration": 0.266208
+    },
+    {
+      "text": "tudo",
+      "offset": 5.350916,
+      "duration": 0.3125
+    },
+    {
+      "text": "com",
+      "offset": 5.675,
+      "duration": 0.150458
+    },
+    {
+      "text": "cara",
+      "offset": 5.837041,
+      "duration": 0.2315
+    },
+    {
+      "text": "de",
+      "offset": 6.080083,
+      "duration": 0.104166
+    },
+    {
+      "text": "quem",
+      "offset": 6.195833,
+      "duration": 0.173625
+    },
+    {
+      "text": "não",
+      "offset": 6.381,
+      "duration": 0.127333
+    },
+    {
+      "text": "confia",
+      "offset": 6.519916,
+      "duration": 0.416666
+    },
+    {
+      "text": "nem",
+      "offset": 6.948166,
+      "duration": 0.19675
+    },
+    {
+      "text": "na",
+      "offset": 7.1565,
+      "duration": 0.138875
+    },
+    {
+      "text": "própria",
+      "offset": 7.306958,
+      "duration": 0.347208
+    },
+    {
+      "text": "sombra",
+      "offset": 7.66575,
+      "duration": 0.405083
+    }
+  ]
+}

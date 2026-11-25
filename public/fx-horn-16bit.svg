@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 20 13 18" width="300" height="415" role="img" aria-label="Buzina 16-bits">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+      .sm { fill: #E6ECF2; } /* Fumaça clara */
+      .smd { fill: #B4C0CC; } /* Fumaça sombra */
+      .sml { fill: #FFFFFF; } /* Brilho fumaça */
+      .ex { fill: #FF3B30; } /* Exclamação vermelha */
+      .exl { fill: #FF8A80; } /* Luz exclamação */
+      .sw { fill: #64B5F6; } /* Gota de suor */
+      .swl { fill: #E3F2FD; } /* Brilho suor */
+      .bz { fill: #FFD54F; } /* Ondas de buzina */
+    </style>
+  </defs>
+  <g id="fx-horn">
+    <path class="o" d="M78 24h2v2h2v8h-2v2h-2v-2h2v-8h-2zm5-3h2v3h2v10h-2v3h-2v-2h2v-12h-2z" />
+    <path class="bz" d="M79 25h1v9h-1zm5-3h1v14h-1z" />
+  </g>
+</svg>

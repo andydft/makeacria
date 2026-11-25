@@ -1,0 +1,108 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "pitch": "+0Hz",
+  "text": "Depois que viu que ninguém se machucou, ele soltou aquele sorriso bobo e seguiu viagem como se nada tivesse acontecido.",
+  "words": [
+    {
+      "text": "Depois",
+      "offset": 0.096291,
+      "duration": 0.486125
+    },
+    {
+      "text": "que",
+      "offset": 0.594,
+      "duration": 0.11575
+    },
+    {
+      "text": "viu",
+      "offset": 0.721291,
+      "duration": 0.208333
+    },
+    {
+      "text": "que",
+      "offset": 0.941208,
+      "duration": 0.104166
+    },
+    {
+      "text": "ninguém",
+      "offset": 1.056958,
+      "duration": 0.335666
+    },
+    {
+      "text": "se",
+      "offset": 1.404166,
+      "duration": 0.11575
+    },
+    {
+      "text": "machucou",
+      "offset": 1.5315,
+      "duration": 0.520833
+    },
+    {
+      "text": "ele",
+      "offset": 2.295375,
+      "duration": 0.150458
+    },
+    {
+      "text": "soltou",
+      "offset": 2.457416,
+      "duration": 0.324083
+    },
+    {
+      "text": "aquele",
+      "offset": 2.793041,
+      "duration": 0.219916
+    },
+    {
+      "text": "sorriso",
+      "offset": 3.024541,
+      "duration": 0.416666
+    },
+    {
+      "text": "bobo",
+      "offset": 3.452791,
+      "duration": 0.300916
+    },
+    {
+      "text": "e",
+      "offset": 3.765291,
+      "duration": 0.034708
+    },
+    {
+      "text": "seguiu",
+      "offset": 3.811583,
+      "duration": 0.277791
+    },
+    {
+      "text": "viagem",
+      "offset": 4.100916,
+      "duration": 0.416666
+    },
+    {
+      "text": "como",
+      "offset": 4.529166,
+      "duration": 0.208333
+    },
+    {
+      "text": "se",
+      "offset": 4.749083,
+      "duration": 0.127333
+    },
+    {
+      "text": "nada",
+      "offset": 4.887958,
+      "duration": 0.300916
+    },
+    {
+      "text": "tivesse",
+      "offset": 5.200458,
+      "duration": 0.358791
+    },
+    {
+      "text": "acontecido",
+      "offset": 5.570833,
+      "duration": 0.659708
+    }
+  ]
+}

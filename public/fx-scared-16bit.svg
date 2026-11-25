@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="54 8 22 24" width="400" height="436" role="img" aria-label="Susto 16-bits">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+      .sm { fill: #E6ECF2; } /* Fumaça clara */
+      .smd { fill: #B4C0CC; } /* Fumaça sombra */
+      .sml { fill: #FFFFFF; } /* Brilho fumaça */
+      .ex { fill: #FF3B30; } /* Exclamação vermelha */
+      .exl { fill: #FF8A80; } /* Luz exclamação */
+      .sw { fill: #64B5F6; } /* Gota de suor */
+      .swl { fill: #E3F2FD; } /* Brilho suor */
+      .bz { fill: #FFD54F; } /* Ondas de buzina */
+    </style>
+  </defs>
+  <g id="fx-scared">
+    <path class="o" d="M56 10h6v12h-2v2h-2v-2h-2zm0 16h6v4h-6z" />
+    <path class="ex" d="M57 11h4v10h-4zm0 16h4v2h-4z" />
+    <rect class="exl" x="58" y="12" width="1" height="7" />
+    <path class="o" d="M68 16h2v2h2v2h2v4h-2v2h-4v-2h-2v-4h2v-2h2z" />
+    <path class="sw" d="M69 18h1v2h1v2h1v2h-1v1h-2v-1h-1v-2h1v-2z" />
+    <rect class="swl" x="69" y="20" width="1" height="2" />
+  </g>
+</svg>

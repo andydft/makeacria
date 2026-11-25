@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 38 34" width="500" height="447" role="img" aria-label="Impacto 16-bits">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+      .sp { fill: #FFE066; } /* Faísca / impacto amarelo */
+      .spl { fill: #FFF9DB; } /* Brilho impacto */
+      .spo { fill: #FF922B; } /* Borda laranja impacto */
+      .dt { fill: #E6CCB2; } /* Poeira clara */
+      .dtd { fill: #B08968; } /* Poeira sombra */
+      .dtl { fill: #FAF0E6; } /* Brilho poeira */
+      .sh { fill: #F8F9FA; } /* Linhas de tremor / choque */
+    </style>
+  </defs>
+  <g id="fx-impact">
+    <path class="o" d="M24 10h4v6h4v-4h4v6h6v4h-6v4h6v4h-6v6h-4v-4h-4v6h-4v-6h-4v4h-4v-6h-6v-4h6v-4h-6v-4h6v-6h4v4h4z" />
+    <path class="spo" d="M25 11h2v6h5v-4h2v6h6v2h-6v6h6v2h-6v6h-2v-4h-5v6h-2v-6h-5v4h-2v-6h-6v-2h6v-6h-6v-2h6v-6h2v4h5z" />
+    <path class="sp" d="M26 14v5h6v-3v3h6v4h-6v5v-3h-6v5v-5h-5v3v-3h-5v-4h5v-3v3h5z" />
+    <rect class="spl" x="25" y="21" width="2" height="3" />
+  </g>
+</svg>

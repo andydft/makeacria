@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="52 10 26 18" width="400" height="277" role="img" aria-label="Tremor 16-bits">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+      .sp { fill: #FFE066; } /* Faísca / impacto amarelo */
+      .spl { fill: #FFF9DB; } /* Brilho impacto */
+      .spo { fill: #FF922B; } /* Borda laranja impacto */
+      .dt { fill: #E6CCB2; } /* Poeira clara */
+      .dtd { fill: #B08968; } /* Poeira sombra */
+      .dtl { fill: #FAF0E6; } /* Brilho poeira */
+      .sh { fill: #F8F9FA; } /* Linhas de tremor / choque */
+    </style>
+  </defs>
+  <g id="fx-shake">
+    <path class="o" d="M56 12h14v2H56zm4 4h14v2H60zm-6 4h12v2H54zm8 4h12v2H62z" />
+    <path class="sh" d="M57 13h12v1H57zm4 4h12v1H61zm-6 4h10v1H55zm8 4h10v1H63z" />
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 36 48 20" width="600" height="250" role="img" aria-label="Poeira 16-bits">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+      .sp { fill: #FFE066; } /* Faísca / impacto amarelo */
+      .spl { fill: #FFF9DB; } /* Brilho impacto */
+      .spo { fill: #FF922B; } /* Borda laranja impacto */
+      .dt { fill: #E6CCB2; } /* Poeira clara */
+      .dtd { fill: #B08968; } /* Poeira sombra */
+      .dtl { fill: #FAF0E6; } /* Brilho poeira */
+      .sh { fill: #F8F9FA; } /* Linhas de tremor / choque */
+    </style>
+  </defs>
+  <g id="fx-dust">
+    <path class="o" d="M44 46h4v-2h8v2h2v6h-2v2H44v-2h-2v-6h2z" />
+    <path class="dt" d="M45 47h3v-2h6v2h1v4h-1v1h-9v-1h-1z" />
+    <rect class="dtl" x="47" y="46" width="5" height="2" />
+    <rect class="dtd" x="45" y="51" width="10" height="1" />
+    <path class="o" d="M58 40h4v-2h10v2h2v2h2v8h-2v2H58v-2h-2v-8h2z" />
+    <path class="dt" d="M59 41h3v-2h8v2h1v1h1v6h-1v1H59v-1h-2v-6h2z" />
+    <rect class="dtl" x="61" y="40" width="6" height="2" />
+    <rect class="dtd" x="59" y="48" width="12" height="2" />
+    <path class="o" d="M74 47h4v-2h8v2h2v5h-2v2H74v-2h-2v-5h2z" />
+    <path class="dt" d="M75 48h3v-2h6v2h1v3h-1v1h-9v-1h-1z" />
+    <rect class="dtl" x="77" y="47" width="4" height="1" />
+    <rect class="dtd" x="75" y="51" width="10" height="1" />
+  </g>
+</svg>
