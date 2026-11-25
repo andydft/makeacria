@@ -69,7 +69,7 @@ const Scene1: React.FC = () => {
       </div>
       <Shadow x={660} y={GROUND - 10} w={240} />
       <div style={{ position: "absolute", left: 640, top: GROUND - 384 + enter }}>
-        <Img src={staticFile("raditz-16bit.svg")} style={{ width: 320, height: 384, ...PX }} />
+        <Img src={staticFile("raditz-16bit.svg")} style={{ width: 320, height: 384, transform: "scaleX(-1)", ...PX }} />
       </div>
       <div style={{ position: "absolute", left: 500, top: GROUND - 240, opacity: 0.9 }}>
         <Img src={staticFile("gohan-crianca-16bit.svg")} style={{ width: 180, height: 216, ...PX }} />
@@ -100,7 +100,7 @@ const Scene2: React.FC = () => {
       </div>
       <Shadow x={raditzX + 40} y={GROUND - 10} w={230} />
       <div style={{ position: "absolute", left: raditzX, top: GROUND - 384 }}>
-        <Img src={staticFile("raditz-luta-16bit.svg")} style={{ width: 320, height: 384, ...PX }} />
+        <Img src={staticFile("raditz-luta-16bit.svg")} style={{ width: 320, height: 384, transform: "scaleX(-1)", ...PX }} />
       </div>
       {(impact1 || impact2 || impact3) && <Img src={staticFile("fx-impact-16bit.svg")} style={{ position: "absolute", left: 470, top: GROUND - 360, width: 160, height: 160, opacity: 0.95, ...PX }} />}
       {showBlast && <Img src={staticFile("ki-blast-16bit.svg")} style={{ position: "absolute", left: interpolate(f, [170, 220], [420, 620]), top: GROUND - 300, width: 128, height: 128, ...PX }} />}
@@ -126,7 +126,7 @@ const Scene3: React.FC = () => {
       </div>
       <Shadow x={690} y={GROUND - 10} w={220} />
       <div style={{ position: "absolute", left: 670, top: GROUND - 384 }}>
-        <Img src={staticFile("raditz-luta-16bit.svg")} style={{ width: 320, height: 384, ...PX }} />
+        <Img src={staticFile("raditz-luta-16bit.svg")} style={{ width: 320, height: 384, transform: "scaleX(-1)", ...PX }} />
       </div>
       {/* Gohan bursts */}
       <div style={{ position: "absolute", left: 460, top: GROUND - 307 - burst * 30, transform: `scale(${1 + burst * 0.15})`, transformOrigin: "bottom center" }}>
@@ -153,7 +153,7 @@ const Scene4: React.FC = () => {
         <Img src={staticFile("goku-adulto-ferido-16bit.svg")} style={{ width: 320, height: 384, ...PX }} />
       </div>
       <div style={{ position: "absolute", left: 500, top: GROUND - 384, opacity: 0.95 }}>
-        <Img src={staticFile("raditz-ferido-16bit.svg")} style={{ width: 320, height: 384, ...PX }} />
+        <Img src={staticFile("raditz-ferido-16bit.svg")} style={{ width: 320, height: 384, transform: "scaleX(-1)", ...PX }} />
       </div>
       {f > 70 && <Img src={staticFile("ki-blast-16bit.svg")} style={{ position: "absolute", left: 620, top: GROUND - 320, width: 180, height: 180, opacity: interpolate(f, [70, 90, 130], [0, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }), ...PX }} />}
       <AbsoluteFill style={{ backgroundColor: "#FFF6D0", opacity: flash }} />
@@ -176,7 +176,7 @@ const Scene5: React.FC = () => {
       </div>
       <Shadow x={660} y={GROUND - 10} w={200} o={0.1} />
       <div style={{ position: "absolute", left: 660, top: GROUND - 384, opacity: 0.45 }}>
-        <Img src={staticFile("raditz-ferido-16bit.svg")} style={{ width: 320, height: 384, filter: "grayscale(0.4)", ...PX }} />
+        <Img src={staticFile("raditz-ferido-16bit.svg")} style={{ width: 320, height: 384, filter: "grayscale(0.4)", transform: "scaleX(-1)", ...PX }} />
       </div>
       <div style={{ position: "absolute", top: 120, left: 80, right: 80, textAlign: "center", fontFamily: "Arial Black", fontSize: 42, color: "#FFB0B0", textShadow: "0 4px 14px rgba(0,0,0,0.7)" }}>
         “Outros Saiyajins virão...”
