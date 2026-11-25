@@ -24,7 +24,6 @@ type SpikeSpec = {
 const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) => {
   const t = frame / fps;
 
-  // Animações rítmicas e orgânicas no estilo chibi cantor
   const beat = t * Math.PI * 3.2;
   const bodyBob = Math.abs(Math.sin(beat)) * 0.045;
   const bodySway = Math.sin(beat * 0.5) * 0.08;
@@ -34,22 +33,19 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
   const headNodY = Math.sin(beat * 0.5) * 0.16;
   const headRollZ = Math.cos(beat) * 0.06;
 
-  // Braço direito segura o microfone perto da boca e acompanha a batida
   const rightArmRotX = -0.82 + Math.sin(beat) * 0.14;
   const rightArmRotZ = -0.22 + Math.cos(beat * 0.5) * 0.07;
 
-  // Braço esquerdo balança com energia no ritmo da música
   const leftArmRotX = 0.18 + Math.sin(beat + Math.PI) * 0.28;
   const leftArmRotZ = 0.28 + Math.cos(beat) * 0.1;
 
-  // Boca abrindo/fechando cantando (sílabas rítmicas)
+  // Boca mais compacta e natural (sem exagerar na abertura para não ficar bocudo)
   const singWave =
-    Math.max(0, Math.sin(t * 7.5)) * 0.65 +
-    Math.max(0, Math.sin(t * 13.0 + 1.1)) * 0.35;
-  const mouthScaleY = THREE.MathUtils.clamp(0.18 + singWave * 1.15, 0.18, 1.35);
-  const mouthScaleX = THREE.MathUtils.clamp(0.85 + singWave * 0.35, 0.85, 1.25);
+    Math.max(0, Math.sin(t * 7.5)) * 0.6 +
+    Math.max(0, Math.sin(t * 13.0 + 1.1)) * 0.3;
+  const mouthScaleY = THREE.MathUtils.clamp(0.25 + singWave * 0.65, 0.25, 0.9);
+  const mouthScaleX = THREE.MathUtils.clamp(0.72 + singWave * 0.18, 0.72, 0.9);
 
-  // Espetos desgrenhados e loiro-platinados icônicos do Chester (era Hybrid Theory / Meteora)
   const hairSpikes = useMemo<SpikeSpec[]>(() => {
     const spikes: SpikeSpec[] = [];
     const count = 34;
@@ -85,13 +81,12 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
       position={[bodySway * 0.6, bodyBob, 0]}
       rotation={[bodyLean, bodySway, -bodySway * 0.35]}
     >
-      {/* PERNAS (calça escura low-poly) */}
+      {/* PERNAS */}
       <group position={[-0.17, 0.44, 0]}>
         <mesh position={[0, -0.18, 0.02 * Math.sin(beat)]} castShadow>
           <capsuleGeometry args={[0.095, 0.22, 5, 8]} />
           <meshStandardMaterial color="#1D2230" roughness={0.8} flatShading />
         </mesh>
-        {/* Sapato esquerdo */}
         <group position={[0, -0.38, 0.04]}>
           <mesh castShadow>
             <boxGeometry args={[0.17, 0.11, 0.27]} />
@@ -109,7 +104,6 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
           <capsuleGeometry args={[0.095, 0.22, 5, 8]} />
           <meshStandardMaterial color="#1D2230" roughness={0.8} flatShading />
         </mesh>
-        {/* Sapato direito */}
         <group position={[0, -0.38, 0.04]}>
           <mesh castShadow>
             <boxGeometry args={[0.17, 0.11, 0.27]} />
@@ -122,18 +116,16 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
         </group>
       </group>
 
-      {/* TRONCO (camiseta preta de banda + gola levemente aberta + cordão) */}
+      {/* TRONCO */}
       <group position={[0, 0.76, 0]}>
         <mesh castShadow>
           <capsuleGeometry args={[0.25, 0.24, 6, 9]} />
           <meshStandardMaterial color="#171921" roughness={0.78} flatShading />
         </mesh>
-        {/* Detalhe sutil de costura/estampa frontal */}
         <mesh position={[0, 0.03, 0.235]}>
           <boxGeometry args={[0.18, 0.14, 0.03]} />
           <meshStandardMaterial color="#272B3A" roughness={0.75} flatShading />
         </mesh>
-        {/* Cordão discreto no pescoço */}
         <mesh position={[0, 0.24, 0.18]} rotation={[0.45, 0, 0]}>
           <torusGeometry args={[0.085, 0.012, 5, 12]} />
           <meshStandardMaterial color="#C8D0E0" metalness={0.5} roughness={0.35} flatShading />
@@ -146,7 +138,7 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
         <meshStandardMaterial color="#F2C6A5" roughness={0.72} flatShading />
       </mesh>
 
-      {/* BRAÇO ESQUERDO (livre / balançando no ritmo) */}
+      {/* BRAÇO ESQUERDO */}
       <group position={[-0.31, 0.94, 0]} rotation={[leftArmRotX, 0, leftArmRotZ]}>
         <mesh position={[0, -0.15, 0]} castShadow>
           <capsuleGeometry args={[0.072, 0.18, 5, 8]} />
@@ -156,14 +148,13 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
           <capsuleGeometry args={[0.062, 0.14, 5, 8]} />
           <meshStandardMaterial color="#F2C6A5" roughness={0.72} flatShading />
         </mesh>
-        {/* Mão esquerda */}
         <mesh position={[0, -0.44, 0.03]} castShadow>
           <sphereGeometry args={[0.078, 7, 7]} />
           <meshStandardMaterial color="#F2C6A5" roughness={0.72} flatShading />
         </mesh>
       </group>
 
-      {/* BRAÇO DIREITO + MÃO + MICROFONE */}
+      {/* BRAÇO DIREITO + MICROFONE */}
       <group position={[0.31, 0.94, 0.02]} rotation={[rightArmRotX, 0, rightArmRotZ]}>
         <mesh position={[0, -0.14, 0]} castShadow>
           <capsuleGeometry args={[0.072, 0.17, 5, 8]} />
@@ -173,25 +164,20 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
           <capsuleGeometry args={[0.062, 0.14, 5, 8]} />
           <meshStandardMaterial color="#F2C6A5" roughness={0.72} flatShading />
         </mesh>
-        {/* Mão direita segurando o microfone */}
         <mesh position={[-0.07, -0.38, 0.17]} castShadow>
           <sphereGeometry args={[0.082, 7, 7]} />
           <meshStandardMaterial color="#F2C6A5" roughness={0.72} flatShading />
         </mesh>
 
-        {/* MICROFONE */}
         <group position={[-0.08, -0.34, 0.25]} rotation={[1.18, 0.15, 0]}>
-          {/* Cabo / corpo do microfone */}
           <mesh castShadow>
             <cylinderGeometry args={[0.032, 0.024, 0.26, 8]} />
             <meshStandardMaterial color="#2A2E39" metalness={0.6} roughness={0.35} flatShading />
           </mesh>
-          {/* Anel metálico */}
           <mesh position={[0, 0.13, 0]}>
             <cylinderGeometry args={[0.036, 0.036, 0.02, 8]} />
             <meshStandardMaterial color="#9AA5B8" metalness={0.8} roughness={0.25} flatShading />
           </mesh>
-          {/* Globo / grade do microfone */}
           <mesh position={[0, 0.18, 0]} castShadow>
             <sphereGeometry args={[0.065, 8, 8]} />
             <meshStandardMaterial color="#6C7688" metalness={0.75} roughness={0.3} flatShading />
@@ -199,21 +185,20 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
         </group>
       </group>
 
-      {/* CABEÇA + FEIÇÕES DO CHESTER + CABELO ESPETADO LOIRO */}
+      {/* CABEÇA + FEIÇÕES DO CHESTER */}
       <group position={[0, 1.32, 0.03]} rotation={[headNodX, headNodY, headRollZ]}>
-        {/* Cabeça chibi levemente alongada e angulosa */}
         <mesh scale={[0.98, 1.06, 1.02]} castShadow>
           <sphereGeometry args={[0.37, 10, 9]} />
           <meshStandardMaterial color="#F4C9A8" roughness={0.7} flatShading />
         </mesh>
 
-        {/* Queixo / mandíbula definida com labret/piercing característico */}
-        <mesh position={[0, -0.22, 0.28]} scale={[0.72, 0.45, 0.55]}>
+        {/* Queixo + piercing característico */}
+        <mesh position={[0, -0.22, 0.28]} scale={[0.7, 0.44, 0.55]}>
           <sphereGeometry args={[0.24, 7, 6]} />
           <meshStandardMaterial color="#EAB893" roughness={0.72} flatShading />
         </mesh>
-        <mesh position={[0, -0.24, 0.345]}>
-          <sphereGeometry args={[0.018, 6, 6]} />
+        <mesh position={[0, -0.225, 0.348]}>
+          <sphereGeometry args={[0.016, 6, 6]} />
           <meshStandardMaterial color="#D8E0EC" metalness={0.85} roughness={0.2} flatShading />
         </mesh>
 
@@ -227,7 +212,7 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
           <meshStandardMaterial color="#EAB893" roughness={0.75} flatShading />
         </mesh>
 
-        {/* Sobrancelhas marcadas e levemente arqueadas/intensas */}
+        {/* Sobrancelhas */}
         <mesh position={[-0.135, 0.095, 0.335]} rotation={[0, 0, -0.18]}>
           <boxGeometry args={[0.115, 0.028, 0.035]} />
           <meshStandardMaterial color="#5E492B" roughness={0.75} flatShading />
@@ -237,7 +222,7 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
           <meshStandardMaterial color="#5E492B" roughness={0.75} flatShading />
         </mesh>
 
-        {/* OLHOS (esclera + íris escura + brilho) */}
+        {/* Olhos */}
         <group position={[-0.13, 0.035, 0.33]}>
           <mesh scale={[1.15, 0.85, 0.6]}>
             <sphereGeometry args={[0.062, 8, 8]} />
@@ -268,34 +253,31 @@ const ChesterChibiSinger: React.FC<{ frame: number; fps: number }> = ({ frame, f
           </mesh>
         </group>
 
-        {/* Nariz low-poly */}
+        {/* Nariz */}
         <mesh position={[0, -0.02, 0.375]} rotation={[0.25, 0, 0]}>
           <coneGeometry args={[0.038, 0.085, 5]} />
           <meshStandardMaterial color="#E7B38C" roughness={0.72} flatShading />
         </mesh>
 
-        {/* BOCA CANTANDO (abre e fecha de acordo com singWave) */}
-        <group position={[0, -0.145, 0.345]} scale={[mouthScaleX, mouthScaleY, 1]}>
+        {/* Boca discreta e proporcional (sem ficar bocuda) */}
+        <group position={[0, -0.14, 0.345]} scale={[mouthScaleX, mouthScaleY, 1]}>
           <mesh>
-            <boxGeometry args={[0.11, 0.045, 0.035]} />
-            <meshStandardMaterial color="#2A0B14" roughness={0.6} flatShading />
+            <boxGeometry args={[0.082, 0.026, 0.03]} />
+            <meshStandardMaterial color="#2A0B14" roughness={0.65} flatShading />
           </mesh>
-          {/* Lábio superior */}
-          <mesh position={[0, 0.024, 0.006]}>
-            <boxGeometry args={[0.115, 0.014, 0.035]} />
-            <meshStandardMaterial color="#C88A72" roughness={0.65} flatShading />
+          <mesh position={[0, 0.015, 0.005]}>
+            <boxGeometry args={[0.086, 0.01, 0.03]} />
+            <meshStandardMaterial color="#C88A72" roughness={0.7} flatShading />
           </mesh>
         </group>
 
-        {/* CABELO ESPETADO LOIRO-PLATINADO DO CHESTER */}
+        {/* Cabelo loiro espetado */}
         <group position={[0, 0.07, -0.01]}>
-          {/* Base do cabelo ajustada ao topo da cabeça */}
           <mesh position={[0, 0.13, -0.02]} scale={[1.02, 0.72, 1.02]}>
             <sphereGeometry args={[0.37, 9, 8]} />
             <meshStandardMaterial color="#E8C95A" roughness={0.55} flatShading />
           </mesh>
 
-          {/* Espetos em camadas */}
           {hairSpikes.map((spike, idx) => {
             const color =
               spike.variant === "hi"
@@ -344,19 +326,16 @@ const StageAndLights: React.FC<{ frame: number; fps: number }> = ({ frame, fps }
       <color attach="background" args={["#120E1F"]} />
       <fog attach="fog" args={["#120E1F", 5.5, 14]} />
 
-      {/* Iluminação configurada */}
       <ambientLight color="#C8C0FF" intensity={0.35} />
       <pointLight ref={p1Ref} position={p1Pos} color="#7B6CFF" intensity={4.2} distance={9} />
       <pointLight ref={p2Ref} position={p2Pos} color="#FF5C8A" intensity={3.8} distance={9} />
       <pointLight position={[0, 2.8, 2.6]} color="#5ED3FF" intensity={2.4} distance={10} />
 
-      {/* Plataforma circular */}
       <mesh position={[0, -0.06, 0]} receiveShadow>
         <cylinderGeometry args={[1.55, 1.72, 0.12, 24]} />
         <meshStandardMaterial color="#1E1833" roughness={0.65} metalness={0.2} flatShading />
       </mesh>
 
-      {/* Parede / painel de fundo */}
       <mesh position={[0, 1.8, -2.4]} receiveShadow>
         <boxGeometry args={[6.5, 4.5, 0.25]} />
         <meshStandardMaterial color="#19132B" roughness={0.85} flatShading />
@@ -370,7 +349,6 @@ export const Chester3dChibiDemo: React.FC = () => {
   const { fps, width, height } = useVideoConfig();
   const t = frame / fps;
 
-  // Câmera suave em 9:16 mirando em [0, 1.4, 0]
   const camX = interpolate(Math.sin(t * 0.75), [-1, 1], [-0.45, 0.45]);
   const camY = interpolate(Math.cos(t * 0.55), [-1, 1], [1.35, 1.65]);
   const camZ = interpolate(Math.sin(t * 0.4), [-1, 1], [3.35, 3.85]);

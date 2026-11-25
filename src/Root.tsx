@@ -13,6 +13,7 @@ import { LinkinParkJayz, JAYZ_FRAMES, JAYZ_FPS } from "./videos/linkinParkJayz/L
 import { ChesterCrawling, CHESTER_CRAWL_FRAMES, CHESTER_CRAWL_FPS } from "./videos/chesterCrawling/ChesterCrawling";
 import { ChesterCrawlingChorusDemo, CHESTER_CRAWLING_DEMO_FPS, CHESTER_CRAWLING_DEMO_FRAMES } from "./videos/chesterCrawlingChorusDemo/ChesterCrawlingChorusDemo";
 import { Chester3dChibiDemo, CHESTER_3D_DEMO_FPS, CHESTER_3D_DEMO_FRAMES } from "./videos/chester3dChibiDemo/Chester3dChibiDemo";
+import { Mike3dChibiDemo, MIKE_3D_DEMO_FPS, MIKE_3D_DEMO_FRAMES } from "./videos/mike3dChibiDemo/Mike3dChibiDemo";
 import { MikeShinoda, MIKE_FRAMES, MIKE_FPS } from "./videos/mikeShinoda/MikeShinoda";
 import { LinkinParkChesterTapeShort, CHESTER_TAPE_FRAMES, CHESTER_TAPE_FPS } from "./videos/linkinParkChesterTape/LinkinParkChesterTape";
 import { LinkinParkOneMoreLightShort, OML_FRAMES, OML_FPS } from "./videos/linkinParkOneMoreLight/LinkinParkOneMoreLight";
@@ -415,6 +416,14 @@ export const RemotionRoot: React.FC = () => {
         component={Chester3dChibiDemo}
         fps={CHESTER_3D_DEMO_FPS}
         durationInFrames={CHESTER_3D_DEMO_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Mike3dChibiDemo"
+        component={Mike3dChibiDemo}
+        fps={MIKE_3D_DEMO_FPS}
+        durationInFrames={MIKE_3D_DEMO_FRAMES}
         width={1080}
         height={1920}
       />
