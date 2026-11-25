@@ -142,10 +142,18 @@ const CTA: React.FC = () => {
 const Scene: React.FC = () => {
   const frame = useCurrentFrame();
   return (
-    <group position={[0, 2.5, 0]}>
-      <BabyGobu frame={frame} />
-      <FlyingCloud />
-    </group>
+    <>
+      <ambientLight intensity={0.8} color="#FFD166" />
+      <pointLight position={[1.2, 2.2, 1.0]} intensity={2.5} color="#F472B6" />
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.2, 0]}>
+        <circleGeometry args={[1.6, 32]} />
+        <meshBasicMaterial color="#0B1020" opacity={0.7} />
+      </mesh>
+      <group position={[0, 1.7, 0]}>
+        <BabyGobu frame={frame} />
+        <FlyingCloud />
+      </group>
+    </>
   );
 };
 
