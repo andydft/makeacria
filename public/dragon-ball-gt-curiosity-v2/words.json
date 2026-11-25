@@ -1,0 +1,173 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+6%",
+  "pitch": "-6Hz",
+  "text": "Did you know? In Dragon Ball GT there is a secret fact: Baby Buu took over Earth after Baby Saga. Did you know? In 1999 GT resurged with a new timeline and Baby Buu...",
+  "words": [
+    {
+      "text": "Did",
+      "offset": 0.097166,
+      "duration": 0.353791
+    },
+    {
+      "text": "you",
+      "offset": 0.46275,
+      "duration": 0.200458
+    },
+    {
+      "text": "know",
+      "offset": 0.675,
+      "duration": 0.283
+    },
+    {
+      "text": "In",
+      "offset": 1.768875,
+      "duration": 0.1415
+    },
+    {
+      "text": "Dragon",
+      "offset": 1.922166,
+      "duration": 0.353791
+    },
+    {
+      "text": "Ball",
+      "offset": 2.28775,
+      "duration": 0.21225
+    },
+    {
+      "text": "GT",
+      "offset": 2.511791,
+      "duration": 0.306583
+    },
+    {
+      "text": "there",
+      "offset": 2.830208,
+      "duration": 0.165083
+    },
+    {
+      "text": "is",
+      "offset": 3.007083,
+      "duration": 0.058958
+    },
+    {
+      "text": "a",
+      "offset": 3.077833,
+      "duration": 0.094333
+    },
+    {
+      "text": "secret",
+      "offset": 3.183958,
+      "duration": 0.436333
+    },
+    {
+      "text": "fact",
+      "offset": 3.632083,
+      "duration": 0.436333
+    },
+    {
+      "text": "Baby",
+      "offset": 4.327833,
+      "duration": 0.330208
+    },
+    {
+      "text": "Buu",
+      "offset": 4.669791,
+      "duration": 0.224041
+    },
+    {
+      "text": "took",
+      "offset": 4.905666,
+      "duration": 0.318416
+    },
+    {
+      "text": "over",
+      "offset": 5.235833,
+      "duration": 0.224041
+    },
+    {
+      "text": "Earth",
+      "offset": 5.471708,
+      "duration": 0.235833
+    },
+    {
+      "text": "after",
+      "offset": 5.719333,
+      "duration": 0.424541
+    },
+    {
+      "text": "Baby",
+      "offset": 6.155666,
+      "duration": 0.306583
+    },
+    {
+      "text": "Saga",
+      "offset": 6.474041,
+      "duration": 0.400958
+    },
+    {
+      "text": "Did",
+      "offset": 7.688666,
+      "duration": 0.353791
+    },
+    {
+      "text": "you",
+      "offset": 8.05425,
+      "duration": 0.200458
+    },
+    {
+      "text": "know",
+      "offset": 8.2665,
+      "duration": 0.283
+    },
+    {
+      "text": "In",
+      "offset": 9.363208,
+      "duration": 0.117916
+    },
+    {
+      "text": "1999 GT",
+      "offset": 9.492916,
+      "duration": 1.686292
+    },
+    {
+      "text": "resurged",
+      "offset": 11.191041,
+      "duration": 0.566041
+    },
+    {
+      "text": "with",
+      "offset": 11.768875,
+      "duration": 0.306583
+    },
+    {
+      "text": "a",
+      "offset": 12.08725,
+      "duration": 0.035375
+    },
+    {
+      "text": "new",
+      "offset": 12.134416,
+      "duration": 0.176875
+    },
+    {
+      "text": "timeline",
+      "offset": 12.323125,
+      "duration": 0.636791
+    },
+    {
+      "text": "and",
+      "offset": 12.971708,
+      "duration": 0.224041
+    },
+    {
+      "text": "Baby",
+      "offset": 13.207541,
+      "duration": 0.306583
+    },
+    {
+      "text": "Buu",
+      "offset": 13.525958,
+      "duration": 0.247625
+    }
+  ]
+}
