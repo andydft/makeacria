@@ -1,0 +1,40 @@
+ARQUIVO: raditz-luta-16bit.svg
+DESTINO: public/raditz-luta-16bit.svg
+
+OBJETIVO
+- Criar variação de combate do Raditz para a luta contra Goku (Parte 3).
+- Mesmo personagem do arquivo existente: public/raditz-16bit.svg
+- Manter consistência total de estilo, proporção, paleta e contorno.
+
+FORMATO
+- SVG puro (sem imagem raster embutida).
+- Fundo transparente.
+- Estilo 16-bit / pixel-art em SVG (shapes retangulares/pixeladas, contorno escuro).
+- ViewBox sugerido: 0 0 80 96 (mesmo padrão dos personagens existentes).
+- Tamanho exportável sugerido: 512x614 ou similar.
+
+PALETA / REFERÊNCIA VISUAL
+- Contorno: #121014
+- Cabelo longo preto: #17161E / #353E52 / #586685 / #0D0C11
+- Pele: #F4C39B / #FFE0C6 / #CE9063
+- Olhos: branco + íris escura; expressão ameaçadora/confiante
+- Scouter verde: #2EC458 / #84F59F / #177D34 (manter scouter)
+- Armadura Saiyajin: base escura #1B2130/#2E3B59/#0E121B, bordas brancas #F5F3ED/#C8C3B8, placas castanhas #9E5228/#C7723E/#693214
+- Pêlo/cinto: #69391D / #42210E
+
+POSE (LUTA)
+- Raditz em pose de ataque/combate.
+- Postura agressiva, levemente inclinada para frente.
+- Uma perna à frente, outra atrás, base firme no chão.
+- Um braço avançado em golpe/soco ou mão aberta ameaçadora; outro braço recuado.
+- Expressão arrogante/ameaçadora.
+- Cabelo longo espetado característico preservado.
+- Manter armadura Saiyajin e scouter.
+- Sem aura, sem ki blast, sem efeitos (efeitos serão adicionados em código).
+
+REGRAS IMPORTANTES
+- Pés alinhados na mesma linha de chão do sprite.
+- Não deixar personagem flutuando.
+- Silhueta clara e legível em 9:16.
+- Manter cabeça/corpo proporcionais ao raditz-16bit.svg.
+- Evitar detalhes pequenos demais que somem no vídeo.

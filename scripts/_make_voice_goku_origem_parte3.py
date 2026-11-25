@@ -1,4 +1,4 @@
-"""TTS - Goku Origem Parte 3 (Vegeta)."""
+"""TTS - Goku Origem Parte 3 (Luta contra Raditz)."""
 import asyncio, json, os, edge_tts
 
 VOICE = "pt-BR-AntonioNeural"
@@ -6,13 +6,12 @@ RATE = "+8%"
 PITCH = "+0Hz"
 OUT = os.path.join("public", "goku-origem-parte3")
 TEXT = (
-    "Depois da batalha contra Raditz, uma nova ameaça estava a caminho. "
-    "Antes de cair, Raditz avisou que dois Saiyajins ainda mais poderosos viriam para a Terra. "
-    "Um deles era Vegeta, o príncipe dos Saiyajins. "
-    "Orgulhoso, frio e incrivelmente forte, Vegeta chegou como um inimigo aterrorizante. "
-    "Para ele, Goku era apenas um guerreiro de classe baixa chamado Kakaroto. "
-    "Mas Goku mostrou que não iria recuar. Os dois travaram uma batalha intensa, que mudou Dragon Ball para sempre. "
-    "Vegeta perdeu aquela luta, mas sobreviveu. E aquela rivalidade estava só começando. "
+    "Depois de sequestrar Gohan, Raditz parecia invencível. Mas Goku não ia desistir do seu filho. "
+    "A batalha começou. Goku lutou com tudo, mas Raditz era mais forte e rápido. "
+    "Quando tudo parecia perdido, Gohan mostrou uma força surpreendente e ajudou a abrir uma brecha. "
+    "Goku aproveitou o momento, segurou Raditz, e um ataque decisivo acabou com a ameaça. "
+    "Mas a vitória teve um preço alto. Antes de cair, Raditz revelou que outros Saiyajins ainda mais poderosos viriam para a Terra. "
+    "A luta acabou... mas o perigo estava só começando. "
     "Continua na parte quatro!"
 )
 

@@ -2,466 +2,471 @@
   "voice": "pt-BR-AntonioNeural",
   "rate": "+8%",
   "pitch": "+0Hz",
-  "text": "Depois da batalha contra Raditz, uma nova ameaça estava a caminho. Antes de cair, Raditz avisou que dois Saiyajins ainda mais poderosos viriam para a Terra. Um deles era Vegeta, o príncipe dos Saiyajins. Orgulhoso, frio e incrivelmente forte, Vegeta chegou como um inimigo aterrorizante. Para ele, Goku era apenas um guerreiro de classe baixa chamado Kakaroto. Mas Goku mostrou que não iria recuar. Os dois travaram uma batalha intensa, que mudou Dragon Ball para sempre. Vegeta perdeu aquela luta, mas sobreviveu. E aquela rivalidade estava só começando. Continua na parte quatro!",
+  "text": "Depois de sequestrar Gohan, Raditz parecia invencível. Mas Goku não ia desistir do seu filho. A batalha começou. Goku lutou com tudo, mas Raditz era mais forte e rápido. Quando tudo parecia perdido, Gohan mostrou uma força surpreendente e ajudou a abrir uma brecha. Goku aproveitou o momento, segurou Raditz, e um ataque decisivo acabou com a ameaça. Mas a vitória teve um preço alto. Antes de cair, Raditz revelou que outros Saiyajins ainda mais poderosos viriam para a Terra. A luta acabou... mas o perigo estava só começando. Continua na parte quatro!",
   "words": [
     {
       "text": "Depois",
       "offset": 0.096291,
+      "duration": 0.462958
+    },
+    {
+      "text": "de",
+      "offset": 0.570833,
+      "duration": 0.092583
+    },
+    {
+      "text": "sequestrar",
+      "offset": 0.675,
+      "duration": 0.544
+    },
+    {
+      "text": "Gohan",
+      "offset": 1.230541,
+      "duration": 0.3125
+    },
+    {
+      "text": "Raditz",
+      "offset": 1.786125,
       "duration": 0.42825
     },
     {
-      "text": "da",
-      "offset": 0.536125,
+      "text": "parecia",
+      "offset": 2.225916,
+      "duration": 0.42825
+    },
+    {
+      "text": "invencível",
+      "offset": 2.66575,
+      "duration": 0.694458
+    },
+    {
+      "text": "Mas",
+      "offset": 4.155083,
+      "duration": 0.266208
+    },
+    {
+      "text": "Goku",
+      "offset": 4.432875,
+      "duration": 0.300916
+    },
+    {
+      "text": "não",
+      "offset": 4.745375,
+      "duration": 0.19675
+    },
+    {
+      "text": "ia",
+      "offset": 4.953708,
+      "duration": 0.150458
+    },
+    {
+      "text": "desistir",
+      "offset": 5.11575,
+      "duration": 0.451375
+    },
+    {
+      "text": "do",
+      "offset": 5.578708,
+      "duration": 0.104166
+    },
+    {
+      "text": "seu",
+      "offset": 5.694458,
+      "duration": 0.185166
+    },
+    {
+      "text": "filho",
+      "offset": 5.891208,
+      "duration": 0.347208
+    },
+    {
+      "text": "A",
+      "offset": 7.037041,
       "duration": 0.081
     },
     {
       "text": "batalha",
-      "offset": 0.628708,
-      "duration": 0.370375
+      "offset": 7.129625,
+      "duration": 0.42825
     },
     {
-      "text": "contra",
-      "offset": 1.010666,
-      "duration": 0.243041
-    },
-    {
-      "text": "Raditz",
-      "offset": 1.265291,
-      "duration": 0.486125
-    },
-    {
-      "text": "uma",
-      "offset": 2.075458,
-      "duration": 0.162041
-    },
-    {
-      "text": "nova",
-      "offset": 2.249083,
-      "duration": 0.277791
-    },
-    {
-      "text": "ameaça",
-      "offset": 2.538416,
-      "duration": 0.381958
-    },
-    {
-      "text": "estava",
-      "offset": 2.931958,
-      "duration": 0.277791
-    },
-    {
-      "text": "a",
-      "offset": 3.221291,
-      "duration": 0.034708
-    },
-    {
-      "text": "caminho",
-      "offset": 3.267583,
-      "duration": 0.405083
-    },
-    {
-      "text": "Antes",
-      "offset": 4.467583,
-      "duration": 0.335666
-    },
-    {
-      "text": "de",
-      "offset": 4.814833,
-      "duration": 0.081
-    },
-    {
-      "text": "cair",
-      "offset": 4.907416,
-      "duration": 0.347208
-    },
-    {
-      "text": "Raditz",
-      "offset": 5.50925,
-      "duration": 0.370375
-    },
-    {
-      "text": "avisou",
-      "offset": 5.891208,
-      "duration": 0.462958
-    },
-    {
-      "text": "que",
-      "offset": 6.36575,
-      "duration": 0.11575
-    },
-    {
-      "text": "dois",
-      "offset": 6.493041,
-      "duration": 0.208333
-    },
-    {
-      "text": "Saiyajins",
-      "offset": 6.712958,
-      "duration": 0.474541
-    },
-    {
-      "text": "ainda",
-      "offset": 7.199083,
-      "duration": 0.3125
-    },
-    {
-      "text": "mais",
-      "offset": 7.523166,
-      "duration": 0.266208
-    },
-    {
-      "text": "poderosos",
-      "offset": 7.800916,
-      "duration": 0.567125
-    },
-    {
-      "text": "viriam",
-      "offset": 8.379625,
-      "duration": 0.347208
-    },
-    {
-      "text": "para",
-      "offset": 8.738416,
-      "duration": 0.138875
-    },
-    {
-      "text": "a",
-      "offset": 8.888875,
-      "duration": 0.0462909
-    },
-    {
-      "text": "Terra",
-      "offset": 8.94675,
-      "duration": 0.381958
-    },
-    {
-      "text": "Um",
-      "offset": 10.127333,
-      "duration": 0.173625
-    },
-    {
-      "text": "deles",
-      "offset": 10.3125,
-      "duration": 0.3125
-    },
-    {
-      "text": "era",
-      "offset": 10.636583,
-      "duration": 0.185166
-    },
-    {
-      "text": "Vegeta",
-      "offset": 10.833333,
-      "duration": 0.497666
-    },
-    {
-      "text": "o",
-      "offset": 11.574083,
-      "duration": 0.11575
-    },
-    {
-      "text": "príncipe",
-      "offset": 11.701375,
-      "duration": 0.439833
-    },
-    {
-      "text": "dos",
-      "offset": 12.152791,
-      "duration": 0.19675
-    },
-    {
-      "text": "Saiyajins",
-      "offset": 12.361125,
-      "duration": 0.729166
-    },
-    {
-      "text": "Orgulhoso",
-      "offset": 13.888875,
-      "duration": 0.601833
-    },
-    {
-      "text": "frio",
-      "offset": 14.7685,
-      "duration": 0.300916
-    },
-    {
-      "text": "e",
-      "offset": 15.081,
-      "duration": 0.023166
-    },
-    {
-      "text": "incrivelmente",
-      "offset": 15.11575,
-      "duration": 0.625
-    },
-    {
-      "text": "forte",
-      "offset": 15.752333,
-      "duration": 0.370375
-    },
-    {
-      "text": "Vegeta",
-      "offset": 16.412041,
-      "duration": 0.405083
-    },
-    {
-      "text": "chegou",
-      "offset": 16.828708,
-      "duration": 0.3125
-    },
-    {
-      "text": "como",
-      "offset": 17.152791,
-      "duration": 0.19675
-    },
-    {
-      "text": "um",
-      "offset": 17.361125,
-      "duration": 0.069458
-    },
-    {
-      "text": "inimigo",
-      "offset": 17.442125,
-      "duration": 0.3935
-    },
-    {
-      "text": "aterrorizante",
-      "offset": 17.847208,
-      "duration": 0.763875
-    },
-    {
-      "text": "Para",
-      "offset": 19.409708,
-      "duration": 0.243041
-    },
-    {
-      "text": "ele",
-      "offset": 19.664333,
-      "duration": 0.2315
+      "text": "começou",
+      "offset": 7.569458,
+      "duration": 0.520833
     },
     {
       "text": "Goku",
-      "offset": 20.104166,
+      "offset": 8.888875,
+      "duration": 0.266208
+    },
+    {
+      "text": "lutou",
+      "offset": 9.166666,
       "duration": 0.300916
+    },
+    {
+      "text": "com",
+      "offset": 9.479166,
+      "duration": 0.208333
+    },
+    {
+      "text": "tudo",
+      "offset": 9.699083,
+      "duration": 0.289333
+    },
+    {
+      "text": "mas",
+      "offset": 10.277791,
+      "duration": 0.162041
+    },
+    {
+      "text": "Raditz",
+      "offset": 10.451375,
+      "duration": 0.370375
     },
     {
       "text": "era",
-      "offset": 20.416666,
-      "duration": 0.127333
+      "offset": 10.833333,
+      "duration": 0.185166
     },
     {
-      "text": "apenas",
-      "offset": 20.555541,
-      "duration": 0.300916
+      "text": "mais",
+      "offset": 11.030083,
+      "duration": 0.19675
     },
     {
-      "text": "um",
-      "offset": 20.868041,
+      "text": "forte",
+      "offset": 11.238416,
+      "duration": 0.335666
+    },
+    {
+      "text": "e",
+      "offset": 11.585666,
+      "duration": 0.034708
+    },
+    {
+      "text": "rápido",
+      "offset": 11.631958,
+      "duration": 0.451375
+    },
+    {
+      "text": "Quando",
+      "offset": 12.881958,
+      "duration": 0.3125
+    },
+    {
+      "text": "tudo",
+      "offset": 13.206,
+      "duration": 0.254625
+    },
+    {
+      "text": "parecia",
+      "offset": 13.472208,
+      "duration": 0.405083
+    },
+    {
+      "text": "perdido",
+      "offset": 13.888875,
+      "duration": 0.462958
+    },
+    {
+      "text": "Gohan",
+      "offset": 14.629625,
+      "duration": 0.208333
+    },
+    {
+      "text": "mostrou",
+      "offset": 14.849541,
+      "duration": 0.381958
+    },
+    {
+      "text": "uma",
+      "offset": 15.243041,
       "duration": 0.138875
     },
     {
-      "text": "guerreiro",
-      "offset": 21.0185,
+      "text": "força",
+      "offset": 15.3935,
       "duration": 0.347208
     },
     {
-      "text": "de",
-      "offset": 21.377333,
-      "duration": 0.092583
+      "text": "surpreendente",
+      "offset": 15.752333,
+      "duration": 0.682875
     },
     {
-      "text": "classe",
+      "text": "e",
+      "offset": 16.44675,
+      "duration": 0.023166
+    },
+    {
+      "text": "ajudou",
+      "offset": 16.4815,
+      "duration": 0.358791
+    },
+    {
+      "text": "a",
+      "offset": 16.851833,
+      "duration": 0.034708
+    },
+    {
+      "text": "abrir",
+      "offset": 16.898166,
+      "duration": 0.266208
+    },
+    {
+      "text": "uma",
+      "offset": 17.175916,
+      "duration": 0.150458
+    },
+    {
+      "text": "brecha",
+      "offset": 17.337958,
+      "duration": 0.42825
+    },
+    {
+      "text": "Goku",
+      "offset": 18.564833,
+      "duration": 0.289333
+    },
+    {
+      "text": "aproveitou",
+      "offset": 18.86575,
+      "duration": 0.486125
+    },
+    {
+      "text": "o",
+      "offset": 19.363416,
+      "duration": 0.011583
+    },
+    {
+      "text": "momento",
+      "offset": 19.386583,
+      "duration": 0.451375
+    },
+    {
+      "text": "segurou",
+      "offset": 20.127333,
+      "duration": 0.381958
+    },
+    {
+      "text": "Raditz",
+      "offset": 20.520833,
+      "duration": 0.532416
+    },
+    {
+      "text": "e",
+      "offset": 21.284708,
+      "duration": 0.057875
+    },
+    {
+      "text": "um",
+      "offset": 21.354166,
+      "duration": 0.11575
+    },
+    {
+      "text": "ataque",
       "offset": 21.4815,
       "duration": 0.347208
     },
     {
-      "text": "baixa",
+      "text": "decisivo",
       "offset": 21.840291,
-      "duration": 0.347208
-    },
-    {
-      "text": "chamado",
-      "offset": 22.199083,
-      "duration": 0.381958
-    },
-    {
-      "text": "Kakaroto",
-      "offset": 22.592583,
-      "duration": 0.555541
-    },
-    {
-      "text": "Mas",
-      "offset": 23.94675,
-      "duration": 0.254625
-    },
-    {
-      "text": "Goku",
-      "offset": 24.212958,
-      "duration": 0.243041
-    },
-    {
-      "text": "mostrou",
-      "offset": 24.467583,
-      "duration": 0.42825
-    },
-    {
-      "text": "que",
-      "offset": 24.907416,
-      "duration": 0.11575
-    },
-    {
-      "text": "não",
-      "offset": 25.034708,
-      "duration": 0.208333
-    },
-    {
-      "text": "iria",
-      "offset": 25.254625,
-      "duration": 0.243041
-    },
-    {
-      "text": "recuar",
-      "offset": 25.50925,
-      "duration": 0.42825
-    },
-    {
-      "text": "Os",
-      "offset": 26.736125,
-      "duration": 0.162041
-    },
-    {
-      "text": "dois",
-      "offset": 26.909708,
-      "duration": 0.289333
-    },
-    {
-      "text": "travaram",
-      "offset": 27.210666,
-      "duration": 0.347208
-    },
-    {
-      "text": "uma",
-      "offset": 27.569458,
-      "duration": 0.11575
-    },
-    {
-      "text": "batalha",
-      "offset": 27.69675,
-      "duration": 0.347208
-    },
-    {
-      "text": "intensa",
-      "offset": 28.055541,
-      "duration": 0.486125
-    },
-    {
-      "text": "que",
-      "offset": 28.773166,
-      "duration": 0.127333
-    },
-    {
-      "text": "mudou",
-      "offset": 28.912041,
-      "duration": 0.300916
-    },
-    {
-      "text": "Dragon",
-      "offset": 29.224541,
-      "duration": 0.335666
-    },
-    {
-      "text": "Ball",
-      "offset": 29.57175,
-      "duration": 0.208333
-    },
-    {
-      "text": "para",
-      "offset": 29.791666,
-      "duration": 0.185166
-    },
-    {
-      "text": "sempre",
-      "offset": 29.988416,
-      "duration": 0.439833
-    },
-    {
-      "text": "Vegeta",
-      "offset": 31.226833,
       "duration": 0.497666
     },
     {
-      "text": "perdeu",
-      "offset": 31.736125,
-      "duration": 0.370375
+      "text": "acabou",
+      "offset": 22.349541,
+      "duration": 0.381958
     },
     {
-      "text": "aquela",
-      "offset": 32.118041,
-      "duration": 0.266208
+      "text": "com",
+      "offset": 22.743041,
+      "duration": 0.150458
     },
     {
-      "text": "luta",
-      "offset": 32.395833,
-      "duration": 0.335666
+      "text": "a",
+      "offset": 22.905083,
+      "duration": 0.034708
     },
     {
-      "text": "mas",
-      "offset": 33.020833,
+      "text": "ameaça",
+      "offset": 22.951375,
+      "duration": 0.474541
+    },
+    {
+      "text": "Mas",
+      "offset": 24.224541,
       "duration": 0.185166
     },
     {
-      "text": "sobreviveu",
-      "offset": 33.217583,
-      "duration": 0.659708
-    },
-    {
-      "text": "E",
-      "offset": 34.675916,
+      "text": "a",
+      "offset": 24.421291,
       "duration": 0.11575
     },
     {
-      "text": "aquela",
-      "offset": 34.80325,
+      "text": "vitória",
+      "offset": 24.548625,
+      "duration": 0.439833
+    },
+    {
+      "text": "teve",
+      "offset": 25.0,
+      "duration": 0.208333
+    },
+    {
+      "text": "um",
+      "offset": 25.219916,
+      "duration": 0.092583
+    },
+    {
+      "text": "preço",
+      "offset": 25.324083,
+      "duration": 0.347208
+    },
+    {
+      "text": "alto",
+      "offset": 25.682875,
+      "duration": 0.335666
+    },
+    {
+      "text": "Antes",
+      "offset": 26.817125,
+      "duration": 0.335666
+    },
+    {
+      "text": "de",
+      "offset": 27.164333,
+      "duration": 0.081
+    },
+    {
+      "text": "cair",
+      "offset": 27.256958,
+      "duration": 0.347208
+    },
+    {
+      "text": "Raditz",
+      "offset": 27.835666,
+      "duration": 0.42825
+    },
+    {
+      "text": "revelou",
+      "offset": 28.275458,
+      "duration": 0.42825
+    },
+    {
+      "text": "que",
+      "offset": 28.715291,
+      "duration": 0.138875
+    },
+    {
+      "text": "outros",
+      "offset": 28.86575,
+      "duration": 0.266208
+    },
+    {
+      "text": "Saiyajins",
+      "offset": 29.1435,
+      "duration": 0.474541
+    },
+    {
+      "text": "ainda",
+      "offset": 29.629625,
+      "duration": 0.335666
+    },
+    {
+      "text": "mais",
+      "offset": 29.976833,
+      "duration": 0.266208
+    },
+    {
+      "text": "poderosos",
+      "offset": 30.254625,
+      "duration": 0.567125
+    },
+    {
+      "text": "viriam",
+      "offset": 30.833333,
+      "duration": 0.347208
+    },
+    {
+      "text": "para",
+      "offset": 31.192125,
+      "duration": 0.138875
+    },
+    {
+      "text": "a",
+      "offset": 31.342583,
+      "duration": 0.034708
+    },
+    {
+      "text": "Terra",
+      "offset": 31.388875,
+      "duration": 0.370375
+    },
+    {
+      "text": "A",
+      "offset": 32.557875,
+      "duration": 0.104166
+    },
+    {
+      "text": "luta",
+      "offset": 32.673625,
+      "duration": 0.3125
+    },
+    {
+      "text": "acabou",
+      "offset": 32.997666,
       "duration": 0.358791
     },
     {
-      "text": "rivalidade",
-      "offset": 35.173625,
-      "duration": 0.625
+      "text": "mas",
+      "offset": 33.587958,
+      "duration": 0.11575
     },
     {
-      "text": "estava",
-      "offset": 35.810166,
+      "text": "o",
+      "offset": 33.715291,
+      "duration": 0.11575
+    },
+    {
+      "text": "perigo",
+      "offset": 33.842583,
       "duration": 0.324083
     },
     {
+      "text": "estava",
+      "offset": 34.17825,
+      "duration": 0.289333
+    },
+    {
       "text": "só",
-      "offset": 36.145833,
+      "offset": 34.479166,
       "duration": 0.219916
     },
     {
       "text": "começando",
-      "offset": 36.377333,
-      "duration": 0.613416
+      "offset": 34.710666,
+      "duration": 0.590291
     },
     {
       "text": "Continua",
-      "offset": 37.789333,
+      "offset": 36.099541,
       "duration": 0.613416
     },
     {
       "text": "na",
-      "offset": 38.414333,
+      "offset": 36.724541,
       "duration": 0.138875
     },
     {
       "text": "parte",
-      "offset": 38.564833,
+      "offset": 36.875,
       "duration": 0.324083
     },
     {
       "text": "quatro",
-      "offset": 38.900458,
+      "offset": 37.210666,
       "duration": 0.42825
     }
   ]

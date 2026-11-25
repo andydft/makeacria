@@ -1,0 +1,40 @@
+ARQUIVO: goku-adulto-luta-16bit.svg
+DESTINO: public/goku-adulto-luta-16bit.svg
+
+OBJETIVO
+- Criar variação de combate do Goku adulto para a luta contra Raditz (Parte 3).
+- Mesmo personagem do arquivo existente: public/goku-adulto-16bit.svg
+- Manter consistência total de estilo, proporção, paleta e contorno.
+
+FORMATO
+- SVG puro (sem imagem raster embutida).
+- Fundo transparente.
+- Estilo 16-bit / pixel-art em SVG (shapes retangulares/pixeladas, contorno escuro).
+- ViewBox sugerido: 0 0 80 96 (mesmo padrão dos personagens existentes).
+- Tamanho exportável sugerido: 512x614 ou similar.
+
+PALETA / REFERÊNCIA VISUAL
+- Contorno: #121014
+- Cabelo: #191820 / #3E4554 / #636D82
+- Pele: #F6C89E / #FFE1C4 / #D49A6E
+- Olhos: branco + íris escura
+- Gi laranja: #F26819 / #FF8E47 / #B84009
+- Camiseta/faixa/botas azul: #1E448A / #356AC9 / #122854
+- Detalhes: dourado #EBB838, vermelho #C9242B
+
+POSE (LUTA)
+- Goku adulto em pose de ataque/soco.
+- Corpo levemente inclinado para frente.
+- Perna esquerda à frente, perna direita atrás (base firme no chão).
+- Braço direito avançado em soco; braço esquerdo recuado/defesa.
+- Punhos fechados.
+- Expressão séria/determinada (boca neutra/fechada, sobrancelhas firmes).
+- Cabelo espetado igual ao Goku adulto base.
+- Sem aura, sem ki blast, sem efeitos (efeitos serão adicionados em código).
+
+REGRAS IMPORTANTES
+- Pés alinhados na mesma linha de chão do sprite.
+- Não deixar personagem flutuando.
+- Silhueta clara e legível em 9:16.
+- Manter cabeça/corpo proporcionais ao goku-adulto-16bit.svg.
+- Evitar detalhes pequenos demais que somem no vídeo.

@@ -1,0 +1,73 @@
+Crie 4 SVGs puros em estilo 16-bit pixel-art (sem imagem raster embutida, sem fundo), para complementar a luta Goku vs Raditz em animação Remotion 9:16.
+
+## Regras gerais
+- Formato: SVG puro, fundo transparente.
+- Estilo: 16-bit / pixel-art em SVG, com contorno escuro e formas simples/blocadas.
+- ViewBox: 0 0 80 96 para personagens; para efeitos, use viewBox que faça sentido (ex: 0 0 64 64 ou 0 0 80 96) mas mantenha fundo transparente.
+- Tamanho sugerido: 512x512 ou 512x614.
+- Silhueta clara e legível em tela vertical.
+- Manter proporção e identidade visual dos personagens base já existentes.
+- Não inclua texto.
+
+## Arquivo 1: ki-blast-16bit.svg
+- Efeito de bola/rajada de energia simples para ataque.
+- Pode ser uma esfera de ki com rastro curto, estilo 16-bit.
+- Cores sugeridas: azul claro/branco (#7FD3FF, #DFFFFF, #2B8CFF) ou amarelado; escolha uma leitura clara.
+- Fundo transparente, sem personagem.
+- ViewBox sugerido: 0 0 64 64.
+
+## Arquivo 2: aura-ki-16bit.svg
+- Aura de energia ao redor do corpo, transparente no centro, para sobrepor personagem.
+- Estilo 16-bit, chamas/energia subindo.
+- Cor sugerida: branca/azulada (#FFFFFF, #BEEBFF, #6EC6FF) com transparência/leveza visual.
+- ViewBox sugerido: 0 0 80 96.
+- Deve caber como overlay em um personagem 80x96 sem cobrir totalmente o corpo.
+
+## Arquivo 3: goku-adulto-ferido-16bit.svg
+Base de referência: Goku adulto (gi laranja, camiseta/faixa/botas azuis, cabelo preto espetado), mesmo estilo do goku-adulto-16bit.svg.
+Pose/estado: ferido, cansado após a luta.
+- De pé, levemente curvado ou com postura abatida.
+- Roupas com pequenos rasgos/danos visuais.
+- Pode ter bandagem simples ou marcas de machucado discretas.
+- Expressão cansada/determinada, boca fechada.
+- Pés apoiados na linha de chão, sem flutuar.
+- ViewBox: 0 0 80 96.
+
+Paleta sugerida:
+- Contorno: #121014
+- Cabelo: #191820, #3E4554, #636D82
+- Pele: #F6C89E, #FFE1C4, #D49A6E
+- Olhos: #FFFFFF, #1E1D24
+- Gi laranja: #F26819, #FF8E47, #B84009
+- Azul: #1E448A, #356AC9, #122854
+- Detalhes: #EBB838, #C9242B
+- Machucado/bandagem: #EDEDED, #B84A4A (usar com moderação)
+
+## Arquivo 4: raditz-ferido-16bit.svg
+Base de referência: Raditz (cabelo longo espetado preto, armadura Saiyajin, scouter verde), mesmo estilo do raditz-16bit.svg.
+Pose/estado: ferido, após levar dano.
+- De pé ou semi-ajoelhado, postura abatida/ferida.
+- Armadura com danos/rachaduras visuais.
+- Scouter pode estar rachado ou apagado, mas mantenha o personagem reconhecível.
+- Expressão de dor/raiva.
+- Pés/base apoiados no chão, sem flutuar.
+- ViewBox: 0 0 80 96.
+
+Paleta sugerida:
+- Contorno: #121014
+- Cabelo: #17161E, #353E52, #586685, #0D0C11
+- Pele: #F4C39B, #FFE0C6, #CE9063
+- Olhos: #FFFFFF, #1A1921
+- Scouter: #2EC458, #84F59F, #177D34, #ECEAE4, #B8B4AA
+- Armadura escura: #1B2130, #2E3B59, #0E121B
+- Bordas brancas: #F5F3ED, #C8C3B8
+- Placas castanhas: #9E5228, #C7723E, #693214
+- Pêlo/cinto: #69391D, #42210E
+- Dano: #7A1E1E, #D9D9D9 (usar com moderação)
+
+## Entrega
+Responda com os 4 SVGs completos, separados, cada um em seu próprio bloco de código, com os nomes:
+1. ki-blast-16bit.svg
+2. aura-ki-16bit.svg
+3. goku-adulto-ferido-16bit.svg
+4. raditz-ferido-16bit.svg

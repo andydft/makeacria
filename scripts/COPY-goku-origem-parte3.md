@@ -1,14 +1,14 @@
-# COPY — Goku: A Origem (Parte 3 - Vegeta)
+# COPY — Goku: A Origem (Parte 3 - A Luta Contra Raditz)
 
 ## Título
-A origem do Goku Parte 3: Vegeta, o príncipe dos Saiyajins!
+A origem do Goku Parte 3: a luta contra Raditz!
 
 ## Legenda
-Depois de Raditz, uma nova ameaça chega à Terra: Vegeta, o príncipe dos Saiyajins.
+Raditz sequestrou Gohan, mas Goku não ia desistir. A batalha é intensa, Gohan mostra uma força surpreendente e Goku aproveita a brecha para um ataque decisivo.
 
-Orgulhoso e poderoso, ele encara Goku em uma batalha intensa que muda tudo em Dragon Ball. Vegeta perde... mas a rivalidade só está começando.
+Mas antes de cair, Raditz deixa um aviso: outros Saiyajins ainda mais poderosos estão a caminho...
 
 Continua na Parte 4!
 
 ## Hashtags
-#DragonBall #Goku #Vegeta #Saiyajin #DragonBallZ #Anime #Curiosidades #Otaku #Rivalidade #Shorts
+#DragonBall #Goku #Raditz #Gohan #Saiyajin #DragonBallZ #Anime #Curiosidades #Otaku #Shorts

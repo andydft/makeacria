@@ -1,0 +1,71 @@
+{
+  "project": "Goku Origem - Parte 3 (Luta Goku vs Raditz)",
+  "output_format": {
+    "type": "SVG puro",
+    "background": "transparent",
+    "style": "16-bit pixel-art em SVG (formas retangulares/pixeladas, contorno escuro)",
+    "viewBox": "0 0 80 96",
+    "suggested_export_size": "512x614",
+    "no_raster_images": true,
+    "no_effects": ["aura", "ki blast", "particulas", "glow"]
+  },
+  "global_rules": [
+    "Manter consistência total com os SVGs base existentes.",
+    "Mesmo tamanho, proporção, paleta e espessura de contorno dos personagens base.",
+    "Pés alinhados na mesma linha de chão; personagem não pode flutuar.",
+    "Silhueta clara e legível em vídeo vertical 9:16.",
+    "Evitar detalhes pequenos demais que somem em tamanho reduzido.",
+    "Não redesenhar o personagem inteiro do zero se puder reaproveitar cabeça/tronco/base; mudar principalmente braços, pernas e expressão."
+  ],
+  "assets": [
+    {
+      "filename": "goku-adulto-luta-16bit.svg",
+      "destination": "public/goku-adulto-luta-16bit.svg",
+      "reference_file": "public/goku-adulto-16bit.svg",
+      "character": "Goku adulto (base)",
+      "pose": {
+        "description": "Pose de ataque/soco, pronta para combate.",
+        "body": "Levemente inclinado para frente.",
+        "legs": "Perna esquerda à frente, perna direita atrás, base firme no chão.",
+        "arms": "Braço direito avançado em soco com punho fechado; braço esquerdo recuado em guarda/defesa.",
+        "face": "Expressão séria e determinada, boca fechada/neutra.",
+        "hair": "Cabelo preto espetado igual ao Goku adulto base."
+      },
+      "palette": {
+        "outline": "#121014",
+        "hair": ["#191820", "#3E4554", "#636D82"],
+        "skin": ["#F6C89E", "#FFE1C4", "#D49A6E"],
+        "eyes": ["#FFFFFF", "#1E1D24"],
+        "gi_orange": ["#F26819", "#FF8E47", "#B84009"],
+        "blue_clothes_boots_belt": ["#1E448A", "#356AC9", "#122854"],
+        "details": ["#EBB838", "#C9242B"]
+      }
+    },
+    {
+      "filename": "raditz-luta-16bit.svg",
+      "destination": "public/raditz-luta-16bit.svg",
+      "reference_file": "public/raditz-16bit.svg",
+      "character": "Raditz",
+      "pose": {
+        "description": "Pose de ataque/combate agressiva.",
+        "body": "Levemente inclinado para frente, postura ameaçadora.",
+        "legs": "Uma perna à frente, outra atrás, base firme no chão.",
+        "arms": "Um braço avançado em golpe/soco ou mão aberta ameaçadora; outro braço recuado pronto para combate.",
+        "face": "Expressão arrogante/ameaçadora.",
+        "hair": "Cabelo longo espetado característico preservado.",
+        "equipment": "Manter armadura Saiyajin e scouter verde."
+      },
+      "palette": {
+        "outline": "#121014",
+        "hair": ["#17161E", "#353E52", "#586685", "#0D0C11"],
+        "skin": ["#F4C39B", "#FFE0C6", "#CE9063"],
+        "eyes": ["#FFFFFF", "#1A1921"],
+        "scouter": ["#2EC458", "#84F59F", "#177D34", "#ECEAE4", "#B8B4AA"],
+        "armor_dark": ["#1B2130", "#2E3B59", "#0E121B"],
+        "armor_white_trim": ["#F5F3ED", "#C8C3B8"],
+        "armor_brown_plates": ["#9E5228", "#C7723E", "#693214"],
+        "fur_belt": ["#69391D", "#42210E"]
+      }
+    }
+  ]
+}

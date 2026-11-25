@@ -1,0 +1,18 @@
+{
+  "default": "pt-BR-AntonioNeural",
+  "cast": {
+    "M1": {
+      "voice": "pt-BR-AntonioNeural",
+      "label": "Masculina principal (BR)"
+    },
+    "F1": {
+      "voice": "pt-BR-FranciscaNeural",
+      "label": "Feminina 1 (BR)"
+    },
+    "F2": {
+      "voice": "pt-BR-ThalitaMultilingualNeural",
+      "label": "Feminina 2 (BR)"
+    }
+  },
+  "notes": "Edge TTS pt-BR atualmente oferece 1 masculina e 2 femininas. Ajustar se novas vozes ficarem disponíveis."
+}

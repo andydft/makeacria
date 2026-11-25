@@ -1,0 +1,56 @@
+Crie 2 SVGs puros em estilo 16-bit pixel-art (sem imagem raster embutida, sem fundo), para usar em animação Remotion 9:16.
+
+## Regras gerais
+- Formato: SVG puro, fundo transparente.
+- Estilo: 16-bit / pixel-art em SVG, com contorno escuro e formas simples/blocadas.
+- ViewBox: 0 0 80 96
+- Tamanho sugerido: 512x614
+- Não incluir aura, ki blast, partículas, brilho ou efeitos.
+- Personagem inteiro visível, pés apoiados na mesma linha de chão (não flutuar).
+- Silhueta clara e legível em tela vertical.
+- Manter proporção e identidade visual dos personagens base.
+
+## Arquivo 1: goku-adulto-luta-16bit.svg
+Base de referência: Goku adulto (gi laranja, camiseta/faixa/botas azuis, cabelo preto espetado).
+Pose: golpe normal de **soco**.
+- Corpo levemente inclinado para frente.
+- Perna esquerda à frente, perna direita atrás, base firme.
+- Braço direito esticado para frente em soco, punho fechado.
+- Braço esquerdo recuado em guarda/defesa.
+- Expressão séria e determinada, boca fechada.
+- Cabelo igual ao Goku adulto base.
+
+Paleta sugerida:
+- Contorno: #121014
+- Cabelo: #191820, #3E4554, #636D82
+- Pele: #F6C89E, #FFE1C4, #D49A6E
+- Olhos: #FFFFFF, #1E1D24
+- Gi laranja: #F26819, #FF8E47, #B84009
+- Azul: #1E448A, #356AC9, #122854
+- Detalhes: #EBB838, #C9242B
+
+## Arquivo 2: raditz-luta-16bit.svg
+Base de referência: Raditz (cabelo longo espetado preto, armadura Saiyajin, scouter verde).
+Pose: golpe normal de **soco/ataque**.
+- Postura agressiva, levemente inclinada para frente.
+- Uma perna à frente, outra atrás, base firme.
+- Um braço avançado em soco/golpe, punho fechado ou mão de ataque clara.
+- Outro braço recuado pronto para combate.
+- Expressão arrogante/ameaçadora.
+- Manter cabelo longo espetado, armadura Saiyajin e scouter verde.
+
+Paleta sugerida:
+- Contorno: #121014
+- Cabelo: #17161E, #353E52, #586685, #0D0C11
+- Pele: #F4C39B, #FFE0C6, #CE9063
+- Olhos: #FFFFFF, #1A1921
+- Scouter: #2EC458, #84F59F, #177D34, #ECEAE4, #B8B4AA
+- Armadura escura: #1B2130, #2E3B59, #0E121B
+- Bordas brancas: #F5F3ED, #C8C3B8
+- Placas castanhas: #9E5228, #C7723E, #693214
+- Pêlo/cinto: #69391D, #42210E
+
+## Entrega
+Responda com os 2 SVGs completos, separados, cada um em seu próprio bloco de código, com os nomes:
+1. goku-adulto-luta-16bit.svg
+2. raditz-luta-16bit.svg
