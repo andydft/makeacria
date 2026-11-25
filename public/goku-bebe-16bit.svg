@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 96" width="512" height="614" role="img" aria-label="Goku bebê simples com cabelo espetado escuro, cauda marrom e expressão inocente em 16-bits em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+
+      /* Cabelo espetado curto escuro */
+      .h { fill: #191820; }
+      .hl { fill: #3E4554; }
+      .hh { fill: #636D82; }
+
+      /* Pele infantil */
+      .s { fill: #F6C89E; }
+      .sl { fill: #FFE1C4; }
+      .sd { fill: #D49A6E; }
+      .blush { fill: #E58C75; }
+
+      /* Olhos e boca simples */
+      .w { fill: #FFFFFF; }
+      .e { fill: #1E1D24; }
+      .mouth { fill: #C23B4B; }
+
+      /* Cauda marrom */
+      .tail { fill: #5E3720; }
+      .tail-d { fill: #3B2010; }
+    </style>
+  </defs>
+
+  
+  <g id="baby-tail">
+    <path class="o" d="M47 64h6v-1h3v-2h1v-3h-2v-1h-2v1h-1v2h-2v-3h1v-2h2v-1h3v1h2v2h1v4h-1v2h-2v1h-3v1h-6z" />
+    <path class="tail" d="M47 65h6v-1h2v-2h1v-2h-1v-1h-1v1h-1v1h-1v-2h1v-2h2v-1h1v1h1v2h1v3h-1v2h-2v1h-2v1h-6z" />
+    <path class="tail-d" d="M47 66h6v-1h2v-1h-2v1h-6z" />
+  </g>
+
+  
+  <g id="baby-body">
+    
+    <path class="o" d="M31 48h18v2v10h-2v5h-6v-3h-2v3h-6v-5h-2v-10v-2z" />
+    <path class="s" d="M32 49h16v10h-2v5h-4v-3h-4v3h-4v-5h-2z" />
+    
+    <path class="sl" d="M33 50h5v7h-5zM33 59h4v4h-4zM43 59h4v4h-4z" />
+    <path class="sd" d="M45 50h3v8h-3zM38 56h4v1h-4z" />
+
+    
+    <path class="o" d="M25 50h6v1v7h-2v2h-4v-2h-1v-4h1v-3z" />
+    <path class="s" d="M26 51h5v6h-2v2h-3v-2h-1v-3h1z" />
+    <path class="sl" d="M26 51h2v6h-2z" />
+
+    <path class="o" d="M49 50h6v3h1v4h-1v2h-4v-2h-2v-7v-1z" />
+    <path class="s" d="M49 51h5v3h1v3h-1v2h-3v-2h-2z" />
+    <path class="sd" d="M52 51h2v6h-2z" />
+  </g>
+
+  
+  <g id="baby-head">
+    <path class="o" d="M28 29h24v2v6h2v5h-2v2h-2v2h-2v2h-3v1h-10v-1h-3v-2h-2v-2h-2v-2h-2v-5h2v-6v-2z" />
+    <path class="s" d="M29 30h22v12h-2v2h-2v2h-2v1h-10v-1h-2v-2h-2v-2h-2z" />
+
+    
+    <path class="s" d="M26 35h2v5h-2zM52 35h2v5h-2z" />
+    <path class="sd" d="M26 37h1v2h-1zM53 37h1v2h-1z" />
+
+    
+    <path class="sl" d="M30 31h6v2h-6zM44 31h6v2h-6zM44 39h4v3h-4z" />
+    <rect class="blush" x="30" y="40" width="2" height="1" />
+    <rect class="blush" x="48" y="40" width="2" height="1" />
+    <path class="sd" d="M31 44h18v1h-18z" />
+
+    
+    <path class="o" d="M32 34h4v1h-4zM44 34h4v1h-4z" />
+
+    
+    <rect class="o" x="32" y="35" width="6" height="5" />
+    <rect class="w" x="33" y="36" width="4" height="3" />
+    <rect class="e" x="34" y="36" width="2" height="3" />
+    <rect class="w" x="34" y="36" width="1" height="1" />
+
+    <rect class="o" x="42" y="35" width="6" height="5" />
+    <rect class="w" x="43" y="36" width="4" height="3" />
+    <rect class="e" x="44" y="36" width="2" height="3" />
+    <rect class="w" x="44" y="36" width="1" height="1" />
+
+    
+    <rect class="o" x="40" y="40" width="1" height="1" />
+
+    
+    <path class="o" d="M38 42h4v2h-1v1h-2v-1h-1z" />
+    <rect class="mouth" x="39" y="43" width="2" height="1" />
+  </g>
+
+  
+  <g id="baby-spiky-hair">
+    <path class="o" d="M37 18h4v3h4v2h4v2h4v4v3h-2v-2h-2v-2h-2v2h-2v2h-2v-2h-2v-2h-2v2h-2v2h-2v-2h-2v-2h-2v2h-2v2h-2v-3v-4h4v-2h4v-2h4v-3z" />
+    <path class="h" d="M38 19h2v3h4v2h4v2h3v4h-1v-2h-2v-1h-2v2h-2v1h-1v-2h-2v-1h-2v2h-2v1h-1v-2h-2v-1h-2v2h-1v-4h3v-2h4v-2h4v-3z" />
+    
+    <path class="hl" d="M38 20h1v3h3v2h3v1h-3v-1h-3v-2h-1zM29 25h4v1h3v1h-3v-1h-4zM46 25h5v1h-5zM31 28h4v1h-2v1h-1v-1h-1zM45 28h4v1h-2v1h-1v-1h-1z" />
+    <path class="hh" d="M39 21h1v2h-1zM31 25h2v1h-2zM48 25h2v1h-2z" />
+  </g>
+</svg>

@@ -1,0 +1,833 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "pitch": "+0Hz",
+  "text": "Na parte um, a gente viu como o Goku nasceu de uma lenda. Mas a história dele ainda ia ficar muito maior. Quando tudo parecia só uma aventura, Goku já tinha crescido, formado família e descobriu que era pai do Gohan. Mas a grande revelação veio com Raditz: Goku era um Saiyajin, vindo de outro planeta, e seu nome verdadeiro era Kakaroto. Aquela cauda, que parecia só uma curiosidade, fazia parte da origem dele. Depois veio Vegeta, o príncipe dos Saiyajins. No começo, ele era um rival perigoso e orgulhoso, mas com o tempo se tornaria um dos personagens mais marcantes da saga. E teve uma curiosidade famosa: Akira Toriyama comentou que deixar o cabelo do Goku loiro no Super Saiyajin também ajudava no trabalho do mangá. O resultado foi uma das transformações mais icônicas de todos os animes. De uma lenda antiga a uma saga cheia de batalhas, revelações e transformações... e isso ainda é só o começo. Segue pra ver a próxima parte!",
+  "words": [
+    {
+      "text": "Na",
+      "offset": 0.096291,
+      "duration": 0.185166
+    },
+    {
+      "text": "parte",
+      "offset": 0.293041,
+      "duration": 0.347208
+    },
+    {
+      "text": "um",
+      "offset": 0.651833,
+      "duration": 0.19675
+    },
+    {
+      "text": "a",
+      "offset": 1.114833,
+      "duration": 0.0462909
+    },
+    {
+      "text": "gente",
+      "offset": 1.172666,
+      "duration": 0.300916
+    },
+    {
+      "text": "viu",
+      "offset": 1.485166,
+      "duration": 0.19675
+    },
+    {
+      "text": "como",
+      "offset": 1.6935,
+      "duration": 0.185166
+    },
+    {
+      "text": "o",
+      "offset": 1.890291,
+      "duration": 0.023166
+    },
+    {
+      "text": "Goku",
+      "offset": 1.925,
+      "duration": 0.254625
+    },
+    {
+      "text": "nasceu",
+      "offset": 2.191208,
+      "duration": 0.358791
+    },
+    {
+      "text": "de",
+      "offset": 2.561583,
+      "duration": 0.057875
+    },
+    {
+      "text": "uma",
+      "offset": 2.631,
+      "duration": 0.138875
+    },
+    {
+      "text": "lenda",
+      "offset": 2.7815,
+      "duration": 0.370375
+    },
+    {
+      "text": "Mas",
+      "offset": 3.94675,
+      "duration": 0.185166
+    },
+    {
+      "text": "a",
+      "offset": 4.1435,
+      "duration": 0.104166
+    },
+    {
+      "text": "história",
+      "offset": 4.25925,
+      "duration": 0.370375
+    },
+    {
+      "text": "dele",
+      "offset": 4.641208,
+      "duration": 0.150458
+    },
+    {
+      "text": "ainda",
+      "offset": 4.80325,
+      "duration": 0.266208
+    },
+    {
+      "text": "ia",
+      "offset": 5.081,
+      "duration": 0.173625
+    },
+    {
+      "text": "ficar",
+      "offset": 5.266208,
+      "duration": 0.3125
+    },
+    {
+      "text": "muito",
+      "offset": 5.590291,
+      "duration": 0.370375
+    },
+    {
+      "text": "maior",
+      "offset": 5.972208,
+      "duration": 0.335666
+    },
+    {
+      "text": "Quando",
+      "offset": 7.1065,
+      "duration": 0.324083
+    },
+    {
+      "text": "tudo",
+      "offset": 7.442125,
+      "duration": 0.254625
+    },
+    {
+      "text": "parecia",
+      "offset": 7.708333,
+      "duration": 0.462958
+    },
+    {
+      "text": "só",
+      "offset": 8.182875,
+      "duration": 0.173625
+    },
+    {
+      "text": "uma",
+      "offset": 8.368041,
+      "duration": 0.11575
+    },
+    {
+      "text": "aventura",
+      "offset": 8.495375,
+      "duration": 0.462958
+    },
+    {
+      "text": "Goku",
+      "offset": 9.236125,
+      "duration": 0.266208
+    },
+    {
+      "text": "já",
+      "offset": 9.513875,
+      "duration": 0.11575
+    },
+    {
+      "text": "tinha",
+      "offset": 9.641208,
+      "duration": 0.266208
+    },
+    {
+      "text": "crescido",
+      "offset": 9.919,
+      "duration": 0.474541
+    },
+    {
+      "text": "formado",
+      "offset": 10.648166,
+      "duration": 0.439833
+    },
+    {
+      "text": "família",
+      "offset": 11.099541,
+      "duration": 0.405083
+    },
+    {
+      "text": "e",
+      "offset": 11.516208,
+      "duration": 0.0462909
+    },
+    {
+      "text": "descobriu",
+      "offset": 11.574083,
+      "duration": 0.497666
+    },
+    {
+      "text": "que",
+      "offset": 12.083333,
+      "duration": 0.11575
+    },
+    {
+      "text": "era",
+      "offset": 12.210666,
+      "duration": 0.162041
+    },
+    {
+      "text": "pai",
+      "offset": 12.38425,
+      "duration": 0.19675
+    },
+    {
+      "text": "do",
+      "offset": 12.592583,
+      "duration": 0.104166
+    },
+    {
+      "text": "Gohan",
+      "offset": 12.708333,
+      "duration": 0.370375
+    },
+    {
+      "text": "Mas",
+      "offset": 13.877333,
+      "duration": 0.185166
+    },
+    {
+      "text": "a",
+      "offset": 14.074083,
+      "duration": 0.150458
+    },
+    {
+      "text": "grande",
+      "offset": 14.236125,
+      "duration": 0.324083
+    },
+    {
+      "text": "revelação",
+      "offset": 14.57175,
+      "duration": 0.567125
+    },
+    {
+      "text": "veio",
+      "offset": 15.150458,
+      "duration": 0.243041
+    },
+    {
+      "text": "com",
+      "offset": 15.405083,
+      "duration": 0.150458
+    },
+    {
+      "text": "Raditz",
+      "offset": 15.567125,
+      "duration": 0.578708
+    },
+    {
+      "text": "Goku",
+      "offset": 16.400458,
+      "duration": 0.3125
+    },
+    {
+      "text": "era",
+      "offset": 16.724541,
+      "duration": 0.127333
+    },
+    {
+      "text": "um",
+      "offset": 16.863416,
+      "duration": 0.057875
+    },
+    {
+      "text": "Saiyajin",
+      "offset": 16.932875,
+      "duration": 0.544
+    },
+    {
+      "text": "vindo",
+      "offset": 17.743041,
+      "duration": 0.300916
+    },
+    {
+      "text": "de",
+      "offset": 18.055541,
+      "duration": 0.11575
+    },
+    {
+      "text": "outro",
+      "offset": 18.182875,
+      "duration": 0.219916
+    },
+    {
+      "text": "planeta",
+      "offset": 18.414333,
+      "duration": 0.486125
+    },
+    {
+      "text": "e",
+      "offset": 19.189833,
+      "duration": 0.0462909
+    },
+    {
+      "text": "seu",
+      "offset": 19.247666,
+      "duration": 0.185166
+    },
+    {
+      "text": "nome",
+      "offset": 19.444458,
+      "duration": 0.254625
+    },
+    {
+      "text": "verdadeiro",
+      "offset": 19.710666,
+      "duration": 0.520833
+    },
+    {
+      "text": "era",
+      "offset": 20.243041,
+      "duration": 0.138875
+    },
+    {
+      "text": "Kakaroto",
+      "offset": 20.3935,
+      "duration": 0.578708
+    },
+    {
+      "text": "Aquela",
+      "offset": 21.770833,
+      "duration": 0.381958
+    },
+    {
+      "text": "cauda",
+      "offset": 22.164333,
+      "duration": 0.347208
+    },
+    {
+      "text": "que",
+      "offset": 22.708333,
+      "duration": 0.11575
+    },
+    {
+      "text": "parecia",
+      "offset": 22.835666,
+      "duration": 0.462958
+    },
+    {
+      "text": "só",
+      "offset": 23.310166,
+      "duration": 0.173625
+    },
+    {
+      "text": "uma",
+      "offset": 23.495375,
+      "duration": 0.150458
+    },
+    {
+      "text": "curiosidade",
+      "offset": 23.657416,
+      "duration": 0.682875
+    },
+    {
+      "text": "fazia",
+      "offset": 24.560166,
+      "duration": 0.358791
+    },
+    {
+      "text": "parte",
+      "offset": 24.930541,
+      "duration": 0.324083
+    },
+    {
+      "text": "da",
+      "offset": 25.266208,
+      "duration": 0.104166
+    },
+    {
+      "text": "origem",
+      "offset": 25.381958,
+      "duration": 0.347208
+    },
+    {
+      "text": "dele",
+      "offset": 25.74075,
+      "duration": 0.335666
+    },
+    {
+      "text": "Depois",
+      "offset": 26.875,
+      "duration": 0.439833
+    },
+    {
+      "text": "veio",
+      "offset": 27.326375,
+      "duration": 0.219916
+    },
+    {
+      "text": "Vegeta",
+      "offset": 27.557875,
+      "duration": 0.50925
+    },
+    {
+      "text": "o",
+      "offset": 28.333333,
+      "duration": 0.11575
+    },
+    {
+      "text": "príncipe",
+      "offset": 28.460666,
+      "duration": 0.451375
+    },
+    {
+      "text": "dos",
+      "offset": 28.923625,
+      "duration": 0.185166
+    },
+    {
+      "text": "Saiyajins",
+      "offset": 29.120375,
+      "duration": 0.706
+    },
+    {
+      "text": "No",
+      "offset": 30.625,
+      "duration": 0.150458
+    },
+    {
+      "text": "começo",
+      "offset": 30.787041,
+      "duration": 0.520833
+    },
+    {
+      "text": "ele",
+      "offset": 31.527791,
+      "duration": 0.104166
+    },
+    {
+      "text": "era",
+      "offset": 31.6435,
+      "duration": 0.104166
+    },
+    {
+      "text": "um",
+      "offset": 31.75925,
+      "duration": 0.0462909
+    },
+    {
+      "text": "rival",
+      "offset": 31.817125,
+      "duration": 0.324083
+    },
+    {
+      "text": "perigoso",
+      "offset": 32.152791,
+      "duration": 0.532416
+    },
+    {
+      "text": "e",
+      "offset": 32.69675,
+      "duration": 0.0462909
+    },
+    {
+      "text": "orgulhoso",
+      "offset": 32.754625,
+      "duration": 0.50925
+    },
+    {
+      "text": "mas",
+      "offset": 33.564833,
+      "duration": 0.162041
+    },
+    {
+      "text": "com",
+      "offset": 33.738416,
+      "duration": 0.162041
+    },
+    {
+      "text": "o",
+      "offset": 33.912041,
+      "duration": 0.0462909
+    },
+    {
+      "text": "tempo",
+      "offset": 33.969916,
+      "duration": 0.3125
+    },
+    {
+      "text": "se",
+      "offset": 34.294,
+      "duration": 0.11575
+    },
+    {
+      "text": "tornaria",
+      "offset": 34.421291,
+      "duration": 0.3935
+    },
+    {
+      "text": "um",
+      "offset": 34.826375,
+      "duration": 0.0462909
+    },
+    {
+      "text": "dos",
+      "offset": 34.88425,
+      "duration": 0.173625
+    },
+    {
+      "text": "personagens",
+      "offset": 35.069458,
+      "duration": 0.636583
+    },
+    {
+      "text": "mais",
+      "offset": 35.717583,
+      "duration": 0.208333
+    },
+    {
+      "text": "marcantes",
+      "offset": 35.9375,
+      "duration": 0.520833
+    },
+    {
+      "text": "da",
+      "offset": 36.469916,
+      "duration": 0.11575
+    },
+    {
+      "text": "saga",
+      "offset": 36.597208,
+      "duration": 0.3935
+    },
+    {
+      "text": "E",
+      "offset": 37.789333,
+      "duration": 0.11575
+    },
+    {
+      "text": "teve",
+      "offset": 37.916666,
+      "duration": 0.208333
+    },
+    {
+      "text": "uma",
+      "offset": 38.136583,
+      "duration": 0.150458
+    },
+    {
+      "text": "curiosidade",
+      "offset": 38.298625,
+      "duration": 0.601833
+    },
+    {
+      "text": "famosa",
+      "offset": 38.912041,
+      "duration": 0.497666
+    },
+    {
+      "text": "Akira",
+      "offset": 39.699083,
+      "duration": 0.3125
+    },
+    {
+      "text": "Toriyama",
+      "offset": 40.023166,
+      "duration": 0.451375
+    },
+    {
+      "text": "comentou",
+      "offset": 40.486125,
+      "duration": 0.462958
+    },
+    {
+      "text": "que",
+      "offset": 40.960666,
+      "duration": 0.081
+    },
+    {
+      "text": "deixar",
+      "offset": 41.05325,
+      "duration": 0.3125
+    },
+    {
+      "text": "o",
+      "offset": 41.377333,
+      "duration": 0.023166
+    },
+    {
+      "text": "cabelo",
+      "offset": 41.412041,
+      "duration": 0.381958
+    },
+    {
+      "text": "do",
+      "offset": 41.805541,
+      "duration": 0.081
+    },
+    {
+      "text": "Goku",
+      "offset": 41.898166,
+      "duration": 0.243041
+    },
+    {
+      "text": "loiro",
+      "offset": 42.152791,
+      "duration": 0.300916
+    },
+    {
+      "text": "no",
+      "offset": 42.465291,
+      "duration": 0.104166
+    },
+    {
+      "text": "Super",
+      "offset": 42.581,
+      "duration": 0.300916
+    },
+    {
+      "text": "Saiyajin",
+      "offset": 42.8935,
+      "duration": 0.497666
+    },
+    {
+      "text": "também",
+      "offset": 43.402791,
+      "duration": 0.347208
+    },
+    {
+      "text": "ajudava",
+      "offset": 43.761583,
+      "duration": 0.462958
+    },
+    {
+      "text": "no",
+      "offset": 44.236125,
+      "duration": 0.092583
+    },
+    {
+      "text": "trabalho",
+      "offset": 44.340291,
+      "duration": 0.381958
+    },
+    {
+      "text": "do",
+      "offset": 44.733791,
+      "duration": 0.081
+    },
+    {
+      "text": "mangá",
+      "offset": 44.826375,
+      "duration": 0.405083
+    },
+    {
+      "text": "O",
+      "offset": 46.030083,
+      "duration": 0.092583
+    },
+    {
+      "text": "resultado",
+      "offset": 46.13425,
+      "duration": 0.555541
+    },
+    {
+      "text": "foi",
+      "offset": 46.701375,
+      "duration": 0.162041
+    },
+    {
+      "text": "uma",
+      "offset": 46.875,
+      "duration": 0.150458
+    },
+    {
+      "text": "das",
+      "offset": 47.037041,
+      "duration": 0.138875
+    },
+    {
+      "text": "transformações",
+      "offset": 47.1875,
+      "duration": 0.717583
+    },
+    {
+      "text": "mais",
+      "offset": 47.916666,
+      "duration": 0.19675
+    },
+    {
+      "text": "icônicas",
+      "offset": 48.125,
+      "duration": 0.532416
+    },
+    {
+      "text": "de",
+      "offset": 48.669,
+      "duration": 0.11575
+    },
+    {
+      "text": "todos",
+      "offset": 48.796291,
+      "duration": 0.277791
+    },
+    {
+      "text": "os",
+      "offset": 49.085666,
+      "duration": 0.081
+    },
+    {
+      "text": "animes",
+      "offset": 49.17825,
+      "duration": 0.567125
+    },
+    {
+      "text": "De",
+      "offset": 50.544,
+      "duration": 0.138875
+    },
+    {
+      "text": "uma",
+      "offset": 50.694458,
+      "duration": 0.127333
+    },
+    {
+      "text": "lenda",
+      "offset": 50.833333,
+      "duration": 0.289333
+    },
+    {
+      "text": "antiga",
+      "offset": 51.13425,
+      "duration": 0.324083
+    },
+    {
+      "text": "a",
+      "offset": 51.469916,
+      "duration": 0.034708
+    },
+    {
+      "text": "uma",
+      "offset": 51.516208,
+      "duration": 0.138875
+    },
+    {
+      "text": "saga",
+      "offset": 51.666666,
+      "duration": 0.324083
+    },
+    {
+      "text": "cheia",
+      "offset": 52.002333,
+      "duration": 0.335666
+    },
+    {
+      "text": "de",
+      "offset": 52.349541,
+      "duration": 0.069458
+    },
+    {
+      "text": "batalhas",
+      "offset": 52.430541,
+      "duration": 0.590291
+    },
+    {
+      "text": "revelações",
+      "offset": 53.229166,
+      "duration": 0.659708
+    },
+    {
+      "text": "e",
+      "offset": 53.900458,
+      "duration": 0.104166
+    },
+    {
+      "text": "transformações",
+      "offset": 54.016208,
+      "duration": 0.763875
+    },
+    {
+      "text": "e",
+      "offset": 54.976833,
+      "duration": 0.081
+    },
+    {
+      "text": "isso",
+      "offset": 55.069458,
+      "duration": 0.185166
+    },
+    {
+      "text": "ainda",
+      "offset": 55.266208,
+      "duration": 0.254625
+    },
+    {
+      "text": "é",
+      "offset": 55.532416,
+      "duration": 0.034708
+    },
+    {
+      "text": "só",
+      "offset": 55.578708,
+      "duration": 0.173625
+    },
+    {
+      "text": "o",
+      "offset": 55.763875,
+      "duration": 0.0462909
+    },
+    {
+      "text": "começo",
+      "offset": 55.82175,
+      "duration": 0.474541
+    },
+    {
+      "text": "Segue",
+      "offset": 57.094916,
+      "duration": 0.42825
+    },
+    {
+      "text": "pra",
+      "offset": 57.534708,
+      "duration": 0.173625
+    },
+    {
+      "text": "ver",
+      "offset": 57.719916,
+      "duration": 0.162041
+    },
+    {
+      "text": "a",
+      "offset": 57.8935,
+      "duration": 0.081
+    },
+    {
+      "text": "próxima",
+      "offset": 57.986125,
+      "duration": 0.486125
+    },
+    {
+      "text": "parte",
+      "offset": 58.483791,
+      "duration": 0.451375
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 96" width="512" height="614" role="img" aria-label="Gohan criança inspirado na referência com chapéu vermelho e amarelo, esfera de 4 estrelas, túnica amarela com mangas verdes e cauda em 16-bits em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+
+      /* Cabelo escuro e luzes 16-bit */
+      .h { fill: #191820; }
+      .hl { fill: #3E4554; }
+      .hh { fill: #636D82; }
+
+      /* Pele e sombreamento */
+      .s { fill: #F6C89E; }
+      .sl { fill: #FFE1C4; }
+      .sd { fill: #D49A6E; }
+      .blush { fill: #E38B75; }
+
+      /* Olhos e boca */
+      .w { fill: #FFFFFF; }
+      .e { fill: #1E1D24; }
+      .mouth { fill: #B83546; }
+      .tongue { fill: #E86878; }
+
+      /* Chapéu vermelho com frisos amarelos e sombra */
+      .hat-r { fill: #D92328; }
+      .hat-rl { fill: #FF5257; }
+      .hat-rd { fill: #8F1116; }
+      .trim-y { fill: #F7CA25; }
+      .trim-yl { fill: #FFF078; }
+      .trim-yd { fill: #BA840B; }
+
+      /* Esfera do dragão de 4 estrelas */
+      .orb { fill: #F27219; }
+      .orb-l { fill: #FFA84C; }
+      .orb-hh { fill: #FFF6B8; }
+      .star { fill: #C91E26; }
+
+      /* Túnica amarela, mangas verdes e punhos brancos */
+      .robe-y { fill: #F5C71A; }
+      .robe-yl { fill: #FFE866; }
+      .robe-yd { fill: #BA8509; }
+      .sleeve-g { fill: #25A838; }
+      .sleeve-gl { fill: #4CD45F; }
+      .sleeve-gd { fill: #156E22; }
+      .cuff-w { fill: #F5F5F7; }
+      .cuff-wd { fill: #C2C5D1; }
+      .emblem-r { fill: #C92228; }
+
+      /* Cauda e sapatinhos */
+      .tail { fill: #5E3720; }
+      .tail-d { fill: #3B2010; }
+      .shoe { fill: #1C1E26; }
+      .shoe-l { fill: #3B4052; }
+      .shoe-r { fill: #D62229; }
+    </style>
+  </defs>
+
+  
+  <g id="tail">
+    <path class="o" d="M51 74h6v-1h3v-2h1v-3h-2v-1h-2v1h-1v2h-2v-3h1v-2h2v-1h4v1h2v2h1v5h-1v2h-2v1h-3v1h-7z" />
+    <path class="tail" d="M51 75h6v-1h2v-2h1v-3h-1v-1h-2v1h-1v1h-1v-3h1v-2h3v-1h2v1h1v2h1v5h-1v2h-2v1h-2v1h-6z" />
+    <path class="tail-d" d="M51 76h6v-1h2v-1h1v1h-1v1h-2v1h-6z" />
+  </g>
+
+  
+  <g id="shoes">
+    
+    <path class="o" d="M29 79h9v5h-1v2h-8v-1h-3v-2h2v-2h1z" />
+    <path class="shoe" d="M30 80h7v4h-7z" />
+    <path class="shoe-l" d="M31 80h2v4h-2z" />
+    <path class="shoe-r" d="M27 83h10v2h-10z" />
+    <rect class="cuff-w" x="31" y="81" width="2" height="1" />
+
+    
+    <path class="o" d="M42 79h9v2h1v2h2v2h-3v1h-8v-2h-1z" />
+    <path class="shoe" d="M43 80h7v4h-7z" />
+    <path class="shoe-l" d="M44 80h2v4h-2z" />
+    <path class="shoe-r" d="M43 83h10v2h-10z" />
+    <rect class="cuff-w" x="45" y="81" width="2" height="1" />
+  </g>
+
+  
+  <g id="tunic-body">
+    
+    <rect class="o" x="36" y="48" width="8" height="4" />
+    <rect class="s" x="37" y="48" width="6" height="3" />
+
+    
+    <path class="o" d="M27 51h26v1h2v2h2v8h-1v12h1v4h-32v-4h1v-12h-1v-8h2v-2h2z" />
+    <path class="robe-y" d="M28 52h24v2v10h-1v13h-30v-13h-1v-10v-2z" />
+    
+    <path class="robe-yl" d="M29 53h6v14h-4v11h-2z" />
+    <path class="robe-yd" d="M46 53h5v14h2v11h-6v-11h-1z" />
+
+    
+    <path class="o" d="M34 51h12v2h-2v2h-8v-2h-2z" />
+    <path class="trim-y" d="M35 52h10v1h-2v1h-6v-1h-2z" />
+    <path class="o" d="M33 55h4v1h-4zM34 58h3v1h-3z" />
+    <rect class="hat-r" x="34" y="55" width="2" height="1" />
+    <rect class="hat-r" x="35" y="58" width="1" height="1" />
+
+    
+    <path class="o" d="M36 57h8v1h1v6h-1v1h-8v-1h-1v-6h1z" />
+    <path class="cuff-w" d="M37 58h6v1h1v4h-1v1h-6v-1h-1v-4h1z" />
+    <path class="emblem-r" d="M38 59h5v1h-2v1h2v1h-2v1h-2v-1h2v-1h-2v-1h1z" />
+
+    
+    <path class="o" d="M21 54h6v1h1v10h1v5h-6v-2h-1v-4h-1v-10z" />
+    <path class="sleeve-g" d="M22 55h5v10h-5z" />
+    <path class="sleeve-gl" d="M22 55h2v9h-2z" />
+    <path class="o" d="M22 64h7v5h-7z" />
+    <path class="cuff-w" d="M23 65h5v3h-5z" />
+    <rect class="cuff-wd" x="26" y="65" width="2" height="3" />
+
+    
+    <path class="o" d="M53 54h6v1h1v10h-1v4h-1v1h-5v-5h1v-10h-1z" />
+    <path class="sleeve-g" d="M53 55h5v10h-5z" />
+    <path class="sleeve-gd" d="M56 55h2v9h-2z" />
+    <path class="o" d="M51 64h7v5h-7z" />
+    <path class="cuff-w" d="M52 65h5v3h-5z" />
+    <rect class="cuff-wd" x="52" y="65" width="2" height="3" />
+
+    
+    <path class="o" d="M35 64h10v6h-10z" />
+    <path class="s" d="M36 65h8v4h-8z" />
+    <path class="sl" d="M37 65h4v2h-4z" />
+    <path class="o" d="M39 65h1v4h-1zM41 65h1v4h-1z" />
+  </g>
+
+  
+  <g id="head">
+    <path class="o" d="M28 28h24v2v5h2v5h-2v2h-2v2h-2v2h-3v1h-10v-1h-3v-2h-2v-2h-2v-2h-2v-5h2v-5v-2z" />
+    <path class="s" d="M29 29h22v12h-2v2h-2v2h-2v1h-10v-1h-2v-2h-2v-2h-2z" />
+    
+    <path class="s" d="M26 34h2v5h-2zM52 34h2v5h-2z" />
+    <path class="sd" d="M26 36h1v2h-1zM53 36h1v2h-1z" />
+
+    
+    <path class="sl" d="M30 30h6v2h-6zM44 30h6v2h-6zM44 38h4v3h-4z" />
+    <rect class="blush" x="30" y="39" width="2" height="1" />
+    <rect class="blush" x="48" y="39" width="2" height="1" />
+    <path class="sd" d="M31 43h18v1h-18z" />
+
+    
+    <path class="o" d="M31 32h4v1h1v1h-1v-1h-4zM49 32h-4v1h-1v1h1v-1h4z" />
+
+    
+    <rect class="o" x="32" y="34" width="6" height="5" />
+    <rect class="w" x="33" y="35" width="4" height="3" />
+    <rect class="e" x="35" y="35" width="2" height="3" />
+    <rect class="w" x="35" y="35" width="1" height="1" />
+
+    <rect class="o" x="43" y="34" width="6" height="5" />
+    <rect class="w" x="44" y="35" width="4" height="3" />
+    <rect class="e" x="46" y="35" width="2" height="3" />
+    <rect class="w" x="46" y="35" width="1" height="1" />
+
+    
+    <path class="o" d="M40 38h1v2h-1z" />
+
+    
+    <path class="o" d="M38 41h4v2h-1v1h-2v-1h-1z" />
+    <rect class="mouth" x="39" y="42" width="2" height="1" />
+    <rect class="tongue" x="39" y="43" width="2" height="1" />
+  </g>
+
+  
+  <g id="hair-under-hat">
+    <path class="o" d="M27 25h26v6h-2v-2h-2v-2h-18v2h-2v2h-2z" />
+    <path class="h" d="M28 26h24v4h-1v-2h-2v-1h-18v1h-2v2h-1z" />
+    <path class="hl" d="M30 26h5v1h-5zM45 26h5v1h-5z" />
+  </g>
+
+  
+  <g id="hat-and-orb">
+    
+    <path class="o" d="M25 16h30v2h3v2h2v3h-3v1h-34v-1h-3v-3h2v-2h3z" />
+    <path class="hat-r" d="M26 17h28v2h3v2h2v1h-38v-1h2v-2h3z" />
+    <path class="hat-rl" d="M28 17h12v2h-12zM24 20h14v1h-14z" />
+    <path class="hat-rd" d="M45 19h10v2h4v1h-14z" />
+
+    
+    <rect class="o" x="22" y="22" width="36" height="3" />
+    <rect class="trim-y" x="23" y="23" width="34" height="1" />
+    <rect class="trim-yl" x="24" y="23" width="12" height="1" />
+    <rect class="trim-yd" x="45" y="23" width="11" height="1" />
+
+    
+    <path class="o" d="M35 6h10v1h2v2v5h-2v2h-10v-2h-2v-5v-2h2z" />
+    <path class="orb" d="M36 7h8v1h1v6h-1v1h-8v-1h-1v-6h1z" />
+    <path class="orb-l" d="M36 8h4v2h-3v3h-1z" />
+    <rect class="orb-hh" x="37" y="8" width="2" height="1" />
+    
+    <rect class="star" x="38" y="10" width="1" height="1" />
+    <rect class="star" x="42" y="10" width="1" height="1" />
+    <rect class="star" x="38" y="13" width="1" height="1" />
+    <rect class="star" x="42" y="13" width="1" height="1" />
+  </g>
+</svg>

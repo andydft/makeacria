@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 96" width="512" height="614" role="img" aria-label="Raditz inspirado na referência com scouter verde, armadura escura com bordas brancas e placas castanhas estriadas, cabelo longo espetado e pernas musculadas em 16-bits em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+
+      /* Cabelo longo espetado escuro */
+      .h { fill: #17161E; }
+      .hl { fill: #353E52; }
+      .hh { fill: #586685; }
+      .hd { fill: #0D0C11; }
+
+      /* Pele com sombreamento musculado */
+      .s { fill: #F4C39B; }
+      .sl { fill: #FFE0C6; }
+      .sd { fill: #CE9063; }
+
+      /* Olhos, expressão e scouter verde */
+      .w { fill: #FFFFFF; }
+      .e { fill: #1A1921; }
+      .scouter-g { fill: #2EC458; }
+      .scouter-gl { fill: #84F59F; }
+      .scouter-gd { fill: #177D34; }
+      .scouter-frame { fill: #ECEAE4; }
+      .scouter-fd { fill: #B8B4AA; }
+
+      /* Armadura da referência: base preta/azul-escura, borda branca, placas castanhas estriadas */
+      .suit-b { fill: #1B2130; }
+      .suit-bl { fill: #2E3B59; }
+      .suit-bd { fill: #0E121B; }
+      .trim-w { fill: #F5F3ED; }
+      .trim-wd { fill: #C8C3B8; }
+      .plate-c { fill: #9E5228; }
+      .plate-cl { fill: #C7723E; }
+      .plate-cd { fill: #693214; }
+      .fur { fill: #69391D; }
+      .fur-d { fill: #42210E; }
+    </style>
+  </defs>
+
+  
+  <g id="raditz-hair-back">
+    <path class="o" d="M38 1h4v3h5v3h5v4h4v4h3v5h2v6h-2v3h1v5h-1v3h1v5h-1v3h1v5h-1v3h1v5h-1v3h1v5h-1v3h1v5h-2v2h-5v-2h-1v-4h1v-3h-2v-3h-2v-3h-2v-2h-22v2h-2v3h-2v3h-2v3h1v4h-1v2h-5v-2h-2v-4h-1v-4h1v-3h-1v-5h1v-3h-1v-5h1v-3h-1v-5h1v-3h-1v-5h1v-3h-1v-5h1v-3h-2v-6h2v-5h3v-4h4v-4h5v-3h5v-3z" />
+    <path class="h" d="M39 2h2v3h5v3h5v4h4v4h3v5h1v5h-1v3h1v5h-1v3h1v5h-1v3h1v5h-1v3h1v5h-1v3h1v5h-2v1h-3v-2h-1v-4h1v-4h-2v-4h-2v-3h-2v-2h-22v2h-2v3h-2v4h-2v4h1v4h-1v2h-3v-1h-2v-4h1v-3h-1v-5h1v-3h-1v-5h1v-3h-1v-5h1v-3h-1v-5h1v-3h-1v-5h1v-4h3v-4h4v-4h5v-3h5v-3z" />
+    <path class="hd" d="M13 33h4v50h-3v-2h-1v-4h1v-3h-1v-5h1v-3h-1v-5h1v-3h-1v-5h1v-3h-1v-5zM63 33h4v5h-1v3h1v5h-1v3h1v5h-1v3h1v5h-1v3h1v4h-1v2h-3z" />
+    
+    <path class="hl" d="M39 3h1v3h4v3h4v3h-3v-3h-3v-3h-1zM26 14h5v1h4v1h-4v-1h-5zM18 19h5v1h4v1h-4v-1h-5zM49 14h6v1h-6zM55 19h7v1h-7zM17 35h1v40h-1zM62 35h1v38h-1z" />
+    <path class="hh" d="M40 4h1v2h-1zM29 14h3v1h-3zM20 19h3v1h-3zM51 14h2v1h-2z" />
+  </g>
+
+  
+  <g id="legs-boots">
+    
+    <path class="o" d="M26 68h11v12h-1v7h-11v-2h2v-5h-1z" />
+    <path class="s" d="M27 69h9v11h-9z" />
+    <path class="sl" d="M28 69h3v11h-3z" />
+    <path class="sd" d="M34 69h2v11h-2z" />
+    
+    <path class="o" d="M29 74h3v1h-3zM31 78h3v1h-3z" />
+
+    
+    <path class="o" d="M23 79h15v8h-15z" />
+    <path class="trim-w" d="M24 80h13v1h-13z" />
+    <path class="suit-b" d="M24 81h13v3h-13z" />
+    <path class="suit-bl" d="M25 81h3v3h-3z" />
+    
+    <path class="o" d="M22 83h15v2h-15z" />
+    <path class="plate-c" d="M23 84h13v1h-13z" />
+    
+    <path class="o" d="M20 84h17v3h-17z" />
+    <path class="plate-c" d="M21 85h15v1h-15z" />
+    <rect class="plate-cd" x="21" y="86" width="15" height="1" />
+
+    
+    <path class="o" d="M43 68h11v12h-1v5h2v2h-11v-7h-1z" />
+    <path class="s" d="M44 69h9v11h-9z" />
+    <path class="sl" d="M45 69h2v11h-2z" />
+    <path class="sd" d="M50 69h3v11h-3z" />
+    <path class="o" d="M48 74h3v1h-3zM46 78h3v1h-3z" />
+
+    
+    <path class="o" d="M42 79h15v8h-15z" />
+    <path class="trim-w" d="M43 80h13v1h-13z" />
+    <path class="suit-b" d="M43 81h13v3h-13z" />
+    <path class="suit-bl" d="M44 81h3v3h-3z" />
+    <path class="o" d="M43 83h15v2h-15z" />
+    <path class="plate-c" d="M44 84h13v1h-13z" />
+    <path class="o" d="M43 84h17v3h-17z" />
+    <path class="plate-c" d="M44 85h15v1h-15z" />
+    <rect class="plate-cd" x="44" y="86" width="15" height="1" />
+  </g>
+
+  
+  <g id="armor-torso">
+    
+    <rect class="o" x="35" y="44" width="10" height="5" />
+    <rect class="s" x="36" y="44" width="8" height="4" />
+    <path class="sd" d="M36 44h8v2h-8zM37 47h2v1h-2zM41 47h2v1h-2z" />
+
+    
+    <path class="o" d="M25 48h30v2v14h-2v4h-26v-4h-2v-14v-2z" />
+    <path class="trim-w" d="M26 49h28v14h-28z" />
+    <path class="suit-b" d="M27 50h11v8h-11zM42 50h11v8h-11zM27 59h9v3h-9zM44 59h9v3h-9z" />
+    <path class="suit-bl" d="M28 50h4v7h-4zM43 50h4v7h-4z" />
+
+    
+    <path class="o" d="M36 53h8v10h-8z" />
+    <path class="plate-c" d="M37 54h6v8h-6z" />
+    <path class="o" d="M37 56h6v1h-6zM37 58h6v1h-6zM37 60h6v1h-6z" />
+
+    
+    <path class="o" d="M25 62h30v4h-30z" />
+    <path class="fur" d="M26 63h28v2h-28z" />
+    <path class="fur-d" d="M27 64h26v1h-26z" />
+
+    
+    <path class="o" d="M36 65h8v1v10h-2v1h-4v-1h-2v-10v-1z" />
+    <path class="plate-c" d="M37 66h6v9h-1v1h-4v-1h-1z" />
+    <path class="plate-cl" d="M37 66h2v9h-2z" />
+    <path class="plate-cd" d="M41 66h2v9h-2z" />
+    <path class="o" d="M37 68h6v1h-6zM37 70h6v1h-6zM37 72h6v1h-6zM37 74h6v1h-6z" />
+
+    
+    <path class="o" d="M15 44h14v2v9h-3v1h-11v-1v-10v-1z" />
+    <path class="trim-w" d="M16 45h12v9h-2v1h-10z" />
+    <path class="plate-c" d="M17 46h10v7h-2v1h-8z" />
+    <path class="plate-cl" d="M17 46h4v7h-4z" />
+    <path class="o" d="M17 48h10v1h-10zM17 50h10v1h-10zM17 52h9v1h-9z" />
+
+    <path class="o" d="M51 44h14v1v10v1h-11v-1h-3v-9v-2z" />
+    <path class="trim-w" d="M52 45h12v10h-10v-1h-2z" />
+    <path class="plate-c" d="M53 46h10v8h-8v-1h-2z" />
+    <path class="plate-cd" d="M60 46h3v8h-3z" />
+    <path class="o" d="M53 48h10v1h-10zM53 50h10v1h-10zM54 52h9v1h-9z" />
+  </g>
+
+  
+  <g id="arms">
+    
+    <path class="o" d="M17 55h8v1v8h-2v3h-6v-3h-1v-5h1v-4z" />
+    <path class="s" d="M18 56h6v4h-6z" />
+    <path class="sl" d="M18 56h2v4h-2z" />
+    <path class="o" d="M19 58h3v1h-3z" />
+    
+    <path class="o" d="M15 60h9v5h-9z" />
+    <path class="trim-w" d="M16 61h7v1h-7z" />
+    <path class="suit-b" d="M16 62h7v2h-7z" />
+    
+    <path class="o" d="M14 63h10v2h-10z" />
+    <path class="plate-c" d="M15 64h8v1h-8z" />
+    <path class="o" d="M14 65h9v4h-9z" />
+    <path class="s" d="M15 66h7v2h-7z" />
+    <path class="o" d="M16 67h5v1h-5z" />
+
+    
+    <path class="o" d="M55 55h8v4h1v5h-1v3h-6v-3h-2v-8v-1z" />
+    <path class="s" d="M56 56h6v4h-6z" />
+    <path class="sd" d="M60 56h2v4h-2z" />
+    
+    <path class="o" d="M56 60h9v5h-9z" />
+    <path class="trim-w" d="M57 61h7v1h-7z" />
+    <path class="suit-b" d="M57 62h7v2h-7z" />
+    
+    <path class="o" d="M56 63h10v2h-10z" />
+    <path class="plate-c" d="M57 64h8v1h-8z" />
+    <path class="o" d="M57 65h9v4h-9z" />
+    <path class="s" d="M58 66h7v2h-7z" />
+    <path class="o" d="M59 67h5v1h-5z" />
+  </g>
+
+  
+  <g id="head-and-scouter">
+    <path class="o" d="M28 25h24v2v5h2v6h-2v2h-2v2h-2v2h-3v1h-10v-1h-3v-2h-2v-2h-2v-2h-2v-6h2v-5v-2z" />
+    <path class="s" d="M29 26h22v12h-2v2h-2v2h-2v1h-10v-1h-2v-2h-2v-2h-2z" />
+    
+    <path class="s" d="M52 32h2v5h-2z" />
+    <path class="sd" d="M53 34h1v2h-1z" />
+
+    
+    <path class="sd" d="M29 36h2v2h2v2h2v2h10v-2h2v-2h2v-2h2v2h-2v2h-2v2h-2v1h-10v-1h-2v-2h-2v-2h-2z" />
+    <path class="sl" d="M30 27h7v2h-7zM43 27h7v2h-7z" />
+
+    
+    <path class="o" d="M30 30h4v1h3v2h-3v-1h-4zM50 30h-4v1h-3v2h3v-1h4z" />
+    <path class="h" d="M31 30h3v1h-3zM46 30h3v1h-3z" />
+
+    
+    <rect class="o" x="31" y="32" width="6" height="4" />
+    <rect class="w" x="32" y="33" width="4" height="2" />
+    <rect class="e" x="34" y="33" width="2" height="2" />
+
+    <rect class="o" x="43" y="32" width="6" height="4" />
+    <rect class="w" x="44" y="33" width="4" height="2" />
+    <rect class="e" x="44" y="33" width="2" height="2" />
+
+    
+    <path class="o" d="M40 36h1v2h-1z" />
+    <rect class="sd" x="41" y="37" width="1" height="1" />
+
+    
+    <path class="o" d="M37 40h7v1h-1v1h-5v-1z" />
+    <rect class="sd" x="38" y="41" width="4" height="1" />
+
+    
+    <path class="o" d="M27 23h26v6h-2v-2h-2v-2h-3v2h-2v2h-2v-2h-2v-2h-2v2h-2v2h-2v-2h-2v-2h-3v2h-2z" />
+    <path class="h" d="M28 24h24v4h-1v-2h-2v-1h-3v2h-2v1h-1v-2h-2v-1h-3v2h-2v1h-1v-2h-2v-1h-3v2h-1z" />
+    <path class="hl" d="M30 24h5v1h-5zM45 24h5v1h-5z" />
+
+    
+    <path class="o" d="M44 31h9v1h2v6h-2v1h-9v-1h-1v-6h1z" />
+    <path class="scouter-g" d="M45 32h7v6h-7z" />
+    <path class="scouter-gl" d="M46 32h3v2h-3z" />
+    <path class="scouter-gd" d="M49 35h3v3h-3z" />
+    
+    <path class="o" d="M52 31h4v8h-4z" />
+    <path class="scouter-frame" d="M53 32h2v6h-2z" />
+    <rect class="scouter-fd" x="53" y="36" width="2" height="2" />
+  </g>
+</svg>

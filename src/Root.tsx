@@ -52,6 +52,7 @@ import { DragonBallGtGokuCriancaCuriosity, DBGT_GOKU_CRIANCA_FPS, DBGT_GOKU_CRIA
 import { GokuMotoReels, GOKU_MOTO_FPS, GOKU_MOTO_FRAMES } from "./videos/gokuMotoReels/GokuMotoReels";
 import { GokuLendaMangaAnime, GOKU_LENDA_FPS, GOKU_LENDA_FRAMES } from "./videos/gokuLendaMangaAnime/GokuLendaMangaAnime";
 import { GokuOrigemParte1, GOKU_ORIGEM1_FPS, GOKU_ORIGEM1_FRAMES } from "./videos/gokuOrigemParte1/GokuOrigemParte1";
+import { GokuOrigemParte2, GOKU_ORIGEM2_FPS, GOKU_ORIGEM2_FRAMES } from "./videos/gokuOrigemParte2/GokuOrigemParte2";
 import { LinkinParkFormationV2Short, LPF2_FRAMES, LPF2_FPS } from "./videos/linkinParkFormationV2/LinkinParkFormationV2";
 import { OneMoreLightTributeV2Short, OML2_FRAMES, OML2_FPS } from "./videos/oneMoreLightTributeV2/OneMoreLightTributeV2";
 import { ChesterAccidentProneV2Short, CAP2_FRAMES, CAP2_FPS } from "./videos/chesterAccidentProneV2/ChesterAccidentProneV2";
@@ -306,6 +307,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="GokuMotoReels" component={GokuMotoReels} fps={GOKU_MOTO_FPS} durationInFrames={GOKU_MOTO_FRAMES} width={1080} height={1920} />
       <Composition id="GokuLendaMangaAnime" component={GokuLendaMangaAnime} fps={GOKU_LENDA_FPS} durationInFrames={GOKU_LENDA_FRAMES} width={1080} height={1920} />
       <Composition id="GokuOrigemParte1" component={GokuOrigemParte1} fps={GOKU_ORIGEM1_FPS} durationInFrames={GOKU_ORIGEM1_FRAMES} width={1080} height={1920} />
+      <Composition id="GokuOrigemParte2" component={GokuOrigemParte2} fps={GOKU_ORIGEM2_FPS} durationInFrames={GOKU_ORIGEM2_FRAMES} width={1080} height={1920} />
       <Composition
         id="LinkinParkFormationV2Short"
         component={LinkinParkFormationV2Short}

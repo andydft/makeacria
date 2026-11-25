@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 96" width="512" height="614" role="img" aria-label="Vegeta em SVG puro 16-bit com cabelo espetado escuro, pico no meio da testa, expressão confiante, armadura Saiyajin branca e azul-escura com ombreiras e luvas/botas brancas">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+
+      /* Cabelo espetado escuro do Vegeta com luzes em 16-bit */
+      .h { fill: #1A1922; }
+      .hl { fill: #3E4557; }
+      .hh { fill: #69748F; }
+      .hd { fill: #0E0D12; }
+
+      /* Pele e sombreamento */
+      .s { fill: #F5C49B; }
+      .sl { fill: #FFE2C7; }
+      .sd { fill: #CC8E60; }
+
+      /* Olhos e expressão confiante/arrogante */
+      .w { fill: #FFFFFF; }
+      .iris { fill: #1E242E; }
+      .iris-hi { fill: #8DA2B5; }
+
+      /* Armadura Saiyajin clássica (azul-escura + branca + detalhes dourados/vermelhos) */
+      .armor-b { fill: #1D3563; }
+      .armor-bl { fill: #32579C; }
+      .armor-bd { fill: #0F1D38; }
+
+      .armor-w { fill: #ECEFF5; }
+      .armor-wl { fill: #FFFFFF; }
+      .armor-wd { fill: #B3BDCE; }
+      .armor-wdd { fill: #7D889E; }
+
+      .gold { fill: #E5B232; }
+      .red { fill: #C9262C; }
+    </style>
+  </defs>
+
+  
+  <g id="legs-boots">
+    
+    <rect class="o" x="27" y="66" width="11" height="14" />
+    <rect class="armor-b" x="28" y="67" width="9" height="12" />
+    <rect class="armor-bl" x="29" y="67" width="3" height="12" />
+    <rect class="armor-bd" x="35" y="67" width="2" height="12" />
+
+    
+    <rect class="o" x="25" y="79" width="14" height="9" />
+    <rect class="armor-w" x="26" y="80" width="12" height="6" />
+    <rect class="armor-wl" x="27" y="80" width="4" height="6" />
+    <rect class="armor-wd" x="35" y="80" width="3" height="6" />
+    <rect class="o" x="24" y="85" width="15" height="3" />
+    <rect class="armor-w" x="25" y="86" width="13" height="1" />
+    <rect class="armor-wd" x="25" y="87" width="13" height="1" />
+
+    
+    <rect class="o" x="42" y="66" width="11" height="14" />
+    <rect class="armor-b" x="43" y="67" width="9" height="12" />
+    <rect class="armor-bl" x="44" y="67" width="2" height="12" />
+    <rect class="armor-bd" x="50" y="67" width="2" height="12" />
+
+    
+    <rect class="o" x="41" y="79" width="14" height="9" />
+    <rect class="armor-w" x="42" y="80" width="12" height="6" />
+    <rect class="armor-wl" x="43" y="80" width="3" height="6" />
+    <rect class="armor-wd" x="51" y="80" width="3" height="6" />
+    <rect class="o" x="41" y="85" width="15" height="3" />
+    <rect class="armor-w" x="42" y="86" width="13" height="1" />
+    <rect class="armor-wd" x="42" y="87" width="13" height="1" />
+  </g>
+
+  
+  <g id="torso-armor">
+    
+    <rect class="o" x="35" y="45" width="10" height="5" />
+    <rect class="s" x="36" y="45" width="8" height="4" />
+    <rect class="sd" x="36" y="45" width="8" height="1" />
+
+    
+    <rect class="o" x="25" y="49" width="30" height="18" />
+    <rect class="armor-b" x="26" y="50" width="28" height="15" />
+    <rect class="armor-bl" x="27" y="50" width="8" height="15" />
+    <rect class="armor-bd" x="47" y="50" width="7" height="15" />
+
+    
+    <rect class="o" x="30" y="50" width="20" height="10" />
+    <rect class="armor-w" x="31" y="51" width="18" height="8" />
+    <rect class="armor-wl" x="32" y="51" width="6" height="8" />
+    <rect class="armor-wd" x="45" y="51" width="4" height="8" />
+    
+    <rect class="o" x="39" y="51" width="2" height="8" />
+    <rect class="gold" x="38" y="53" width="4" height="2" />
+
+    
+    <rect class="o" x="25" y="62" width="30" height="5" />
+    <rect class="armor-w" x="26" y="63" width="28" height="3" />
+    <rect class="armor-wl" x="27" y="63" width="9" height="1" />
+    <rect class="armor-wd" x="46" y="63" width="8" height="2" />
+    <rect class="o" x="38" y="62" width="4" height="5" />
+    <rect class="gold" x="39" y="63" width="2" height="3" />
+
+    
+    <rect class="o" x="25" y="66" width="8" height="5" />
+    <rect class="armor-w" x="26" y="66" width="6" height="4" />
+    <rect class="armor-wl" x="26" y="66" width="2" height="4" />
+
+    <rect class="o" x="47" y="66" width="8" height="5" />
+    <rect class="armor-w" x="48" y="66" width="6" height="4" />
+    <rect class="armor-wd" x="52" y="66" width="2" height="4" />
+  </g>
+
+  
+  <g id="arms-pauldrons">
+    
+    <rect class="o" x="15" y="51" width="10" height="18" />
+    <rect class="armor-b" x="19" y="56" width="5" height="7" />
+    <rect class="s" x="18" y="58" width="5" height="5" />
+    <rect class="sd" x="21" y="58" width="2" height="5" />
+
+    
+    <rect class="o" x="15" y="49" width="12" height="9" />
+    <rect class="armor-w" x="16" y="50" width="10" height="7" />
+    <rect class="armor-wl" x="16" y="50" width="4" height="7" />
+    <rect class="armor-wd" x="23" y="50" width="3" height="7" />
+    <rect class="gold" x="16" y="55" width="10" height="1" />
+
+    
+    <rect class="o" x="16" y="62" width="7" height="3" />
+    <rect class="armor-w" x="17" y="63" width="5" height="1" />
+    <rect class="o" x="14" y="65" width="9" height="5" />
+    <rect class="armor-w" x="15" y="66" width="7" height="3" />
+    <rect class="armor-wl" x="15" y="66" width="3" height="1" />
+    <rect class="o" x="17" y="67" width="3" height="1" />
+
+    
+    <rect class="o" x="55" y="51" width="10" height="18" />
+    <rect class="armor-b" x="56" y="56" width="5" height="7" />
+    <rect class="s" x="57" y="58" width="5" height="5" />
+    <rect class="sd" x="60" y="58" width="2" height="5" />
+
+    
+    <rect class="o" x="53" y="49" width="12" height="9" />
+    <rect class="armor-w" x="54" y="50" width="10" height="7" />
+    <rect class="armor-wl" x="54" y="50" width="3" height="7" />
+    <rect class="armor-wd" x="61" y="50" width="3" height="7" />
+    <rect class="gold" x="54" y="55" width="10" height="1" />
+
+    
+    <rect class="o" x="57" y="62" width="7" height="3" />
+    <rect class="armor-w" x="58" y="63" width="5" height="1" />
+    <rect class="o" x="57" y="65" width="9" height="5" />
+    <rect class="armor-w" x="58" y="66" width="7" height="3" />
+    <rect class="armor-wd" x="62" y="66" width="3" height="3" />
+    <rect class="o" x="60" y="67" width="3" height="1" />
+  </g>
+
+  
+  <g id="head">
+    <rect class="o" x="27" y="25" width="26" height="21" />
+    <rect class="s" x="28" y="26" width="24" height="19" />
+    <rect class="sl" x="30" y="26" width="20" height="5" />
+    <rect class="sd" x="28" y="42" width="24" height="3" />
+
+    
+    <rect class="o" x="25" y="33" width="3" height="6" />
+    <rect class="s" x="26" y="34" width="2" height="4" />
+    <rect class="o" x="52" y="33" width="3" height="6" />
+    <rect class="s" x="52" y="34" width="2" height="4" />
+
+    
+    <rect class="o" x="30" y="32" width="7" height="2" />
+    <rect class="h" x="31" y="32" width="5" height="1" />
+    <rect class="o" x="43" y="32" width="7" height="2" />
+    <rect class="h" x="44" y="32" width="5" height="1" />
+
+    
+    <rect class="o" x="31" y="34" width="6" height="4" />
+    <rect class="w" x="32" y="35" width="4" height="2" />
+    <rect class="iris" x="34" y="35" width="2" height="2" />
+    <rect class="iris-hi" x="34" y="35" width="1" height="1" />
+
+    <rect class="o" x="43" y="34" width="6" height="4" />
+    <rect class="w" x="44" y="35" width="4" height="2" />
+    <rect class="iris" x="44" y="35" width="2" height="2" />
+    <rect class="iris-hi" x="44" y="35" width="1" height="1" />
+
+    
+    <rect class="o" x="40" y="38" width="1" height="2" />
+    <rect class="sd" x="41" y="39" width="1" height="1" />
+
+    
+    <rect class="o" x="37" y="42" width="7" height="1" />
+    <rect class="o" x="43" y="41" width="2" height="1" />
+    <rect class="sd" x="38" y="43" width="5" height="1" />
+  </g>
+
+  
+  <g id="vegeta-hair">
+    
+    <rect class="o" x="38" y="6" width="4" height="24" />
+    <rect class="h" x="39" y="7" width="2" height="22" />
+    <rect class="hl" x="39" y="7" width="1" height="8" />
+
+    
+    <rect class="o" x="39" y="26" width="2" height="6" />
+    <rect class="h" x="40" y="27" width="1" height="4" />
+    <rect class="hl" x="40" y="27" width="1" height="1" />
+
+    <rect class="o" x="31" y="10" width="7" height="17" />
+    <rect class="h" x="32" y="11" width="5" height="15" />
+    <rect class="hl" x="32" y="11" width="2" height="7" />
+    <rect class="hh" x="32" y="11" width="1" height="3" />
+
+    <rect class="o" x="23" y="15" width="8" height="12" />
+    <rect class="h" x="24" y="16" width="6" height="10" />
+    <rect class="hl" x="24" y="16" width="3" height="5" />
+
+    <rect class="o" x="17" y="20" width="7" height="8" />
+    <rect class="h" x="18" y="21" width="5" height="6" />
+    <rect class="hl" x="18" y="21" width="2" height="3" />
+
+    
+    <rect class="o" x="42" y="10" width="7" height="17" />
+    <rect class="h" x="43" y="11" width="5" height="15" />
+    <rect class="hl" x="43" y="11" width="2" height="7" />
+    <rect class="hh" x="43" y="11" width="1" height="3" />
+
+    <rect class="o" x="49" y="15" width="8" height="12" />
+    <rect class="h" x="50" y="16" width="6" height="10" />
+    <rect class="hl" x="50" y="16" width="3" height="5" />
+
+    <rect class="o" x="56" y="20" width="7" height="8" />
+    <rect class="h" x="57" y="21" width="5" height="6" />
+    <rect class="hl" x="57" y="21" width="2" height="3" />
+
+    
+    <rect class="o" x="27" y="25" width="5" height="5" />
+    <rect class="h" x="28" y="26" width="3" height="3" />
+    <rect class="hl" x="28" y="26" width="2" height="1" />
+
+    <rect class="o" x="48" y="25" width="5" height="5" />
+    <rect class="h" x="49" y="26" width="3" height="3" />
+    <rect class="hl" x="49" y="26" width="2" height="1" />
+  </g>
+</svg>
