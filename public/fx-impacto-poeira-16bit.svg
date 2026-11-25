@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64" width="600" height="400" role="img" aria-label="Efeitos de impacto e poeira estilo 16-bits em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+      .sp { fill: #FFE066; } /* Faísca / impacto amarelo */
+      .spl { fill: #FFF9DB; } /* Brilho impacto */
+      .spo { fill: #FF922B; } /* Borda laranja impacto */
+      .dt { fill: #E6CCB2; } /* Poeira clara */
+      .dtd { fill: #B08968; } /* Poeira sombra */
+      .dtl { fill: #FAF0E6; } /* Brilho poeira */
+      .sh { fill: #F8F9FA; } /* Linhas de tremor / choque */
+    </style>
+  </defs>
+
+  
+  <g id="fx-impact">
+    
+    <path class="o" d="M24 10h4v6h4v-4h4v6h6v4h-6v4h6v4h-6v6h-4v-4h-4v6h-4v-6h-4v4h-4v-6h-6v-4h6v-4h-6v-4h6v-6h4v4h4z" />
+    
+    <path class="spo" d="M25 11h2v6h5v-4h2v6h6v2h-6v6h6v2h-6v6h-2v-4h-5v6h-2v-6h-5v4h-2v-6h-6v-2h6v-6h-6v-2h6v-6h2v4h5z" />
+    <path class="sp" d="M26 14v5h6v-3v3h6v4h-6v5v-3h-6v5v-5h-5v3v-3h-5v-4h5v-3v3h5z" />
+    <rect class="spl" x="25" y="21" width="2" height="3" />
+  </g>
+
+  
+  <g id="fx-dust">
+    
+    <path class="o" d="M44 46h4v-2h8v2h2v6h-2v2H44v-2h-2v-6h2z" />
+    <path class="dt" d="M45 47h3v-2h6v2h1v4h-1v1h-9v-1h-1z" />
+    <rect class="dtl" x="47" y="46" width="5" height="2" />
+    <rect class="dtd" x="45" y="51" width="10" height="1" />
+
+    
+    <path class="o" d="M58 40h4v-2h10v2h2v2h2v8h-2v2H58v-2h-2v-8h2z" />
+    <path class="dt" d="M59 41h3v-2h8v2h1v1h1v6h-1v1H59v-1h-2v-6h2z" />
+    <rect class="dtl" x="61" y="40" width="6" height="2" />
+    <rect class="dtd" x="59" y="48" width="12" height="2" />
+
+    
+    <path class="o" d="M74 47h4v-2h8v2h2v5h-2v2H74v-2h-2v-5h2z" />
+    <path class="dt" d="M75 48h3v-2h6v2h1v3h-1v1h-9v-1h-1z" />
+    <rect class="dtl" x="77" y="47" width="4" height="1" />
+    <rect class="dtd" x="75" y="51" width="10" height="1" />
+  </g>
+
+  
+  <g id="fx-shake">
+    <path class="o" d="M56 12h14v2H56zm4 4h14v2H60zm-6 4h12v2H54zm8 4h12v2H62z" />
+    <path class="sh" d="M57 13h12v1H57zm4 4h12v1H61zm-6 4h10v1H55zm8 4h10v1H63z" />
+  </g>
+</svg>

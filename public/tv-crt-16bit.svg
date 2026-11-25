@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 96" width="600" height="480" role="img" aria-label="TV CRT antiga com brilho estilo 16-bit em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; }
+      .body { fill: #8C7A68; }
+      .bodyl { fill: #B3A08B; }
+      .bodyd { fill: #5E5042; }
+      .bezel { fill: #2E2B36; }
+      .bezell { fill: #464252; }
+      .screen { fill: #1A3A6E; }
+      .screenm { fill: #295DA8; }
+      .screenl { fill: #66B8FF; }
+      .glow { fill: #D9F2FF; }
+      .scan { fill: #102447; }
+      .dial { fill: #C9B9A6; }
+      .diall { fill: #EBE0D1; }
+      .diald { fill: #8A7A68; }
+      .grill { fill: #38333D; }
+      .ant { fill: #D4DEE8; }
+      .antl { fill: #FFFFFF; }
+      .leg { fill: #4A3F35; }
+    </style>
+  </defs>
+
+  
+  <g id="antenna">
+    
+    <path class="o" d="M56 14h2l-18-10h-3z" />
+    <path class="ant" d="M56 13h1l-17-9h-1z" />
+    
+    <path class="o" d="M62 14h2l17-10h-3z" />
+    <path class="antl" d="M63 13h1l16-9h-1z" />
+    
+    <rect class="o" x="54" y="13" width="12" height="4" />
+    <rect class="dial" x="55" y="14" width="10" height="2" />
+  </g>
+
+  
+  <g id="feet">
+    <rect class="o" x="22" y="80" width="10" height="5" />
+    <rect class="leg" x="23" y="81" width="8" height="3" />
+    <rect class="o" x="88" y="80" width="10" height="5" />
+    <rect class="leg" x="89" y="81" width="8" height="3" />
+  </g>
+
+  
+  <g id="tv-body">
+    <rect class="o" x="14" y="17" width="92" height="63" />
+    <rect class="body" x="15" y="18" width="90" height="61" />
+    
+    <rect class="bodyl" x="15" y="18" width="90" height="4" />
+    <rect class="bodyl" x="15" y="18" width="4" height="61" />
+    
+    <rect class="bodyd" x="15" y="75" width="90" height="4" />
+    <rect class="bodyd" x="101" y="18" width="4" height="61" />
+
+    
+    <rect class="o" x="21" y="24" width="60" height="49" />
+    <rect class="bezel" x="22" y="25" width="58" height="47" />
+    <rect class="bezell" x="22" y="25" width="58" height="2" />
+    <rect class="bezell" x="22" y="25" width="2" height="47" />
+
+    
+    <rect class="screen" x="25" y="28" width="52" height="41" />
+    <rect class="screenm" x="26" y="29" width="46" height="34" />
+    
+    <rect class="screenl" x="30" y="33" width="34" height="24" />
+    <rect class="glow" x="35" y="37" width="20" height="14" />
+    
+    <path class="glow" d="M28 30h8l-8 8z" />
+    <path class="screenl" d="M37 30h5l-12 12v-5z" />
+    
+    <rect class="scan" x="25" y="34" width="52" height="1" />
+    <rect class="scan" x="25" y="40" width="52" height="1" />
+    <rect class="scan" x="25" y="46" width="52" height="1" />
+    <rect class="scan" x="25" y="52" width="52" height="1" />
+    <rect class="scan" x="25" y="58" width="52" height="1" />
+    <rect class="scan" x="25" y="64" width="52" height="1" />
+  </g>
+
+  
+  <g id="control-panel">
+    
+    <rect class="o" x="86" y="28" width="12" height="12" />
+    <rect class="dial" x="87" y="29" width="10" height="10" />
+    <rect class="diall" x="88" y="30" width="6" height="3" />
+    <rect class="diald" x="91" y="33" width="4" height="5" />
+    <rect class="o" x="91" y="31" width="2" height="6" />
+
+    
+    <rect class="o" x="86" y="44" width="12" height="12" />
+    <rect class="dial" x="87" y="45" width="10" height="10" />
+    <rect class="diall" x="88" y="46" width="6" height="3" />
+    <rect class="diald" x="91" y="49" width="4" height="5" />
+    <rect class="o" x="89" y="49" width="6" height="2" />
+
+    
+    <rect class="o" x="86" y="60" width="12" height="13" />
+    <rect class="grill" x="87" y="61" width="10" height="11" />
+    <rect class="bodyl" x="89" y="63" width="6" height="1" />
+    <rect class="bodyl" x="89" y="66" width="6" height="1" />
+    <rect class="bodyl" x="89" y="69" width="6" height="1" />
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64" width="600" height="400" role="img" aria-label="Moto estilo 16-bits chibi em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+      .r { fill: #D92B2B; } /* Lataria vermelha */
+      .rl { fill: #FF5959; } /* Luz vermelha */
+      .rd { fill: #941616; } /* Sombra vermelha */
+      .c { fill: #D4DCE6; } /* Cromado / metal */
+      .cl { fill: #FFFFFF; } /* Brilho metal */
+      .cd { fill: #7E8A99; } /* Sombra metal */
+      .y { fill: #F5C242; } /* Farol / detalhe amarelo */
+      .yl { fill: #FFF099; } /* Luz farol */
+      .seat { fill: #2B2428; } /* Banco escuro */
+      .seatl { fill: #4A3E45; } /* Luz banco */
+      .tire { fill: #1A191F; } /* Pneu */
+      .tired { fill: #2F2D38; } /* Sombra pneu */
+    </style>
+  </defs>
+
+  
+  <g id="wheel-back">
+    <path class="o" d="M16 40h12v2h2v2h2v12h-2v2h-2v2H16v-2h-2v-2h-2V44h2v-2h2z" />
+    <path class="tire" d="M16 41h12v1h2v2h1v12h-1v2h-2v1H16v-1h-2v-2h-1V44h1v-2h2z" />
+    <path class="tired" d="M15 44h14v12H15z" />
+    
+    <path class="o" d="M18 44h8v2h2v8h-2v2h-8v-2h-2v-8h2z" />
+    <path class="c" d="M19 45h6v1h2v6h-2v1h-6v-1h-2v-6h2z" />
+    <rect class="cl" x="19" y="46" width="2" height="2" />
+    <rect class="cd" x="24" y="50" width="2" height="2" />
+    <rect class="o" x="21" y="48" width="2" height="2" />
+  </g>
+
+  
+  <g id="wheel-front">
+    <path class="o" d="M68 40h12v2h2v2h2v12h-2v2h-2v2H68v-2h-2v-2h-2V44h2v-2h2z" />
+    <path class="tire" d="M68 41h12v1h2v2h1v12h-1v2h-2v1H68v-1h-2v-2h-1V44h1v-2h2z" />
+    <path class="tired" d="M67 44h14v12H67z" />
+    
+    <path class="o" d="M70 44h8v2h2v8h-2v2h-8v-2h-2v-8h2z" />
+    <path class="c" d="M71 45h6v1h2v6h-2v1h-6v-1h-2v-6h2z" />
+    <rect class="cl" x="71" y="46" width="2" height="2" />
+    <rect class="cd" x="76" y="50" width="2" height="2" />
+    <rect class="o" x="73" y="48" width="2" height="2" />
+  </g>
+
+  
+  <g id="moto-body">
+    
+    <path class="o" d="M10 43h14v4H10z" />
+    <path class="c" d="M11 44h12v2H11z" />
+    <rect class="cl" x="12" y="44" width="8" height="1" />
+    <rect class="o" x="9" y="44" width="2" height="2" />
+
+    
+    <path class="o" d="M56 14h6v2h-2v6h4v2h2v4h4v2h2v4h2v14h-4V36h-2v-3h-2v-3h-4v8h-4V24h-2v-8h-2z" />
+    <path class="c" d="M57 15h4v1h-2v8h2v14h-2V26h-2v-11z" />
+    <rect class="seat" x="54" y="15" width="3" height="2" />
+    <rect class="cl" x="58" y="16" width="1" height="10" />
+
+    
+    <path class="o" d="M64 22h5v2h2v5h-2v2h-5z" />
+    <path class="y" d="M65 23h3v1h2v5h-2v1h-3z" />
+    <rect class="yl" x="66" y="24" width="2" height="3" />
+
+    
+    <path class="o" d="M22 25h18v2h4v2h-2v2H22z" />
+    <path class="seat" d="M23 26h16v1h3v2H23z" />
+    <path class="seatl" d="M24 26h13v1H24z" />
+
+    
+    <path class="o" d="M20 29h26v2h4v2h4v2h4v4h-2v3h-2v2h-4v-2h-4v-2H36v2H20v-2h-2v-3h2z" />
+    <path class="r" d="M21 30h24v2h4v2h4v2h4v4h-2v2h-4v-2h-4v-2H35v2H21v-2h-2v-3h2z" />
+    <path class="rl" d="M23 31h20v1h4v1h4v1h4v2h-5v-1h-4v-1H23z" />
+    <path class="rd" d="M20 39h15v3H20zM42 39h14v2H42z" />
+
+    
+    <path class="o" d="M36 37h14v11H36z" />
+    <path class="c" d="M37 38h12v9H37z" />
+    <rect class="cd" x="38" y="40" width="10" height="1" />
+    <rect class="cd" x="38" y="42" width="10" height="1" />
+    <rect class="cd" x="38" y="44" width="10" height="1" />
+    <rect class="cl" x="39" y="39" width="6" height="1" />
+  </g>
+</svg>

@@ -50,6 +50,7 @@ import { DragonBallGtCuriosity, DBGT_CURIOSITY_FRAMES, DBGT_CURIOSITY_FPS } from
 import { DragonBallGtCuriosityV2, DBGT_CURIOSITY_V2_FPS, DBGT_CURIOSITY_V2_FRAMES } from "./videos/dragonBallGtCuriosityV2/DragonBallGtCuriosityV2";
 import { DragonBallGtGokuCriancaCuriosity, DBGT_GOKU_CRIANCA_FPS, DBGT_GOKU_CRIANCA_FRAMES } from "./videos/dragonBallGtGokuCrianca/DragonBallGtGokuCriancaCuriosity";
 import { GokuMotoReels, GOKU_MOTO_FPS, GOKU_MOTO_FRAMES } from "./videos/gokuMotoReels/GokuMotoReels";
+import { GokuLendaMangaAnime, GOKU_LENDA_FPS, GOKU_LENDA_FRAMES } from "./videos/gokuLendaMangaAnime/GokuLendaMangaAnime";
 import { LinkinParkFormationV2Short, LPF2_FRAMES, LPF2_FPS } from "./videos/linkinParkFormationV2/LinkinParkFormationV2";
 import { OneMoreLightTributeV2Short, OML2_FRAMES, OML2_FPS } from "./videos/oneMoreLightTributeV2/OneMoreLightTributeV2";
 import { ChesterAccidentProneV2Short, CAP2_FRAMES, CAP2_FPS } from "./videos/chesterAccidentProneV2/ChesterAccidentProneV2";
@@ -302,6 +303,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="DragonBallGtCuriosityV2" component={DragonBallGtCuriosityV2} fps={DBGT_CURIOSITY_V2_FPS} durationInFrames={DBGT_CURIOSITY_V2_FRAMES} width={1080} height={1920} />
       <Composition id="DragonBallGtGokuCriancaCuriosity" component={DragonBallGtGokuCriancaCuriosity} fps={DBGT_GOKU_CRIANCA_FPS} durationInFrames={DBGT_GOKU_CRIANCA_FRAMES} width={1080} height={1920} />
       <Composition id="GokuMotoReels" component={GokuMotoReels} fps={GOKU_MOTO_FPS} durationInFrames={GOKU_MOTO_FRAMES} width={1080} height={1920} />
+      <Composition id="GokuLendaMangaAnime" component={GokuLendaMangaAnime} fps={GOKU_LENDA_FPS} durationInFrames={GOKU_LENDA_FRAMES} width={1080} height={1920} />
       <Composition
         id="LinkinParkFormationV2Short"
         component={LinkinParkFormationV2Short}

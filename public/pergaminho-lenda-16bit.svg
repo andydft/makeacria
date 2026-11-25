@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 96" width="600" height="480" role="img" aria-label="Pergaminho da lenda chinesa estilo 16-bit em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; }
+      .parch { fill: #F2D399; }
+      .parchl { fill: #FFE8BC; }
+      .parchd { fill: #C9A25B; }
+      .wood { fill: #854A24; }
+      .woodl { fill: #B36B3B; }
+      .woodd { fill: #542B12; }
+      .gold { fill: #F2C12E; }
+      .goldl { fill: #FFF08A; }
+      .red { fill: #C92832; }
+      .redl { fill: #F05A63; }
+      .ink { fill: #26222B; }
+      .inkd { fill: #141217; }
+    </style>
+  </defs>
+
+  
+  <g id="scroll-rollers">
+    
+    <rect class="o" x="12" y="14" width="10" height="68" />
+    <rect class="wood" x="13" y="15" width="8" height="66" />
+    <rect class="woodl" x="14" y="15" width="2" height="66" />
+    <rect class="woodd" x="19" y="15" width="2" height="66" />
+    
+    <rect class="o" x="10" y="10" width="14" height="5" />
+    <rect class="gold" x="11" y="11" width="12" height="3" />
+    <rect class="goldl" x="12" y="11" width="10" height="1" />
+    <rect class="o" x="10" y="81" width="14" height="5" />
+    <rect class="gold" x="11" y="82" width="12" height="3" />
+    <rect class="goldl" x="12" y="82" width="10" height="1" />
+
+    
+    <rect class="o" x="98" y="14" width="10" height="68" />
+    <rect class="wood" x="99" y="15" width="8" height="66" />
+    <rect class="woodl" x="100" y="15" width="2" height="66" />
+    <rect class="woodd" x="105" y="15" width="2" height="66" />
+    
+    <rect class="o" x="96" y="10" width="14" height="5" />
+    <rect class="gold" x="97" y="11" width="12" height="3" />
+    <rect class="goldl" x="98" y="11" width="10" height="1" />
+    <rect class="o" x="96" y="81" width="14" height="5" />
+    <rect class="gold" x="97" y="82" width="12" height="3" />
+    <rect class="goldl" x="98" y="82" width="10" height="1" />
+  </g>
+
+  
+  <g id="scroll-paper">
+    <rect class="o" x="22" y="18" width="76" height="60" />
+    <rect class="parch" x="23" y="19" width="74" height="58" />
+    
+    <rect class="parchl" x="23" y="19" width="74" height="4" />
+    <rect class="parchd" x="23" y="72" width="74" height="5" />
+    
+    <rect class="parchd" x="23" y="19" width="3" height="58" />
+    <rect class="parchd" x="94" y="19" width="3" height="58" />
+  </g>
+
+  
+  <g id="scroll-border">
+    <rect class="red" x="28" y="24" width="64" height="2" />
+    <rect class="red" x="28" y="70" width="64" height="2" />
+    <rect class="red" x="28" y="24" width="2" height="48" />
+    <rect class="red" x="90" y="24" width="2" height="48" />
+    
+    <rect class="gold" x="27" y="23" width="4" height="4" />
+    <rect class="gold" x="89" y="23" width="4" height="4" />
+    <rect class="gold" x="27" y="69" width="4" height="4" />
+    <rect class="gold" x="89" y="69" width="4" height="4" />
+  </g>
+
+  
+  <g id="legend-symbols">
+    
+    <rect class="ink" x="36" y="31" width="10" height="2" />
+    <rect class="ink" x="40" y="33" width="2" height="7" />
+    <rect class="ink" x="35" y="36" width="12" height="2" />
+
+    <rect class="ink" x="36" y="44" width="10" height="2" />
+    <rect class="ink" x="36" y="46" width="2" height="6" />
+    <rect class="ink" x="44" y="46" width="2" height="6" />
+    <rect class="ink" x="36" y="52" width="10" height="2" />
+    <rect class="ink" x="40" y="46" width="2" height="12" />
+
+    <rect class="ink" x="36" y="61" width="10" height="2" />
+    <rect class="ink" x="38" y="63" width="2" height="4" />
+    <rect class="ink" x="43" y="63" width="2" height="4" />
+
+    
+    <rect class="ink" x="56" y="33" width="8" height="8" />
+    <rect class="parchl" x="58" y="35" width="4" height="4" />
+    <rect class="ink" x="59" y="36" width="2" height="2" />
+
+    
+    <path class="ink" d="M52 58h4v-3h3v-3h2v3h3v3h4v2h-16z" />
+    <rect class="inkd" x="59" y="54" width="2" height="4" />
+
+    
+    <rect class="ink" x="74" y="31" width="10" height="2" />
+    <rect class="ink" x="78" y="33" width="2" height="9" />
+    <rect class="ink" x="75" y="37" width="8" height="2" />
+
+    <rect class="ink" x="75" y="45" width="8" height="2" />
+    <rect class="ink" x="75" y="47" width="2" height="4" />
+    <rect class="ink" x="81" y="47" width="2" height="4" />
+    <rect class="ink" x="75" y="51" width="8" height="2" />
+    <rect class="ink" x="78" y="53" width="2" height="5" />
+
+    <rect class="ink" x="74" y="61" width="10" height="2" />
+    <rect class="ink" x="76" y="63" width="6" height="4" />
+    <rect class="parch" x="77" y="64" width="4" height="2" />
+
+    
+    <rect class="o" x="55" y="62" width="10" height="7" />
+    <rect class="red" x="56" y="63" width="8" height="5" />
+    <rect class="redl" x="56" y="63" width="8" height="1" />
+    <rect class="parchl" x="58" y="65" width="1" height="2" />
+    <rect class="parchl" x="61" y="65" width="1" height="2" />
+  </g>
+
+  
+  <g id="ribbon">
+    <rect class="o" x="52" y="76" width="16" height="6" />
+    <rect class="red" x="53" y="77" width="14" height="4" />
+    <rect class="redl" x="53" y="77" width="14" height="1" />
+    
+    <path class="o" d="M54 82h4v7h-4zM62 82h4v7h-4z" />
+    <path class="red" d="M55 82h2v6h-2zM63 82h2v6h-2z" />
+  </g>
+</svg>

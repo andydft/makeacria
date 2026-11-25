@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 96" width="512" height="614" role="img" aria-label="Rei Macaco Sun Wukong chibi curioso estilo 16-bits em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+      .f { fill: #8C4B23; } /* Pelagem base */
+      .fl { fill: #B86935; } /* Luz pelagem */
+      .fh { fill: #DE9254; } /* Brilho pelagem */
+      .fd { fill: #5E2E12; } /* Sombra pelagem */
+      .s { fill: #F5C396; } /* Pele */
+      .sl { fill: #FFE0C2; } /* Pele clara */
+      .sd { fill: #CC8E5E; } /* Sombra pele */
+      .w { fill: #FFFFFF; } /* Branco olhos */
+      .r { fill: #D9262E; } /* Túnica / bastão vermelho */
+      .rl { fill: #F75E66; } /* Luz vermelho */
+      .rd { fill: #911218; } /* Sombra vermelho */
+      .y { fill: #F2C12E; } /* Ouro / coroa */
+      .yl { fill: #FFF08A; } /* Brilho ouro */
+      .yd { fill: #B58210; } /* Sombra ouro */
+      .j { fill: #24A876; } /* Jade */
+      .jl { fill: #6EE7B7; } /* Brilho jade */
+    </style>
+  </defs>
+
+  
+  <g id="power-pole">
+    <path class="o" d="M21 50h3v1h1v1h1v1h1v1h1v1h1v1h1v1h1v2h-2v1h-2v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-2h1z" />
+    <path class="r" d="M22 51h1v1h1v1h1v1h1v1h1v1h1v1h1v1h-1v1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h1z" />
+    <path class="rl" d="M22 51h1v1h1v1h1v1h1v1h1v1h-1v-1h-1v-1h-1v-1h-1v-1h-1z" />
+    <rect class="y" x="26" y="55" width="2" height="2" />
+
+    <path class="o" d="M53 76h2v1h1v1h1v1h1v1h1v2h-2v1h-2v-1h-1v-1h-1v-1h-1v-1h-1v-2h1z" />
+    <path class="r" d="M54 77h1v1h1v1h1v1h1v1h-1v1h-1v-1h-1v-1h-1v-1h-1v-1h1z" />
+    <rect class="y" x="53" y="76" width="2" height="2" />
+  </g>
+
+  
+  <g id="tail">
+    <path class="o" d="M51 73h5v-1h2v-2h1v-3h-2v-1h-3v1h-1v2h-2v-3h1v-2h2v-1h5v1h2v2h1v5h-1v2h-2v1h-2v1h-6z" />
+    <path class="f" d="M51 74h5v-1h2v-2h1v-3h-1v-1h-3v1h-1v1h-1v-3h1v-2h3v-1h3v1h1v2h1v5h-1v2h-2v1h-2v1h-5z" />
+    <path class="fl" d="M61 65h2v4h-1v-3h-1zM52 73h3v1h-3z" />
+    <path class="fd" d="M51 75h5v-1h2v-1h1v1h-1v1h-2v1h-5z" />
+  </g>
+
+  
+  <g id="hair-back">
+    <path class="o" d="M40 5h2v2h2v2h2v2h1v2h1v3h1v2h3v1h2v1h2v1h1v2h2v1h2v1h3v1h2v1h2v2h-3v1h-3v1h-2v1h2v1h3v1h2v2h-3v1h-4v1h-4v1h-4v1h-3v2h-1v3h-2v2h-3v-1h-2v-2h-34v2h-2v1h-3v-2h-2v-3h-1v-2h-3v-1h-4v-1h-3v-2h2v-1h3v-1h3v-1h2v-1h-2v-1h-3v-1h-2v-2h2v-1h3v-1h3v-1h3v-1h3v-2h-1v-2h-1v-1h-2v-1h-2v-1h-2v-1h-2v-2h3v-1h4v-1h5v-1h6v-2h-1v-2h-1v-2h-1v-2h3v1h4v1h4v1h4v1h3v-2h1v-2h1v-2z" />
+    <path class="f" d="M40 7h2v2h2v2h1v2h1v3h1v2h3v1h2v1h2v1h1v2h2v1h2v1h3v1h2v1h-3v1h-3v1h-3v1h2v1h3v1h2v1h-3v1h-4v1h-4v1h-4v1h-3v2h-1v3h-2v1h-1v-2h-36v2h-1v-1h-2v-3h-1v-2h-3v-1h-3v-1h2v-1h3v-1h3v-1h3v-1h-3v-1h-3v-1h-2v-1h3v-1h3v-1h3v-1h3v-1h1v-3h-1v-2h-2v-1h-2v-1h-2v-1h-2v-1h3v-1h4v-1h5v-1h7v-2h-1v-2h-1v-2h3v1h4v1h4v1h4v1h3v-2h1v-2h1v-2z" />
+    <path class="fl" d="M41 8h1v2h2v2h1v3h1v2h-2v-2h-1v-3h-1v-2h-1zM21 9h4v1h4v1h4v1h2v2h-4v-1h-4v-1h-4v-1h-2zM9 21h5v-1h6v-1h4v2h-6v1h-5v1h-4zM7 35h3v-1h3v-1h4v2h-4v1h-3v1h-3zM61 29h3v1h3v1h3v1h-4v-1h-3v-1h-2zM66 37h4v1h4v1h-5v-1h-3z" />
+    <path class="fh" d="M42 10h1v2h1v2h-1v-2h-1zM24 10h4v1h4v1h-4v-1h-4zM13 20h5v1h-5zM64 30h4v1h-4z" />
+    <path class="fd" d="M54 55h3v14h-2v4h-2v-4h1zM25 55h2v14h-2z" />
+  </g>
+
+  
+  <g id="body">
+    <rect class="o" x="36" y="55" width="10" height="4" />
+    <rect class="s" x="37" y="55" width="8" height="3" />
+    <rect class="sd" x="37" y="55" width="8" height="1" />
+
+    <path class="o" d="M30 58h22v1h2v2h2v3h1v7h-2v1h-2v10h-2v4h1v2h-9v-3h-4v3h-9v-2h1v-4h-2v-10h-2v-1h-2v-7h1v-3h2v-2h2z" />
+    <path class="r" d="M31 59h20v1h2v2h1v8h-2v11h-2v3h-7v-4h-4v4h-7v-3h-2v-11h-2v-8h1v-2h2z" />
+    <path class="rl" d="M32 60h3v6h-1v4h-2zM47 60h3v4h-2v-2h-1zM32 74h2v6h-2zM45 74h2v6h-2z" />
+    <path class="rd" d="M49 62h2v8h-2v10h-2v-10h2zM31 79h7v2h-7zM44 79h7v2h-7z" />
+
+    
+    <rect class="o" x="37" y="59" width="8" height="6" />
+    <rect class="y" x="38" y="60" width="6" height="4" />
+    <rect class="yl" x="38" y="60" width="5" height="1" />
+    <rect class="j" x="40" y="61" width="2" height="2" />
+    <rect class="jl" x="40" y="61" width="1" height="1" />
+
+    
+    <rect class="o" x="31" y="69" width="20" height="4" />
+    <rect class="y" x="32" y="70" width="18" height="2" />
+    <rect class="yl" x="34" y="70" width="14" height="1" />
+
+    
+    <path class="o" d="M25 61h6v8h-3v3h-6v-5h3z" />
+    <path class="r" d="M26 62h4v6h-4z" />
+    <path class="rl" d="M26 62h3v2h-3z" />
+    <path class="s" d="M23 68h5v3h-5z" />
+    <path class="sl" d="M23 68h4v1h-4z" />
+
+    
+    <g id="arm-poking">
+      <path class="o" d="M51 61h4v2h13v1h4v2h-4v1h-13v2h-4z" />
+      <path class="r" d="M52 62h3v6h-3z" />
+      <path class="rl" d="M52 62h2v2h-2z" />
+      <path class="s" d="M55 63h12v4H55z" />
+      <rect class="y" x="65" y="63" width="2" height="4" />
+      <rect class="yl" x="65" y="64" width="1" height="2" />
+      <path class="s" d="M67 63h2v1h3v2h-3v1h-2z" />
+      <rect class="sl" x="69" y="64" width="2" height="1" />
+    </g>
+
+    
+    <path class="o" d="M31 82h7v4h-8v-1h1zM44 82h7v3h2v1h-9z" />
+    <path class="y" d="M32 82h6v3h-7v-1h1zM44 82h6v2h2v1h-8z" />
+    <rect class="yl" x="32" y="82" width="6" height="1" />
+    <rect class="yl" x="44" y="82" width="6" height="1" />
+    <rect class="yd" x="31" y="84" width="7" height="1" />
+    <rect class="yd" x="44" y="84" width="8" height="1" />
+  </g>
+
+  
+  <g id="head">
+    <path class="o" d="M25 27h34v6h3v2h2v6h-2v3h-3v6h-2v3h-3v2h-4v1h-16v-1h-4v-2h-3v-3h-2v-6h-3v-3h-2v-6h2v-2h3z" />
+    <path class="s" d="M26 28h32v23h-2v2h-3v2h-4v1h-14v-1h-4v-2h-3v-2h-2z" />
+    <path class="s" d="M22 35h3v8h-3zM59 35h3v8h-3z" />
+    <path class="sd" d="M23 37h2v4h-2zM59 37h2v4h-2z" />
+    <path class="sl" d="M40 36h4v5h-4z" />
+    <path class="sd" d="M26 47h2v4h2v2h3v2h18v-2h3v-2h2v-4h2v4h-2v2h-3v2h-4v1h-14v-1h-4v-2h-3v-2h-2z" />
+
+    
+    <path class="o" d="M29 34h3v1h3v1h2v1h-2v-1h-3v-1h-3zM55 32h-3v1h-3v1h-2v1h2v-1h3v-1h3z" />
+
+    
+    <g id="eyes">
+      <rect class="o" x="30" y="36" width="8" height="7" />
+      <rect class="w" x="31" y="37" width="6" height="5" />
+      <rect class="o" x="34" y="38" width="3" height="3" />
+      <rect class="w" x="34" y="38" width="1" height="1" />
+
+      <rect class="o" x="46" y="35" width="8" height="8" />
+      <rect class="w" x="47" y="36" width="6" height="6" />
+      <rect class="o" x="50" y="37" width="3" height="4" />
+      <rect class="w" x="50" y="37" width="1" height="1" />
+    </g>
+
+    
+    <rect class="o" x="41" y="44" width="2" height="1" />
+    <rect class="sd" x="42" y="43" width="1" height="1" />
+
+    
+    <g id="mouth">
+      <rect class="o" x="39" y="49" width="6" height="2" />
+      <rect class="sd" x="40" y="51" width="4" height="1" />
+    </g>
+
+    
+    <path class="o" d="M25 24h34v5h-34z" />
+    <path class="y" d="M26 25h32v3h-32z" />
+    <path class="yl" d="M26 25h32v1h-32z" />
+    <path class="yd" d="M26 27h32v1h-32z" />
+
+    
+    <rect class="o" x="28" y="20" width="4" height="4" />
+    <rect class="y" x="29" y="21" width="2" height="2" />
+    <rect class="yl" x="29" y="21" width="1" height="1" />
+
+    <rect class="o" x="40" y="18" width="4" height="6" />
+    <rect class="j" x="41" y="19" width="2" height="4" />
+    <rect class="jl" x="41" y="19" width="1" height="2" />
+
+    <rect class="o" x="52" y="20" width="4" height="4" />
+    <rect class="y" x="53" y="21" width="2" height="2" />
+    <rect class="yl" x="53" y="21" width="1" height="1" />
+  </g>
+
+  
+  <g id="hair-front">
+    <path class="o" d="M25 14h34v7h-2v-2h-2v-1h-2v2h-2v2h-2v-2h-2v-2h-2v2h-2v2h-2v-2h-2v-2h-2v2h-2v2h-2v-2h-2v-1h-2v2h-2z" />
+    <path class="f" d="M26 15h32v5h-1v-2h-2v-1h-3v2h-2v2h-1v-2h-2v-2h-3v2h-2v2h-1v-2h-2v-2h-3v2h-2v2h-1v-2h-2v-1h-3v2h-1z" />
+    <path class="fl" d="M30 15h5v2h-2v1h-2v-1h-1zM38 15h5v2h-2v2h-2v-2h-1zM47 15h5v2h-2v1h-2v-1h-1z" />
+    <path class="fh" d="M32 15h2v1h-2zM40 15h2v1h-2zM49 15h2v1h-2z" />
+  </g>
+</svg>

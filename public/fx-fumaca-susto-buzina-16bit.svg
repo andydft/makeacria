@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64" width="600" height="400" role="img" aria-label="Efeitos visuais FX estilo 16-bits: fumaça, susto e buzina em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; } /* Contorno */
+      .sm { fill: #E6ECF2; } /* Fumaça clara */
+      .smd { fill: #B4C0CC; } /* Fumaça sombra */
+      .sml { fill: #FFFFFF; } /* Brilho fumaça */
+      .ex { fill: #FF3B30; } /* Exclamação vermelha */
+      .exl { fill: #FF8A80; } /* Luz exclamação */
+      .sw { fill: #64B5F6; } /* Gota de suor */
+      .swl { fill: #E3F2FD; } /* Brilho suor */
+      .bz { fill: #FFD54F; } /* Ondas de buzina */
+    </style>
+  </defs>
+
+  
+  <g id="fx-smoke">
+    
+    <path class="o" d="M12 44h4v-2h8v2h2v2h2v6h-2v2H12v-2h-2v-6h2z" />
+    <path class="sm" d="M13 45h3v-2h6v2h2v1h2v5h-2v1H13v-1h-2v-5h2z" />
+    <path class="sml" d="M16 44h5v2h-5z" />
+    <path class="smd" d="M12 50h14v2H12z" />
+
+    
+    <path class="o" d="M28 48h4v-2h6v2h2v5h-2v1h-8v-1h-2z" />
+    <path class="sm" d="M29 49h3v-2h4v2h2v3h-2v1h-6v-1h-1z" />
+    <path class="smd" d="M29 52h9v1h-9z" />
+
+    
+    <path class="o" d="M41 51h6v4h-6z" />
+    <path class="sm" d="M42 52h4v2h-4z" />
+  </g>
+
+  
+  <g id="fx-scared">
+    
+    <path class="o" d="M56 10h6v12h-2v2h-2v-2h-2zm0 16h6v4h-6z" />
+    <path class="ex" d="M57 11h4v10h-4zm0 16h4v2h-4z" />
+    <rect class="exl" x="58" y="12" width="1" height="7" />
+
+    
+    <path class="o" d="M68 16h2v2h2v2h2v4h-2v2h-4v-2h-2v-4h2v-2h2z" />
+    <path class="sw" d="M69 18h1v2h1v2h1v2h-1v1h-2v-1h-1v-2h1v-2z" />
+    <rect class="swl" x="69" y="20" width="1" height="2" />
+  </g>
+
+  
+  <g id="fx-horn">
+    <path class="o" d="M78 24h2v2h2v8h-2v2h-2v-2h2v-8h-2zm5-3h2v3h2v10h-2v3h-2v-2h2v-12h-2z" />
+    <path class="bz" d="M79 25h1v9h-1zm5-3h1v14h-1z" />
+  </g>
+</svg>

@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 96" width="800" height="480" role="img" aria-label="Casa do Kame estilo 16-bit em SVG puro">
+  <defs>
+    <style>
+      .o { fill: #121014; }
+      .sky { fill: #49A8F5; }
+      .skyl { fill: #7CC5FF; }
+      .skyd { fill: #2E82D1; }
+      .sea { fill: #1D75C9; }
+      .seal { fill: #3394EB; }
+      .sead { fill: #145599; }
+      .sand { fill: #F5CE7E; }
+      .sandl { fill: #FFE6A8; }
+      .sandd { fill: #C99A49; }
+      .p { fill: #F589B4; }
+      .pl { fill: #FFB5D4; }
+      .pd { fill: #C45886; }
+      .roof { fill: #E64539; }
+      .roofl { fill: #FF766B; }
+      .roofd { fill: #A6241B; }
+      .w { fill: #FFFFFF; }
+      .wl { fill: #BCE3FA; }
+      .wood { fill: #8C532B; }
+      .woodd { fill: #5E3418; }
+      .palm { fill: #2BA84A; }
+      .palml { fill: #59D173; }
+      .palmd { fill: #1A7530; }
+      .coco { fill: #6B3E1E; }
+      .sign { fill: #FFF4C2; }
+    </style>
+  </defs>
+
+  <!-- Céu e Mar -->
+  <g id="sky-and-sea">
+    <rect class="sky" x="0" y="0" width="160" height="58" />
+    <rect class="skyl" x="0" y="0" width="160" height="14" />
+    <rect class="skyd" x="0" y="48" width="160" height="10" />
+
+    <!-- Nuvens simples 16-bit -->
+    <rect class="o" x="14" y="13" width="16" height="6" />
+    <rect class="o" x="17" y="11" width="10" height="2" />
+    <rect class="w" x="15" y="14" width="14" height="4" />
+    <rect class="w" x="18" y="12" width="8" height="2" />
+
+    <rect class="o" x="118" y="9" width="18" height="6" />
+    <rect class="o" x="122" y="7" width="10" height="2" />
+    <rect class="w" x="119" y="10" width="16" height="4" />
+    <rect class="w" x="123" y="8" width="8" height="2" />
+
+    <!-- Mar e ondas -->
+    <rect class="sea" x="0" y="58" width="160" height="38" />
+    <rect class="sead" x="0" y="76" width="160" height="20" />
+    <rect class="seal" x="14" y="64" width="14" height="2" />
+    <rect class="seal" x="130" y="68" width="16" height="2" />
+    <rect class="seal" x="24" y="82" width="16" height="2" />
+    <rect class="seal" x="116" y="85" width="20" height="2" />
+  </g>
+
+  <!-- Ilha Pequena -->
+  <g id="island">
+    <rect class="o" x="24" y="60" width="112" height="8" />
+    <rect class="o" x="30" y="58" width="100" height="2" />
+    <rect class="sand" x="25" y="61" width="110" height="5" />
+    <rect class="sandl" x="31" y="59" width="98" height="2" />
+    <rect class="sandd" x="25" y="66" width="110" height="1" />
+  </g>
+
+  <!-- Palmeira à esquerda -->
+  <g id="palm-tree">
+    <!-- Tronco -->
+    <rect class="o" x="41" y="42" width="5" height="18" />
+    <rect class="wood" x="42" y="43" width="3" height="17" />
+    <rect class="woodd" x="44" y="43" width="1" height="17" />
+
+    <!-- Cocos -->
+    <rect class="o" x="39" y="40" width="4" height="4" />
+    <rect class="coco" x="40" y="41" width="2" height="2" />
+    <rect class="o" x="45" y="41" width="4" height="4" />
+    <rect class="coco" x="46" y="42" width="2" height="2" />
+
+    <!-- Folhas da palmeira -->
+    <rect class="o" x="22" y="38" width="44" height="3" />
+    <rect class="o" x="34" y="35" width="22" height="3" />
+    <rect class="o" x="42" y="33" width="8" height="2" />
+
+    <rect class="palm" x="23" y="39" width="42" height="1" />
+    <rect class="palml" x="35" y="36" width="20" height="2" />
+    <rect class="palml" x="43" y="34" width="6" height="2" />
+    <rect class="palmd" x="23" y="40" width="42" height="1" />
+  </g>
+
+  <!-- Casa Rosa KAME HOUSE -->
+  <g id="kame-house">
+    <!-- Corpo rosa da casa -->
+    <rect class="o" x="64" y="34" width="48" height="26" />
+    <rect class="p" x="65" y="35" width="46" height="24" />
+    <rect class="pl" x="65" y="35" width="46" height="3" />
+    <rect class="pd" x="97" y="38" width="14" height="21" />
+
+    <!-- Telhado vermelho -->
+    <rect class="o" x="58" y="32" width="60" height="4" />
+    <rect class="o" x="64" y="30" width="48" height="2" />
+    <rect class="roof" x="59" y="33" width="58" height="2" />
+    <rect class="roofl" x="65" y="31" width="46" height="2" />
+    <rect class="roofd" x="59" y="35" width="58" height="1" />
+
+    <!-- Placa KAME HOUSE no topo -->
+    <rect class="o" x="54" y="20" width="68" height="9" />
+    <rect class="sign" x="55" y="21" width="66" height="7" />
+
+    <!-- K -->
+    <path class="o" d="M58 23h1v4h-1zM59 25h1v-1h1v1h-1v2h1v-1h-1zM60 23h1v1h-1z" />
+    <!-- A -->
+    <path class="o" d="M64 24h3v3h-1v-1h-1v1h-1v-3zM64 23h3v1h-3z" />
+    <!-- M -->
+    <path class="o" d="M70 23h1v4h-1zM71 24h1v1h-1zM72 23h1v4h-1z" />
+    <!-- E -->
+    <path class="o" d="M76 23h3v1h-2v1h2v1h-2v1h2v-1h-3z" />
+
+    <!-- H -->
+    <path class="o" d="M84 23h1v4h-1zM85 25h1v1h-1zM86 23h1v4h-1z" />
+    <!-- O -->
+    <rect class="o" x="90" y="23" width="3" height="4" />
+    <rect class="sign" x="91" y="24" width="1" height="2" />
+    <!-- U -->
+    <path class="o" d="M96 23h1v3h1v-3h1v4h-3z" />
+    <!-- S -->
+    <path class="o" d="M102 23h3v1h-2v1h2v2h-3v-1h2v-1h-2z" />
+    <!-- E -->
+    <path class="o" d="M108 23h3v1h-2v1h2v1h-2v1h2v-1h-3z" />
+
+    <!-- Porta -->
+    <rect class="o" x="71" y="44" width="10" height="16" />
+    <rect class="wood" x="72" y="45" width="8" height="14" />
+    <rect class="woodd" x="78" y="45" width="2" height="14" />
+    <rect class="sandl" x="78" y="52" width="1" height="2" />
+
+    <!-- Janela -->
+    <rect class="o" x="86" y="42" width="14" height="10" />
+    <rect class="wl" x="87" y="43" width="12" height="8" />
+    <rect class="w" x="88" y="44" width="4" height="3" />
+    <rect class="o" x="92" y="43" width="2" height="8" />
+    <rect class="o" x="87" y="46" width="12" height="2" />
+  </g>
+</svg>
