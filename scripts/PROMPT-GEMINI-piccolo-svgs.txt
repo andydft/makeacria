@@ -1,0 +1,55 @@
+Crie 3 SVGs puros em estilo 16-bit pixel-art (sem imagem raster embutida, sem fundo), do personagem Piccolo (Dragon Ball Z), para usar em animação Remotion 9:16.
+
+## Regras gerais
+- Formato: SVG puro, fundo transparente.
+- Estilo: 16-bit / pixel-art em SVG, com contorno escuro e formas simples/blocadas.
+- ViewBox: 0 0 80 96
+- Tamanho sugerido: 512x614
+- Personagem inteiro visível, pés apoiados na mesma linha de chão (não flutuar).
+- Silhueta clara e legível em tela vertical.
+- Sem aura, sem ki blast, sem partículas, sem brilho (efeitos serão adicionados em código).
+- Não inclua texto.
+
+## Referência visual do Piccolo
+- Pele verde.
+- Antenas características na cabeça.
+- Orelhas pontudas.
+- Rosto sério.
+- Roupa roxa/azul-escura (gi), cinto/faixa azul, sapatos/botas.
+- Em versões clássicas pode ter capa branca e turbante; se usar, manter simples e consistente em 16-bit. Priorize leitura clara.
+
+Paleta sugerida (pode ajustar levemente para legibilidade 16-bit):
+- Contorno: #121014
+- Pele verde: #5FAF3A, #84D65A, #3E7A24
+- Manchas/partes mais escuras: #2E5A1A
+- Roupa roxa: #6B4FA0, #8A6BC2, #4A3475
+- Cinto/faixa azul: #2E5FAF, #4E84D8, #1E3E75
+- Branco/capa/turbante (se usar): #F2F2F2, #CFCFCF
+- Olhos: #FFFFFF, #1E1D24
+- Unhas/patches (opcional): #D9C7D9
+
+## Arquivo 1: piccolo-16bit.svg
+Pose: em pé, neutro/sério.
+- Postura firme, olhando para frente.
+- Braços cruzados OU braços relaxados ao lado do corpo (escolha a mais clara em 16-bit).
+- Expressão séria/calma.
+
+## Arquivo 2: piccolo-makankosappo-16bit.svg
+Pose: preparando o Makankōsappō (Special Beam Cannon).
+- Postura de combate firme.
+- Duas mãos levantadas próximas à testa/rosto, dedos posicionados na pose clássica de carregamento do golpe (duas pontas dos dedos estendidas na frente).
+- Expressão concentrada/séria.
+- Sem feixe de energia saindo (o feixe será adicionado em código).
+
+## Arquivo 3: piccolo-luta-16bit.svg
+Pose: combate/soco.
+- Corpo levemente inclinado para frente.
+- Uma perna à frente, outra atrás, base firme.
+- Um braço avançado em soco, punho fechado; outro braço em guarda.
+- Expressão determinada.
+
+## Entrega
+Responda com os 3 SVGs completos, separados, cada um em seu próprio bloco de código, com os nomes:
+1. piccolo-16bit.svg
+2. piccolo-makankosappo-16bit.svg
+3. piccolo-luta-16bit.svg

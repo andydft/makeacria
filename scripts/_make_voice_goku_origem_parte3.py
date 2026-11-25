@@ -1,4 +1,4 @@
-"""TTS - Goku Origem Parte 3 (Luta contra Raditz)."""
+"""TTS - Goku Origem Parte 3 (Luta contra Raditz com Piccolo)."""
 import asyncio, json, os, edge_tts
 
 VOICE = "pt-BR-AntonioNeural"
@@ -6,12 +6,13 @@ RATE = "+8%"
 PITCH = "+0Hz"
 OUT = os.path.join("public", "goku-origem-parte3")
 TEXT = (
-    "Depois de sequestrar Gohan, Raditz parecia invencível. Mas Goku não ia desistir do seu filho. "
-    "A batalha começou. Goku lutou com tudo, mas Raditz era mais forte e rápido. "
-    "Quando tudo parecia perdido, Gohan mostrou uma força surpreendente e ajudou a abrir uma brecha. "
-    "Goku aproveitou o momento, segurou Raditz, e um ataque decisivo acabou com a ameaça. "
-    "Mas a vitória teve um preço alto. Antes de cair, Raditz revelou que outros Saiyajins ainda mais poderosos viriam para a Terra. "
-    "A luta acabou... mas o perigo estava só começando. "
+    "Depois de sequestrar Gohan, Raditz parecia invencível. Para salvar seu filho, Goku fez uma aliança improvável com Piccolo. "
+    "A luta começou. Mesmo juntos, Goku e Piccolo tinham dificuldade contra a força de Raditz. "
+    "Quando tudo parecia perdido, Gohan mostrou uma força surpreendente e enfraqueceu Raditz por um instante. "
+    "Goku aproveitou a chance e segurou o irmão pelas costas. Piccolo concentrou energia e disparou o Makankosappo. "
+    "O ataque atravessou Raditz, mas também atingiu Goku. "
+    "Antes de morrer, Raditz avisou que outros Saiyajins ainda mais poderosos viriam à Terra. "
+    "A batalha terminou... mas uma nova ameaça estava a caminho. "
     "Continua na parte quatro!"
 )
 

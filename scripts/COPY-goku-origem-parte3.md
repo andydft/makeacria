@@ -1,14 +1,14 @@
-# COPY — Goku: A Origem (Parte 3 - A Luta Contra Raditz)
+# COPY — Goku: A Origem (Parte 3 - Goku, Piccolo e Raditz)
 
 ## Título
-A origem do Goku Parte 3: a luta contra Raditz!
+A origem do Goku Parte 3: Goku e Piccolo vs Raditz!
 
 ## Legenda
-Raditz sequestrou Gohan, mas Goku não ia desistir. A batalha é intensa, Gohan mostra uma força surpreendente e Goku aproveita a brecha para um ataque decisivo.
+Para salvar Gohan, Goku faz uma aliança improvável com Piccolo. A luta contra Raditz é intensa, Gohan abre uma brecha, e Goku segura o inimigo para o Makankōsappō decisivo.
 
-Mas antes de cair, Raditz deixa um aviso: outros Saiyajins ainda mais poderosos estão a caminho...
+Mas a vitória tem um preço alto... e Raditz deixa um aviso: outros Saiyajins estão vindo para a Terra.
 
 Continua na Parte 4!
 
 ## Hashtags
-#DragonBall #Goku #Raditz #Gohan #Saiyajin #DragonBallZ #Anime #Curiosidades #Otaku #Shorts
+#DragonBall #Goku #Piccolo #Raditz #Gohan #Makankosappo #DragonBallZ #Anime #Curiosidades #Shorts
