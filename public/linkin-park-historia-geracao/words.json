@@ -1,0 +1,718 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "-12%",
+  "pitch": "+0Hz",
+  "text": "Linkin Park definiu uma geraÃ§Ã£o inteira. Em 2000, Hybrid Theory mudou completamente o cenÃ¡rio do rock. Mas antes dos grandes palcos, tudo comeÃ§ou em espaÃ§os pequenos, com ideias e instrumentos. Um teclado, uma guitarra e a vontade de criar algo diferente. Naquela Ã©poca, ninguÃ©m imaginava o tamanho que aquela banda poderia alcanÃ§ar. Antes do Linkin Park, o projeto passou por dificuldades e mudanÃ§as. O grupo ainda estava tentando encontrar seu caminho. Quando as ideias comeÃ§aram a se encaixar, aquelas mÃºsicas passaram a ter uma identidade prÃ³pria. Uma das mÃºsicas que se destacaram foi Crawling, que ajudou a mostrar a identidade emocional da banda. Em 2002, o reconhecimento chegou tambÃ©m ao Grammy. De um quarto pequeno a milhÃµes de pessoas cantando juntas. Qual mÃºsica do Linkin Park marcou a sua vida?",
+  "words": [
+    {
+      "text": "Linkin",
+      "offset": 0.106833,
+      "duration": 0.497166
+    },
+    {
+      "text": "Park",
+      "offset": 0.618166,
+      "duration": 0.426125
+    },
+    {
+      "text": "definiu",
+      "offset": 1.058541,
+      "duration": 0.46875
+    },
+    {
+      "text": "uma",
+      "offset": 1.541458,
+      "duration": 0.184666
+    },
+    {
+      "text": "geraÃ",
+      "offset": 1.740333,
+      "duration": 0.553958
+    },
+    {
+      "text": "Ã£o",
+      "offset": 2.308541,
+      "duration": 0.525583
+    },
+    {
+      "text": "inteira",
+      "offset": 2.848291,
+      "duration": 0.525583
+    },
+    {
+      "text": "Em 2000",
+      "offset": 4.360791,
+      "duration": 0.7386249
+    },
+    {
+      "text": "Hybrid",
+      "offset": 5.326708,
+      "duration": 0.610791
+    },
+    {
+      "text": "Theory",
+      "offset": 5.951708,
+      "duration": 0.369333
+    },
+    {
+      "text": "mudou",
+      "offset": 6.335208,
+      "duration": 0.369333
+    },
+    {
+      "text": "completamente",
+      "offset": 6.71875,
+      "duration": 0.823875
+    },
+    {
+      "text": "o",
+      "offset": 7.556833,
+      "duration": 0.042625
+    },
+    {
+      "text": "cenÃ",
+      "offset": 7.613625,
+      "duration": 0.454541
+    },
+    {
+      "text": "rio",
+      "offset": 8.196041,
+      "duration": 0.284083
+    },
+    {
+      "text": "do",
+      "offset": 8.494333,
+      "duration": 0.113625
+    },
+    {
+      "text": "rock",
+      "offset": 8.622166,
+      "duration": 0.497166
+    },
+    {
+      "text": "Mas",
+      "offset": 10.099416,
+      "duration": 0.227291
+    },
+    {
+      "text": "antes",
+      "offset": 10.340916,
+      "duration": 0.46875
+    },
+    {
+      "text": "dos",
+      "offset": 10.823875,
+      "duration": 0.184666
+    },
+    {
+      "text": "grandes",
+      "offset": 11.022708,
+      "duration": 0.454541
+    },
+    {
+      "text": "palcos",
+      "offset": 11.491458,
+      "duration": 0.553958
+    },
+    {
+      "text": "tudo",
+      "offset": 12.372166,
+      "duration": 0.340916
+    },
+    {
+      "text": "comeÃ",
+      "offset": 12.727291,
+      "duration": 0.525583
+    },
+    {
+      "text": "ou",
+      "offset": 13.267041,
+      "duration": 0.127833
+    },
+    {
+      "text": "em",
+      "offset": 13.409083,
+      "duration": 0.142041
+    },
+    {
+      "text": "espaÃ",
+      "offset": 13.565333,
+      "duration": 0.411916
+    },
+    {
+      "text": "os",
+      "offset": 13.991458,
+      "duration": 0.127833
+    },
+    {
+      "text": "pequenos",
+      "offset": 14.133541,
+      "duration": 0.610791
+    },
+    {
+      "text": "com",
+      "offset": 15.042625,
+      "duration": 0.198875
+    },
+    {
+      "text": "ideias",
+      "offset": 15.255666,
+      "duration": 0.440333
+    },
+    {
+      "text": "e",
+      "offset": 15.710208,
+      "duration": 0.113625
+    },
+    {
+      "text": "instrumentos",
+      "offset": 15.838083,
+      "duration": 0.880666
+    },
+    {
+      "text": "Um",
+      "offset": 17.698875,
+      "duration": 0.170458
+    },
+    {
+      "text": "teclado",
+      "offset": 17.883541,
+      "duration": 0.610791
+    },
+    {
+      "text": "uma",
+      "offset": 18.735791,
+      "duration": 0.198875
+    },
+    {
+      "text": "guitarra",
+      "offset": 18.948875,
+      "duration": 0.553958
+    },
+    {
+      "text": "e",
+      "offset": 19.517041,
+      "duration": 0.085208
+    },
+    {
+      "text": "a",
+      "offset": 19.616458,
+      "duration": 0.071041
+    },
+    {
+      "text": "vontade",
+      "offset": 19.701708,
+      "duration": 0.568166
+    },
+    {
+      "text": "de",
+      "offset": 20.284083,
+      "duration": 0.099416
+    },
+    {
+      "text": "criar",
+      "offset": 20.397708,
+      "duration": 0.397708
+    },
+    {
+      "text": "algo",
+      "offset": 20.809666,
+      "duration": 0.284083
+    },
+    {
+      "text": "diferente",
+      "offset": 21.107958,
+      "duration": 0.710208
+    },
+    {
+      "text": "Naquela",
+      "offset": 22.798291,
+      "duration": 0.553958
+    },
+    {
+      "text": "Ã",
+      "offset": 23.366458,
+      "duration": 0.184666
+    },
+    {
+      "text": "©",
+      "offset": 23.565333,
+      "duration": 0.653416
+    },
+    {
+      "text": "poca",
+      "offset": 24.232958,
+      "duration": 0.454541
+    },
+    {
+      "text": "ninguÃ",
+      "offset": 24.928958,
+      "duration": 0.553958
+    },
+    {
+      "text": "©",
+      "offset": 25.497166,
+      "duration": 0.724416
+    },
+    {
+      "text": "m",
+      "offset": 26.235791,
+      "duration": 0.184666
+    },
+    {
+      "text": "imaginava",
+      "offset": 26.434666,
+      "duration": 0.610791
+    },
+    {
+      "text": "o",
+      "offset": 27.059666,
+      "duration": 0.028416
+    },
+    {
+      "text": "tamanho",
+      "offset": 27.102291,
+      "duration": 0.497166
+    },
+    {
+      "text": "que",
+      "offset": 27.613625,
+      "duration": 0.085208
+    },
+    {
+      "text": "aquela",
+      "offset": 27.713083,
+      "duration": 0.298291
+    },
+    {
+      "text": "banda",
+      "offset": 28.025583,
+      "duration": 0.411916
+    },
+    {
+      "text": "poderia",
+      "offset": 28.451708,
+      "duration": 0.46875
+    },
+    {
+      "text": "alcanÃ",
+      "offset": 28.934666,
+      "duration": 0.511375
+    },
+    {
+      "text": "ar.",
+      "offset": 29.46025,
+      "duration": 0.198875
+    },
+    {
+      "text": "Antes",
+      "offset": 30.639208,
+      "duration": 0.411916
+    },
+    {
+      "text": "do",
+      "offset": 31.065333,
+      "duration": 0.085208
+    },
+    {
+      "text": "Linkin",
+      "offset": 31.164791,
+      "duration": 0.426125
+    },
+    {
+      "text": "Park",
+      "offset": 31.605125,
+      "duration": 0.440333
+    },
+    {
+      "text": "o",
+      "offset": 32.286916,
+      "duration": 0.085208
+    },
+    {
+      "text": "projeto",
+      "offset": 32.386375,
+      "duration": 0.582375
+    },
+    {
+      "text": "passou",
+      "offset": 32.982958,
+      "duration": 0.426125
+    },
+    {
+      "text": "por",
+      "offset": 33.423291,
+      "duration": 0.170458
+    },
+    {
+      "text": "dificuldades",
+      "offset": 33.607958,
+      "duration": 0.795458
+    },
+    {
+      "text": "e",
+      "offset": 34.417625,
+      "duration": 0.127833
+    },
+    {
+      "text": "mudanÃ",
+      "offset": 34.559666,
+      "duration": 0.582375
+    },
+    {
+      "text": "as.",
+      "offset": 35.15625,
+      "duration": 0.383541
+    },
+    {
+      "text": "O",
+      "offset": 36.519875,
+      "duration": 0.142041
+    },
+    {
+      "text": "grupo",
+      "offset": 36.676125,
+      "duration": 0.340916
+    },
+    {
+      "text": "ainda",
+      "offset": 37.03125,
+      "duration": 0.213083
+    },
+    {
+      "text": "estava",
+      "offset": 37.258541,
+      "duration": 0.383541
+    },
+    {
+      "text": "tentando",
+      "offset": 37.65625,
+      "duration": 0.46875
+    },
+    {
+      "text": "encontrar",
+      "offset": 38.139208,
+      "duration": 0.553958
+    },
+    {
+      "text": "seu",
+      "offset": 38.707375,
+      "duration": 0.184666
+    },
+    {
+      "text": "caminho",
+      "offset": 38.90625,
+      "duration": 0.497166
+    },
+    {
+      "text": "Quando",
+      "offset": 40.383541,
+      "duration": 0.269875
+    },
+    {
+      "text": "as",
+      "offset": 40.667625,
+      "duration": 0.028416
+    },
+    {
+      "text": "ideias",
+      "offset": 40.71025,
+      "duration": 0.539791
+    },
+    {
+      "text": "comeÃ",
+      "offset": 41.264208,
+      "duration": 0.440333
+    },
+    {
+      "text": "aram",
+      "offset": 41.71875,
+      "duration": 0.298291
+    },
+    {
+      "text": "a",
+      "offset": 42.03125,
+      "duration": 0.042625
+    },
+    {
+      "text": "se",
+      "offset": 42.088083,
+      "duration": 0.127833
+    },
+    {
+      "text": "encaixar",
+      "offset": 42.230125,
+      "duration": 0.596583
+    },
+    {
+      "text": "aquelas",
+      "offset": 43.125,
+      "duration": 0.426125
+    },
+    {
+      "text": "mÃºsicas",
+      "offset": 43.565333,
+      "duration": 0.553958
+    },
+    {
+      "text": "passaram",
+      "offset": 44.133541,
+      "duration": 0.539791
+    },
+    {
+      "text": "a",
+      "offset": 44.6875,
+      "duration": 0.042625
+    },
+    {
+      "text": "ter",
+      "offset": 44.744333,
+      "duration": 0.184666
+    },
+    {
+      "text": "uma",
+      "offset": 44.943166,
+      "duration": 0.099416
+    },
+    {
+      "text": "identidade",
+      "offset": 45.056833,
+      "duration": 0.681833
+    },
+    {
+      "text": "prÃ³pria",
+      "offset": 45.752833,
+      "duration": 2.2159159
+    },
+    {
+      "text": "Uma",
+      "offset": 48.948875,
+      "duration": 0.255666
+    },
+    {
+      "text": "das",
+      "offset": 49.21875,
+      "duration": 0.213083
+    },
+    {
+      "text": "mÃºsicas",
+      "offset": 49.446041,
+      "duration": 0.582375
+    },
+    {
+      "text": "que",
+      "offset": 50.042625,
+      "duration": 0.113625
+    },
+    {
+      "text": "se",
+      "offset": 50.170458,
+      "duration": 0.127833
+    },
+    {
+      "text": "destacaram",
+      "offset": 50.3125,
+      "duration": 0.610791
+    },
+    {
+      "text": "foi",
+      "offset": 50.9375,
+      "duration": 0.184666
+    },
+    {
+      "text": "Crawling",
+      "offset": 51.136375,
+      "duration": 0.568166
+    },
+    {
+      "text": "que",
+      "offset": 51.974416,
+      "duration": 0.113625
+    },
+    {
+      "text": "ajudou",
+      "offset": 52.102291,
+      "duration": 0.46875
+    },
+    {
+      "text": "a",
+      "offset": 52.58525,
+      "duration": 0.028416
+    },
+    {
+      "text": "mostrar",
+      "offset": 52.627833,
+      "duration": 0.454541
+    },
+    {
+      "text": "a",
+      "offset": 53.096583,
+      "duration": 0.085208
+    },
+    {
+      "text": "identidade",
+      "offset": 53.196041,
+      "duration": 0.639208
+    },
+    {
+      "text": "emocional",
+      "offset": 53.849416,
+      "duration": 0.568166
+    },
+    {
+      "text": "da",
+      "offset": 54.431833,
+      "duration": 0.127833
+    },
+    {
+      "text": "banda",
+      "offset": 54.573875,
+      "duration": 0.454541
+    },
+    {
+      "text": "Em 2002",
+      "offset": 56.008541,
+      "duration": 1.051083
+    },
+    {
+      "text": "o",
+      "offset": 57.329541,
+      "duration": 0.056833
+    },
+    {
+      "text": "reconhecimento",
+      "offset": 57.400583,
+      "duration": 0.965916
+    },
+    {
+      "text": "chegou",
+      "offset": 58.380666,
+      "duration": 0.440333
+    },
+    {
+      "text": "tambÃ",
+      "offset": 58.83525,
+      "duration": 0.369333
+    },
+    {
+      "text": "©",
+      "offset": 59.21875,
+      "duration": 0.724416
+    },
+    {
+      "text": "m",
+      "offset": 59.957375,
+      "duration": 0.15625
+    },
+    {
+      "text": "ao",
+      "offset": 60.127833,
+      "duration": 0.099416
+    },
+    {
+      "text": "Grammy",
+      "offset": 60.2415,
+      "duration": 0.454541
+    },
+    {
+      "text": "De",
+      "offset": 61.676125,
+      "duration": 0.198875
+    },
+    {
+      "text": "um",
+      "offset": 61.889208,
+      "duration": 0.099416
+    },
+    {
+      "text": "quarto",
+      "offset": 62.002833,
+      "duration": 0.426125
+    },
+    {
+      "text": "pequeno",
+      "offset": 62.443166,
+      "duration": 0.46875
+    },
+    {
+      "text": "a",
+      "offset": 62.926125,
+      "duration": 0.042625
+    },
+    {
+      "text": "milhÃ",
+      "offset": 62.982958,
+      "duration": 0.369333
+    },
+    {
+      "text": "es",
+      "offset": 63.3665,
+      "duration": 0.411916
+    },
+    {
+      "text": "de",
+      "offset": 63.792625,
+      "duration": 0.099416
+    },
+    {
+      "text": "pessoas",
+      "offset": 63.90625,
+      "duration": 0.511375
+    },
+    {
+      "text": "cantando",
+      "offset": 64.431833,
+      "duration": 0.596583
+    },
+    {
+      "text": "juntas",
+      "offset": 65.042625,
+      "duration": 0.653416
+    },
+    {
+      "text": "Qual",
+      "offset": 66.676125,
+      "duration": 0.269875
+    },
+    {
+      "text": "mÃºsica",
+      "offset": 66.96025,
+      "duration": 0.525583
+    },
+    {
+      "text": "do",
+      "offset": 67.5,
+      "duration": 0.099416
+    },
+    {
+      "text": "Linkin",
+      "offset": 67.613625,
+      "duration": 0.411916
+    },
+    {
+      "text": "Park",
+      "offset": 68.039791,
+      "duration": 0.397708
+    },
+    {
+      "text": "marcou",
+      "offset": 68.451708,
+      "duration": 0.454541
+    },
+    {
+      "text": "a",
+      "offset": 68.920458,
+      "duration": 0.056833
+    },
+    {
+      "text": "sua",
+      "offset": 68.9915,
+      "duration": 0.355125
+    },
+    {
+      "text": "vida",
+      "offset": 69.360791,
+      "duration": 0.369333
+    }
+  ]
+}
