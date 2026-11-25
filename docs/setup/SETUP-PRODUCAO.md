@@ -91,6 +91,7 @@ asyncio.run(main())
 - `public/reference/` — SVGs de palco/props/referências
 - `assets/characters/` — assets versionados de personagens
 - `scripts/` — TTS, copy, utilitários
+- `scripts/TEMPLATE-SCRIPT-curiosidade-musical.md` — **TEMPLATE OBRIGATÓRIO**: preencher 100% para qualquer vídeo de curiosidade de banda/música (seção 1-9 preenchidas antes de gerar vídeo)
 - `out/` — renders temporários (limpar após copiar para D)
 - `docs/setup/` — esta documentação
 
@@ -116,7 +117,8 @@ asyncio.run(main())
 
 ## 8) Padrões de vídeo usados
 
-### Curiosidade / história (com narração)
+### Curiosidade / história (com narração) — Regra obrigatória
+- **Preencher TODO `scripts/TEMPLATE-SCRIPT-curiosidade-musical.md` antes de gerar o vídeo.**
 - Hook forte nos 3s
 - “BTS/ARTISTA” visível no fundo quando relevante
 - Narração TTS + `words.json`
