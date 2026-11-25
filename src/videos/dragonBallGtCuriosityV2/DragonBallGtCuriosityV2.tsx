@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig, interpolate } from "remotion";
 import * as THREE from "three";
 import wordsData from "../../../public/dragon-ball-gt-curiosity-v2/words.json";
+import { useSvgTexture } from "../../characters/base/useSvgTexture";
 
 export const DBGT_CURIOSITY_V2_FPS = 30;
 export const DBGT_CURIOSITY_V2_FRAMES = 720; // 24s
@@ -139,6 +140,18 @@ const CTA: React.FC = () => {
   );
 };
 
+const SonGokuCard: React.FC<{ frame: number }> = ({ frame }) => {
+  const bob = Math.sin(frame * 0.07) * 0.03;
+  const tex = useSvgTexture(<img src="dbgt-goku-gt-simple.svg" alt="Goku GT" /> as any, ["dbgt-goku-v1", Math.round(frame / 3)], 420, 560);
+  if (!tex) return null;
+  return (
+    <mesh position={[0, 2.6 + bob, -0.2]} scale={0.9}>
+      <planeGeometry args={[2.4, 3.0]} />
+      <meshBasicMaterial map={tex} transparent />
+    </mesh>
+  );
+};
+
 const Scene: React.FC = () => {
   const frame = useCurrentFrame();
   return (
@@ -149,8 +162,8 @@ const Scene: React.FC = () => {
         <circleGeometry args={[1.6, 32]} />
         <meshBasicMaterial color="#0B1020" opacity={0.7} />
       </mesh>
-      <group position={[0, 1.7, 0]}>
-        <BabyGobu frame={frame} />
+      <group position={[0, 1.4, 0]}>
+        <SonGokuCard frame={frame} />
         <FlyingCloud />
       </group>
     </>
