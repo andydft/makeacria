@@ -15,6 +15,8 @@ const WORDS = (wordsData as any).words as Word[];
 const clamp = (v: number, a: number, b: number) => Math.max(a, Math.min(b, v));
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
+const noAccent = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
 const Subtitles: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -22,7 +24,7 @@ const Subtitles: React.FC = () => {
   const idx = WORDS.findIndex((w) => w.offset > t);
   const end = idx === -1 ? WORDS.length : idx;
   const slice = WORDS.slice(Math.max(0, end - 7), end).filter((w) => t - w.offset < 3.2);
-  const line = slice.map((w) => w.text).join(" ");
+  const line = noAccent(slice.map((w) => w.text).join(" "));
   if (!line) return null;
   return (
     <div style={{ position: "absolute", bottom: 90, left: 60, right: 60, textAlign: "center" }}>
@@ -171,34 +173,35 @@ const Ground: React.FC<{ night?: number }> = ({ night = 0 }) => (
   <group>
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.01, 0]} receiveShadow>
       <planeGeometry args={[60, 60]} />
-      <meshStandardMaterial color={night > 0.5 ? "#1B3A1B" : "#7CB342"} flatShading />
+      <meshStandardMaterial color={night > 0.5 ? "#4A7A3A" : "#7CB342"} flatShading />
     </mesh>
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.0, 2]} receiveShadow>
       <circleGeometry args={[5.5, 32]} />
-      <meshStandardMaterial color={night > 0.5 ? "#4E342E" : "#8D6E63"} flatShading />
+      <meshStandardMaterial color={night > 0.5 ? "#6D4C41" : "#8D6E63"} flatShading />
     </mesh>
   </group>
 );
 
 const Hills: React.FC<{ night?: number }> = ({ night = 0 }) => (
   <group>
-    <mesh position={[-8, 0.8, -12]}><sphereGeometry args={[5, 12, 12]} /><meshStandardMaterial color={night > 0.5 ? "#1B5E20" : "#689F38"} flatShading /></mesh>
-    <mesh position={[6, 0.6, -14]}><sphereGeometry args={[6, 12, 12]} /><meshStandardMaterial color={night > 0.5 ? "#2E7D32" : "#7CB342"} flatShading /></mesh>
-    <mesh position={[0, 0.3, -16]}><sphereGeometry args={[7, 12, 12]} /><meshStandardMaterial color={night > 0.5 ? "#33691E" : "#8BC34A"} flatShading /></mesh>
+    <mesh position={[-8, 0.8, -12]}><sphereGeometry args={[5, 12, 12]} /><meshStandardMaterial color={night > 0.5 ? "#3F6F3A" : "#689F38"} flatShading /></mesh>
+    <mesh position={[6, 0.6, -14]}><sphereGeometry args={[6, 12, 12]} /><meshStandardMaterial color={night > 0.5 ? "#4C7F45" : "#7CB342"} flatShading /></mesh>
+    <mesh position={[0, 0.3, -16]}><sphereGeometry args={[7, 12, 12]} /><meshStandardMaterial color={night > 0.5 ? "#558B4F" : "#8BC34A"} flatShading /></mesh>
   </group>
 );
 
 const SkyDome: React.FC<{ night?: number }> = ({ night = 0 }) => {
-  const top = night > 0.5 ? "#0B1D3A" : "#FFB74D";
-  const bot = night > 0.5 ? "#1A237E" : "#87CEEB";
-  return <><color attach="background" args={[bot]} /><fog attach="fog" args={[bot, 18, 45]} /><mesh position={[0, 8, -10]}><sphereGeometry args={[30, 16, 16]} /><meshBasicMaterial color={top} side={THREE.BackSide} /></mesh></>;
+  const top = night > 0.5 ? "#243B6B" : "#FFB74D";
+  const bot = night > 0.5 ? "#355C9A" : "#87CEEB";
+  return <><color attach="background" args={[bot]} /><fog attach="fog" args={[bot, 22, 55]} /><mesh position={[0, 8, -10]}><sphereGeometry args={[30, 16, 16]} /><meshBasicMaterial color={top} side={THREE.BackSide} /></mesh></>;
 };
 
 const FarmLights: React.FC<{ night?: number }> = ({ night = 0 }) => (
   <>
-    <ambientLight intensity={night > 0.5 ? 0.25 : 0.65} color={night > 0.5 ? "#90CAF9" : "#FFF8E1"} />
-    <directionalLight position={[8, 12, 6]} intensity={night > 0.5 ? 0.2 : 1.2} color={night > 0.5 ? "#7986CB" : "#FFE082"} castShadow />
-    {night > 0.5 && <pointLight position={[0, 2.5, 1]} intensity={2.5} distance={8} color="#FFCC80" />}
+    <ambientLight intensity={night > 0.5 ? 0.7 : 0.65} color={night > 0.5 ? "#C5CAE9" : "#FFF8E1"} />
+    <directionalLight position={[8, 12, 6]} intensity={night > 0.5 ? 0.55 : 1.2} color={night > 0.5 ? "#9FA8DA" : "#FFE082"} castShadow />
+    {night > 0.5 && <pointLight position={[0, 3.5, 2]} intensity={3.5} distance={14} color="#FFD180" />}
+    {night > 0.5 && <pointLight position={[3, 2.5, 4]} intensity={2.0} distance={10} color="#B3C7FF" />}
   </>
 );
 
