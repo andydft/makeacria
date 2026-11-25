@@ -46,6 +46,7 @@ import { SkylabStory1FakeDeath, SKY1_FRAMES, SKY1_FPS } from "./videos/skylabSto
 import { SkylabStory2JoSoares, SKY2_FRAMES, SKY2_FPS } from "./videos/skylabStory2JoSoares/SkylabStory2JoSoares";
 import { SkylabStory3Snoring, SKY3_FRAMES, SKY3_FPS } from "./videos/skylabStory3Snoring/SkylabStory3Snoring";
 import { GtaSaGroveStreetParody, GTA_FRAMES, GTA_FPS } from "./videos/gtaSaGroveStreetParody/GtaSaGroveStreetParody";
+import { DragonBallGtCuriosity, DBGT_CURIOSITY_FRAMES, DBGT_CURIOSITY_FPS } from "./videos/dragonBallGtCuriosity/DragonBallGtCuriosity";
 import { LinkinParkFormationV2Short, LPF2_FRAMES, LPF2_FPS } from "./videos/linkinParkFormationV2/LinkinParkFormationV2";
 import { OneMoreLightTributeV2Short, OML2_FRAMES, OML2_FPS } from "./videos/oneMoreLightTributeV2/OneMoreLightTributeV2";
 import { ChesterAccidentProneV2Short, CAP2_FRAMES, CAP2_FPS } from "./videos/chesterAccidentProneV2/ChesterAccidentProneV2";
@@ -294,6 +295,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="SkylabStory2JoSoares" component={SkylabStory2JoSoares} fps={SKY2_FPS} durationInFrames={SKY2_FRAMES} width={1080} height={1920} />
       <Composition id="SkylabStory3Snoring" component={SkylabStory3Snoring} fps={SKY3_FPS} durationInFrames={SKY3_FRAMES} width={1080} height={1920} />
       <Composition id="GtaSaGroveStreetParody" component={GtaSaGroveStreetParody} fps={GTA_FPS} durationInFrames={GTA_FRAMES} width={1080} height={1920} />
+      <Composition id="DragonBallGtCuriosity" component={DragonBallGtCuriosity} fps={DBGT_CURIOSITY_FPS} durationInFrames={DBGT_CURIOSITY_FRAMES} width={1080} height={1920} />
       <Composition
         id="LinkinParkFormationV2Short"
         component={LinkinParkFormationV2Short}

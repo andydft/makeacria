@@ -1,0 +1,193 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+6%",
+  "pitch": "-6Hz",
+  "text": "Ei, você sabia? Em Dragon Ball GT havia um detalhe que passou desapercebido por todos. A cronologia do GT é diferente da Z: a qualidade, o tom, tudo mudou. Viu? Curte, segue e compartilha esse vício nostálgico.",
+  "words": [
+    {
+      "text": "Ei",
+      "offset": 0.097166,
+      "duration": 0.306583
+    },
+    {
+      "text": "você",
+      "offset": 0.698583,
+      "duration": 0.259416
+    },
+    {
+      "text": "sabia",
+      "offset": 0.969791,
+      "duration": 0.507083
+    },
+    {
+      "text": "Em",
+      "offset": 2.28775,
+      "duration": 0.106125
+    },
+    {
+      "text": "Dragon",
+      "offset": 2.405666,
+      "duration": 0.365583
+    },
+    {
+      "text": "Ball",
+      "offset": 2.783,
+      "duration": 0.224041
+    },
+    {
+      "text": "GT",
+      "offset": 3.018875,
+      "duration": 0.294791
+    },
+    {
+      "text": "havia",
+      "offset": 3.325458,
+      "duration": 0.224041
+    },
+    {
+      "text": "um",
+      "offset": 3.561333,
+      "duration": 0.0471659
+    },
+    {
+      "text": "detalhe",
+      "offset": 3.620291,
+      "duration": 0.471708
+    },
+    {
+      "text": "que",
+      "offset": 4.103791,
+      "duration": 0.117916
+    },
+    {
+      "text": "passou",
+      "offset": 4.2335,
+      "duration": 0.342
+    },
+    {
+      "text": "desapercebido",
+      "offset": 4.58725,
+      "duration": 0.778291
+    },
+    {
+      "text": "por",
+      "offset": 5.377375,
+      "duration": 0.153291
+    },
+    {
+      "text": "todos",
+      "offset": 5.542458,
+      "duration": 0.459916
+    },
+    {
+      "text": "A",
+      "offset": 6.816041,
+      "duration": 0.094333
+    },
+    {
+      "text": "cronologia",
+      "offset": 6.922166,
+      "duration": 0.683958
+    },
+    {
+      "text": "do",
+      "offset": 7.617916,
+      "duration": 0.094333
+    },
+    {
+      "text": "GT",
+      "offset": 7.724041,
+      "duration": 0.353791
+    },
+    {
+      "text": "é",
+      "offset": 8.089625,
+      "duration": 0.07075
+    },
+    {
+      "text": "diferente",
+      "offset": 8.172166,
+      "duration": 0.4835
+    },
+    {
+      "text": "da",
+      "offset": 8.667458,
+      "duration": 0.117916
+    },
+    {
+      "text": "Z",
+      "offset": 8.797166,
+      "duration": 0.330208
+    },
+    {
+      "text": "a",
+      "offset": 9.386791,
+      "duration": 0.07075
+    },
+    {
+      "text": "qualidade",
+      "offset": 9.469333,
+      "duration": 0.589625
+    },
+    {
+      "text": "o",
+      "offset": 10.283,
+      "duration": 0.129708
+    },
+    {
+      "text": "tom",
+      "offset": 10.424541,
+      "duration": 0.294791
+    },
+    {
+      "text": "tudo",
+      "offset": 10.908,
+      "duration": 0.247625
+    },
+    {
+      "text": "mudou",
+      "offset": 11.167458,
+      "duration": 0.365583
+    },
+    {
+      "text": "Viu",
+      "offset": 12.346708,
+      "duration": 0.353791
+    },
+    {
+      "text": "Curte",
+      "offset": 13.514166,
+      "duration": 0.400958
+    },
+    {
+      "text": "segue",
+      "offset": 14.16275,
+      "duration": 0.330208
+    },
+    {
+      "text": "e",
+      "offset": 14.504708,
+      "duration": 0.0235829
+    },
+    {
+      "text": "compartilha",
+      "offset": 14.540083,
+      "duration": 0.577833
+    },
+    {
+      "text": "esse",
+      "offset": 15.129708,
+      "duration": 0.176875
+    },
+    {
+      "text": "vício",
+      "offset": 15.318416,
+      "duration": 0.294791
+    },
+    {
+      "text": "nostálgico",
+      "offset": 15.625,
+      "duration": 0.648583
+    }
+  ]
+}
