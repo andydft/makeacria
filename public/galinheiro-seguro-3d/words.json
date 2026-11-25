@@ -1,1203 +1,1203 @@
 {
   "voice": "pt-BR-AntonioNeural",
-  "rate": "-15%",
+  "rate": "-4%",
   "pitch": "+0Hz",
   "text": "Para criar um galinheiro produtivo, primeiro precisamos entender como organizar o espaÃ§o onde as galinhas vÃ£o viver. As galinhas precisam de espaÃ§o para caminhar, ciscar e explorar o terreno. Mas tambÃ©m precisam de um lugar seguro para descansar. Uma boa estrutura precisa ter uma porta de acesso, espaÃ§o interno e uma Ã¡rea protegida onde as galinhas possam passar a noite. Por dentro, o galinheiro deve ter poleiros elevados para as galinhas dormirem. O espaÃ§o precisa ser organizado e permitir que todas encontrem um lugar para descansar. Os poleiros devem ficar em uma altura adequada, com espaÃ§o suficiente para que as galinhas nÃ£o fiquem apertadas. A estrutura precisa ser firme e confortÃ¡vel. Os ninhos tambÃ©m sÃ£o importantes. Eles precisam ser escuros, protegidos e confortÃ¡veis, para que as galinhas possam botar seus ovos com tranquilidade. Mas existe um problema: os predadores podem entrar no galinheiro. Alguns conseguem cavar por baixo da cerca e alcanÃ§ar as galinhas. Mesmo uma cerca aparentemente resistente pode nÃ£o ser suficiente. Um animal pode cavar um buraco e passar por baixo dela. Uma soluÃ§Ã£o Ã© instalar uma tela metÃ¡lica resistente junto Ã  cerca e enterrÃ¡-la no solo, impedindo que os animais cavem e entrem. Com poleiros adequados, ninhos protegidos e uma cerca segura, vocÃª pode criar um ambiente mais confortÃ¡vel e transformar seu galinheiro em um espaÃ§o produtivo.",
   "words": [
     {
       "text": "Para",
-      "offset": 0.108833,
-      "duration": 0.264708
+      "offset": 0.102083,
+      "duration": 0.234375
     },
     {
       "text": "criar",
-      "offset": 0.38825,
-      "duration": 0.308833
+      "offset": 0.3495,
+      "duration": 0.273458
     },
     {
       "text": "um",
-      "offset": 0.71175,
-      "duration": 0.058833
+      "offset": 0.635958,
+      "duration": 0.052083
     },
     {
       "text": "galinheiro",
-      "offset": 0.785291,
-      "duration": 0.544125
+      "offset": 0.701041,
+      "duration": 0.481791
     },
     {
       "text": "produtivo",
-      "offset": 1.344125,
-      "duration": 0.705875
+      "offset": 1.195833,
+      "duration": 0.625
     },
     {
       "text": "primeiro",
-      "offset": 2.314708,
-      "duration": 0.426458
+      "offset": 2.055208,
+      "duration": 0.377625
     },
     {
       "text": "precisamos",
-      "offset": 2.755875,
-      "duration": 0.66175
+      "offset": 2.445833,
+      "duration": 0.585958
     },
     {
       "text": "entender",
-      "offset": 3.432333,
-      "duration": 0.602958
+      "offset": 3.044791,
+      "duration": 0.533875
     },
     {
       "text": "como",
-      "offset": 4.05,
-      "duration": 0.25
+      "offset": 3.591666,
+      "duration": 0.221375
     },
     {
       "text": "organizar",
-      "offset": 4.314708,
-      "duration": 0.58825
+      "offset": 3.826041,
+      "duration": 0.520833
     },
     {
       "text": "o",
-      "offset": 4.917666,
-      "duration": 0.102958
+      "offset": 4.359916,
+      "duration": 0.091166
     },
     {
       "text": "espaÃ",
-      "offset": 5.035291,
-      "duration": 0.573541
+      "offset": 4.464083,
+      "duration": 0.507833
     },
     {
       "text": "o",
-      "offset": 5.623541,
-      "duration": 0.073541
+      "offset": 4.984916,
+      "duration": 0.065125
     },
     {
       "text": "onde",
-      "offset": 5.71175,
-      "duration": 0.25
+      "offset": 5.063041,
+      "duration": 0.221375
     },
     {
       "text": "as",
-      "offset": 5.976458,
-      "duration": 0.08825
+      "offset": 5.297416,
+      "duration": 0.078125
     },
     {
       "text": "galinhas",
-      "offset": 6.079416,
-      "duration": 0.529416
+      "offset": 5.388541,
+      "duration": 0.46875
     },
     {
       "text": "vÃ£o",
-      "offset": 6.623541,
-      "duration": 0.676458
+      "offset": 5.870333,
+      "duration": 0.598958
     },
     {
       "text": "viver",
-      "offset": 7.314708,
-      "duration": 0.41175
+      "offset": 6.482291,
+      "duration": 0.364583
     },
     {
       "text": "As",
-      "offset": 8.75,
-      "duration": 0.205875
+      "offset": 7.747416,
+      "duration": 0.182291
     },
     {
       "text": "galinhas",
-      "offset": 8.970583,
-      "duration": 0.573541
+      "offset": 7.942708,
+      "duration": 0.507833
     },
     {
       "text": "precisam",
-      "offset": 9.558833,
-      "duration": 0.529416
+      "offset": 8.463541,
+      "duration": 0.46875
     },
     {
       "text": "de",
-      "offset": 10.102958,
-      "duration": 0.147041
+      "offset": 8.945333,
+      "duration": 0.130208
     },
     {
       "text": "espaÃ",
-      "offset": 10.264708,
-      "duration": 0.514708
+      "offset": 9.088541,
+      "duration": 0.45575
     },
     {
       "text": "o",
-      "offset": 10.794125,
-      "duration": 0.073541
+      "offset": 9.557291,
+      "duration": 0.065125
     },
     {
       "text": "para",
-      "offset": 10.882333,
-      "duration": 0.220583
+      "offset": 9.635416,
+      "duration": 0.195333
     },
     {
       "text": "caminhar",
-      "offset": 11.117666,
-      "duration": 0.544125
+      "offset": 9.84375,
+      "duration": 0.481791
     },
     {
       "text": "ciscar",
-      "offset": 12.044125,
-      "duration": 0.58825
+      "offset": 10.664083,
+      "duration": 0.520833
     },
     {
       "text": "e",
-      "offset": 12.647041,
-      "duration": 0.044125
+      "offset": 11.197916,
+      "duration": 0.039083
     },
     {
       "text": "explorar",
-      "offset": 12.705875,
-      "duration": 0.529416
+      "offset": 11.25,
+      "duration": 0.46875
     },
     {
       "text": "o",
-      "offset": 13.25,
-      "duration": 0.058833
+      "offset": 11.731791,
+      "duration": 0.052083
     },
     {
       "text": "terreno",
-      "offset": 13.323541,
-      "duration": 0.529416
+      "offset": 11.796875,
+      "duration": 0.46875
     },
     {
       "text": "Mas",
-      "offset": 14.867666,
-      "duration": 0.382333
+      "offset": 13.164083,
+      "duration": 0.338541
     },
     {
       "text": "tambÃ",
-      "offset": 15.264708,
-      "duration": 0.470583
+      "offset": 13.515625,
+      "duration": 0.416666
     },
     {
       "text": "©",
-      "offset": 15.75,
-      "duration": 0.691166
+      "offset": 13.945333,
+      "duration": 0.612
     },
     {
       "text": "m",
-      "offset": 16.455875,
-      "duration": 0.235291
+      "offset": 14.570333,
+      "duration": 0.208333
     },
     {
       "text": "precisam",
-      "offset": 16.705875,
-      "duration": 0.602958
+      "offset": 14.791666,
+      "duration": 0.533875
     },
     {
       "text": "de",
-      "offset": 17.323541,
-      "duration": 0.073541
+      "offset": 15.338541,
+      "duration": 0.065125
     },
     {
       "text": "um",
-      "offset": 17.41175,
-      "duration": 0.073541
+      "offset": 15.416666,
+      "duration": 0.065125
     },
     {
       "text": "lugar",
-      "offset": 17.5,
-      "duration": 0.33825
+      "offset": 15.494791,
+      "duration": 0.2995
     },
     {
       "text": "seguro",
-      "offset": 17.852958,
-      "duration": 0.573541
+      "offset": 15.807291,
+      "duration": 0.507833
     },
     {
       "text": "para",
-      "offset": 18.441166,
-      "duration": 0.220583
+      "offset": 16.328125,
+      "duration": 0.195333
     },
     {
       "text": "descansar",
-      "offset": 18.676458,
-      "duration": 0.764708
+      "offset": 16.536458,
+      "duration": 0.677083
     },
     {
       "text": "Uma",
-      "offset": 20.455875,
-      "duration": 0.279416
+      "offset": 18.112,
+      "duration": 0.247416
     },
     {
       "text": "boa",
-      "offset": 20.75,
-      "duration": 0.308833
+      "offset": 18.372416,
+      "duration": 0.273458
     },
     {
       "text": "estrutura",
-      "offset": 21.073541,
-      "duration": 0.573541
+      "offset": 18.658875,
+      "duration": 0.507833
     },
     {
       "text": "precisa",
-      "offset": 21.66175,
-      "duration": 0.485291
+      "offset": 19.179708,
+      "duration": 0.429708
     },
     {
       "text": "ter",
-      "offset": 22.16175,
-      "duration": 0.16175
+      "offset": 19.622416,
+      "duration": 0.14325
     },
     {
       "text": "uma",
-      "offset": 22.33825,
-      "duration": 0.205875
+      "offset": 19.778666,
+      "duration": 0.182291
     },
     {
       "text": "porta",
-      "offset": 22.558833,
-      "duration": 0.397041
+      "offset": 19.973958,
+      "duration": 0.351583
     },
     {
       "text": "de",
-      "offset": 22.970583,
-      "duration": 0.08825
+      "offset": 20.338541,
+      "duration": 0.078125
     },
     {
       "text": "acesso",
-      "offset": 23.073541,
-      "duration": 0.647041
+      "offset": 20.429708,
+      "duration": 0.572916
     },
     {
       "text": "espaÃ",
-      "offset": 24.073541,
-      "duration": 0.455875
+      "offset": 21.315125,
+      "duration": 0.403666
     },
     {
       "text": "o",
-      "offset": 24.544125,
-      "duration": 0.073541
+      "offset": 21.731791,
+      "duration": 0.065125
     },
     {
       "text": "interno",
-      "offset": 24.632333,
-      "duration": 0.602958
+      "offset": 21.809916,
+      "duration": 0.533875
     },
     {
       "text": "e",
-      "offset": 25.25,
-      "duration": 0.102958
+      "offset": 22.356791,
+      "duration": 0.091166
     },
     {
       "text": "uma",
-      "offset": 25.367666,
-      "duration": 0.205875
+      "offset": 22.460958,
+      "duration": 0.182291
     },
     {
       "text": "Ã",
-      "offset": 25.58825,
-      "duration": 0.205875
+      "offset": 22.65625,
+      "duration": 0.182291
     },
     {
       "text": "rea",
-      "offset": 25.897041,
-      "duration": 0.323541
+      "offset": 22.929708,
+      "duration": 0.286458
     },
     {
       "text": "protegida",
-      "offset": 26.235291,
-      "duration": 0.632333
+      "offset": 23.229166,
+      "duration": 0.559916
     },
     {
       "text": "onde",
-      "offset": 26.882333,
-      "duration": 0.279416
+      "offset": 23.802083,
+      "duration": 0.247416
     },
     {
       "text": "as",
-      "offset": 27.176458,
-      "duration": 0.08825
+      "offset": 24.0625,
+      "duration": 0.078125
     },
     {
       "text": "galinhas",
-      "offset": 27.279416,
-      "duration": 0.529416
+      "offset": 24.153666,
+      "duration": 0.46875
     },
     {
       "text": "possam",
-      "offset": 27.823541,
-      "duration": 0.367666
+      "offset": 24.635416,
+      "duration": 0.325541
     },
     {
       "text": "passar",
-      "offset": 28.205875,
-      "duration": 0.367666
+      "offset": 24.973958,
+      "duration": 0.325541
     },
     {
       "text": "a",
-      "offset": 28.58825,
-      "duration": 0.058833
+      "offset": 25.3125,
+      "duration": 0.052083
     },
     {
       "text": "noite",
-      "offset": 28.66175,
-      "duration": 0.544125
+      "offset": 25.377625,
+      "duration": 0.481791
     },
     {
       "text": "Por",
-      "offset": 30.220583,
-      "duration": 0.205875
+      "offset": 26.757833,
+      "duration": 0.182291
     },
     {
       "text": "dentro",
-      "offset": 30.441166,
-      "duration": 0.529416
+      "offset": 26.953125,
+      "duration": 0.46875
     },
     {
       "text": "o",
-      "offset": 31.367666,
-      "duration": 0.073541
+      "offset": 27.773458,
+      "duration": 0.065125
     },
     {
       "text": "galinheiro",
-      "offset": 31.455875,
-      "duration": 0.647041
+      "offset": 27.851583,
+      "duration": 0.572916
     },
     {
       "text": "deve",
-      "offset": 32.117666,
-      "duration": 0.25
+      "offset": 28.4375,
+      "duration": 0.221375
     },
     {
       "text": "ter",
-      "offset": 32.382333,
-      "duration": 0.16175
+      "offset": 28.671875,
+      "duration": 0.14325
     },
     {
       "text": "poleiros",
-      "offset": 32.558833,
-      "duration": 0.5
+      "offset": 28.828125,
+      "duration": 0.442708
     },
     {
       "text": "elevados",
-      "offset": 33.073541,
-      "duration": 0.75
+      "offset": 29.283875,
+      "duration": 0.664083
     },
     {
       "text": "para",
-      "offset": 33.83825,
-      "duration": 0.205875
+      "offset": 29.960958,
+      "duration": 0.182291
     },
     {
       "text": "as",
-      "offset": 34.058833,
-      "duration": 0.102958
+      "offset": 30.15625,
+      "duration": 0.091166
     },
     {
       "text": "galinhas",
-      "offset": 34.176458,
-      "duration": 0.514708
+      "offset": 30.260416,
+      "duration": 0.45575
     },
     {
       "text": "dormirem",
-      "offset": 34.705875,
-      "duration": 0.617666
+      "offset": 30.729166,
+      "duration": 0.546875
     },
     {
       "text": "O",
-      "offset": 36.33825,
-      "duration": 0.16175
+      "offset": 32.1745,
+      "duration": 0.14325
     },
     {
       "text": "espaÃ",
-      "offset": 36.514708,
-      "duration": 0.529416
+      "offset": 32.33075,
+      "duration": 0.46875
     },
     {
       "text": "o",
-      "offset": 37.058833,
-      "duration": 0.073541
+      "offset": 32.8125,
+      "duration": 0.065125
     },
     {
       "text": "precisa",
-      "offset": 37.147041,
-      "duration": 0.455875
+      "offset": 32.890625,
+      "duration": 0.403666
     },
     {
       "text": "ser",
-      "offset": 37.617666,
-      "duration": 0.191166
+      "offset": 33.307291,
+      "duration": 0.169291
     },
     {
       "text": "organizado",
-      "offset": 37.823541,
-      "duration": 0.75
+      "offset": 33.489583,
+      "duration": 0.664083
     },
     {
       "text": "e",
-      "offset": 38.58825,
-      "duration": 0.029416
+      "offset": 34.166666,
+      "duration": 0.026041
     },
     {
       "text": "permitir",
-      "offset": 38.632333,
-      "duration": 0.602958
+      "offset": 34.20575,
+      "duration": 0.533875
     },
     {
       "text": "que",
-      "offset": 39.25,
-      "duration": 0.191166
+      "offset": 34.752625,
+      "duration": 0.169291
     },
     {
       "text": "todas",
-      "offset": 39.455875,
-      "duration": 0.352958
+      "offset": 34.934916,
+      "duration": 0.3125
     },
     {
       "text": "encontrem",
-      "offset": 39.823541,
-      "duration": 0.705875
+      "offset": 35.260416,
+      "duration": 0.625
     },
     {
       "text": "um",
-      "offset": 40.544125,
-      "duration": 0.102958
+      "offset": 35.898458,
+      "duration": 0.091166
     },
     {
       "text": "lugar",
-      "offset": 40.66175,
-      "duration": 0.41175
+      "offset": 36.002625,
+      "duration": 0.364583
     },
     {
       "text": "para",
-      "offset": 41.08825,
-      "duration": 0.235291
+      "offset": 36.380208,
+      "duration": 0.208333
     },
     {
       "text": "descansar",
-      "offset": 41.33825,
-      "duration": 0.764708
+      "offset": 36.601583,
+      "duration": 0.677083
     },
     {
       "text": "Os",
-      "offset": 43.117666,
-      "duration": 0.191166
+      "offset": 38.177083,
+      "duration": 0.169291
     },
     {
       "text": "poleiros",
-      "offset": 43.323541,
-      "duration": 0.5
+      "offset": 38.359375,
+      "duration": 0.442708
     },
     {
       "text": "devem",
-      "offset": 43.83825,
-      "duration": 0.308833
+      "offset": 38.815125,
+      "duration": 0.273458
     },
     {
       "text": "ficar",
-      "offset": 44.16175,
-      "duration": 0.426458
+      "offset": 39.101583,
+      "duration": 0.377625
     },
     {
       "text": "em",
-      "offset": 44.602958,
-      "duration": 0.08825
+      "offset": 39.492208,
+      "duration": 0.078125
     },
     {
       "text": "uma",
-      "offset": 44.705875,
-      "duration": 0.132333
+      "offset": 39.583333,
+      "duration": 0.117208
     },
     {
       "text": "altura",
-      "offset": 44.852958,
-      "duration": 0.323541
+      "offset": 39.713541,
+      "duration": 0.286458
     },
     {
       "text": "adequada",
-      "offset": 45.191166,
-      "duration": 0.632333
+      "offset": 40.013041,
+      "duration": 0.559916
     },
     {
       "text": "com",
-      "offset": 46.176458,
-      "duration": 0.25
+      "offset": 40.885416,
+      "duration": 0.221375
     },
     {
       "text": "espaÃ",
-      "offset": 46.441166,
-      "duration": 0.558833
+      "offset": 41.119791,
+      "duration": 0.494791
     },
     {
       "text": "o",
-      "offset": 47.014708,
-      "duration": 0.058833
+      "offset": 41.627625,
+      "duration": 0.052083
     },
     {
       "text": "suficiente",
-      "offset": 47.08825,
-      "duration": 0.779416
+      "offset": 41.692708,
+      "duration": 0.690125
     },
     {
       "text": "para",
-      "offset": 47.882333,
-      "duration": 0.220583
+      "offset": 42.395833,
+      "duration": 0.195333
     },
     {
       "text": "que",
-      "offset": 48.117625,
-      "duration": 0.08825
+      "offset": 42.604166,
+      "duration": 0.078125
     },
     {
       "text": "as",
-      "offset": 48.220583,
-      "duration": 0.102958
+      "offset": 42.695333,
+      "duration": 0.091166
     },
     {
       "text": "galinhas",
-      "offset": 48.33825,
-      "duration": 0.41175
+      "offset": 42.7995,
+      "duration": 0.364583
     },
     {
       "text": "nÃ£o",
-      "offset": 48.764708,
-      "duration": 0.926458
+      "offset": 43.177083,
+      "duration": 0.820333
     },
     {
       "text": "fiquem",
-      "offset": 49.705875,
-      "duration": 0.382333
+      "offset": 44.010416,
+      "duration": 0.338541
     },
     {
       "text": "apertadas",
-      "offset": 50.102958,
-      "duration": 0.926458
+      "offset": 44.362,
+      "duration": 0.820333
     },
     {
       "text": "A",
-      "offset": 52.044125,
-      "duration": 0.132333
+      "offset": 46.08075,
+      "duration": 0.117208
     },
     {
       "text": "estrutura",
-      "offset": 52.191166,
-      "duration": 0.617666
+      "offset": 46.210958,
+      "duration": 0.546875
     },
     {
       "text": "precisa",
-      "offset": 52.823541,
-      "duration": 0.529416
+      "offset": 46.770833,
+      "duration": 0.46875
     },
     {
       "text": "ser",
-      "offset": 53.367625,
-      "duration": 0.235291
+      "offset": 47.252625,
+      "duration": 0.208333
     },
     {
       "text": "firme",
-      "offset": 53.617625,
-      "duration": 0.33825
+      "offset": 47.473958,
+      "duration": 0.2995
     },
     {
       "text": "e",
-      "offset": 53.970583,
-      "duration": 0.044125
+      "offset": 47.786458,
+      "duration": 0.039083
     },
     {
       "text": "confortÃ",
-      "offset": 54.029416,
-      "duration": 0.823541
+      "offset": 47.838541,
+      "duration": 0.729166
     },
     {
       "text": "vel.",
-      "offset": 55.0,
-      "duration": 0.33825
+      "offset": 48.697916,
+      "duration": 0.2995
     },
     {
       "text": "Os",
-      "offset": 56.352958,
-      "duration": 0.220583
+      "offset": 49.895833,
+      "duration": 0.195333
     },
     {
       "text": "ninhos",
-      "offset": 56.58825,
-      "duration": 0.426458
+      "offset": 50.104166,
+      "duration": 0.377625
     },
     {
       "text": "tambÃ",
-      "offset": 57.029416,
-      "duration": 0.426458
+      "offset": 50.494791,
+      "duration": 0.377625
     },
     {
       "text": "©",
-      "offset": 57.470583,
-      "duration": 0.705875
+      "offset": 50.885416,
+      "duration": 0.625
     },
     {
       "text": "m",
-      "offset": 58.191166,
-      "duration": 0.147041
+      "offset": 51.523458,
+      "duration": 0.130208
     },
     {
       "text": "sÃ£o",
-      "offset": 58.352958,
-      "duration": 0.764708
+      "offset": 51.666666,
+      "duration": 0.677083
     },
     {
       "text": "importantes",
-      "offset": 59.132333,
-      "duration": 1.014708
+      "offset": 52.356791,
+      "duration": 0.898458
     },
     {
       "text": "Eles",
-      "offset": 61.16175,
-      "duration": 0.294125
+      "offset": 54.153666,
+      "duration": 0.260416
     },
     {
       "text": "precisam",
-      "offset": 61.470583,
-      "duration": 0.544125
+      "offset": 54.427083,
+      "duration": 0.481791
     },
     {
       "text": "ser",
-      "offset": 62.029416,
-      "duration": 0.176458
+      "offset": 54.921875,
+      "duration": 0.15625
     },
     {
       "text": "escuros",
-      "offset": 62.220583,
-      "duration": 0.647041
+      "offset": 55.091166,
+      "duration": 0.572916
     },
     {
       "text": "protegidos",
-      "offset": 63.205875,
-      "duration": 0.705875
+      "offset": 55.963541,
+      "duration": 0.625
     },
     {
       "text": "e",
-      "offset": 63.926458,
-      "duration": 0.117666
+      "offset": 56.601583,
+      "duration": 0.104166
     },
     {
       "text": "confortÃ",
-      "offset": 64.058833,
-      "duration": 0.779416
+      "offset": 56.71875,
+      "duration": 0.690125
     },
     {
       "text": "veis",
-      "offset": 64.91175,
-      "duration": 0.455875
+      "offset": 57.473958,
+      "duration": 0.403666
     },
     {
       "text": "para",
-      "offset": 65.647041,
-      "duration": 0.235291
+      "offset": 58.125,
+      "duration": 0.208333
     },
     {
       "text": "que",
-      "offset": 65.897041,
-      "duration": 0.117666
+      "offset": 58.346375,
+      "duration": 0.104166
     },
     {
       "text": "as",
-      "offset": 66.029416,
-      "duration": 0.102958
+      "offset": 58.463541,
+      "duration": 0.091166
     },
     {
       "text": "galinhas",
-      "offset": 66.147041,
-      "duration": 0.514708
+      "offset": 58.567708,
+      "duration": 0.45575
     },
     {
       "text": "possam",
-      "offset": 66.676458,
-      "duration": 0.33825
+      "offset": 59.036458,
+      "duration": 0.2995
     },
     {
       "text": "botar",
-      "offset": 67.029416,
-      "duration": 0.426458
+      "offset": 59.348958,
+      "duration": 0.377625
     },
     {
       "text": "seus",
-      "offset": 67.470583,
-      "duration": 0.205875
+      "offset": 59.739583,
+      "duration": 0.182291
     },
     {
       "text": "ovos",
-      "offset": 67.691166,
-      "duration": 0.485291
+      "offset": 59.934916,
+      "duration": 0.429708
     },
     {
       "text": "com",
-      "offset": 68.191166,
-      "duration": 0.191166
+      "offset": 60.377625,
+      "duration": 0.169291
     },
     {
       "text": "tranquilidade",
-      "offset": 68.397041,
-      "duration": 0.985291
+      "offset": 60.559916,
+      "duration": 0.872416
     },
     {
       "text": "Mas",
-      "offset": 70.397041,
-      "duration": 0.205875
+      "offset": 62.33075,
+      "duration": 0.182291
     },
     {
       "text": "existe",
-      "offset": 70.617625,
-      "duration": 0.544125
+      "offset": 62.526041,
+      "duration": 0.481791
     },
     {
       "text": "um",
-      "offset": 71.176458,
-      "duration": 0.08825
+      "offset": 63.020833,
+      "duration": 0.078125
     },
     {
       "text": "problema",
-      "offset": 71.279416,
-      "duration": 0.58825
+      "offset": 63.112,
+      "duration": 0.520833
     },
     {
       "text": "os",
-      "offset": 72.16175,
-      "duration": 0.147041
+      "offset": 63.89325,
+      "duration": 0.130208
     },
     {
       "text": "predadores",
-      "offset": 72.323541,
-      "duration": 0.75
+      "offset": 64.036458,
+      "duration": 0.664083
     },
     {
       "text": "podem",
-      "offset": 73.08825,
-      "duration": 0.33825
+      "offset": 64.713541,
+      "duration": 0.2995
     },
     {
       "text": "entrar",
-      "offset": 73.441166,
-      "duration": 0.397041
+      "offset": 65.026041,
+      "duration": 0.351583
     },
     {
       "text": "no",
-      "offset": 73.852958,
-      "duration": 0.117666
+      "offset": 65.390625,
+      "duration": 0.104166
     },
     {
       "text": "galinheiro",
-      "offset": 73.985291,
-      "duration": 0.617666
+      "offset": 65.507833,
+      "duration": 0.546875
     },
     {
       "text": "Alguns",
-      "offset": 75.617625,
-      "duration": 0.426458
+      "offset": 66.953125,
+      "duration": 0.377625
     },
     {
       "text": "conseguem",
-      "offset": 76.058833,
-      "duration": 0.602958
+      "offset": 67.34375,
+      "duration": 0.533875
     },
     {
       "text": "cavar",
-      "offset": 76.676458,
-      "duration": 0.426458
+      "offset": 67.890625,
+      "duration": 0.377625
     },
     {
       "text": "por",
-      "offset": 77.117625,
-      "duration": 0.220583
+      "offset": 68.28125,
+      "duration": 0.195333
     },
     {
       "text": "baixo",
-      "offset": 77.352958,
-      "duration": 0.470583
+      "offset": 68.489583,
+      "duration": 0.416666
     },
     {
       "text": "da",
-      "offset": 77.83825,
-      "duration": 0.117666
+      "offset": 68.919291,
+      "duration": 0.104166
     },
     {
       "text": "cerca",
-      "offset": 77.970583,
-      "duration": 0.455875
+      "offset": 69.036458,
+      "duration": 0.403666
     },
     {
       "text": "e",
-      "offset": 78.441166,
-      "duration": 0.073541
+      "offset": 69.453125,
+      "duration": 0.065125
     },
     {
       "text": "alcanÃ",
-      "offset": 78.529416,
-      "duration": 0.632333
+      "offset": 69.53125,
+      "duration": 0.559916
     },
     {
       "text": "ar",
-      "offset": 79.176458,
-      "duration": 0.147041
+      "offset": 70.104166,
+      "duration": 0.130208
     },
     {
       "text": "as",
-      "offset": 79.33825,
-      "duration": 0.132333
+      "offset": 70.247416,
+      "duration": 0.117208
     },
     {
       "text": "galinhas",
-      "offset": 79.485291,
-      "duration": 0.75
+      "offset": 70.377625,
+      "duration": 0.664083
     },
     {
       "text": "Mesmo",
-      "offset": 81.25,
-      "duration": 0.455875
+      "offset": 71.940125,
+      "duration": 0.403666
     },
     {
       "text": "uma",
-      "offset": 81.720583,
-      "duration": 0.191166
+      "offset": 72.356791,
+      "duration": 0.169291
     },
     {
       "text": "cerca",
-      "offset": 81.926458,
-      "duration": 0.41175
+      "offset": 72.539083,
+      "duration": 0.364583
     },
     {
       "text": "aparentemente",
-      "offset": 82.352958,
-      "duration": 0.66175
+      "offset": 72.916666,
+      "duration": 0.585958
     },
     {
       "text": "resistente",
-      "offset": 83.029416,
-      "duration": 0.66175
+      "offset": 73.515625,
+      "duration": 0.585958
     },
     {
       "text": "pode",
-      "offset": 83.705875,
-      "duration": 0.352958
+      "offset": 74.114583,
+      "duration": 0.3125
     },
     {
       "text": "nÃ£o",
-      "offset": 84.073541,
-      "duration": 0.779416
+      "offset": 74.440125,
+      "duration": 0.690125
     },
     {
       "text": "ser",
-      "offset": 84.867625,
-      "duration": 0.220583
+      "offset": 75.14325,
+      "duration": 0.195333
     },
     {
       "text": "suficiente",
-      "offset": 85.102958,
-      "duration": 0.867666
+      "offset": 75.351583,
+      "duration": 0.76825
     },
     {
       "text": "Um",
-      "offset": 86.985291,
-      "duration": 0.16175
+      "offset": 77.01825,
+      "duration": 0.14325
     },
     {
       "text": "animal",
-      "offset": 87.16175,
-      "duration": 0.485291
+      "offset": 77.1745,
+      "duration": 0.429708
     },
     {
       "text": "pode",
-      "offset": 87.66175,
-      "duration": 0.279416
+      "offset": 77.617208,
+      "duration": 0.247416
     },
     {
       "text": "cavar",
-      "offset": 87.955875,
-      "duration": 0.367666
+      "offset": 77.877625,
+      "duration": 0.325541
     },
     {
       "text": "um",
-      "offset": 88.33825,
-      "duration": 0.073541
+      "offset": 78.216166,
+      "duration": 0.065125
     },
     {
       "text": "buraco",
-      "offset": 88.426458,
-      "duration": 0.544125
+      "offset": 78.294291,
+      "duration": 0.481791
     },
     {
       "text": "e",
-      "offset": 88.985291,
-      "duration": 0.058833
+      "offset": 78.789083,
+      "duration": 0.052083
     },
     {
       "text": "passar",
-      "offset": 89.058833,
-      "duration": 0.5
+      "offset": 78.854166,
+      "duration": 0.442708
     },
     {
       "text": "por",
-      "offset": 89.573541,
-      "duration": 0.220583
+      "offset": 79.309916,
+      "duration": 0.195333
     },
     {
       "text": "baixo",
-      "offset": 89.808833,
-      "duration": 0.5
+      "offset": 79.51825,
+      "duration": 0.442708
     },
     {
       "text": "dela",
-      "offset": 90.323541,
-      "duration": 0.382333
+      "offset": 79.973958,
+      "duration": 0.338541
     },
     {
       "text": "Uma",
-      "offset": 91.720583,
-      "duration": 0.25
+      "offset": 81.210958,
+      "duration": 0.221375
     },
     {
       "text": "soluÃ",
-      "offset": 91.985291,
-      "duration": 0.558833
+      "offset": 81.445333,
+      "duration": 0.494791
     },
     {
       "text": "Ã£o",
-      "offset": 92.558833,
-      "duration": 0.617666
+      "offset": 81.953125,
+      "duration": 0.546875
     },
     {
       "text": "Ã",
-      "offset": 93.191166,
-      "duration": 0.117666
+      "offset": 82.513041,
+      "duration": 0.104166
     },
     {
       "text": "©",
-      "offset": 93.323541,
-      "duration": 0.676458
+      "offset": 82.630208,
+      "duration": 0.598958
     },
     {
       "text": "instalar",
-      "offset": 94.014708,
-      "duration": 0.485291
+      "offset": 83.242208,
+      "duration": 0.429708
     },
     {
       "text": "uma",
-      "offset": 94.514708,
-      "duration": 0.220583
+      "offset": 83.684916,
+      "duration": 0.195333
     },
     {
       "text": "tela",
-      "offset": 94.75,
-      "duration": 0.25
+      "offset": 83.89325,
+      "duration": 0.221375
     },
     {
       "text": "metÃ",
-      "offset": 95.014708,
-      "duration": 0.558833
+      "offset": 84.127625,
+      "duration": 0.494791
     },
     {
       "text": "lica",
-      "offset": 95.705875,
-      "duration": 0.397041
+      "offset": 84.739583,
+      "duration": 0.351583
     },
     {
       "text": "resistente",
-      "offset": 96.117625,
-      "duration": 0.676458
+      "offset": 85.104166,
+      "duration": 0.598958
     },
     {
       "text": "junto",
-      "offset": 96.808833,
-      "duration": 0.382333
+      "offset": 85.716166,
+      "duration": 0.338541
     },
     {
       "text": "Ã",
-      "offset": 97.205875,
-      "duration": 0.073541
+      "offset": 86.067708,
+      "duration": 0.065125
     },
     {
       "text": "cerca",
-      "offset": 97.294125,
-      "duration": 0.455875
+      "offset": 86.145833,
+      "duration": 0.403666
     },
     {
       "text": "e",
-      "offset": 97.764708,
-      "duration": 0.044125
+      "offset": 86.5625,
+      "duration": 0.039083
     },
     {
       "text": "enterrÃ",
-      "offset": 97.823541,
-      "duration": 0.573541
+      "offset": 86.614583,
+      "duration": 0.507833
     },
     {
       "text": "la",
-      "offset": 98.5,
-      "duration": 0.117666
+      "offset": 87.213541,
+      "duration": 0.104166
     },
     {
       "text": "no",
-      "offset": 98.632333,
-      "duration": 0.132333
+      "offset": 87.33075,
+      "duration": 0.117208
     },
     {
       "text": "solo",
-      "offset": 98.779416,
-      "duration": 0.426458
+      "offset": 87.460958,
+      "duration": 0.377625
     },
     {
       "text": "impedindo",
-      "offset": 99.529416,
-      "duration": 0.676458
+      "offset": 88.125,
+      "duration": 0.598958
     },
     {
       "text": "que",
-      "offset": 100.220583,
-      "duration": 0.073541
+      "offset": 88.737,
+      "duration": 0.065125
     },
     {
       "text": "os",
-      "offset": 100.308833,
-      "duration": 0.029416
+      "offset": 88.815125,
+      "duration": 0.026041
     },
     {
       "text": "animais",
-      "offset": 100.352958,
-      "duration": 0.573541
+      "offset": 88.854166,
+      "duration": 0.507833
     },
     {
       "text": "cavem",
-      "offset": 100.941166,
-      "duration": 0.514708
+      "offset": 89.375,
+      "duration": 0.45575
     },
     {
       "text": "e",
-      "offset": 101.470583,
-      "duration": 0.073541
+      "offset": 89.84375,
+      "duration": 0.065125
     },
     {
       "text": "entrem",
-      "offset": 101.558833,
-      "duration": 0.470583
+      "offset": 89.921875,
+      "duration": 0.416666
     },
     {
       "text": "Com",
-      "offset": 103.044125,
-      "duration": 0.235291
+      "offset": 91.237,
+      "duration": 0.208333
     },
     {
       "text": "poleiros",
-      "offset": 103.294125,
-      "duration": 0.41175
+      "offset": 91.458333,
+      "duration": 0.364583
     },
     {
       "text": "adequados",
-      "offset": 103.720583,
-      "duration": 0.852958
+      "offset": 91.835958,
+      "duration": 0.755208
     },
     {
       "text": "ninhos",
-      "offset": 104.735291,
-      "duration": 0.397041
+      "offset": 92.734375,
+      "duration": 0.351583
     },
     {
       "text": "protegidos",
-      "offset": 105.147041,
-      "duration": 0.676458
+      "offset": 93.098958,
+      "duration": 0.598958
     },
     {
       "text": "e",
-      "offset": 105.83825,
-      "duration": 0.117666
+      "offset": 93.710958,
+      "duration": 0.104166
     },
     {
       "text": "uma",
-      "offset": 105.970583,
-      "duration": 0.191166
+      "offset": 93.828125,
+      "duration": 0.169291
     },
     {
       "text": "cerca",
-      "offset": 106.176458,
-      "duration": 0.382333
+      "offset": 94.010416,
+      "duration": 0.338541
     },
     {
       "text": "segura",
-      "offset": 106.573541,
-      "duration": 0.514708
+      "offset": 94.362,
+      "duration": 0.45575
     },
     {
       "text": "vocÃª",
-      "offset": 107.5,
-      "duration": 0.426458
+      "offset": 95.182291,
+      "duration": 0.377625
     },
     {
       "text": "pode",
-      "offset": 107.941166,
-      "duration": 0.294125
+      "offset": 95.572916,
+      "duration": 0.260416
     },
     {
       "text": "criar",
-      "offset": 108.25,
-      "duration": 0.33825
+      "offset": 95.846375,
+      "duration": 0.2995
     },
     {
       "text": "um",
-      "offset": 108.602958,
-      "duration": 0.117666
+      "offset": 96.158875,
+      "duration": 0.104166
     },
     {
       "text": "ambiente",
-      "offset": 108.735291,
-      "duration": 0.5
+      "offset": 96.276041,
+      "duration": 0.442708
     },
     {
       "text": "mais",
-      "offset": 109.25,
-      "duration": 0.205875
+      "offset": 96.731791,
+      "duration": 0.182291
     },
     {
       "text": "confortÃ",
-      "offset": 109.470583,
-      "duration": 0.764708
+      "offset": 96.927083,
+      "duration": 0.677083
     },
     {
       "text": "vel",
-      "offset": 110.367625,
-      "duration": 0.294125
+      "offset": 97.721375,
+      "duration": 0.260416
     },
     {
       "text": "e",
-      "offset": 110.676458,
-      "duration": 0.044125
+      "offset": 97.994791,
+      "duration": 0.039083
     },
     {
       "text": "transformar",
-      "offset": 110.735291,
-      "duration": 0.66175
+      "offset": 98.046875,
+      "duration": 0.585958
     },
     {
       "text": "seu",
-      "offset": 111.41175,
-      "duration": 0.176458
+      "offset": 98.645833,
+      "duration": 0.15625
     },
     {
       "text": "galinheiro",
-      "offset": 111.602958,
-      "duration": 0.58825
+      "offset": 98.815125,
+      "duration": 0.520833
     },
     {
       "text": "em",
-      "offset": 112.205875,
-      "duration": 0.073541
+      "offset": 99.348958,
+      "duration": 0.065125
     },
     {
       "text": "um",
-      "offset": 112.294125,
-      "duration": 0.147041
+      "offset": 99.427083,
+      "duration": 0.130208
     },
     {
       "text": "espaÃ",
-      "offset": 112.455875,
-      "duration": 0.470583
+      "offset": 99.570333,
+      "duration": 0.416666
     },
     {
       "text": "o",
-      "offset": 112.941166,
-      "duration": 0.058833
+      "offset": 100.0,
+      "duration": 0.052083
     },
     {
       "text": "produtivo",
-      "offset": 113.014708,
-      "duration": 0.735291
+      "offset": 100.065125,
+      "duration": 0.651041
     }
   ]
 }

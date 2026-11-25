@@ -2,7 +2,7 @@
 import asyncio, json, os, edge_tts
 
 VOICE = "pt-BR-AntonioNeural"
-RATE = "-15%"
+RATE = "-4%"
 PITCH = "+0Hz"
 OUT = os.path.join("public", "galinheiro-seguro-3d")
 TEXT = (
@@ -36,3 +36,4 @@ async def main():
     print(f"words={len(words)} dur={dur:.3f}s")
 
 asyncio.run(main())
+

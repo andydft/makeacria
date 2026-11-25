@@ -6,7 +6,7 @@ import * as THREE from "three";
 import wordsData from "../../../public/galinheiro-seguro-3d/words.json";
 
 export const GALINHEIRO_FPS = 30;
-export const GALINHEIRO_FRAMES = 3420; // ~114s
+export const GALINHEIRO_FRAMES = 3090; // ~103s
 
 type Word = { text: string; offset: number; duration: number };
 const WORDS = (wordsData as any).words as Word[];
@@ -76,18 +76,36 @@ const Chicken: React.FC<{ position: [number, number, number]; color?: string; sc
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  const bob = Math.sin(t * 4 + bobSeed) * 0.03;
-  const peck = walk ? Math.sin(t * 6 + bobSeed) * 0.08 : Math.sin(t * 2 + bobSeed) * 0.04;
-  const w = walk ? Math.sin(t * 8 + bobSeed) * 0.15 : 0;
+  const bob = Math.sin(t * 3.5 + bobSeed) * 0.025;
+  const peck = walk ? Math.sin(t * 5 + bobSeed) * 0.12 : Math.sin(t * 1.8 + bobSeed) * 0.05;
+  const w = walk ? Math.sin(t * 7 + bobSeed) * 0.18 : 0;
+  const wing = Math.sin(t * 2.2 + bobSeed) * 0.08;
   return (
     <group position={[position[0], position[1] + Math.abs(bob), position[2]]} scale={scale}>
-      <mesh position={[0, 0.22, 0]} castShadow><sphereGeometry args={[0.22, 10, 10]} /><meshStandardMaterial color={color} flatShading /></mesh>
-      <mesh position={[0.18, 0.32, 0]} castShadow><sphereGeometry args={[0.13, 10, 10]} /><meshStandardMaterial color={color} flatShading /></mesh>
-      <mesh position={[0.3, 0.3, 0]} rotation={[0, 0, peck]}><coneGeometry args={[0.04, 0.1, 4]} /><meshStandardMaterial color="#FF9800" flatShading /></mesh>
-      <mesh position={[0.22, 0.42, 0]}><boxGeometry args={[0.03, 0.06, 0.03]} /><meshStandardMaterial color="#F44336" flatShading /></mesh>
-      <mesh position={[-0.18, 0.28, 0]} rotation={[0, 0, 0.4]}><boxGeometry args={[0.12, 0.08, 0.02]} /><meshStandardMaterial color={color} flatShading /></mesh>
-      <mesh position={[0.05, 0.02, 0.05]} rotation={[w, 0, 0]}><boxGeometry args={[0.03, 0.1, 0.03]} /><meshStandardMaterial color="#FF9800" flatShading /></mesh>
-      <mesh position={[0.05, 0.02, -0.05]} rotation={[-w, 0, 0]}><boxGeometry args={[0.03, 0.1, 0.03]} /><meshStandardMaterial color="#FF9800" flatShading /></mesh>
+      {/* body */}
+      <mesh position={[0, 0.24, 0]} castShadow><sphereGeometry args={[0.24, 12, 12]} /><meshStandardMaterial color={color} flatShading /></mesh>
+      <mesh position={[-0.05, 0.27, 0]} castShadow><sphereGeometry args={[0.2, 10, 10]} /><meshStandardMaterial color={color} flatShading /></mesh>
+      {/* tail */}
+      <mesh position={[-0.24, 0.32, 0]} rotation={[0, 0, 0.7]} castShadow><boxGeometry args={[0.12, 0.16, 0.1]} /><meshStandardMaterial color={color} flatShading /></mesh>
+      {/* head */}
+      <mesh position={[0.2, 0.4, 0]} castShadow><sphereGeometry args={[0.13, 12, 12]} /><meshStandardMaterial color={color} flatShading /></mesh>
+      {/* eye */}
+      <mesh position={[0.28, 0.43, 0.06]}><sphereGeometry args={[0.018, 8, 8]} /><meshStandardMaterial color="#111111" /></mesh>
+      <mesh position={[0.28, 0.43, -0.06]}><sphereGeometry args={[0.018, 8, 8]} /><meshStandardMaterial color="#111111" /></mesh>
+      {/* beak */}
+      <mesh position={[0.33, 0.38, 0]} rotation={[0, 0, peck]} castShadow><coneGeometry args={[0.035, 0.09, 4]} /><meshStandardMaterial color="#FFB300" flatShading /></mesh>
+      {/* comb & wattle */}
+      <mesh position={[0.2, 0.52, 0]} castShadow><boxGeometry args={[0.05, 0.07, 0.04]} /><meshStandardMaterial color="#E53935" flatShading /></mesh>
+      <mesh position={[0.16, 0.5, 0]} castShadow><boxGeometry args={[0.04, 0.05, 0.04]} /><meshStandardMaterial color="#E53935" flatShading /></mesh>
+      <mesh position={[0.3, 0.34, 0]}><boxGeometry args={[0.03, 0.04, 0.03]} /><meshStandardMaterial color="#E53935" flatShading /></mesh>
+      {/* wings */}
+      <mesh position={[0, 0.24, 0.2]} rotation={[wing, 0, 0.2]} castShadow><boxGeometry args={[0.18, 0.12, 0.04]} /><meshStandardMaterial color={color} flatShading /></mesh>
+      <mesh position={[0, 0.24, -0.2]} rotation={[-wing, 0, 0.2]} castShadow><boxGeometry args={[0.18, 0.12, 0.04]} /><meshStandardMaterial color={color} flatShading /></mesh>
+      {/* legs */}
+      <mesh position={[0.06, 0.06, 0.06]} rotation={[w, 0, 0]}><boxGeometry args={[0.025, 0.12, 0.025]} /><meshStandardMaterial color="#FB8C00" flatShading /></mesh>
+      <mesh position={[0.06, 0.06, -0.06]} rotation={[-w, 0, 0]}><boxGeometry args={[0.025, 0.12, 0.025]} /><meshStandardMaterial color="#FB8C00" flatShading /></mesh>
+      <mesh position={[0.08, 0.0, 0.06]}><boxGeometry args={[0.06, 0.015, 0.04]} /><meshStandardMaterial color="#FB8C00" flatShading /></mesh>
+      <mesh position={[0.08, 0.0, -0.06]}><boxGeometry args={[0.06, 0.015, 0.04]} /><meshStandardMaterial color="#FB8C00" flatShading /></mesh>
     </group>
   );
 };
@@ -132,17 +150,33 @@ const Raccoon: React.FC<{ position: [number, number, number]; rotY?: number; dig
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  const paw = Math.sin(t * 8) * dig * 0.3;
+  const paw = Math.sin(t * 8) * dig * 0.35;
+  const tailWag = Math.sin(t * 2.5) * 0.25;
   return (
     <group position={position} rotation={[0, rotY, 0]}>
-      <mesh position={[0, 0.2, 0]} castShadow><boxGeometry args={[0.55, 0.28, 0.32]} /><meshStandardMaterial color="#757575" flatShading /></mesh>
-      <mesh position={[0.32, 0.25, 0]} castShadow><boxGeometry args={[0.22, 0.2, 0.22]} /><meshStandardMaterial color="#9E9E9E" flatShading /></mesh>
-      <mesh position={[0.38, 0.18, 0.07]}><boxGeometry args={[0.1, 0.07, 0.08]} /><meshStandardMaterial color="#424242" flatShading /></mesh>
-      <mesh position={[0.38, 0.18, -0.07]}><boxGeometry args={[0.1, 0.07, 0.08]} /><meshStandardMaterial color="#424242" flatShading /></mesh>
-      <mesh position={[0.44, 0.22, 0]}><boxGeometry args={[0.06, 0.06, 0.08]} /><meshStandardMaterial color="#212121" flatShading /></mesh>
-      <mesh position={[-0.32, 0.25, 0]} rotation={[0, 0, Math.sin(t * 3) * 0.2]}><boxGeometry args={[0.35, 0.1, 0.1]} /><meshStandardMaterial color="#616161" flatShading /></mesh>
+      {/* body */}
+      <mesh position={[0, 0.22, 0]} castShadow><capsuleGeometry args={[0.16, 0.28, 6, 8]} /><meshStandardMaterial color="#8D8D8D" flatShading /></mesh>
+      {/* head */}
+      <mesh position={[0.3, 0.3, 0]} castShadow><sphereGeometry args={[0.16, 10, 10]} /><meshStandardMaterial color="#B0B0B0" flatShading /></mesh>
+      {/* mask */}
+      <mesh position={[0.38, 0.3, 0.07]}><boxGeometry args={[0.08, 0.06, 0.07]} /><meshStandardMaterial color="#3E3E3E" flatShading /></mesh>
+      <mesh position={[0.38, 0.3, -0.07]}><boxGeometry args={[0.08, 0.06, 0.07]} /><meshStandardMaterial color="#3E3E3E" flatShading /></mesh>
+      <mesh position={[0.41, 0.31, 0.07]}><sphereGeometry args={[0.015, 6, 6]} /><meshStandardMaterial color="#FFFFFF" /></mesh>
+      <mesh position={[0.41, 0.31, -0.07]}><sphereGeometry args={[0.015, 6, 6]} /><meshStandardMaterial color="#FFFFFF" /></mesh>
+      {/* nose */}
+      <mesh position={[0.46, 0.27, 0]}><sphereGeometry args={[0.03, 8, 8]} /><meshStandardMaterial color="#222222" /></mesh>
+      {/* ears */}
+      <mesh position={[0.28, 0.44, 0.09]} castShadow><coneGeometry args={[0.045, 0.08, 4]} /><meshStandardMaterial color="#757575" flatShading /></mesh>
+      <mesh position={[0.28, 0.44, -0.09]} castShadow><coneGeometry args={[0.045, 0.08, 4]} /><meshStandardMaterial color="#757575" flatShading /></mesh>
+      {/* tail */}
+      <mesh position={[-0.34, 0.28, 0]} rotation={[0, 0, 0.4 + tailWag]} castShadow><capsuleGeometry args={[0.06, 0.28, 4, 8]} /><meshStandardMaterial color="#757575" flatShading /></mesh>
+      <mesh position={[-0.42, 0.36, 0]} rotation={[0, 0, 0.4 + tailWag]}><boxGeometry args={[0.07, 0.06, 0.08]} /><meshStandardMaterial color="#4A4A4A" flatShading /></mesh>
       {/* legs */}
-      {[[-0.15,0.12],[0.15,0.12],[-0.15,-0.12],[0.15,-0.12]].map((p,i)=>(<mesh key={i} position={[p[0],0.05,p[1]]} rotation={[i<2?paw:-paw,0,0]}><boxGeometry args={[0.07,0.12,0.07]} /><meshStandardMaterial color="#424242" flatShading /></mesh>))}
+      {[[-0.12, 0.1], [0.12, 0.1], [-0.12, -0.1], [0.12, -0.1]].map((p, i) => (
+        <mesh key={i} position={[p[0], 0.06, p[1]]} rotation={[i < 2 ? paw : -paw, 0, 0]} castShadow>
+          <boxGeometry args={[0.07, 0.14, 0.07]} /><meshStandardMaterial color="#5A5A5A" flatShading />
+        </mesh>
+      ))}
     </group>
   );
 };
@@ -388,16 +422,16 @@ const Scene10: React.FC = () => { // 90-114s final
 export const GalinheiroSeguro3d: React.FC = () => {
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      <Sequence from={0} durationInFrames={210}><Scene1 /></Sequence>
-      <Sequence from={210} durationInFrames={180}><Scene2 /></Sequence>
-      <Sequence from={390} durationInFrames={270}><Scene3 /></Sequence>
-      <Sequence from={660} durationInFrames={360}><Scene4 /></Sequence>
-      <Sequence from={1020} durationInFrames={300}><Scene5 /></Sequence>
-      <Sequence from={1320} durationInFrames={360}><Scene6 /></Sequence>
-      <Sequence from={1680} durationInFrames={300}><Scene7 /></Sequence>
-      <Sequence from={1980} durationInFrames={360}><Scene8 /></Sequence>
-      <Sequence from={2340} durationInFrames={360}><Scene9 /></Sequence>
-      <Sequence from={2700} durationInFrames={720}><Scene10 /></Sequence>
+      <Sequence from={0} durationInFrames={190}><Scene1 /></Sequence>
+      <Sequence from={190} durationInFrames={163}><Scene2 /></Sequence>
+      <Sequence from={353} durationInFrames={244}><Scene3 /></Sequence>
+      <Sequence from={597} durationInFrames={325}><Scene4 /></Sequence>
+      <Sequence from={922} durationInFrames={271}><Scene5 /></Sequence>
+      <Sequence from={1193} durationInFrames={325}><Scene6 /></Sequence>
+      <Sequence from={1518} durationInFrames={271}><Scene7 /></Sequence>
+      <Sequence from={1789} durationInFrames={325}><Scene8 /></Sequence>
+      <Sequence from={2114} durationInFrames={325}><Scene9 /></Sequence>
+      <Sequence from={2439} durationInFrames={651}><Scene10 /></Sequence>
 
       <Audio src={staticFile("galinheiro-seguro-3d/voice.wav")} volume={1} />
       <Audio src={staticFile("galinheiro-seguro-3d/bgm.wav")} volume={0.18} loop />
