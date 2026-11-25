@@ -1,0 +1,628 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+8%",
+  "pitch": "+0Hz",
+  "text": "Você lembra por que o Goku virou criança de novo em Dragon Ball GT? No começo de GT, o Pilaf encontra as Esferas do Dragão de Estrelas Negras e, sem querer, deseja que o Goku volte a ser pequeno. Só que essas esferas não eram comuns: elas foram criadas pelo Kami antes de se separar do Piccolo Daimaoh, e tinham um poder muito mais perigoso. Depois de um desejo, elas se espalham pela galáxia inteira. E o pior: se não forem reunidas em um ano, a Terra explode. Foi por isso que Goku, Pan e Trunks embarcaram numa jornada pelo espaço. Uma ideia simples que começou uma das fases mais polêmicas de Dragon Ball. Se você curtia GT, segue pra mais curiosidades de anime.",
+  "words": [
+    {
+      "text": "Você",
+      "offset": 0.096291,
+      "duration": 0.289333
+    },
+    {
+      "text": "lembra",
+      "offset": 0.397208,
+      "duration": 0.358791
+    },
+    {
+      "text": "por",
+      "offset": 0.767583,
+      "duration": 0.162041
+    },
+    {
+      "text": "que",
+      "offset": 0.941208,
+      "duration": 0.138875
+    },
+    {
+      "text": "o",
+      "offset": 1.091666,
+      "duration": 0.057875
+    },
+    {
+      "text": "Goku",
+      "offset": 1.161125,
+      "duration": 0.289333
+    },
+    {
+      "text": "virou",
+      "offset": 1.462041,
+      "duration": 0.219916
+    },
+    {
+      "text": "criança",
+      "offset": 1.6935,
+      "duration": 0.451375
+    },
+    {
+      "text": "de",
+      "offset": 2.1565,
+      "duration": 0.104166
+    },
+    {
+      "text": "novo",
+      "offset": 2.272208,
+      "duration": 0.289333
+    },
+    {
+      "text": "em",
+      "offset": 2.573166,
+      "duration": 0.0462909
+    },
+    {
+      "text": "Dragon",
+      "offset": 2.631,
+      "duration": 0.335666
+    },
+    {
+      "text": "Ball",
+      "offset": 2.97825,
+      "duration": 0.219916
+    },
+    {
+      "text": "GT",
+      "offset": 3.209708,
+      "duration": 0.381958
+    },
+    {
+      "text": "No",
+      "offset": 4.386583,
+      "duration": 0.162041
+    },
+    {
+      "text": "começo",
+      "offset": 4.560166,
+      "duration": 0.42825
+    },
+    {
+      "text": "de",
+      "offset": 5.0,
+      "duration": 0.081
+    },
+    {
+      "text": "GT",
+      "offset": 5.092583,
+      "duration": 0.42825
+    },
+    {
+      "text": "o",
+      "offset": 5.833333,
+      "duration": 0.104166
+    },
+    {
+      "text": "Pilaf",
+      "offset": 5.949083,
+      "duration": 0.347208
+    },
+    {
+      "text": "encontra",
+      "offset": 6.307875,
+      "duration": 0.3935
+    },
+    {
+      "text": "as",
+      "offset": 6.712958,
+      "duration": 0.023166
+    },
+    {
+      "text": "Esferas",
+      "offset": 6.747666,
+      "duration": 0.451375
+    },
+    {
+      "text": "do",
+      "offset": 7.210666,
+      "duration": 0.092583
+    },
+    {
+      "text": "Dragão",
+      "offset": 7.314833,
+      "duration": 0.335666
+    },
+    {
+      "text": "de",
+      "offset": 7.662041,
+      "duration": 0.069458
+    },
+    {
+      "text": "Estrelas",
+      "offset": 7.743041,
+      "duration": 0.42825
+    },
+    {
+      "text": "Negras",
+      "offset": 8.182875,
+      "duration": 0.3125
+    },
+    {
+      "text": "e",
+      "offset": 8.506958,
+      "duration": 0.104166
+    },
+    {
+      "text": "sem",
+      "offset": 8.900458,
+      "duration": 0.219916
+    },
+    {
+      "text": "querer",
+      "offset": 9.131958,
+      "duration": 0.358791
+    },
+    {
+      "text": "deseja",
+      "offset": 9.699083,
+      "duration": 0.474541
+    },
+    {
+      "text": "que",
+      "offset": 10.185166,
+      "duration": 0.069458
+    },
+    {
+      "text": "o",
+      "offset": 10.266208,
+      "duration": 0.034708
+    },
+    {
+      "text": "Goku",
+      "offset": 10.3125,
+      "duration": 0.277791
+    },
+    {
+      "text": "volte",
+      "offset": 10.601833,
+      "duration": 0.335666
+    },
+    {
+      "text": "a",
+      "offset": 10.949083,
+      "duration": 0.034708
+    },
+    {
+      "text": "ser",
+      "offset": 10.995375,
+      "duration": 0.185166
+    },
+    {
+      "text": "pequeno",
+      "offset": 11.192125,
+      "duration": 0.474541
+    },
+    {
+      "text": "Só",
+      "offset": 12.465291,
+      "duration": 0.300916
+    },
+    {
+      "text": "que",
+      "offset": 12.777791,
+      "duration": 0.081
+    },
+    {
+      "text": "essas",
+      "offset": 12.870375,
+      "duration": 0.185166
+    },
+    {
+      "text": "esferas",
+      "offset": 13.067125,
+      "duration": 0.50925
+    },
+    {
+      "text": "não",
+      "offset": 13.587958,
+      "duration": 0.185166
+    },
+    {
+      "text": "eram",
+      "offset": 13.784708,
+      "duration": 0.173625
+    },
+    {
+      "text": "comuns",
+      "offset": 13.969916,
+      "duration": 0.486125
+    },
+    {
+      "text": "elas",
+      "offset": 14.733791,
+      "duration": 0.185166
+    },
+    {
+      "text": "foram",
+      "offset": 14.930541,
+      "duration": 0.219916
+    },
+    {
+      "text": "criadas",
+      "offset": 15.162041,
+      "duration": 0.439833
+    },
+    {
+      "text": "pelo",
+      "offset": 15.613416,
+      "duration": 0.185166
+    },
+    {
+      "text": "Kami",
+      "offset": 15.810166,
+      "duration": 0.3125
+    },
+    {
+      "text": "antes",
+      "offset": 16.13425,
+      "duration": 0.300916
+    },
+    {
+      "text": "de",
+      "offset": 16.44675,
+      "duration": 0.081
+    },
+    {
+      "text": "se",
+      "offset": 16.539333,
+      "duration": 0.11575
+    },
+    {
+      "text": "separar",
+      "offset": 16.666666,
+      "duration": 0.416666
+    },
+    {
+      "text": "do",
+      "offset": 17.094916,
+      "duration": 0.11575
+    },
+    {
+      "text": "Piccolo",
+      "offset": 17.222208,
+      "duration": 0.358791
+    },
+    {
+      "text": "Daimaoh",
+      "offset": 17.592583,
+      "duration": 0.416666
+    },
+    {
+      "text": "e",
+      "offset": 18.32175,
+      "duration": 0.081
+    },
+    {
+      "text": "tinham",
+      "offset": 18.414333,
+      "duration": 0.289333
+    },
+    {
+      "text": "um",
+      "offset": 18.715291,
+      "duration": 0.069458
+    },
+    {
+      "text": "poder",
+      "offset": 18.796291,
+      "duration": 0.277791
+    },
+    {
+      "text": "muito",
+      "offset": 19.085666,
+      "duration": 0.381958
+    },
+    {
+      "text": "mais",
+      "offset": 19.479166,
+      "duration": 0.219916
+    },
+    {
+      "text": "perigoso",
+      "offset": 19.710666,
+      "duration": 0.555541
+    },
+    {
+      "text": "Depois",
+      "offset": 21.064833,
+      "duration": 0.451375
+    },
+    {
+      "text": "de",
+      "offset": 21.527791,
+      "duration": 0.069458
+    },
+    {
+      "text": "um",
+      "offset": 21.608791,
+      "duration": 0.0462909
+    },
+    {
+      "text": "desejo",
+      "offset": 21.666666,
+      "duration": 0.50925
+    },
+    {
+      "text": "elas",
+      "offset": 22.38425,
+      "duration": 0.208333
+    },
+    {
+      "text": "se",
+      "offset": 22.604166,
+      "duration": 0.057875
+    },
+    {
+      "text": "espalham",
+      "offset": 22.673625,
+      "duration": 0.347208
+    },
+    {
+      "text": "pela",
+      "offset": 23.032416,
+      "duration": 0.173625
+    },
+    {
+      "text": "galáxia",
+      "offset": 23.217583,
+      "duration": 0.416666
+    },
+    {
+      "text": "inteira",
+      "offset": 23.645833,
+      "duration": 0.416666
+    },
+    {
+      "text": "E",
+      "offset": 24.861125,
+      "duration": 0.104166
+    },
+    {
+      "text": "o",
+      "offset": 24.976833,
+      "duration": 0.057875
+    },
+    {
+      "text": "pior",
+      "offset": 25.046291,
+      "duration": 0.335666
+    },
+    {
+      "text": "se",
+      "offset": 25.601833,
+      "duration": 0.11575
+    },
+    {
+      "text": "não",
+      "offset": 25.729166,
+      "duration": 0.173625
+    },
+    {
+      "text": "forem",
+      "offset": 25.914333,
+      "duration": 0.266208
+    },
+    {
+      "text": "reunidas",
+      "offset": 26.192125,
+      "duration": 0.462958
+    },
+    {
+      "text": "em",
+      "offset": 26.666666,
+      "duration": 0.150458
+    },
+    {
+      "text": "um",
+      "offset": 26.828708,
+      "duration": 0.138875
+    },
+    {
+      "text": "ano",
+      "offset": 26.979166,
+      "duration": 0.2315
+    },
+    {
+      "text": "a",
+      "offset": 27.372666,
+      "duration": 0.11575
+    },
+    {
+      "text": "Terra",
+      "offset": 27.5,
+      "duration": 0.254625
+    },
+    {
+      "text": "explode",
+      "offset": 27.766208,
+      "duration": 0.532416
+    },
+    {
+      "text": "Foi",
+      "offset": 29.097208,
+      "duration": 0.243041
+    },
+    {
+      "text": "por",
+      "offset": 29.351833,
+      "duration": 0.150458
+    },
+    {
+      "text": "isso",
+      "offset": 29.513875,
+      "duration": 0.289333
+    },
+    {
+      "text": "que",
+      "offset": 29.814833,
+      "duration": 0.092583
+    },
+    {
+      "text": "Goku",
+      "offset": 29.919,
+      "duration": 0.347208
+    },
+    {
+      "text": "Pan",
+      "offset": 30.42825,
+      "duration": 0.173625
+    },
+    {
+      "text": "e",
+      "offset": 30.613416,
+      "duration": 0.081
+    },
+    {
+      "text": "Trunks",
+      "offset": 30.706,
+      "duration": 0.2315
+    },
+    {
+      "text": "embarcaram",
+      "offset": 30.949083,
+      "duration": 0.532416
+    },
+    {
+      "text": "numa",
+      "offset": 31.493041,
+      "duration": 0.162041
+    },
+    {
+      "text": "jornada",
+      "offset": 31.666666,
+      "duration": 0.486125
+    },
+    {
+      "text": "pelo",
+      "offset": 32.164333,
+      "duration": 0.150458
+    },
+    {
+      "text": "espaço",
+      "offset": 32.326375,
+      "duration": 0.474541
+    },
+    {
+      "text": "Uma",
+      "offset": 33.599541,
+      "duration": 0.19675
+    },
+    {
+      "text": "ideia",
+      "offset": 33.807875,
+      "duration": 0.289333
+    },
+    {
+      "text": "simples",
+      "offset": 34.108791,
+      "duration": 0.451375
+    },
+    {
+      "text": "que",
+      "offset": 34.57175,
+      "duration": 0.104166
+    },
+    {
+      "text": "começou",
+      "offset": 34.6875,
+      "duration": 0.381958
+    },
+    {
+      "text": "uma",
+      "offset": 35.081,
+      "duration": 0.127333
+    },
+    {
+      "text": "das",
+      "offset": 35.219916,
+      "duration": 0.173625
+    },
+    {
+      "text": "fases",
+      "offset": 35.405083,
+      "duration": 0.347208
+    },
+    {
+      "text": "mais",
+      "offset": 35.763875,
+      "duration": 0.243041
+    },
+    {
+      "text": "polêmicas",
+      "offset": 36.0185,
+      "duration": 0.497666
+    },
+    {
+      "text": "de",
+      "offset": 36.527791,
+      "duration": 0.081
+    },
+    {
+      "text": "Dragon",
+      "offset": 36.620375,
+      "duration": 0.324083
+    },
+    {
+      "text": "Ball",
+      "offset": 36.956,
+      "duration": 0.254625
+    },
+    {
+      "text": "Se",
+      "offset": 38.00925,
+      "duration": 0.185166
+    },
+    {
+      "text": "você",
+      "offset": 38.206,
+      "duration": 0.266208
+    },
+    {
+      "text": "curtia",
+      "offset": 38.483791,
+      "duration": 0.3935
+    },
+    {
+      "text": "GT",
+      "offset": 38.888875,
+      "duration": 0.416666
+    },
+    {
+      "text": "segue",
+      "offset": 39.537041,
+      "duration": 0.266208
+    },
+    {
+      "text": "pra",
+      "offset": 39.814833,
+      "duration": 0.138875
+    },
+    {
+      "text": "mais",
+      "offset": 39.965291,
+      "duration": 0.266208
+    },
+    {
+      "text": "curiosidades",
+      "offset": 40.243041,
+      "duration": 0.671291
+    },
+    {
+      "text": "de",
+      "offset": 40.925916,
+      "duration": 0.069458
+    },
+    {
+      "text": "anime",
+      "offset": 41.006958,
+      "duration": 0.3935
+    }
+  ]
+}
