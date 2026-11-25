@@ -15,6 +15,7 @@ import { ChesterCrawlingChorusDemo, CHESTER_CRAWLING_DEMO_FPS, CHESTER_CRAWLING_
 import { Chester3dChibiDemo, CHESTER_3D_DEMO_FPS, CHESTER_3D_DEMO_FRAMES } from "./videos/chester3dChibiDemo/Chester3dChibiDemo";
 import { Mike3dChibiDemo, MIKE_3D_DEMO_FPS, MIKE_3D_DEMO_FRAMES } from "./videos/mike3dChibiDemo/Mike3dChibiDemo";
 import { LinkinParkHistoriaGeracao, LP_HIST_FPS, LP_HIST_FRAMES } from "./videos/linkinParkHistoriaGeracao/LinkinParkHistoriaGeracao";
+import { GalinheiroSeguro3d, GALINHEIRO_FPS, GALINHEIRO_FRAMES } from "./videos/galinheiroSeguro3d/GalinheiroSeguro3d";
 import { MikeShinoda, MIKE_FRAMES, MIKE_FPS } from "./videos/mikeShinoda/MikeShinoda";
 import { LinkinParkChesterTapeShort, CHESTER_TAPE_FRAMES, CHESTER_TAPE_FPS } from "./videos/linkinParkChesterTape/LinkinParkChesterTape";
 import { LinkinParkOneMoreLightShort, OML_FRAMES, OML_FPS } from "./videos/linkinParkOneMoreLight/LinkinParkOneMoreLight";
@@ -433,6 +434,14 @@ export const RemotionRoot: React.FC = () => {
         component={LinkinParkHistoriaGeracao}
         fps={LP_HIST_FPS}
         durationInFrames={LP_HIST_FRAMES}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="GalinheiroSeguro3d"
+        component={GalinheiroSeguro3d}
+        fps={GALINHEIRO_FPS}
+        durationInFrames={GALINHEIRO_FRAMES}
         width={1080}
         height={1920}
       />
